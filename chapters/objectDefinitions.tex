@@ -1,0 +1,234 @@
+\chapter{Object Definitions}
+\label{sec:ObjectDefinitions}
+\begin{quote}
+  They're like really complicated legos.
+\end{quote}
+
+\section{Electrons}
+\subsection{8 TeV}
+Electron candidates~\cite{ElectronPerformance} are reconstructed from energy deposits (clusters) in the electromagnetic calorimeter that are associated to reconstructed charged tracks in the inner detector.  Candidates are required to have $\pt > 25 \gev$ and $|\eta_{\rm cluster}| < 2.47$ (where $|\eta_{\rm cluster}|$ is the pseudorapidity of the calorimeter cluster associated with the electron candidate).  Candidates in the calorimetry transition region $1.37 < |\eta_{\rm cluster}| < 1.52$ are excluded.  To reduce the background from non-prompt electrons, i.e.~from decays of hadrons (including heavy flavor) produced in jets, electron candidates are also required to be isolated. An $\eta$-dependent, 90\% efficient isolation cut is made on the sum of transverse energy deposited in a radius of $\Delta R = 0.2$ around the calorimeter cells associated with the electron\footnote{$\Delta R$ is a measurement of the angular distance between two reconstructed objects and is defined as $\Delta R = \sqrt{(\Delta\eta)^2 + (\Delta\phi)^2}$.}. The sum of energy deposited around the cells associated with the electron cluster is corrected for leakage from the electron cluster itself.  A further 90\% efficient isolation cut is made on the track transverse momentum ($\pt$) sum around the electron in a cone of radius $\Delta R = 0.3$ ($p_{T}^{cone30}$). 
+
+All candidate electrons are required to pass the tight++ ID requirement. Figure~\ref{fig:electronEff8TeV} shows the total reconstruction times identification efficiency as a function of $\eta$ and transverse energy of electron candidates using in $Z\rightarrow \ee$ events measured at $\sqrt{s}=8$ TeV~\cite{Aaboud:2016vfy}. The data points labeled `Tight' correspond to the electrons used in the W-helicity analysis presented in Chapter~\ref{sec:whelicity}. In addition, the longitudinal impact parameter of the electron track with respect to the selected event primary vertex, $z_{0}$, is required to be less than 2 mm. 
+
+\begin{figure}[h!]
+\centering
+\label{fig:electronEff8TeV}
+\includegraphics[width=.45\textwidth]{figures/objectDefinitions/electronEffEta_8TeV}
+\includegraphics[width=.45\textwidth]{figures/objectDefinitions/electronEffEt_8TeV}
+\caption{The combined reconstruction and identification efficiency for various cut-based and likelihood electron selections as a function of $\eta$ (left) and \et (right) using $Z\rightarrow \ee$ decays measured at $\sqrt{s}=8$ TeV. The data points labeled `Tight' correspond to the electrons used in the W-helicity analysis presented in Chapter~\ref{sec:whelicity}.}
+\end{figure}
+
+\subsection{13 TeV}
+\label{sec:electron13TeV}
+Electron identification is performed using a likelihood-based method which uses longitudinal and transverse shower profiles, track quality information, track and cluster matching, and the presence of high-threshold TRT hits to discriminate between electrons and other physics objects. The likelihood-based method allows the inclusion of discriminating variables that would be otherwise difficult to use without incurring significant efficiency loss. 
+
+An additional track-based isolation variable helps quantify the energy of the particles produced around the electron candidate to aid in the identification of prompt electrons from other, non-isolated electron candidates such as electrons originating from converted photons produced in hadron decays, electrons from heavy flavor hadron decays, and light hadrons mis-identified as electrons. The variable, $p_{\text{T}}^{\text{varcone0.2}}$, is defined as the sum of transverse momenta of all tracks, satisfying quality requirements, within a cone of $\Delta R = \mathrm{min}(0.2,10 \GeV/E_{T})$ around the candidate electron track. A more detailed discussion on the electron likelihood identification and isolation variables and their performance with Run 2 data can be found in Ref.~\cite{ATLAS-CONF-2016-024}. The electron energy scale is calibrated such that it is uniform throughout the detector, and the residual differences between data and simulation are corrected. The calibration strategy is based on the same strategy developed in Run-1~\cite{ATLAS-EGAMMACALIB-RUN1} and updates to the calibration strategy for Run-2 is documented in Ref.~\cite{ATL-PHYS-PUB-2016-015}.
+
+In order to be considered as a signal electron for the dihiggs analysis presented in Chapter~\ref{sec:dihiggs}, electron candidates must have \pt$>$ 27 GeV and be associated with a calorimeter cluster in the range of $|\eta|< 2.47$ with the crack region ($1.37 < |\eta| < 1.52$) between the barrel and endcap calorimeters excluded. The candidate is required to pass a tight likelihood identification and must pass an isolation requirement of $p_{\text{T}}^{\text{varcone0.2}}$ / \pt $<$ 0.06. Figure~\ref{fig:electronEff13TeV} shows the total reconstruction times identification efficiency as a function of $\eta$ and transverse energy of electron candidates using in di-electron events measured at $\sqrt{s}=13$ TeV~\cite{ATLAS-CONF-2016-024}. The data points labeled `Tight' correspond to the electrons used in the dihiggs analysis. Additional cuts are placed on electron candidates requiring the significance of the transverse impact parameter ($|d_{0}^{\textrm{sig}}|$) to be less than two standard deviations and the $\sin\theta$-weighted longitudinal impact parameter of the electron tack to be less than 0.5 mm from the primary vertex.
+
+
+
+%\textbf{VHLooseElectron}: The electron \pt~is required to be greater than 7 GeV. 
+%The electron cluster should be in the range of $|\eta|< 2.47$. 
+%Loose likelihood identification is applied in this criteria. 
+%Impact parameter significance ($|d_{0}^{\textrm{sig}}|$) less than 10 standard deviations. 
+%and $|\Delta{z_{0}^{\textrm{BL}}}s\in\theta| < 0.5$ mm are also required. Here BL stands for B-Layer. 
+
+%Tight likelihood identification is applied in SignalElectron criteria with the impact parameter significance required to be 
+%less than 2 s.d. In addition, the electron is required to be isolated by passing the \texttt{FixedCutTightTrackOnly} 
+%isolation working point which corresponds to a cut on the ratio of $p_{\text{T}}^{\text{varcone0.2}}$ to electron \pt of 0.06 (i.e $p_{\text{T}}^{\text{varcone0.2}}$ / \pt $<$ 0.06).
+
+%A summary of the electron selections is shown in Table~\ref{tab:electronsel}.
+
+%\begin{table}[htbp!]
+%\caption{Electron selection requirements.}\label{tab:electronsel}
+%\begin{adjustbox}{width=1\textwidth}
+%\centering
+%\begin{tabular}{ccccccc} \hline \hline
+%Electron Selection & \pt & $|\eta|$ & ID & $|d_{0}^{\textrm{sig}}|$ &  $|\Delta{z_{0}^{\textrm{BL}}}\sin\theta|$ & Isolation \\ \hline
+%VHLoooseElectron   & $>$7~GeV  & $< 2.47$ & LH Loose & $ <10$ & $<0.5$ mm & - \\
+%SignalElectron     & $>$27~GeV & $< 2.47$ and $\notin [1.37, 1.52]$ & LH Tight & $  <2$ & $<0.5$ mm & \texttt{FixedCutTightTrackOnly} \\
+%\hline\hline
+%\end{tabular}
+%\end{adjustbox}
+%\end{table}
+
+\begin{figure}[h!]
+  \centering
+  \label{fig:electronEff13TeV}
+  \includegraphics[width=.45\textwidth]{figures/objectDefinitions/electronEffEta_13TeV}
+  \includegraphics[width=.45\textwidth]{figures/objectDefinitions/electronEffEt_13TeV}
+  \caption{The combined reconstruction and identification efficiency for three likelihood-based electron selections as a function of $\eta$ (left) and \et (right) using di-electron events measured at $\sqrt{s}=13$ TeV. The data efficiencies are obtained by applying data/MC efficiency ratios that were measured in $J/\psi\rightarrow \ee$ and $Z\rightarrow \ee$ events to MC simulation. The data points labeled `Tight' correspond to the electrons used in the dihiggs analysis presented in Chapter~\ref{sec:dihiggs}.}
+\end{figure}
+
+
+\section{Muons}
+\subsection{8 TeV}
+Muon candidates are reconstructed from track segments in the various layers of the muon spectrometer and matched with tracks found in the inner detector. The final candidates are refitted using the complete
+track information from both detector systems and required to satisfy $\pt > 25\gev$ and $|\eta|<2.5$. They are referred to as ``combined'' muons. Figure~\ref{fig:muonEff8TeV} shows the reconstruction efficiency for these types of muons (labeled `CB+ST') with \pt up to 300 GeV and measured in $Z\rightarrow\mumu$ events recorded at $\sqrt{s}=8$ TeV~\cite{Aad:2014rra}. The reconstruction algorithm is over 99\% efficient for the majority of the phase space probed.
+\begin{figure}[h!]
+  \centering
+  \label{fig:muonEff8TeV}
+  \includegraphics[width=.6\textwidth]{figures/objectDefinitions/muonEffEta_8TeV}
+  \caption{The muon reconstruction efficiency as a function of $\eta$ measured in $Z\rightarrow\mumu$ events for muons with \pt$>$10 GeV and measured using collisions recorded with $\sqrt{s}=8$ TeV. The panel at the bottom shows the ratio between the measured and predicted efficiencies. The data points labeled `CB+ST' correspond to the muons used in the W-helicity analysis presented in Chapter~\ref{sec:whelicity}.}
+\end{figure}
+Muon candidates are required to satisfy a $\pt$-dependent track-based isolation requirement that has good performance under high pileup conditions or in boosted configurations where the muon is close to a jet:  the scalar sum of the track $\pt$ in a cone of variable radius $\Delta R < 10\gev/\pt^\mu$ around the muon (excluding the muon track itself) must be less than 5\% of the muon $\pt$. Additionally, muons are required to be separated by $\Delta R > 0.4 $ from any selected jet (see Section~\ref{sec:jetObjectDef8TeV}). Muons are required to have a hit pattern in the inner detector consistent with a well-reconstructed track. Analogous to the electrons, the muon track longitudinal impact parameter with respect to the primary vertex, $z_{0}$, is required to be less than 2 mm.
+
+\subsection{13 TeV}
+\label{sec:muon13TeV}
+Muon candidates are identified using the algorithm described in Ref.~\cite{Aad:2016jkr}. Muons are selected within $|\eta| < 2.5$ using track quality criteria based on the number of hits in the inner detector and the muon spectrometer. Medium quality criteria are used for muon identification which require the presence of tracks matched between the inner detector and muon spectrometer. An additional track-based isolation variable, $p_{\text{T}}^{\text{varcone0.3}}$, is used to select isolated muons and is defined as the sum of transverse momenta of all tracks (satisfying quality requirements) within a cone of $\Delta R = \mathrm{min}(0.3,10 \GeV/\pt)$ around the candidate muon. The performance of the muon identification and isolation variables are documented in Ref.~\cite{Aad:2016jkr}. Corrections to the muon momentum scale and resolution are applied to MC simulation to correct for differences between the simulated Monte Carlo and measured data. The correction factors were derived from data/MC simulation comparisons with $Z\to \mumu$ and $J/\Psi \to \mumu$ events.% and the calibration procedure to derive the factors is documented in Ref.~\cite{Aad:2016jkr}.
+
+\begin{figure}[h!]
+  \centering
+  \label{fig:muonEff13TeV}
+  \includegraphics[width=.6\textwidth]{figures/objectDefinitions/muonEffEta_13TeV}
+  \caption{The muon reconstruction efficiency as a function of $\eta$ measured in $Z\rightarrow\mumu$ events for muons with \pt$>$10 GeV and measured using collisions recorded with $\sqrt{s}=8$ TeV. The panel at the bottom shows the ratio between the measured and predicted efficiencies. Efficiencies are shown for three different reconstruction algorithms. The data points labeled `Medium' correspond to the muons used in the dihiggs analysis presented in Chapter~\ref{sec:dihiggs}.}
+\end{figure}
+
+In order to be considered as a signal muon for the dihiggs analysis presented in Chapter~\ref{sec:dihiggs}, muon candidates must have \pt$>$ 27 GeV and should be in the range of $|\eta|< 2.4$. The candidate is required to pass a medium likelihood identification and must pass an isolation requirement of $p_{\text{T}}^{\text{varcone0.3}}$ / \pt $<$ 0.06. Figure~\ref{fig:electronEff13TeV} shows the efficiency for three reconstruction algorithms as a function of $\eta$ for muons measured in $Z\rightarrow\mumu$ events recorded at $\sqrt{s}=13$ TeV. The data points labeled `Medium' correspond to the muons used in the dihiggs analysis. The reconstruction algorithm is over 99\% efficient for the majority of the phase space probed. Additional cuts are placed on muon candidates requiring the significance of the transverse impact parameter ($|d_{0}^{\textrm{sig}}|$) to be less than two standard deviations and the $\sin\theta$-weighted longitudinal impact parameter of the muon tack to be less than 0.5 mm from the primary vertex. 
+
+%Corrections to the muon momentum scale and resolution are applied 
+%to the simulation data as described in 
+%Ref.~~\cite{Aad:2014rra}. 
+%The identification and isolation efficiencies are corrected using
+%scale factors derived using $Z\to \mu \mu$ and $J/\Psi \to \mu \mu$
+%events.%\footnote{The scale factors are provided by the MuonTriggerScaleFactors~~\cite{Aad:2014rra}}
+%The isolation requirement is based on the rejection of muon candidates
+%with large total $p_T$ from tracks in a cone built around the muon
+%direction. Tracks are also required to have a transverse impact
+%parameter ($d_0$) with respect to the primary vertex less than 3 times 
+%the transverse impact parameter resolution. Moreover, a cut of 
+%$z_0 \times sin(\theta) < 0.5$ mm is applied where $\theta$  is the 
+%angle of the track with respect to the beam axis.
+
+
+\section{Jets}
+\label{sec:jetObjectDef}
+\subsection{8 TeV}
+\label{sec:jetObjectDef8TeV}
+Jets are reconstructed with the anti-$k_t$ algorithm~\cite{ref:Cacciari2008,ref:Cacciari2006,ref:fastjet} with a radius parameter $R=0.4$ from calibrated topological clusters~\cite{ATLASTechnicalPaper} built from energy deposits in the calorimeters.  Prior to jet finding, a local cluster calibration scheme~\cite{LCW1,LCW2} is applied to correct the topological cluster energies for the effects of non-compensation, dead material and out-of-cluster leakage. The corrections are obtained from simulations
+of charged and neutral particles.  After energy calibration~\cite{ATLASJetEnergyMeasurement} jets are required to have $\pt > 25\gev$ and $|\eta| < 2.5$.
+
+To avoid selecting jets from secondary $pp$ interactions, a selection on the so-called ``jet vertex fraction" (JVF) variable above 0.5 is applied to jets with $\pt <50\gev$ and $|\eta|<2.4$. This requirement ensures that at least 50\% of the sum of the $\pt$ of tracks with $\pt>1\gev$ associated with a jet comes from tracks compatible
+with originating from the primary vertex. During jet reconstruction, no distinction is made between identified electrons and jet energy deposits.  For jets within $\Delta R < 0.2$ of selected electrons, the single closest jet is discarded to avoid double-counting of electrons as jets.  After this removal procedure, electrons within $\Delta R < 0.4$ of all remaining jets are removed.
+
+Jets are identified as originating from the hadronization of a \bt quark (\bt tagged) via an algorithm ~\cite{Aad:2015ydr} using multivariate techniques to combine information from the impact parameters of displaced tracks as well as topological properties of secondary and tertiary decay vertices reconstructed within the jet. The working point used in the 8 TeV W-helicity analysis discussed in Chapter~\ref{sec:whelicity} corresponds to a 70\% efficiency to tag a \bt quark jet, with a light jet rejection factor of $\sim$130 and a charm jet rejection factor of 5, as determined for \bt tagged jets with \pt $>$ 20 \gev and $|\eta|<2.5$ in simulated \ttbar events. The simulated \bt tagging efficiency is corrected to that measured in data using calibrations produced for the 6 bin \ttbar PDF calibration (combined\_pdf\_dijet\_7) ~\cite{ATLAS-CONF-2014-004}. This calibration uses a combinatorical likelihood to measure \bt tagging efficiency in a data sample of dileptonic \ttbar events and helps reducing \bt tagging uncertainties by considering correlations between the measured jets. The total uncertainty on the measured jet \pt due to the detector response, jet reconstruction algorithms, and backgrounds due to multiple $p-p$ interactions is found to range from between 1 to 4 \% of the total jet \pt across the full $\eta$ of the calorimeters for jets with \pt up to 1.7 TeV~\cite{ATLAS-CONF-2015-017}.
+
+\subsection{13 TeV}
+Jets are reconstructed from three-dimensional topological calorimeter clusters~\cite{ATLAS-TopoClustering} using the anti-$k_t$ jet algorithm~~\cite{ref:Cacciari2008} with a radius parameter of 0.4. Jet energies are corrected~\cite{ATLAS-JES-RUN2} for detector inhomogeneities, the non-compensating nature of the calorimeter, and the impact of multiple overlapping $pp$ interactions. Correction factors are derived using test beam, cosmic ray, $pp$ collision data, and a detailed Geant4 detector simulation. Jet cleaning is applied to remove events with jets built from noisy calorimeter cells or non-collision backgrounds, requiring that jets are not of ``bad'' quality~\cite{ATLAS-JVTPaper}. %\footnote{\textit{LooseBad} jets, defined on the \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/HowToCleanJets2016}{HowToCleanJets2016 twiki}, are removed.}
+To avoid selecting jets originating from pile-up interactions a ``jet vertex tagger'' (JVT) criterion is applied for jets with $p_T < 60$ GeV and $|\eta| < 2.5$ requiring a JVT $ > 0.59$ cut. %This cut corresponds to the \texttt{\textbf{Default}} working point, as described on the \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/JVTCalibration}{JVTCalibration twiki}.
+
+%\subsubsection{Jet selection}
+%\label{sec:jet_sel}
+%\newcommand{\BTagWPFootNote}{The charm quark component is suppressed by a factor 3.10 while the light quark component is suppressed by a factor 33.5.}% The expected performance is documented on the \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/BTaggingBenchmarks\#MV2c10_tagger_added_on_11th_May}{BTaggingBenchmarks twiki}.}
+
+Signal jets are defined as jets which passes the jet cleaning and JVT criteria and are further required to have \pt $>$ 20~\GeV ~and $|\eta|$ $<$ 2.5. The ATLAS jet flavor tagging algorithm, the \texttt{MV2c10} algorithm~\cite{ATL-PHYS-PUB-2016-012}, is used to select signal events and suppress multi-jet, $W$+jets, $Z$+jets and di-boson background. The jets identified as initiated by a $b$-quark are called $b$-jets in this note. Out of the possible working points corresponding to different $b$-tagging efficiencies, the 85\% Fixed-Cut working point (WP) is selected as to keep the signal efficiency high. The 85\% efficiency for selecting $b$-jets corresponds with a charm jet rejection factor 3.1 and a light jet rejection factor of 33.5. Signal jets are labeled $b$-jets if they pass the \texttt{MV2c10} 85\% WP cut 
+and labeled as light-jets if they fail the cut. The difference in the efficiency of $b$-tagging between data and simulation is taken into account by applying $b$-tagging scale factors. The uncertainties associated with $b$-tagging are considered separately for $b$-, $c$- and light-flavor-induced jets. Table~\ref{tab:sjdefinit} summarizes the jet selection. The total uncertainty on the measured jet \pt due to the detector response, jet reconstruction algorithms, and backgrounds due to multiple $p-p$ interactions is found to range from between 2 to 5 \% of the total jet \pt across the full $\eta$ of the calorimeters for jets with \pt up to 2 TeV~\cite{ATLAS-JES-RUN2}.
+
+\begin{table}[htbp!]
+\caption{Selection for jets with distance parameter $R = 0.4$.}\label{tab:sjdefinit}
+\centering 
+\begin{tabular}{|c||c|}        
+ \hline
+ & Signal Jets\\
+ \hline
+ Algorithm            & anti$-k_t$\\
+ $p_T$                & 20~GeV\\
+ $|\eta|$             & $< 2.5 $\\
+ Quality              & not ``bad'' jet\\
+ Pile-up jet removal & JVT $> 0.59$ when $|\eta| < 2.5 ~ and ~p_T < 60 $ GeV\\    
+ $b$-tagging          &  \texttt{MV2c10}, 85\% fixed-cut WP, labeled as b-jets pass cut, light-jets if fail cut\\ 
+\hline                          
+\end{tabular}
+\end{table}
+
+%Jets are reconstructed from three-dimensional topological EM
+%calorimeter energy clusters using the anti-$k_t$
+%algorithm~~\cite{ref:Cacciari2008} with a radius parameter of 0.4. Jet
+%energies are corrected ~\cite{ATLASJetEnergyMeasurement} for
+%detector inhomogeneities, the non-compensating nature of the
+%calorimeter, and the impact of multiple overlapping $pp$
+%interactions. Correction factors are derived using test beam, cosmic
+%ray, $pp$ collision data, and a detailed Geant4 detector simulation.
+ 	
+%Jet cleaning is applied to remove events with jets built from noisy
+%calorimeter cells or non-collision backgrounds, requiring that jets
+%are not of ``bad'' quality \footnote{the Ugly and
+%BadLoose jets defined in Ref.~~\cite{ATLAS-CONF-2012-020} are removed} To avoid
+%selecting jets from pile-up interactions a ``jet vertex tagger'' (JVT)
+%criterion is applied~\cite{JVT} for jets with $p_T < 60$ GeV and $|\eta|
+%< 2.5$ requiring a  $JVT > 0.59$ cut.
+
+%The ATLAS jet flavor tagging algorithm, \texttt{MV2c10}~\cite{BTagger},
+%is used to select signal events and suppress multi-jet, $W$+jets,
+%$Z$+jets and diboson background. The
+%jets identified as initiated by a $b$-quark are called $b$-jets in
+%this note. Out of the possible working points corresponding to
+%different $b$-tagging efficiencies, the 85\,\% working point is selected as 
+%the baseline tagger to increase
+%the signal efficiency. The charm quark component is suppressed by a
+%factor 3.10 while the light quark component is suppressed by a factor
+%33.5. 
+
+%The difference in the 
+%response of $b$-tagging
+%between data and simulation is taken into account by applying a scale
+%factor~~\cite{BTagCalib}. The uncertainties associated with $b$-tagging
+%are considered for $b$-, $c$- and light-flavor-induced jets,
+%separately. Table~\ref{tab:sjdefinit} summarizes the jets selection. 
+
+%\begin{table}
+%  \vspace{2.0em}
+%  \centering 
+%  \begin{tabular}{|c||c|}        
+%   \hline
+%   & Signal Jets\\
+%   \hline
+%   Algorithm & anti$-k_t$\\
+%   $p_T$ threshold & 20~GeV\\
+%   $| \eta |$      & $< 4.5 $\\
+%   Quality         & not ``bad'' jet\\
+%   Pile-up Removal & JVT $< 0.59$ when $| \eta | < 2.5 ~ and ~p_T < 60 $ GeV\\    
+%   $b$-tagging (if applied) &  \texttt{MV2c10}, 85\% efficiency\\ 
+%  \hline                          
+%  \end{tabular}
+%  \caption{Selection at 13 TeV for jets with distance parameter $R = 0.4$.}\label{tab:sjdefinit}
+%\end{table}
+
+\section{Missing Energy}
+\subsection{8 TeV}
+The missing transverse momentum (\met or MET) is used to estimate the
+transverse momentum of an assumed neutrino originating from the decay
+of \w bosons in the \ttbar final state.  \met is itself reconstructed
+by first matching each calorimeter energy cluster with either a
+reconstructed lepton or jet.  Failing this, the cluster is left
+unassociated.  The remaining unassociated clusters are then calibrated
+for energy losses in un-instrumented regions and for different
+responses of the calorimeters to electromagnetic and hadronic shower
+components.  This calibration scheme is similar to that described in
+Ref.~\cite{ref:ATLAS-CONF-2011-080}. \met is calculated from a
+vector sum of the calibrated cluster momenta, together with a term
+associated with muon momenta. The \met resolution shown in Figure~\ref{fig:metResolution_8TeV}, measured in $Z\rightarrow\mumu$ events at 8 TeV, ranges from 10-30 GeV for up to $\sim$1 TeV of energy deposited in the calorimeter systems. The black points in Figure~\ref{fig:metResolution_8TeV} show the measured resolution as a function of the deposited transverse energy.
+
+\subsection{13 TeV}	
+%The neutrino is not directly detectable and, thus, appears only as an imbalance in
+%transverse momentum.
+The \met used in the analysis presented in Chapter~\ref{sec:dihiggs} is computed 
+using the objects passing the 13 TeV electron, muon, and jet object selections described above. Electrons and muons with \pt$>$7 GeV are used in the MET calculation. Leptons with looser identification criteria are also included in the \met calculation. Photons and hadronically decaying taus are also included in the $\met$ calculation even though they are not used explicitly in the event reconstruction. A track-based (TST) algorithm~\cite{ATL-PHYS-PUB-2015-027} is used for the final \met calculation. Figure~\ref{fig:metResolution_13TeV} shows the resolution of the track-based algorithm as a function of the measured transverse energy in measured a sample of $Z\rightarrow\mumu$ events corresponding to an integrated luminosity of 6 pb$^{-1}$. With the data collected, the \met resolution varies between 10 and 25 GeV as a function of the measured transverse energy.
+
+
+\begin{figure}[h!]
+\centering
+\label{fig:metResolution_13TeV}
+\includegraphics[width=.7\textwidth]{figures/objectDefinitions/metResolution13TeV_Zmumu}
+\caption{Resolution of the track-based missing energy calculation in the x and y directions as a function of the total transverse energy measured in the calorimeter and muon systems in $Z\rightarrow\mumu$ events measured at $\sqrt{s}=13$ TeV.}
+\end{figure}
+
+%The $\met$ used in this analysis is computed using leptons and jets
+%selected in the analysis \footnote{from
+%MET\_Core\_AntiKt4EMTopo with the MissingETAssociationMap using the
+%METMaker tool}. The $\met$ is calculated using reconstructed objects
+%such as electrons, muons, and jets. Photons and hadronically decaying
+%taus are included in the $\met$ calculation as jets.  The soft
+%term, due to low $p_T$ charged hadrons, is computed using Inner
+%Detector tracks associated with the primary vertex. 

@@ -1,0 +1,19 @@
+ \vskip 0.55in \textbf {Table}\hfill \textbf {Page} \vskip 0.25em \rm 
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces The fundamental fermions and their electric charge $Q$ and masses.}}{2}{table.1.1}
+\contentsline {table}{\numberline {1.2}{\ignorespaces Gauge bosons and their associated fields and masses.}}{3}{table.1.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Important track selection in the standard and the large radius tracking algorithms.}}{18}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Track requirements for secondary vertex reconstruction.}}{21}{table.3.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Dataset used in \texttt {DRAW\_RPVLL}, \texttt {DAOD\_RPVLL}, and \texttt {DAOD\_SUSY15} format.}}{29}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Mass, lifetime, and DID of the signal MC samples.}}{30}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Background MC samples used in the study of random-crossing background and in the estimation of tracking and vertexing systematic uncertainty.}}{32}{table.6.3}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Dataset used in \texttt {DRAW\_RPVLL}, \texttt {DAOD\_RPVLL}, and \texttt {DAOD\_SUSY15} format.}}{29}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Mass, lifetime, and DID of the signal MC samples.}}{30}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Background MC samples used in the study of random-crossing background and in the estimation of tracking and vertexing systematic uncertainty.}}{32}{table.6.3}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

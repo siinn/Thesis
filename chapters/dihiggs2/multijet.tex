@@ -1,0 +1,135 @@
+\label{sec:multijet}
+Multi-jet backgrounds can enter in the event selection if a jet %from heavy flavour decays 
+is mis-identified as an electron or a muon and used as a lepton in the analysis. Such phenomena are not accurately reproduced by MC simulation due to the large uncertainties in the jet shower shape simulation and uncertainties in jet fragmentation functions and kinematics. In order to estimate the contributions of multi-jet processes, a data-driven ABCD method is used to estimate this background in the present analysis.
+%%Such methods are used extensively in the top group analyses.
+
+The ABCD method uses three control regions (the B, C, and D regions) to estimate the contribution of a given background in the signal (A) region. Cuts on two ideally
+uncorrelated variables are used to create the signal and various control regions, e.g. the A region passes both cuts, the B and C regions each pass one cut and fail the other, while the D region fails both cuts. The absolute value of the significance of the lepton impact parameter, \dsig, and the missing transverse energy (MET) are used as the two variables used to define the regions in the ABCD method for this analysis. The correlation between MET and \dsig was tested using \ttbar MC, and the two variables were found to be negligibly correlated (correlation factor $\sim\mathcal{O}(10^{-2}$) at all stages of event selection. The regions are thus defined 
+\begin{itemize}
+\item A region: MET $>$ 25 GeV, \dsig $<$ 2.0
+\item B region: MET $<$ 25 GeV, \dsig $<$ 2.0
+\item C region: MET $>$ 25 GeV, \dsig $>$ 2.0
+\item D region: MET $<$ 25 GeV, \dsig $>$ 2.0
+\end{itemize}
+Figure~\ref{fig:abcdCartoon} shows a pictoral representation of the four regions.
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{chapters/dihiggs2/figures/abcdExample_met_vs_d0sigBL20}
+\end{center}
+\label{fig:abcdCartoon}
+\caption{A pictoral representation of the four regions used in the ABCD calculation.}
+\end{figure}
+
+Assuming that the two variables chosen to define the ABCD regions are completely uncorrelated, the yield of the process being modeled (QCD multi-jets in this case) in the A region is given by \begin{equation}
+N_{A} = N_C \frac{N_B}{N_D}
+\label{eq:simpleABCD}
+\end{equation}
+where the yields $N_i$ are yields calculated from data - all Monte Carlo backgrounds (\ttbar, W/Z+jets, single top, diboson processes) in region $i$ ($N_i = N_i^{\text{data}} - N_i^{\text{MC Bkgs}}$). The assumption underlying Equation~\ref{eq:simpleABCD} is that the relationship between the yields in the B and D regions is the same as the relationship between the A and C regions, i.e. 
+\begin{equation}
+\frac{N_{A}}{N_{C}} = \frac{N_B}{N_D}
+\label{eq:correlationStatement}
+\end{equation}
+Using equation ~\ref{eq:correlationStatement}, the quantity $R= \frac{N_{C} N_B}{N_{A} N_D}$ can be defined. In the case of two completely uncorrelated variables, $R=1$ and the ABCD estimation reduces to Equation~\ref{eq:simpleABCD}. If the two variables are not completely uncorrelated, the $R$ factor enters as a correction to Equation~\ref{eq:simpleABCD} for the multi-jet estimation in the A region, and the expression can be rewritten as
+\begin{equation}
+N_{A} = R \frac{N_C N_B}{N_D}
+\label{eq:advancedABCD}
+\end{equation}
+The $R$ factor is calculated for each selection (non-resonant, low mass, and high mass) individually, and the results at each cut in each selection is provided in Table~\ref{tab:rValues}.
+
+\begin{table}[h!]
+\centering
+\input{chapters/dihiggs2/R_table.tex}
+\caption{Values calculated for $R$ at each stage in the non-resonant,
+  low mass, and high mass selections. The estimate of multi-jet
+  contribution in the A region uses the $R$ value calculated after the
+  first cut of each selection.} \label{tab:rValues}
+\end{table}
+In order to minimize the dependence of $R$ from the event selection cuts, the $R$ value calculated after the first cut of each selection (0.74 and 0.47) is used in Equation~\ref{eq:advancedABCD} to estimate the multi-jet background after each subsequent cut. Once the normalization of the multi-jet background in the A region is calculated using Equation~\ref{eq:advancedABCD}, the shape of the multi-jet template is taken from the data - Monte Carlo distribution in the C region since the two are kinematically identical except for the cut on \dsig.
+
+The uncertainty due to the limited statistics in the B and D regions is the main source of the multi-jet estimation method systematics. In order to minimize this error, the yields from the  B and D regions used in the ABCD calculation are frozen at a level of the cutflow to minimize statistical fluctuations. The B and D region yields are frozen after the \ptbb $>$ 230 GeV cut for the non-resonant selection, after the \drbb $<$ 1.1 cut for the low mass selection, and after the \drww $<$ 2.0 cut for the high mass selection. %Appendix~\ref{app:qcd_BDregionStudy_appendix} details the study carried out to select the stage at which to freeze the B and D regions. 
+
+Since \ttbar and  multi-jet events contaminate the control regions used for their estimation, additional studies were performed via an iterative procedure to ensure that the \ttbar and QCD yields converge to stable values and that the estimation technique is able to disentangle between the two backgrounds. The iterative procedure begins with the QCD estimate set to zero and continues as follows:
+\begin{enumerate}
+\item Calulate \ttbar NF at appropriate cut \textbf{before} QCD is calculated
+\item Start at beginning of cutflow, apply \ttbar NF, and calculate QCD
+\item Move through cutflow to \ttbar NF cut
+\item Calculate new \ttbar NF
+\item Repeat steps 2 - 4
+\end{enumerate}
+If the procedure converges, the estimate is said to be stable. Tables~\ref{tab:ttbarQCDiter_nonres},~\ref{tab:ttbarQCDiter_low}, and~\ref{tab:ttbarQCDiter_high} show the iterations for the non-resonant, low mass, and high mass selections. Iteration 0 starts with zero QCD in the background estimate. Yields are provided for QCD and \ttbar after the first selection cut (noted as sample\_first) and in the final \mbb signal region (noted as sample\_SR). The QCD yield at the \ttbar normalization cut is also provided. The final column shows the calculated normalization factor for \ttbar. For all selections, convergence (change in \ttbar normalization $<$5\%) is observed after just a few iterations for all selections. 
+\begin{center}
+\begin{table}[h!]%\fontsize{9}{10}\selectfont
+  \begin{tabular}{l|c|c|c|c|c|c}
+    \hline\hline
+    Iteration &      nQCD\_first &   n\_QCD\_nf &    nQCD\_SR &      ttbar\_first &           ttbar\_SR &     ttbarNF       \\\hline
+    0        &       0.00 &          0.00 &          0.00 &          24637.64 &      65.92 &         1.43 $\pm$ 0.02  \\\hline
+    1        &       4226.57 &       273.95 &        3.30 &          35249.05 &      94.31 &         0.92 $\pm$ 0.02   \\\hline
+    2        &       15765.74 &      1381.06 &       19.04 &         22708.20 &      60.75 &         0.94 $\pm$ 0.03   \\\hline
+    3        &       15311.64 &      1335.16 &       18.33 &         23145.35 &      61.92 &         0.94 $\pm$ 0.03   \\\hline
+    \hline
+  \end{tabular}
+\caption{Iteration of \ttbar normalization and QCD estimate for the non-resonant selection. The '\_first' region is defined after the \mww $<$ 130 GeV cut and the '\_nf' region is defined after requiring \ptbb $>$ 150 GeV. Convergence is observed after two iterations.}
+\label{tab:ttbarQCDiter_nonres}
+\end{table}
+
+\begin{table}[h!]%\fontsize{9}{10}\selectfont
+  \begin{tabular}{l|c|c|c|c|c|c}
+    \hline\hline
+    Iteration &      nQCD\_first &   n\_QCD\_nf &    nQCD\_SR &      ttbar\_first &           ttbar\_SR &     ttbarNF       \\\hline
+    0        &       0.00 &          0.00 &          0.00 &          24637.64 &      11.28 &         1.43 $\pm$ 0.02        \\\hline
+    1        &       4226.57 &       273.95 &        1.13 &          35249.05 &      16.14 &         0.92 $\pm$ 0.02        \\\hline
+    2        &       15765.74 &      1381.06 &       8.14 &          22708.20 &      10.40 &         0.94 $\pm$ 0.03        \\\hline
+    3        &       15311.64 &      1335.16 &       7.81 &          23145.35 &      10.60 &         0.94 $\pm$ 0.03        \\\hline
+    \hline
+  \end{tabular}
+\caption{Iteration of \ttbar normalization and QCD estimate for the low mass selection. The '\_first' region is defined after the \mww $<$ 130 GeV cut and the '\_nf' region is defined after requiring \ptbb $>$ 150 GeV. Convergence is observed after two iterations.}
+\label{tab:ttbarQCDiter_low}
+\end{table}
+
+\begin{table}[h!]%\fontsize{9}{10}\selectfont
+  \begin{tabular}{l|c|c|c|c|c|c}
+    \hline\hline
+    Iteration &      nQCD\_first &   n\_QCD\_nf &    nQCD\_SR &      ttbar\_first &           ttbar\_SR &     ttbarNF       \\\hline
+    0        &       0.00 &          0.00 &          0.00 &          8810.24 &       6.70 &          1.26 $\pm$ 0.02        \\\hline
+    1        &       92.73 &         40.56 &         0.11 &          11133.25 &      8.47 &          0.99 $\pm$ 0.02        \\\hline
+    2        &       1595.54 &       541.28 &        1.40 &          8679.56 &       6.60 &          1.03 $\pm$ 0.03        \\\hline
+    3        &       1238.18 &       432.83 &        1.12 &          9063.72 &       6.90 &          1.03 $\pm$ 0.02        \\\hline
+    \hline
+  \end{tabular}
+\caption{Iteration of \ttbar normalization and QCD estimate for the low mass selection. The '\_first' region is defined after the \ptbb $>$ 350 GeV cut and the '\_nf' region is defined after requiring \ptww $>$ 360 GeV. Convergence is observed after two iterations.}
+\end{table}
+\label{tab:ttbarQCDiter_high}
+\end{center}
+
+Since the \mtw distribution should contain a large multi-jet contribution at low \mtw, the agreement between data and prediction in the \mtw distribution for each selection acts as a closure test on the estimation of the multi-jet background by the ABCD method. Figure~\ref{fig:qcdMtW} shows the \mtw distributions in CR1 and CR2. Good agreement is observed.
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics*[width=0.47\textwidth] {chapters/dihiggs2/figures/ControlPlots/36ifb_CPUpdated_opt700_mBBcr_plots_094/C_mBBcr_opt700ichep_mww_bbpt150_wlepmtben_regionA_met25d020}
+\includegraphics*[width=0.47\textwidth] {chapters/dihiggs2/figures/ControlPlots/36ifb_CPUpdated_opt2000_mBBcr_plots_103/C_mBBcr_opt2000ichep_bbpt350_wlepmtben_regionA_met25d020}
+\caption[Transverse leptonic $W$ mass plots in CR1 and CR2.]{Transverse leptonic $W$ mass plots in CR1 and CR2. \ttbar NFs as described in~\ref{subsec:topCR} have been applied The percent uncertainties shown in the bottom of each plot include the statistical and systematic uncertainties described in ~\ref{sec:syst}.}
+\label{fig:qcdMtW}
+\end{center}
+\end{figure}
+
+To evaluate the systematic error of the estimation, a Sherpa multi-$b$-jet sample is used to compare the ABCD prediction to the Monte Carlo expectation using events with exactly one lepton and four jets. No $b$-tagging requirements or other event selection cuts are applied. Pseudo-data is produced using the multi-jet Monte Carlo and events from the nominal \ttbar Monte Carlo. The $R$ factor is calculated using the inclusive $b$-tag (0, 1, or 2 $b$-tags) and used to estimate the QCD contribution in the two $b$-tag exclusive region. The percent difference between the number of events from the ABCD estimation and the number of multi-jet events from Monte Carlo used to produce the pseudo-data is taken as the systematic uncertainty. This uncertainty is calculated to be 36\%.
+
+%validated using the observed $m_{\rm T}$ distribution in events in the
+%top control region with one $b$-tag, as shown in
+%Figure~\ref{fig:mwt}.
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=0.47\textwidth, height=0.35\textwidth]{figures/C_bj1_opt700_bbpt150_wlepmtben.eps}
+%\includegraphics[width=0.47\textwidth, height=0.35\textwidth]{figures/ControlPlots/CR1/C_opt700_bbpt150_wlepmtben.eps}
+%\end{center}
+%\caption{$m_{\rm T}$ distribution for events in the QCD enriched control region
+%   with one $b$-tag (left) and with $t\bar{t}$ control region two $b$-tag (right).}
+%\label{fig:mwt}
+%\end{figure}
+
+
+
+
+
+
+

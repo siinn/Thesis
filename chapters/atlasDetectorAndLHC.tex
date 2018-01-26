@@ -1,0 +1,178 @@
+\chapter{The LHC and the ATLAS Detector}
+\label{sec:atlasAndLHC}
+\begin{quote}
+Why build the LHC? Because those damn Americans will never follow through with that project in Texas. \\ \quotebox{\hfill - Something I Assume Someone Has Said}
+\end{quote}
+
+In order to test the predictions of the Standard Model and other exotic theories, experiments must be designed and built that enable precision measurements of highly energetic and often rare processes. The Large Hadron Collider at CERN was built for precisely this reason, and four main detectors (ATLAS, CMS, ALICE, and LHCb) record and analyze the data produced in proton-proton ($pp$), proton-lead ($p-Pb$), and lead-lead ($Pb-Pb$) collisions to draw conclusions about the underlying mechanisms governing our subatomic world. As this thesis is based on work done using the ATLAS detector, it is the only experiment discussed in depth.
+
+Measuring the rate at which an interesting process occurs (i.e. a cross-section) is related to the total number of collisions delivered to a detector and the number of interesting interactions observed. Put algebraically
+\begin{equation}
+\label{eq:lumi_xsec}
+  \frac{dN_{\text{events}}}{dt} = \mathcal{L} \times \sigma_{\text{process}}
+\end{equation}
+where $\frac{dN_{\text{events}}}{dt}$ is the rate of events observed, $\mathcal{L}$ is the number of particles per unit area per unit time that can collide in the detector (i.e. instantaneous luminosity), and $\sigma_{\text{process}}$ is the cross-section of the process in question. The luminosity delivered to an experiment like ATLAS is set by the geometry and operating conditions of the LHC. The total number of events recorded by a detector is a function of measurement capabilities of its component sub-systems, the rate at which collision information can be extracted from the detector and stored for later analysis, and the total number of collisions delivered by the LHC. 
+
+To understand both these elements, this section provides an overview of the LHC and concludes with in-depth descriptions of the various sub-components of ATLAS detector.
+
+\section{The LHC}
+The LHC is a superconducting particle accelerator and collider operated at the Centre Europ\'{e}en pour le Recherche Nucleaire (CERN) and situated on the border between France and Switzerland\cite{LHC}. The main ring has a circumference of 27 km making it the largest built man-made accelerator. Before particles (both protons and lead ions) collide in the main LHC ring, they first pass through a multi-stage accelerator chain with the energy and intensity of the particle beams increasing at each step. Since the research in this thesis was performed using proton-proton collisions, only the proton acceleration chain is discussed.
+\begin{figure}[h!]
+\centering
+\label{fig:LHCchain}
+\includegraphics[height=2.0in]{figures/atlasDetector/LHCchain}
+\caption{The LHC accelerator chain.}
+\end{figure}
+The protons used in collisions start as simple hydrogen gas. The hydrogen is ionized, and a linear accelerator (linac) is used to accelerates bunches of the resulting protons to 50 MeV/c. These protons are then successively accelerated to 1.4 GeV/c by the Proton Synchrotron Booster (PSB) and to 25 GeV/c by the Proton Synchrotron (PS). From here, the proton bunches are injected into the Super Proton Synchrotron (SPS) and accelerated to 350 GeV/c. 
+
+After acceleration in the SPS, the proton bunches are injected into the LHC. The final injected proton beam is not a continuous proton stream as the word beam might imply but a \textit{train} of proton bunches precisely spaced and calibrated to deliver specific luminosities to the different detectors, allow for efficient detector operation, and provide abort gaps to safely dump the beams if and when instabilities arise in the main LHC ring. The beam size is also set in the injection from the SPS to the LHC rings. The entire accelerator chain, from the LINAC to the LHC is diagrammed in Figure~\ref{fig:LHCchain}.
+
+Once in the LHC rings, the beams undergo their final acceleration before colliding. Using 1232 8.3 T superconducting dipole magnets cooled to 1.9 K, the LHC is capable of accelerating protons to a maximum design momentum of 14 TeV/c.
+
+The luminosity delivered discussed in Eq. \ref{eq:lumi_xsec}, $\mathcal{L}$, can be written as a function of several of the parameters discussed above\begin{equation}
+\label{eq:lumi_full}
+  \mathcal{L} = \frac{N_b^2 n_b f_{\text{rev}} } {4\pi \sigma_x \sigma_y}
+\end{equation}
+where $N_b$ is the number of protons per bunch, $n_b$ is the number of bunches per beam, $f_{\text{rev}}$ is the revolution frequency of the beams, and $\sigma_x \sigma_y$ are the transverse widths of the proton beams with respect to the beam direction. Most of these parameters are set in the injection from the SPS to the LHC and the final acceleration in the LHC rings. 
+
+The actual luminosity delivered to the ATLAS detector throughout the data-taking periods in 2012, 2015, and 2016 varied depending on the different center of mass energies ($\sqrt{s} = 8$ TeV in 2012 and $\sqrt{s} = 13$ TeV in 2015 + 2016) and beam filling and compression schemes. The total integrated luminosities delivered by the LHC in the periods used in this thesis are shown in Figure \ref{fig:deliveredLumi}.
+
+\begin{figure}[h!]
+  \centering  
+  \label{fig:deliveredLumi}
+  \includegraphics[height=1.9in]{figures/atlasDetector/luminosity_integrated_date_2012}
+  \includegraphics[height=1.9in]{figures/atlasDetector/pp_luminosity_integrated_date_2015}
+  \includegraphics[height=1.9in]{figures/atlasDetector/pp_luminosity_integrated_date_2016}
+  \caption{Total integrated luminosities delivered by the LHC to the four main detectors in data-taking periods in 2012, 2015, and 2016. The total luminosity is shown as a function of the date of data-taking across the three years.}
+\end{figure}
+
+
+\section{ATLAS}
+The ATLAS detector is one of the four main detectors at the LHC. Standing for \textbf{A T}oroidal \textbf{L}HC \textbf{A}pparatu\textbf{S}, the detector's distinguishing feature is its series of air-core toroidal magnets which aid in the identification of muons produced in collisions. A schematic diagram of the ATLAS detector is shown in Figure~\ref{fig:ATLAS}~\cite{Aad:2008zzm}. ATLAS is composed of multiple subsystems, each responsible for different measurements used to reconstruct the fundamental interactions occurring with each collision. ATLAS is a general-purpose detector meaning that each subsystem is designed to be sensitive over a large range of particle energies in order to have sensitivity to a wide variety of phenomena; if you don't know where to look for new physics, you have to be able to look everywhere. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=3in]{figures/atlasDetector/atlas-large-annotated}
+\caption{A schematic figure of the ATLAS detector.}
+\label{fig:ATLAS}
+\end{figure}
+
+Starting from the collision point and moving radially outward, the inner detector is responsible for charged track reconstruction and is the first subsystem to record the passage of charged particles produced at the interaction point. After the inner detector, a calorimetry system absorbs the electrons, photons, and neutral and charged hadrons produced in collisions. Charged particles surviving absorption in the calorimeters are then recorded by a multi-part muon spectrometer. The detector is designed to have almost complete hermetic coverage, i.e. to cover nearly the entire solid angle surrounding the interaction point such that as few particles escape detection as possible. 
+
+ATLAS is forward-backward symmetric with respect to the nominal interaction point and uses a Cartesian coordinate grid centered around this point. The positive z-axis is pointed along the beam line while the positive x-axis points inward toward the center of the LHC ring and the y-axis points upwards. The azimuthal angle, $\phi$, is defined in the transverse x-y plane, and the polar angle, $\theta$, is defined as the angle between the transverse plane and the z-axis. Pseudorapidity is defined as $\eta=-\ln(\tan(\theta/2))$.
+
+\subsection{Magnet Systems}
+\label{sec:magnetSystem}
+ATLAS uses a hybrid magnet system composed of a central, superconducting solenoid surrounding the inner detector and three exterior (one central and two endcap) toroids. The central solenoid is made of a single coiled layer of superconducting Titanium/Niobium cooled to 4.5K and produces an axial magnetic field of 2.0 T. Each of the three toroids is composed of eight coils radially symmetric around the beam axis and cooled and operated at a temperature of 4.6K. The barrel toroid produces a magnetic field of 0.5 T, while the two endcap toroids each produce magnetic fields of 1.0 T. Figure~\ref{fig:atlasMagnets} shows the spatial arrangement of the central solenoid and the barrel and endcap toroids.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.8\textwidth]{figures/atlasDetector/exp-magnets}
+\label{fig:atlasMagnets}
+\caption{The toroids and solenoid of the ATLAS magnet system.}
+\end{figure}
+
+The magnet system bends the trajectories of charged particles passing through the ATLAS detector and allows for precise determinations of those particles' momenta. The central solenoid aids in the measurement of electrons, protons, and other charged hadrons, while the toroids produce magnetic fields used to precisely measure muon momenta. The non-trivial magnetic field of ATLAS requires dedicated measurements of the magnetic field in order to produce precise tracking measurements of the charged particles produced in collisions~\cite{1742-6596-110-9-092018}.
+
+\subsection{Inner Detector}
+An inner detector (ID) with high resolution tracking subsystems is required to reconstruct the large number of charged particles produced in collisions. The ATLAS inner detector provides coverage inside \textbar$\eta$\textbar$\leq 2.5$ and is made of pixel and micro-strip silicon trackers (SCT) surrounding the beam pipe followed by a gas-straw transition radiation tracker (TRT)~\cite{ATLAS:1997ag, ATLAS:1997af}. The basic principle behind the inner detector is to measure the passage of charged particles while minimally affecting their trajectories and energies. The pixel and strip subsystems track the passage of particles bent by the solenoidal magnetic field while the TRT collects radiation profiles of passing particles useful in identifying the kinds of particles (electron, pion, etc) being produced. Figure~\ref{fig:atlas-innerDetector} shows a cut-away view of all subsystems of the inner detector.
+
+\begin{figure}[h!]
+\centering
+\label{fig:atlas-innerDetector}
+\includegraphics[width=.7\textwidth]{figures/atlasDetector/atlas-innerDetector}
+\caption{A cut-away view of the ATLAS inner detector.}
+\end{figure}
+
+As the innermost element of the inner detector, the silicon pixel and strip systems must be able to deal with the enormous flux of charged particles produced at the interaction point. Both the pixels and strips are arranged in three layers with barrel region modules oriented parallel to the beam axis and two endcap regions with modules oriented perpendicular to the beam axis. Each pixel sensor has a minimal $R-\phi\times z$ pixel size of 50$\times$400 $\mu$m$^2$ and intrinsic resolutions of 10 $\mu$m in $R-\phi$ and 115 $\mu$m in $z$ for both the barrel and the endcaps. The secondary silicon strip layers have intrinsic resolutions of 17 $\mu$m in $R-\phi$ and 580$\mu$m in $z$ for both the barrel and the endcaps. Combined, the three layers of the SCT have nearly 90 million output channels to be processed for each collision.
+
+A fourth layer, positioned inside the previous described three and named the insertable beam layer (IBL), was installed during the first LHC shutdown and was in operation for data-taking in 2015 and 2016~\cite{Capeans:1291633}. The IBL sensing volume contains $\sim$12 million 50$\times$250 $\mu$m$^2$ pixels at an average radius of 3.3 cm from the interaction point. The addition of a fourth, inner layer to the inner detector helps to improve tracking performance in the high occupancy environment and large pileup expected from the intense luminosities experienced in run II of the LHC. Figure~\ref{fig:iblImprovements} shows the difference between the measured and true longitudinal and transverse impact parameters of the primary vertex in simulated \ttbar decays with and without the addition of the IBL~\cite{Capeans:1291633}. The additional tracking information also improves the performance of algorithms used to identify jets arising from $b$ jets produced in collisions.
+
+\begin{figure}[h!]
+\centering
+\label{fig:iblImprovements}
+\includegraphics[height=2.0in]{figures/atlasDetector/iblTrackingImprovements}
+\caption{Difference between reconstructed and true transverse (left) and longitudinal (right) impact parameters for tracks produced by simulated \ttbar decays. Distributions are shown for the nominal inner detector and with the inclusion of the IBL.}
+\end{figure}
+
+The last element of the inner detector, the TRT covers a region of \textbar$\eta$\textbar $<2.0$ and is composed of thousands of gas-filled straw drift tubes which provide extra information in identifying pions and electrons. Each straw (cathode) has an outer diameter of 4 mm and a 31 $\mu$m diameter central tungsten wire acting as the anode. The straws are filled with a gaseous mixture of Xe, CO$_2$, and O$_2$ which is ionized by passing charged particles. The resolution of the TRT in the $R-\phi$ direction is $\sim$130 $\mu$m.
+
+By analyzing the radiation patterns left by passing particles, the TRT aids in differentiating electrons from pions over an energy range between 1 and 200 GeV. The performance of the TRT for pion identification and rejection was studied using collision data at $\sqrt{s}=7$ TeV\cite{ATLAS-CONF-2011-128}. The simulated and measured probabilities of pion mis-identification over the momentum range 4 to 20 GeV are shown in Figure~\ref{fig:pionRejectionTRT}. While there is an increase in pion mis-identification around \textbar$\eta$\textbar$\sim0.8$ due to the transition between the endcap and barrel components of the TRT, the average pion rejection factor across the detector and full momentum range is $\sim$20 and up to 100 for the best performing regions.
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=2.25in]{figures/atlasDetector/PionRejVsEtaWithMC}
+\label{fig:pionRejectionTRT}
+\caption{Pion mis-identification probability for a high threshold hits criteria that gives 90\% electron efficiency in bins of eta. The detector performance exceeds the simulation-based expectations, in particular in the end-cap region (\textbar$\eta$\textbar $>$ 0.8).}
+\end{figure}
+
+\subsection{Calorimeters}
+The ATLAS electromagnetic (ECAL) and hadronic (HCAL) calorimetry systems cover the range \textbar$\eta$\textbar$\leq 4.9$ and provide precise measurements of the energies of electrons, photons, and hadrons passing through the inner detector. Both the electromagnetic and hadronic calorimeters employ alternating layers of absorbing material designed to initiate showers from passing particles and layers of active material responsible for measuring the energies of passing particles and the showers they produce. 
+
+Figure~\ref{fig:atlasCalorimeters} shows the layout of the various hadronic and electromagnetic calorimeters used in ATLAS. The entire calorimetry system is designed to absorb as much hadronic and electromagnetic radiation from collisions as possible and to limit non-muonic sources of radiation from reaching the muon spectrometer. The electromagnetic calorimeters are placed in front of the hadronic calorimeters since the radiation length for particles passing through the calorimeter materials is smaller than the nuclear interaction length. 
+
+\begin{figure}[h]
+\centering
+\includegraphics[height=3in]{figures/atlasDetector/atlas-calo-high}
+\label{fig:atlasCalorimeters}
+\caption{Diagram of the ATLAS calorimetry system.}
+\end{figure}
+
+The electromagnetic calorimeter is composed of one barrel (\textbar$\eta$\textbar $<$ 1.475) and two endcap components (1.375 $<$ \textbar$\eta$\textbar $<$ 3.2). Each ECAL component is made up of alternating layers of LAr sampling medium with accordion shaped electrodes and lead absorber plates. The accordion shape of the sampling medium provides fully symmetric azimuthal coverage without gaps. The thickness of the lead plates is optimized as a function of $\eta$ and energy resolution. %Something about how LAr sensing works? 
+
+The hadronic calorimeter is composed of a central, tile component and two LAr-based endcap components. The tile calorimeter is constructed of interspersed layers of steel and plastic scintillating tiles measuring the energy deposition of charged and neutral hadrons. Wavelength shifting fibers transport scintillation light to photo-multiplier tubes that convert the light to an electronic signal. The central tile calorimeter extends over \textbar$\eta$\textbar $<$ 1.7 while the extensions cover 0.8 $<$ \textbar$\eta$\textbar $<$ 1.475. At its outer edge, the tile calorimeter is approximately ten interaction lengths thick, providing enough material for good energy resolution of high \pt jets and leaving little hadronic energy left to bombard the muon spectrometer.
+
+The LAr endcaps of the hadronic calorimeter are located directly behind the LAr ECAL endcaps and cover the range 1.5 $<$ \textbar$\eta$\textbar $<$ 3.2, overlapping the tile calorimeter and the forward calorimeters. Copper is used in the endcaps as the absorbing material in place of lead. The two forward (3.3 $<$ \textbar$\eta$\textbar $<$ 4.9) liquid Argon calorimeters (FCAL) placed around the endcaps aid in both electromagnetic and hadronic measurements.
+
+%Calorimeter depth is an important design consideration. The total thickness of the EM calorimeter is > 22 radiation lengths (X 0 )
+%in the barrel and > 24 X 0 in the end-caps. The total thickness, including 1.3 λ from the outer support, is 11 λ
+%at η = 0 and has been shown both by measurements and simulations to be sufficient to reduce
+%punch-through well below the irreducible level of prompt or decay muons.
+
+\subsection{Muon Spectrometer}
+The muon spectrometer provides precision measurements for charged particles passing through the calorimetry systems and is the last system encountered by escaping particles produced at the interaction point. Information from monitored drift tubes and cathode strip chambers is combined to identify and measure the energy of passing charged particles, while resistive plate and thin gap chambers provide information for muon-based triggering as well as additional spatial measurements. Muon track reconstruction is possible thanks to the barrel and endcap toroid systems discussed in Section \ref{sec:magnetSystem}. Figure~\ref{fig:atlas-muonSpectrometer} displays the various subsystems of the muon spectrometer and their arrangement with respect to the toroid system.
+
+\begin{figure}[h!]
+\centering
+\label{fig:atlas-muonSpectrometer}
+\includegraphics[width=.7\textwidth]{figures/atlasDetector/atlas-muonSpectrometer}
+\caption{Diagram showing the various subsystems of the muon spectrometer and the toroids responsible producing the magnetic field that aids in track reconstruction.}
+\end{figure}
+
+Monitored drift tubes (MDTs) are responsible for measuring and tracking passing muons throughout the majority of the $\eta$ range covered by the muon system. Each tube is composed of a 30 mm diameter cylindrical aluminum tube with a central 50 $\mu$m diameter wire kept at a potential difference of 3270 V with respect to the outer cylinder. An Ar-CO$_2$ gas mixture fills the gap between the two and is ionized as a charged particle passes through the tube. The induced charge is collected by the central wire and provides timing and spatial resolution information used in track reconstruction. Each tube has an individual spatial resolution of $\sim$80$\mu$m~\cite{muonTDR}.
+
+At larger pseudorapidities(2.0 $<$ \textbar$\eta$\textbar $<$ 2.7), a series of cathode strip chambers (CSCs) are used for muon track reconstruction. Each chamber is a multi-wire proportional chamber with high voltage wires suspended in a Ar-CO$_2$-CF$_4$ gas mixture and enclosed by two grounded conducting planes. The CSC system has over 67000 readout channels, and this high-granularity design gives the CSCs the sensitivity necessary to deal with the large flux of charged particles at high pseudorapidities. Tracks measured by the CSCs have a spatial resolution of $\sim$50$\mu$m~\cite{muonTDR}.
+
+Resistive plate chambers (RPCs) and thin gap chambers (TGCs) make up the last components of the muon system and are responsible for event triggering and muon tracking in the direction orthogonal to the drift tubes and strip chambers. Each chamber is composed of a parallel plate detector separated by 2mm and filled with a gaseous mixture of 94.7\% C$_2$H$_2$F$_4$, 5\% Iso-C$_4$H$_{10}$, and 0.3\% SF$_6$. The RPCs are responsible for providing trigger information in the barrel region of the detector and have timing resolution of $\mathcal{O}$(1 ns). 
+
+The TGCs are multi-wire proportional chambers filled with a mixture of CO$_2$ and n-C$_5$H$_{12}$ and provide triggering information in the forward region of the muon spectrometer. The wires in each TGC are separated by 1.8 mm, and the cathode to anode separation is 1.4 mm. The timing resolution of the TGCs is comparable to that of the RPCs. In addition to timing information, the both the TGCs and the RPCs also aid in the azimuthal angle, $\phi$, of passing muon tracks. The spatial resolution for both systems is $\sim$1 cm.
+
+Since nearly all other particles excluding neutrinos (e.g. electrons, hadrons, photons) are absorbed in the calorimeter systems, the charged particles reaching the muon spectrometers are nearly always muons. Particles coming from secondary interactions in the detector are rejected by requiring tracks from the muon spectrometer to match tracks from the inner detector during muon reconstruction. %Probably ought to give some purity numbers. 
+The probability for incorrectly reconstructing a particle, e.g. a pion, as a muon was studied using collision data recorded at $\sqrt{s}=7$~\cite{ATLAS-CONF-2010-064}. Figure~\ref{fig:muidFakeRates} shows the probability to reconstruct a pion as a muon as a function of $\eta$ and \pt for muon candidates reconstructed using a particular muon reconstruction algorithm (`Chain 2'). 
+\begin{figure}[h!]
+\centering
+\label{fig:muidFakeRates}
+\includegraphics[width=.45\textwidth]{figures/atlasDetector/fakesMuidPt}
+\includegraphics[width=.45\textwidth]{figures/atlasDetector/fakesMuidEta}
+\caption{The measured fraction of pions reconstructed as muons in as a function of \pt and $\eta$. Results are shown for combined muons only and for combined and segment-tagged muons. The data are represented by filled markers, while Monte-Carlo simulation by open markers.}
+\end{figure}
+`Combined' muons refer to muon candidates with tracks and a trajectory measured in the muon spectrometer is matched to tracks in the inner detector while the `all' category includes muon candidates with only straight-line tracks measured in the muon spectrometer and matched to tracks measured in the inner detector. For both types of muon candidates, the overall pion mis-identification rate is below the 1\% percent level.
+
+\subsection{Missing Energy Reconstruction}
+There is no good direct way to detect the high energy neutrinos produced in collisions at the LHC due to their weakly interacting nature. Possible new particles (e.g. dark matter, supersymmetric particles, etc.) could also be produced and escape ATLAS without detection if they have zero or highly suppressed electromagnetic and hadronic interactions. Instead of measuring the energy, momentum, or tracks of these particles directly, the `missing' transverse energy (MET) in an event is calculated by balancing the total transverse energy deposited by an event and measured by the other components (calorimeters, muon systems) of ATLAS. Only the transverse component is calculable since the initial transverse momentum of the incoming partons is nearly zero while the longitudinal imbalance is $a$ $priori$ unknown.
+
+\begin{figure}[h!]
+\centering
+\label{fig:metResolution_8TeV}
+\includegraphics[width=.7\textwidth]{figures/objectDefinitions/metResolution8TeV_Zmumu}
+\caption{Resolution of missing energy in the x and y directions as a function of the total transverse energy measured in the calorimeter and muon systems in $Z\rightarrow\mu\mu$ events measured at $\sqrt{s}=8$ TeV. Results are compared for several different algorithms used to calculate the missing transverse energy.}
+\end{figure}
+
+Since the missing energy in an event is not directly measured, is it important to minimize the effects in the MET calculation of incomplete detector coverage, finite detector resolution, and the presence of dead and noisy regions in the detector. ATLAS is designed as a hermetic detector, and the large $\eta$ extension of the calorimeter and muon systems provide near-complete transverse coverage of the interaction point. Various algorithms to take detector resolution effects into account and suppress spurious sources of MET have been developed to improve the resolution of the missing energy calculation. Using collision data recorded at $\sqrt{s}=8$ TeV and selecting $Z\rightarrow\mu\mu$ events, the MET resolution in the individual x and y directions was measured to be on the order of a few tens of GeV or less (for most \met algorithms) in events with up to $\sim$1 TeV of energy deposited in the ATLAS detector~\cite{ATLAS-CONF-2013-082}. Figure~\ref{fig:metResolution_8TeV} shows the resolution of the various algorithms for calculating the missing transverse energy as a function of the measured transverse energy.
+
+\subsection{Triggering and Data Acquisition}
+The high collision rate (40 million collisions per second) at the LHC produces many more events than can reasonably be recorded, and solving this problem requires fast detector readout electronics to quickly obtain collision data and efficient triggering infrastructure to decide which of the read out events are worthwhile to keep. The data acquisition system in ATLAS first receives data from the readout electronics connected to each sub-detector and buffers the information long enough to be processed by the event trigger. ATLAS used a three-level trigger during data-taking from 2010 through 2012. Improvements in the trigger algorithms and hardware enabled the use of a two-level trigger when data-taking resumed in 2015. Both frameworks are discussed below.
+
+The first trigger level, known as the L1 trigger, is a hardware-based trigger using a small subset of the total calorimeter and muon spectrometer information to decide in under 2.5 $\mu$s whether or not to keep an event. Multiple inputs are used when in deciding whether to save an event, e.g. the presence of high \pt objects, large missing energy, large total transverse energy, etc. From an initial collision rate of 400 MHz, L1 processing reduces the event rate to $\sim$75 kHz. In 2010-2012 data-taking, a secondary L2 trigger re-processes events passing the L1 stage using more complete detector information from the muon spectrometer and inner detector systems. 
+
+For events passing the L1 and L2 trigger processing (L1 only for data-taking after 2015), the software-based high level trigger (HLT) uses the full amount of data collected by the detector (including track and vertex reconstruction) to decide which events are written to disc. The HLT computer farm processes events in $\sim$4 seconds and produces an output rate of $\sim$200 Hz. During the first long LHC shutdown, the throughput capabilities of the HLT were significantly improved, allowing for the removal of the L2 stage in event processing. At the end of the triggering chain, each event is recorded to disc and has a per event size of $\sim$1.3 MB. At 200 Hz, the ATLAS experiment records $\sim$3000 TB of collision data per year.

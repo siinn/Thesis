@@ -1,0 +1,213 @@
+%-------------------------------------------------------------------------------
+% This file provides a skeleton ATLAS document.
+%-------------------------------------------------------------------------------
+% \pdfoutput=1
+% The \pdfoutput command is needed by arXiv/JHEP/JINST to ensure use of pdflatex.
+% It should be included in the first 5 lines of the file.
+%-------------------------------------------------------------------------------
+% Specify where ATLAS LaTeX style files can be found.
+\newcommand*{\ATLASLATEXPATH}{latex/}
+% Use this variant if the files are in a central location, e.g. $HOME/texmf.
+% \newcommand*{\ATLASLATEXPATH}{}
+%-------------------------------------------------------------------------------
+\documentclass[UKenglish,texlive=2013]{\ATLASLATEXPATH atlasdoc}
+% The language of the document must be set: usually UKenglish or USenglish.
+% british and american also work!
+% Commonly used options:
+%  texlive=YYYY          Specify TeX Live version (2013 is default).
+%  atlasstyle=true|false Use ATLAS style for document (default).
+%  coverpage             Create ATLAS draft cover page for collaboration circulation.
+%                        See atlas-draft-cover.tex for a list of variables that should be defined.
+%  cernpreprint          Create front page for a CERN preprint.
+%                        See atlas-preprint-cover.tex for a list of variables that should be defined.
+%  PAPER                 The document is an ATLAS paper (draft).
+%  CONF                  The document is a CONF note (draft).
+%  PUB                   The document is a PUB note (draft).
+%  txfonts=true|false    Use txfonts rather than the default newtx - needed for arXiv submission.
+%  paper=a4|letter       Set paper size to A4 (default) or letter.
+
+%-------------------------------------------------------------------------------
+% Extra packages:
+\usepackage{\ATLASLATEXPATH atlaspackage}
+% Commonly used options:
+%  biblatex=true|false   Use biblatex (default) or bibtex for the bibliography.
+%  backend=biber         Use the biber backend rather than bibtex.
+%  subfigure|subfig|subcaption  to use one of these packages for figures in figures.
+%  minimal               Minimal set of packages.
+%  default               Standard set of packages.
+%  full                  Full set of packages.
+%--------------------------------------------------------
+% package for landscape style tabl
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{ltablex}
+
+
+%-----------------------
+% Style file with biblatex options for ATLAS documents.
+\usepackage{\ATLASLATEXPATH atlasbiblatex}
+
+% Package for creating list of authors and contributors to the analysis.
+\usepackage{\ATLASLATEXPATH atlascontribute}
+
+% Package for using comment environment
+\usepackage{verbatim}
+
+% Useful macros
+\usepackage{\ATLASLATEXPATH atlasphysics}
+% See doc/atlas-physics.pdf for a list of the defined symbols.
+% Default options are:
+%   true:  journal, misc, particle, unit, xref
+%   false: BSM, hion, math, process, other, texmf
+% See the package for details on the options.
+\usepackage{ mathrsfs }
+\usepackage{multirow}
+
+% Files with references for use with biblatex.
+% Note that biber gives an error if it finds empty bib files.
+
+%--------Mohammad test 
+%\usepackage[utf8x]{inputenc}
+\addbibresource{INT_8TeV_WHel_ljets.bib}
+\addbibresource{bibtex/bib/ATLAS.bib}
+%\bibliography{INT_8TeV_WHel_ljets}
+%\bibliography{bibtex/bib/ATLAS}
+
+%--------------------
+
+% Paths for figures - do not forget the / at the end of the directory name.
+\graphicspath{{logos/}{figures/}}
+
+% Add you own definitions here (file INT_8TeV_WHel_ljets-defs.sty).
+\usepackage{INT_8TeV_WHel_ljets-defs}
+\usepackage{appendix}
+\usepackage{cleveref}
+\usepackage{makecell}
+%-------------------------------------------------------------------------------
+% Generic document information
+%-------------------------------------------------------------------------------
+
+% Title, abstract and document 
+\input{INT_8TeV_WHel_ljets-metadata}
+% Author and title for the PDF file
+\hypersetup{pdftitle={ATLAS draft},pdfauthor={The ATLAS Collaboration}}
+
+%-------------------------------------------------------------------------------
+% Content
+%-------------------------------------------------------------------------------
+\begin{document}
+
+%\input{fullTable}
+
+\maketitle
+
+\input{INT_8TeV_WHel_ljets_contributions}
+
+\tableofcontents
+
+% List of contributors - print here or after the Bibliography.
+%\PrintAtlasContribute{0.30}
+\clearpage
+
+%-------------- Todo_List ---------------------------
+\input{INT_8TeV_WHel_ljets_todo}
+\clearpage
+%-------------------------------------------------------
+%-------------- Introduction ---------------------------
+\input{INT_8TeV_WHel_ljets_intro}
+%-------------------------------------------------------
+%-------------- ATLAS Detector -------------------------
+\input{INT_8TeV_WHel_ljets_detector}
+%-------------------------------------------------------
+%-------------- Object Reconstruction ------------------
+\input{INT_8TeV_WHel_ljets_objectReconstruction}
+%-------------------------------------------------------
+%-------------- Event Selection ------------------------
+\input{INT_8TeV_WHel_ljets_eventSelection}
+%-------------------------------------------------------
+%-------------- Bkg + Signal Modelling -----------------
+\input{INT_8TeV_WHel_ljets_bkgAndSignalModelling}
+%-------------------------------------------------------
+%-------------- Event Reconstruction -------------------
+\input{INT_8TeV_WHel_ljets_eventReconstruction}
+%-------------------------------------------------------
+%-------------- Template Fitting -----------------------
+\input{INT_8TeV_WHel_ljets_templateFitting}
+%-------------------------------------------------------
+%-------------- Systematic Uncertainty -----------------
+\input{INT_8TeV_WHel_ljets_systematicUncertainty}
+%-------------------------------------------------------
+%-------------- Results --------------------------------
+\input{INT_8TeV_WHel_ljets_results}
+%-------------------------------------------------------
+%-------------- Conclusion -----------------------------
+\input{INT_8TeV_WHel_ljets_conclusion}
+%-------------------------------------------------------
+%-------------- Acknowledgements -----------------------
+\input{acknowledgements/Acknowledgements}
+%-------------------------------------------------------
+
+%===============================================================================
+
+%-------------------------------------------------------------------------------
+% If you use biblatex and either biber or bibtex to process the bibliography
+% just say \printbibliography here
+
+\clearpage
+\printbibliography
+
+% If you want to use the traditional BibTeX you need to use the syntax below.
+%\bibliographystyle{bibtex/bst/atlasBibStyleWoTitle}
+%\bibliography{INT_8TeV_WHel_ljets,bibtex/bib/ATLAS}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% Print the list of contributors to the analysis
+% The argument gives the fraction of the text width used for the names
+%-------------------------------------------------------------------------------
+
+%\clearpage
+%\PrintAtlasContribute{0.30}
+
+%-------------------------------------------------------------------------------
+\clearpage
+\appendix
+%\part*{Auxiliary Material}
+%\addcontentsline{toc}{part}{Auxiliary Material}
+
+%-------------- Appendix -----------------------------
+\appendix
+
+%\addcontentsline{toc}{part}{Appendices}
+\input{INT_8TeV_WHel_ljets_appendixPackages}
+\input{INT_8TeV_WHel_ljets_appendixMCSamples}
+%\input{INT_8TeV_WHel_ljets_appendixSmoothing}
+\input{INT_8TeV_WHel_ljets_appendixExpectedStatUnc}
+\input{INT_8TeV_WHel_ljets_appendixBkgNormSyst}
+\input{INT_8TeV_WHel_ljets_appendixFitCalibrations}
+%\input{INT_8TeV_WHel_ljets_appendixSystTemplates} % F --> replaced by appendixSystTemplates_rel and appendixSystTemplates_abs
+\input{INT_8TeV_WHel_ljets_appendixSystPEs}
+\input{INT_8TeV_WHel_ljets_appendixSystTables}
+\input{INT_8TeV_WHel_ljets_appendixTemplate_statistics}
+\input{INT_8TeV_WHel_ljets_appendixSumSystTable}
+\input{INT_8TeV_WHel_ljets_appendixCovarianceMatrix}
+%--new
+\input{INT_8TeV_WHel_ljets_appendixPDFsyst}
+\input{INT_8TeV_WHel_ljets_appendixTopMassSyst}
+%-----
+%\input{INT_8TeV_WHel_ljets_appendixPreviousResults}
+\input{INT_8TeV_WHel_ljets_appendixFractionCorrelations}
+\input{INT_8TeV_WHel_ljets_appendixMinuitOutput}
+\input{INT_8TeV_WHel_ljets_appendixPROTOS}
+\input{INT_8TeV_WHel_ljets_appendixHdampComparison}
+\input{INT_8TeV_WHel_ljets_appendixPileupCorrelation}
+\input{INT_8TeV_WHel_ljets_appendixAcceptance}
+\input{INT_8TeV_WHel_ljets_appendixRegionComp}
+\input{INT_8TeV_WHel_ljets_appendixSystTemplates_rel} %U
+\input{INT_8TeV_WHel_ljets_appendixSystTemplates_abs} %V
+\input{INT_8TeV_WHel_ljets_appendixLep2inclVSeightChannel}
+%-------------------------------------------------------------------------------
+
+\end{document}

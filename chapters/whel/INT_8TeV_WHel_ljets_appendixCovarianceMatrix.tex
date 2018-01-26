@@ -1,0 +1,95 @@
+%-------------------------------------------------------------------------------
+\clearpage
+\section{Systematics: Covariance Matrix}
+\label{app:covMatrix}
+%\appendix
+%\part*{Appendix D: Systematic Tables}
+%\addcontentsline{toc}{part}{Appendix D: Systematic Tables}
+%-------------------------------------------------------------------------------
+The covariance matrix for each systematic uncertainty component, $k$, can be expressed as
+
+\begin{equation}
+ C_{syst, k} = \left( \begin{array}{ccc}
+    \sigma^2_{\fo} &     c\fo\fl    &     c\fo\fr    \\
+         c\fo\fl   & \sigma^2_{\fl} &     c\fl\fr    \\
+         c\fo\fr   &     c\fl\fr    & \sigma^2_{\fr}
+\end{array} \right) 
+\end{equation}
+
+where $\sigma_{F_i}$ is the uncertainy on each helicity fraction, $F_i$, for a given systematic component. Since each systematic is assumed to be correlated across the different helicity fractions, the off-diagonal terms can be written as
+
+\begin{equation}
+cF_iF_j = \sigma_{F_i}\sigma_{F_j}
+\end{equation}
+
+The signs of the components $\sigma_{F_i}$ contain information about whether the up/down variation has a positive/negative effect on a given fraction. For every systematic there should be at least one positive uncertainty and at least one negative uncertainty, such that the overall normalisation \fo + \fl + \fr = 1 is respected.
+
+Once all component matrices are calculated, e.g. by using the numbers available in App. \ref{app:sumSystTables}, the full covariance matrix, $C$ can be constructed as the sum of the statistical covariance matrix ($C_{stat}$) and the direct sum total of all systematic matrices (assuming each systematic uncertainty component is uncorrelated from all others). The final covariance matrix, $C$, is expressed mathematically as
+
+\begin{equation}
+C = C_{stat} + \sum_k C_{syst, k}
+\end{equation}
+
+For the fully combined measurement (electron + muon, lepton + hadron, 1 exclusive \bt tag + 2 inclusive \bt tag), the summed systematic matrix is given by
+
+\begin{equation}
+ C_{\text{syst}} = \left( \begin{array}{ccc}
+    0.00166  &  -0.00050  &  -0.00114  \\
+   -0.00050  &   0.00034  &   0.00021   \\
+   -0.00114  &   0.00021  &   0.00098
+\end{array} \right) 
+\end{equation}
+
+The information for the statistical covariance matrix, $C_{stat}$, is obtained directly from the fit, and the final covariance matrix, $C_{\text{stat + syst}}$ is given by
+
+\begin{equation}
+ C_{\text{stat + syst}} = \left( \begin{array}{ccc}
+    0.00175  &  -0.00053  &  -0.00117  \\
+   -0.00053  &   0.00035  &   0.00022   \\
+   -0.00117  &   0.00022  &   0.00098
+\end{array} \right) 
+\end{equation}
+
+The total covariance matrix is used as input to the EFT fit used to place limits on anomalous $Wtb$ couplings, but the fitter takes the correlation coefficients between the fractions as the input. In order to translate the covariance matrix, $C$, into the correlation matrix, $S$, we define first the diagional matrix $D$ where
+
+\begin{equation}
+D = \text{sqrt(}\text{diag(}C))
+\end{equation}
+
+i.e. $D$ is the square root of the diagonal matrix obtained from $C$. From there, $S$ is obtained via
+
+\begin{equation}
+S = D^{-1} C D^{-1}
+\end{equation}
+
+The correlation coefficients, $\rho$ can then be read from the off-diagonal elements of $S$. Performing this procedure, we obtain
+
+\begin{equation}
+   \begin{array}{cc}
+   \rho(\fo,\fl) = & -0.68 \\
+   \rho(\fo,\fr) = & -0.89 \\
+   \rho(\fl,\fr) = &  0.37 \\
+\end{array} 
+\end{equation}
+
+The sensitivity of anomalous \Wtb limits derived using the 8-channel combination can be compared with the limits derived from any other region given the central values obtained from the template fit and the correlation coefficients obtained from the above procedure. The leptonic, two inclusive \bt tag region correlation coefficients are calculated to be
+
+\begin{equation}
+   \begin{array}{cc}
+   \rho(\fo,\fl) = & -0.55 \\
+   \rho(\fo,\fr) = & -0.75 \\
+   \rho(\fl,\fr) = &  0.16 \\
+\end{array} 
+\end{equation}
+
+Additionally, the correlation coefficients obtained in the hadronic, one exclusive + two inclusive \bt tag region region are 
+
+\begin{equation}
+   \begin{array}{cc}
+   \rho(\fo,\fl) = &  0.56 \\
+   \rho(\fo,\fr) = & -0.91 \\
+   \rho(\fl,\fr) = & -0.92 \\
+\end{array} 
+\end{equation}
+
+

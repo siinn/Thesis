@@ -1,0 +1,101 @@
+\section{Background estimation}
+\label{sec:dihiggs_backgrounds}
+
+%-------------------------------------------------------------------------------
+In the present analysis we expect that at the end of the selection the
+sample will be largely dominated by $t \bar{t}$ background, therefore the $t\bar{t}$ background normalisation
+is derived from data. As described in Sec. \ref{sec:multijet}, the multi-jet
+background is derived using the data-driven matrix method.
+For all other backgrounds, e.g. di-boson, Higgs, $W$+jets, the
+MC is used appropriately normalised using the expected cross sections and the
+integrated luminosity that has been collected.
+
+\subsection{Top normalisation and control region}
+\label{subsec:topCR}
+The top background is the major background source in this analysis,
+therefore dedicated control regions (CR) are used to check its modeling
+and to normalise it. Two CR's are defined, one for the SR's optimised for
+the $m_h = 700$ GeV signal hypothesis (low mass analysis
+in the following) and the other for the $m_h = 2000$ GeV signal (high mass
+analysis in the following). The two CRs are defined in Table \ref{tab:CRdef}.
+
+\begin{table}
+\caption{Definition of the kinematic regions used to normalise the Top background.} \label{tab:CRdef}
+\begin{center}
+\begin{tabular}{c|c}
+\hline
+\multicolumn{2}{c}{Top CR definitions} \\
+\hline
+low mass &  ($m_{bb} < 100$ GeV or $m_{bb} > 140$ GeV ) and $p_T^{\rm bb} > 150$ GeV \\
+high mass &   ({$m_{bb} < 100$ GeV or $m_{bb} > 140$}) and $p_T^{\rm bb} > 350$ GeV \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+Table \ref{tab:CR1} and \ref{tab:CR2} show the number of observed
+events and expected background events in the top CR. 
+
+\begin{table}
+\caption{Data and expected background yields in the low mass control
+  region. NF of 1.12 has been applied to $t\bar{t}$ background.} \label{tab:CR1}
+\input{chapters/dihiggs/tables/Yields_CR1.tex}
+\end{table}
+
+\begin{table}
+\caption{Data and expected background yields in the high mass control
+  region. NF of 1.05 has been applied to $t\bar{t}$ background.} \label{tab:CR2}
+\input{chapters/dihiggs/tables/Yields_CR2.tex}
+\end{table}
+
+
+The top normalisation factors are determined by a simultaneous fit  of
+signal and control regions. It also depends slightly on the $m_{hh}$ window due to the presence of top background in the signal region, and it is furthermore different for the \emph{low  mass} and \emph{high mass} analyses. The normalisation
+factors of the two top control regions are shown in Table \ref{tab:NFs}.
+\begin{table}
+\caption{Normalisation factors for the two CRs, the statistical error
+  includes only data statistics, the systematic error is shown to
+  check the compatibility of the NF with one, but it is not directly
+  used in the fit procedure.} \label{tab:NFs}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+\multicolumn{4}{c}{Top background normalisation factors in the two
+  CRs} \\
+\hline
+region & NF & $\sigma_{stat.}$ & $\sigma_{syst.}$ \\
+\hline
+low mass & 1.12 & 0.005 & 0.21 \\
+high mass & 1.05 & 0.03 & 0.36 \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Table \ref{tab:CR1} and \ref{tab:CR2} show the number of observed
+events and expected background events in the top CR after the
+normalisation factors have been applied to the top background sample.
+
+Fig.~\ref{fig:mbb_mhh} shows the $m_{bb}$ and $m_{hh}$ distributions in the two CRs while n Appendix \ref{app:CR1} and \ref{app:CR2} we show the complete distributions of the
+relevant variables used in the analysis selection in the top CR.  
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics*[width=0.47\textwidth] {chapters/dihiggs/figures/ControlPlots/CR1/C_mBBcr_opt700_bbpt150_bbMass.eps}
+\includegraphics*[width=0.47\textwidth] {chapters/dihiggs/figures/ControlPlots/CR1/C_mBBcr_opt700_bbpt150_hhMass.eps}
+\includegraphics*[width=0.47\textwidth] {chapters/dihiggs/figures/ControlPlots/CR2/C_mBBcr_opt2000_bbpt350_bbMass.eps}
+\includegraphics*[width=0.47\textwidth] {chapters/dihiggs/figures/ControlPlots/CR2/C_mBBcr_opt2000_bbpt350_hhMass.eps}
+\caption[$m_{bb}$ and $m_{hh}$ in CR1 and CR2.]{$m_{bb}$ and $m_{hh}$ in CR1 and CR2.  }
+\label{fig:mbb_mhh}
+\end{center}
+\end{figure}
+%%%%%%%
+\clearpage
+
+\subsection{Multi-jet background}
+\input{chapters/dihiggs/multijet.tex}
+
+
+\clearpage
+
+

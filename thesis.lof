@@ -1,0 +1,26 @@
+ \vskip 0.55in \textbf {Figure}\hfill \textbf {Page} \vskip 0.25em \rm 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An illustration of the LHC accelerators and the four main experiments.}}{7}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The ATLAS detector and the sub-detector systems.}}{8}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The ATLAS calorimeter system.}}{10}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces The ATLAS Muon Spectrometer}}{12}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Layout of the ATLAS Trigger and data acquisition system in Run 2.}}{15}{figure.2.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of detector hits and reconstructed tracks in the Inner Detector. The bright colors represent the detector hits associated with reconstructed tracks\nobreakspace {}\cite {1742-6596-119-3-032014}.}}{18}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Important vertex topologies in $pp$ collisions: primary, pile-up, and secondary vertices.}}{21}{figure.3.2}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The representative plots of truth-level (a) $p_{T}$ and (b) $\eta $ distributions of $Z'$, and (c), (d) are the corresponding distributions for the signal muons. The signal MC samples are generated with $m=$ 500, 1000 GeV, and $c\tau =$ 100 mm.}}{31}{figure.6.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{31}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{31}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{31}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{31}{subfigure.1.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The representative plots of truth-level (a) $p_{T}$ and (b) $\eta $ distributions of $Z'$, and (c), (d) are the corresponding distributions for the signal muons. The signal MC samples are generated with $m=$ 500, 1000 GeV, and $c\tau =$ 100 mm.}}{31}{figure.6.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{31}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{31}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{31}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{31}{subfigure.1.4}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

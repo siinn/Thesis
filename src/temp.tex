@@ -1,0 +1,212 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% template.tex
+%
+% This is a template file for the osudiss-2 class. See
+% osudiss-2.pdf for documentation, and the GS material
+% for the requirements.
+%
+% To compile this file:
+% latex template
+% bibtex template
+% latex template
+% latex template
+%
+% (You can also use pdflatex if you prefer.)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\documentclass[11pt, draft, onehalf, phd]{osudiss-2}
+\documentclass[11pt, onehalf, phd]{osudiss-2}
+% The `11pt' option is unnecessary since it is the default
+ 
+% `onehalf' sets the line spacing to one-and-a-half spacing instead of
+% double spacing.
+ 
+% The `phd' option is unnecessary since it is the default
+ 
+% Remove `draft' option for final draft
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%% chapter compilation %%%%%%%%%%%%%%%%%%%%%%%%%
+%\includeonly{latex/shortcuts, chapters/wHelicity}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%% Packages %%%%%%%%%%%%%%%%%%%%%%%%%
+% Load your favorite packages here
+\usepackage{bm} % for bold math---useful
+\usepackage{booktabs} % for more professional tables
+ 
+%hyperref packages and options
+\usepackage{hyperref}
+\usepackage{bookmark} % helps booksmarks look better in PDF
+%hypersetup option 'breaklinks' is reguired for line wrapping in the table of contents during latex compilation, and can be removed if you use pdflatex
+\hypersetup{colorlinks=true,linkcolor=blue, breaklinks} %internal links in blue, citations in green
+%\hypersetup{colorlinks=true,linkcolor=black, citecolor=black, breaklinks} %all links in black
+\usepackage[all]{hypcap}
+ 
+%Use of natbib is STRONGLY recommended to sort and compress your references within each citation
+%With these options, natbib will convert i.e. [5,3,9,4] to [3-5, 9]
+%\usepackage[sort&compress]{natbib}
+%\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{cite}
+ 
+%
+%load package for bra-ket notation
+\usepackage{braket}
+ 
+% package for graphics.... why the fuck isn't this default?
+\usepackage{graphicx}
+ 
+% package for big tables
+\usepackage{adjustbox}
+ 
+%include package for appendix
+\usepackage{appendix}
+\usepackage{cleveref}
+\usepackage{makecell}
+ 
+% package for landscape style tabl
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{ltablex}
+ 
+%load glossaries packages
+\usepackage[toc,acronym, section=chapter]{glossaries}
+ 
+%load xspace
+\usepackage{xspace}
+ 
+%load verbatim for multiline comments
+\usepackage{verbatim}
+ 
+%%%%%%%%%% packages for whelicty %%%%%%%%%%%%
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage{amssymb}
+\usepackage{multirow}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%=========================================
+% custom from siinn
+%=========================================
+\usepackage[super,negative]{nth}
+\usepackage{eucal}
+
+% for SI units
+\usepackage[T1]{fontenc}
+\usepackage{siunitx}
+\usepackage{microtype,textcomp}
+\setlength{\parskip}{0.8em}
+\usepackage[caption=false]{subfig}
+
+%\usepackage[skip=2ex]{caption}
+%\setlength{\abovecaptionskip}{10pt}
+%\setlength{\belowcaptionskip}{-15pt}
+
+\input{macros}
+
+%=========================================
+ 
+%\usepackage[xindy,toc,acronym, section=chapter]{glossaries} - recommended if supported by your OS
+\makeglossaries %required to actually make a glossary
+%\include{latex/acronyms} %load list of acronyms contained in acronyms.tex
+%\include{latex/shortcuts} %load list of shortcuts shortcuts.tex
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%% Custom Commands/Environments %%%%%%%%%%%%%%%%%%%%%%%%%
+% Put your favorite custom commands here
+\newcommand{\fish}{\alpha} % some of my students call it the "fish" symbol
+\newcommand{\tab}{\hspace*{2em}}
+ 
+% Below is an example of customizing the style of headings in your
+% dissertation. See osudiss-2.pdf for more information.
+%
+% For example, if you simply must have uppercase titles:
+%\renewcommand\typesetLevelOne[1]{{\Large\textbf{\MakeUppercase{#1}}\par}}
+%\renewcommand\typesetLevelTwo[1]{{\Large\textbf{\MakeUppercase{#1}}}}
+% Note the \par for \typesetLevelOne
+%
+% If you want the title to be bold and |\Large| instead of |\Huge|:
+%\renewcommand\titleFont{\normalfont\Large\bfseries}
+ 
+% Add words that TeX may not know how to hyphenate below. This can
+% help prevent overfull hboxes. For example,
+\hyphenation{eigen-state space-time}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%% Document Metadata %%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Search for long-lived resonance decaying to a dilepton pair in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector}
+\author{Siinn Che}
+\advisorname{Professor K.K. Gan}
+\degree{Doctor of Philosophy} % Default value
+\member{Professor Richard Kass}
+\member{Professor Junko Shigemitsu}
+\member{Professor Fengyuan Yang}
+%\member{Kenneth Williams}
+\authordegrees{B.S., M.S.}
+\graduationyear{2018}
+\unit{Graduate Program in Physics} % defaults to ``Graduate Program in Physics''
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%% Begin Document %%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+ 
+%\begin{comment}
+\frontmatter
+ 
+\include{abstract}
+\dedication{Dedication\\\vspace{5in}
+some more text}
+\include{acknowledgements}
+%\include{vita}
+\tableofcontents
+ 
+% list of figures (comment out if you don't have any figures)
+\clearpage
+\listoffigures
+ 
+% list of tables (comment out if you don't have any tables)
+\clearpage
+\listoftables
+ 
+%print glossary (comment out if you don't want a glossary)
+%\printglossary[type=\acronymtype,title={List of Abbreviations},toctitle={List of Abbreviations}]
+ 
+%\end{comment}
+ 
+\mainmatter
+\include{src/ch1_introduction}
+\include{src/ch2_experiment}
+\include{src/ch3_reconstruction}
+\include{src/ch4_analysis_overview}
+\include{src/ch5_data_mc_samples}
+\include{src/ch5_data_mc_samples}
+\include{src/ch8_background_estimation}
+\include{src/ch9_systematics}
+ 
+%\backmatter
+% We use BIBTeX for the bibliography---you don't have to
+%\printbibliography
+ 
+% \nocite{*} % To display all refs, even uncited refs (useful when editting)
+%\bibliography
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Bibliography}
+\bibliography{src/ref}
+\bibliographystyle{ieeetr}
+%\bibliographystyle{unsrt} % use your favorite BIBTeX style
+ 
+% If for some reason you are anti-BIBTeX, then you would use the
+% following instead of the above:
+%\begin{thebibliography}{99}
+% ...
+%\end{thebibliography}
+ 
+ 
+% Note: GS 2010 requires bibliography/references _before_ the appendix
+% if you believe their guidelines; however, conversations with GS
+% staff suggests _they don't care_. Go figure. So do what you like.
+ 
+% COMMENTED OUT JUNE 2ND 2017
+%\appendix
+%\renewcommand{\thesection}{\Alph{section}}
+%\clearpage
+%\include{appendices/app_test}
+ 
+\end{document}
+ 

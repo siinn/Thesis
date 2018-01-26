@@ -1,0 +1,65 @@
+\section{Data and Monte Carlo samples}
+\label{sec:datasamples}
+\subsection{Data}
+The analysis presented here uses the full $pp$ collision dataset
+collected in 2015 and 2016 
+%the 2016 dataset collected until July 2016
+at the center-of-mass energy of 13\,\TeV\, passing data quality
+checks requiring good conditions of all sub-detectors.
+The data corresponds to an integrated
+luminosity of 36.1~fb$^{-1}$ (3.2~fb$^{-1}$ from 2015 plus
+32.8~fb$^{-1}$ from 2016).%\footnote{The following GoodRunLists (GRL) are used:\\  
+%data15\_13TeV.periodAllYear\_DetStatus-v79-repro20-02\_DQDefects-00-02-02\_PHYS\_StandardGRL\_All\_Good\_25ns.xml\\
+%and\\
+%data16\_13TeV.periodAllYear\_DetStatus-v88-pro20-21\_DQDefects-00-02-04\_PHYS\_StandardGRL\_All\_Good\_25ns.xml.\\
+%The GRLs were retrieved from the \href{https://twiki.cern.ch/twiki/bin/view/AtlasProtected/GoodRunListsForAnalysisRun2}{GoodRunListsForAnalysisRun2 twiki}}.
+
+\subsection{MC samples}
+Monte Carlo simulated events are used to estimate the Standard Model backgrounds and the signal acceptances. Table~\ref{tabular:mc_samples} summarizes the MC samples used for background estimation.
+\begin{table}[!h]
+
+\label{tabular:mc_samples}
+\begin{center}
+\begin{tabular}{|l|c|c|}
+  \hline
+ Process & Generator       & $\sigma\times\text{BR}$ [pb]  \\ 
+\hline
+
+$t\bar{t} \to WWbb \to l \nu bb + X$ & \textsc{Powheg+Pythia6} & 451.65 \\
+$Wt$~incl. & \textsc{Powheg+Pythia6} & 71.7 \\
+single $t$,  s-channel, $\to l \nu + X$  & \textsc{Powheg+Pythia6} & 3.31 \\ 
+single $t$,  t-channel, $\to l \nu + X$  & \textsc{Powheg+Pythia6} & 69.5 \\ 
+$W$+jets, $W \to l \nu$ & \textsc{Sherpa} & 20080 \\
+$Z$+jets, $Z \to l l$ & \textsc{Sherpa} & 2067 \\
+Dibosons~incl. & \textsc{Sherpa} & 47.3 \\
+%$ggh~incl.$ & \textsc{Powheg+Pythia8} & 43.9 \\
+%$tth$, $\to l \nu + X$  & \textsc{aMC@NLO + Herwig++} & 0.223 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{SM Monte Carlo samples used for background estimation.}
+\end{table}
+The \ttbar and single top-quark samples are generated with \textsc{Powheg-Box} v2~\cite{Frixione:2007vw} using \textsc{CT10} parton distribution functions (PDF) interfaced to \textsc{Pythia} 6.428~\cite{Sjostrand:2006za} for parton shower, using the \textsc{Perugia2012}~\cite{Skands:2010ak} tune with the CTEQ6L1~\cite{Pumplin:2002vw} PDF for the underlying event descriptions. \textsc{EvtGen} v1.2.0~\cite{Lange:2001uf} is used for properties of the bottom and charm hadron decays. The mass of the top quark is set to $m_{t} = 172.5\,\GeV$. At least one top quark in the \ttbar event is required to decay to a final state with a lepton. The cross section of \ttbar is known to NNLO in QCD including re-summation of next-to-next-to-leading logarithmic (NNLL) soft gluon terms, and the reference value used in ATLAS is calculated using \textsc{Top++} 2.0~\cite{Czakon:2011xx}. The parameter \textsc{Hdamp}, used to regulate the high-\pt\ radiation in \textsc{Powheg}, is set to $m_{t}$ for good data/MC
+agreement in the high \pt\ region~\cite{ATL-PHYS-PUB-2014-005}. Each process of single top-quark ($t$-channel, $s$-channel and $Wt$-channel) is generated separately. The cross section of single-top is calculated with the prescriptions in Ref.~~\cite{Kidonakis:2011wy, Kidonakis:2010ux}. 
+
+\textsc{Sherpa} v2.2.1~\cite{Gleisberg:2008ta} with the \textsc{NNPDF 3.0}~\cite{Lai:2010vv} PDF set is used as the baseline generator for the ($W \to \ell\nu$)/($Z\to \ell\ell$)+jets background. The diboson processes ($WW$, $WZ$ and $ZZ$) are generated with \textsc{Sherpa} with the \textsc{CT10} PDF set.  
+
+%The ggH inclusive sample is generated with \textsc{Powheg} using the \textsc{CT10} PDF set interfaced to \textsc{Pythia8} for parton shower, while ttH is a semi-leptonic sample generated with \textsc{Madgraph5\_aMC@NLO}~\cite{Alwall:2014hca} interfaced to \textsc{Herwig++}. The cross sections are normalised to the available N3LO cross sections.
+Signal samples are generated with \textsc{Madgraph5\_aMC@NLO} interfaced to \textsc{Herwig++}. The procedure defined in ~\cite{CP3Paper} is applied. It consists of generating events with an effective Lagrangian in the infinite top-quark mass approximation, and  re-weighting the generated events, vertex by vertex,  with form factors (FF) that take into account the finite mass of the top quark.  This procedure partially accounts for the finite top-quark mass effects avoiding the need to calculate two-loop amplitudes that are still not fully available~\cite{Degrassi_Ramona}. 
+
+Table~\ref{tabular:mc_samples_hh} shows the list of $hh$ signals. Two sets of samples are used. The non-resonant signal sample use Standard Model production to model the kinematics while the resonant samples use a heavy Higgs scalar model as the signal hypothesis. The masses of the heavy Higgs range from 260 GeV to 3000 GeV while the Higgs width is set to $~10$ MeV, making the model valid in the narrow width approximation (NWA). The signals are normalized to the cross section upper limits from the Run1 ATLAS combined result~\cite{Aad:2015xja}. 
+\begin{table}[!h]
+\label{tabular:mc_samples_hh}
+\begin{center}
+\begin{tabular}{|c|l|c|c|c|c|r|}
+	\hline
+ Process                                    & Generator    \\ \hline
+$hh$ SM & Madgraph5\_aMC@NLO + Herwig++ including FF \\
+$H \to hh$ ($m_H =260 - 3000$) GeV & Madgraph5\_aMC@NLO +
+                                     Herwig++ including FF \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Di-Higgs signal samples used in the analysis. }
+\end{table}
+Additional $pp$ collisions generated with \textsc{Pythia} 8.186 are overlaid to model the effects of the pileup for all simulated events. All simulated events are processed with the same reconstruction algorithm used for data. Samples are processed through the full ATLAS detector simulation~\cite{Aad:2010ah} based on \textsc{GEANT4}~\cite{Agostinelli:2002hh}.

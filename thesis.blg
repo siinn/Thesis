@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: src/abstract.aux
+A level-1 auxiliary file: src/acknowledgements.aux
+A level-1 auxiliary file: src/ch1_introduction.aux
+A level-1 auxiliary file: src/ch2_experiment.aux
+A level-1 auxiliary file: src/ch3_reconstruction.aux
+A level-1 auxiliary file: src/ch4_analysis_overview.aux
+A level-1 auxiliary file: src/ch5_data_mc_samples.aux
+Already encountered file src/ch5_data_mc_samples.aux
+---line 78 of file thesis.aux
+ : \@input{src/ch5_data_mc_samples.aux
+ :                                    }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: src/ch8_background_estimation.aux
+A level-1 auxiliary file: src/ch9_systematics.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: appendices/app_signal_truth.aux
+Database file #1: thesis_bib.bib
+Warning--empty author in ABAZOV201188
+Warning--empty author in PhysRevD.90.052005
+Warning--empty journal in Langacker:2009su
+Warning--empty author in ATLAS-CONF-2011-128
+Warning--empty author and editor in ATLAS-LAR-CALORIMETER
+Warning--empty author in ATL-PHYS-PUB-2017-014
+You've used 49 entries,
+            1876 wiz_defined-function locations,
+            800 strings with 12192 characters,
+and the built_in function-call counts, 13397 in all, are:
+= -- 1358
+> -- 529
+< -- 8
++ -- 198
+- -- 149
+* -- 950
+:= -- 1872
+add.period$ -- 54
+call.type$ -- 49
+change.case$ -- 46
+chr.to.int$ -- 0
+cite$ -- 55
+duplicate$ -- 758
+empty$ -- 1142
+format.name$ -- 149
+if$ -- 3330
+int.to.chr$ -- 0
+int.to.str$ -- 49
+missing$ -- 43
+newline$ -- 155
+num.names$ -- 44
+pop$ -- 96
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 589
+stack$ -- 0
+substring$ -- 708
+swap$ -- 382
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 103
+width$ -- 51
+write$ -- 515
+(There was 1 error message)

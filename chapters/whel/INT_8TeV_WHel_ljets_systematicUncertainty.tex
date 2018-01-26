@@ -1,0 +1,532 @@
+%-------------------------------------------------------------------------------
+\section{Systematic Uncertainties}
+\label{sec:systematics}
+%-------------------------------------------------------------------------------
+Several sources of systematic uncertainties are considered that could affect the signal and background normalizations and/or the shapes of their $\cos\theta^*$ distributions. Individual sources of systematic uncertainty are considered uncorrelated. Correlations of a single systematic uncertainty are maintained across processes and channels. Table~\ref{tab:SystSummary} presents a summary of the systematic uncertainties considered in this analysis and indicates whether each affects either only normalizations or both shapes and normalizations.
+%Details of the systematic uncertainties affecting the signal and/or background normalizations for each background and channel can be found in Appendix~\ref{sec:does not exist}.
+When the difference between the nominal $\cos\theta^*$ distribution and a given systematic variation is smaller than the statistical uncertainty on the Monte Carlo yield of the nominal sample, that systematic variation is removed from consideration when calculating the total systematic error. A variation is kept if a) the difference between the total yield of the varied $\cos\theta^*$ distribution and the total nominal yield is larger than the total nominal Monte Carlo statistical uncertainty and/or b) if the difference in yield between the nominal sample and a variation is larger than the nominal MC uncertainty in two or more individual bins. %Further discussion as well as figures comparing variation yields with respect to the nominal Monte Carlo stat uncertainty and illustrating the effect of systematic uncertainties on the shape of the templates can be found in Appendix~\ref{app:systTemplates_rel} and \ref{app:systTemplates_abs} . 
+The following sections describe each of the systematic uncertainties considered in the
+analysis. Results are shown in Tables \ref{tab:systSummary_f0}, \ref{tab:systSummary_fL}, and \ref{tab:systSummary_fR}.
+
+%%%%%%%%%%%%%%                                                                               
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcc}
+\hline\hline
+Systematic uncertainty & Type  & Components\\
+\hline
+Luminosity                  &  N & 1\\\hline\hline
+{\bf Physics Objects}                 &   & \\
+Electron                  &  SN & 5 \\
+Muon                      &  SN & 6 \\\hline
+%MET                  &  SN & 2 \\
+Jet energy scale            & SN & 26\\
+Jet vertex fraction         & SN    & 1\\
+Jet energy resolution       & SN & 11\\
+Jet reconstruction efficiency      & SN & 1\\ \hline
+\bt tagging efficiency      & SN & 6\\
+$c$ tagging efficiency      & SN & 4\\
+Light jet tagging efficiency    & SN & 12\\ \hline\hline
+{\bf Background Model}                 &   & \\
+$W$+light/$c$/$bb/cc$ calibration      &  N & 3\\
+$W$+jets shape     &  S & 1\\
+%$Z$ p$_{T}$ reweighting     &  SN & 1\\\hline
+Multi-jet normalization      &  N & 1\\
+%Multijet shape              &  S & 2\\
+\hline
+$Z$+jets normalization      &  N & 1\\
+Single top cross section    &  N & 1\\
+%Single top model            &  SN & 1\\
+Diboson+jets normalization  &  N & 1\\ \hline\hline
+{\bf Signal Model}                 &   & \\
+$t\bar{t}$ Radiation           & SN & 2 \\
+$t\bar{t}$ MC Generator       & SN & 1 \\
+$t\bar{t}$ Showering \& Hadronization   & SN & 1 \\
+$t\bar{t}$ PDF   & SN & 3 \\
+%$t\bar{t}$ cross section    &  N & 1\\
+%$t\bar{t}$ modelling: p$_{T}$ reweighting   & SN & 9\\
+%$t\bar{t}$ Color Reconnection & SN & 1\\
+%$t\bar{t}$ Underlying Event & SN & 1\\
+Top mass           & SN & 1 \\ \hline\hline
+Template Statistics & SN & 1 \\
+\hline\hline
+\end{tabular}
+\caption{\label{tab:SystSummary} List of systematic uncertainties considered.
+``N" represents uncertainties only affecting the normalization for all processes and channels, whereas ``S'' denotes systematic uncertainties that are considered as shape-only in all processes and
+channels.  ``SN" means that the uncertainty is affecting both shape and normalization.
+Some of the systematic uncertainties are split into several different components for a more
+accurate treatment (number indicated under the column labeled as ``Components").
+%{\bf TO BE UPDATED}                                                                                                                                                                                           
+}
+\end{table}
+%%%%%%%%%%%%%%                                                                                                                                                                                                 
+
+\subsection{Luminosity}
+\label{sec:syst_lumi}
+The measured luminosity delivered to the ATLAS experiment during $pp$ collisions at $\sqrt{s}=8\tev$ has an estimated uncertainty of 1.9\%~\cite{lumi_8TeV}. The overall luminosity uncertainty affects the normalizations of all backgrounds and the \ttbar signal. Any impact of the luminosity uncertainty is fully correlated between the three pure helicity fraction normalizations and therefore cancels identically. The effect on all three helicity fractions due to the luminosity uncertainty is found to be $<10^{-6}$.
+
+\subsection{Physics Objects}
+\label{sec:syst_objects}
+%In this section uncertainties in the reconstruction of leptons, jets,
+%and \bt, $c$, and light flavor tagging are considered.
+
+\subsubsection{Lepton Reconstruction, Identification and Trigger}
+\label{sec:syst_lepID}
+The reconstruction and identification efficiency of electrons and
+muons, as well as the efficiency of the triggers used to record the
+events, differ between data and simulation.  Scale factors are derived using
+tag-and-probe techniques on $Z\to \ell^+\ell^-$ ($\ell=e,\mu$) data
+and simulated samples to correct the simulation for these discrepancies.
+
+\subsubsection{Lepton Momentum Scale and Resolution}
+The accuracy of lepton momentum scale and resolution in simulation is
+checked using reconstructed distributions of the $Z\to \ell^+\ell^-$
+and $J/\psi \to \ell^+\ell^-$ masses. In the case of electrons, $E/p$
+studies using $W\to e\nu$ events are also used. Small discrepancies
+are observed between data and simulation, and corrections for the
+lepton energy scale and resolution in the latter are implemented using the tools provided by the combined performance groups.
+In the case of muons, momentum scale and resolution
+corrections are only applied to the simulation.  Uncertainties on both
+the momentum scale and resolutions in the muon spectrometer and the tracking
+systems are considered and varied separately.
+
+\subsubsection{Jet Reconstruction Efficiency}
+\label{sec:syst_jre}
+The jet reconstruction efficiency is overestimated in MC simulations. This effect is taken into account by the evaluation of an additional systematic uncertainty. Reconstructed jets are dropped randomly to match the efficiency in data. Online jets with \pt $<$ 30 \GeV\ are affected, of which 0.2 \% are dropped. The analysis is then repeated with the reduced set of jets, and the difference to the nominal selection is quoted as the uncertainty.
+%The jet reconstruction efficiency is found to be about 0.2\% lower
+%in the simulation than in data for jets below 30 \gev and it is consistent with
+%data for higher jet \pt. To evaluate systematic uncertainty due to this
+%small inefficiency 0.2\% of the jets with \pt below 30 \gev
+%are removed randomly and all jet-related kinematic variables (including
+%the \met) are recomputed. The event selection is repeated
+%using the modified selected jet list.
+
+\subsubsection{Jet Vertex Fraction Efficiency}
+\label{sec:syst_jvf}
+The per-jet efficiency to satisfy the jet vertex fraction requirement is
+measured in $Z(\to \ell^+\ell^-)$+1-jet events in data and simulation, 
+separately selecting events enriched in hard-scatter jets and events
+enriched in jets from other proton interactions in the same bunch
+crossing (pileup). The corresponding uncertainty is evaluated
+in the analysis by changing the nominal JVF cut value by 0.1 up and down
+and repeating the analysis using the modified cut value.
+
+\subsubsection{Jet Energy Scale}
+\label{sec:syst_jes}
+The jet energy scale (JES) and its uncertainty are derived by combining
+information from test-beam data, LHC collision data, and
+simulation~\cite{ATLASJetEnergyMeasurement, insitu1, insitu2, insitu3}.  
+The jet energy scale uncertainty is split into 26
+uncorrelated sources which can have different jet \pt and $\eta$
+dependencies and are treated independently in this analysis.
+The \texttt{JetUncertainties} tool~\cite{jesuncertaintyprovider} allows computation of
+uncertainties corresponding to each of the eigenvectors.
+
+\subsubsection{Jet Energy Resolution}
+\label{sec:syst_jer}
+The jet energy resolution has been measured separately for data and simulation
+using two {\em in-situ} techniques~\cite{Malaescu:2048678}.
+The expected fractional \pt resolution for a given jet was measured using the \texttt{JERUncertaintyProvider} tool~\cite{jeruncertaintyprovider}
+as a function of its $\pt$ and rapidity. For the majority of the jet \pt spectrum, the width of the balance between jets and well measured photons or 
+leptonically reconstructed $Z$ bosons is used to measure the detector resolution. Additionally, the balance between dijet events is used to extend these measurements to 
+higher \pt and $\mid\eta\mid$. For very low \pt jets, there is a significant contribution to the jet energy resolution from pile-up particles and electronic 
+noise. 
+
+The effect of the total jet energy resolution is parameterized as the sum of of terms relating electronic and pile-up noise, a term arising from the stochastic 
+effect of the sampling nature of the calorimeters, and a constant \pt independent term. A correlation matrix as a function of \pt and $\mid\eta\mid$ is built
+to account for correlations between the measurements at different $\mid\eta\mid$. An eigenvector reduction is performed which results in a maximum of
+ twelve additional nuisance parameters which describe all correlations between the \pt and $\mid\eta\mid$ regions covered by the $in-situ$ studies. In total, 
+eleven orthogonal nuisance parameters are used to estimate the total systematic effect of the jet energy resolution.
+
+%A systematic uncertainty is defined as the quadratic difference between the
+%jet energy resolutions for data and simulation. To estimate the corresponding
+%systematic uncertainty in the analysis, the energy of jets in the simulation is
+%smeared by this residual difference, and the changes in the normalization and
+%shape of the final discriminant are compared to the default prediction.
+%In order to propagate the uncertainty in the $\pt$ resolution, for
+%each jet in the simulation, a random number $r$ is drawn from a Gaussian
+%distribution with mean 0 and sigma equal to the difference in
+%quadrature between the fractional $\pt$ resolution with the tool and
+%the nominal one. The jet 4-momentum is then scaled by a factor $1+r$.
+%Since jets in the simulation cannot be under-smeared,
+%by definition the resulting uncertainty on the normalization and shape of the
+%final discriminant is one-sided.
+%This uncertainty is then symmetrized.
+
+\subsubsection{Heavy- and Light-Flavor Tagging}
+\label{sec:syst_btag}
+Uncertainties due to the efficiencies of the heavy flavor identification
+of jets by the \bt tagging algorithm are also evaluated evaluated.
+These efficiencies are measured from data and depend on the jet flavor.
+Efficiencies for \bt and $c$ quarks in the simulation are corrected by 
+\pt-dependent factors. The scale factors and their uncertainties
+are applied to each jet in the simulation depending on its flavor and \pt. 
+In the case of light-flavor jets, the corrections also depend on jet $\eta$.
+
+A total of 6 independent sources of uncertainty affecting the \bt tagging efficiency
+and 4 affecting the $c$ tagging efficiency are considered. Each
+of these uncertainties correspond to a resulting eigenvector after
+diagonalizing the matrix containing the information of total
+uncertainty per \pt bin and the bin-to-bin correlations. Twelve uncertainties are 
+considered for the efficiency of light jet tagging which depend on jet \pt and $\eta$ regions.
+All \bt tagging systematic uncertainties are taken as uncorrelated between \bt jets,
+$c$ jets, and light flavor jets. %The uncertainties on the mistag rate have a significant impact on the fitted signal strength since \ttbar + light jet production represents a large background contribution in the signal region with 4 \bt tags.
+A per-jet weighting procedure~\cite{IFAEBtagNote} is applied to simulated events to propagate the calibration of \bt tagging
+and the related uncertainties.
+
+\subsection{Uncertainties on the Background Estimates}
+\label{sec:syst_norm}
+
+\subsubsection{$W$+jets Modeling}
+\label{sec:syst_vjetsnorm}
+As discussed in Sect.~\ref{sec:backgroundAndSignalModelling}, the $W$+jets contribution is
+obtained from Monte Carlo and normalized using data-driven calibration factors which take into account the charge of the lepton
+and heavy flavor components of the associated jets. By independently varying each sub-component of the $W$+jets contribution ($W$+light, $W$+$c$, $W$+$bb/cc$) by its appropriate uncertainty (the corresponding calibration factor uncertainty) while the other two components are held fixed to their respective normalizations, the overall shape of the $W$+jets background is varied. The total shape uncertainty is then estimated from the envelope of the sub-component variations.
+%An uncertainty of 48\% is assigned to the \w+jets normalization in the four jet multiplicity bin. 
+%and an additional 24\% uncertainty is assigned to the extrapolation to events with 5 and $\geq 6$ jets~\cite{wjetsnote}. Additionally the a size of $W$ \pt\ correction is taken as an uncertainty.
+
+\subsubsection{$Z$+jets Modeling}
+\label{sec:syst_zjetsnorm}
+An overall normalization uncertainty of 48\% is applied to $Z$+jets contribution.
+%in both the single lepton and dilepton analyses. 
+The overall uncertainty takes into account 5\% uncertainty
+on the theoretical NLO cross section and 24\% uncertainty on the extrapolation to
+higher jet multiplicities~\cite{wjetsnote}. %Additionally the full size of $Z$ \pt\ correction is taken as an uncertainty.
+
+%\begin{comment}
+%The data-driven estimate of $Z$ jets obtained in the $Z$ mass window contains one HF scale factor, one light scale factor and a re-weighting of the $Z$ p$_T$.  Since the contribution of light jets in the 2 \bt tag region is minimal, only a HF scale factor uncertainty is taken into account based on the statistics of the data-driven measurement. An overall normalization uncertainty of 24.5\% is taken into account in all jet multiplicities. In both the single lepton and dilepton analyses. The two uncertainties are taken
+%as fully correlated among channels.
+
+%Furthermore, checking the per-jet multiplicity of the re-weighting correction shows that a residual re-weighting is needed in higher jet multiplicities.This residual slope is taken as the systematic in Z $\pt$ in each higher jet bin.This has yet to be evaluated (more information to come).
+%\end{comment}
+
+\subsubsection{Multi-jet Modeling}
+\label{sec:qcd_norm}
+Systematic uncertainties on the multi-jets background estimated via the matrix method
+in the single lepton channel are due to limited data statistics, particularly at high jet and \bt tag
+multiplicities, as well as from uncertainties on the fake rates, estimated in
+different control regions. A combined conservative uncertainty of 30\% due
+to all these effects is assigned, which is taken as correlated across jet
+and \bt tag multiplicity bins, but uncorrelated between electron and muon channels.
+
+A shape uncertainty is assigned to the fake multi-jets
+by varying the fake efficiencies up and down, and taking the new templates as
+the shape variations.
+
+\subsubsection{Electroweak backgrounds Modeling}
+\label{sec:ew_norm}
+Uncertainties of +5\%/-4\% and $\pm 6.8$\% are
+assumed for the theoretical cross sections of the single
+top production~\cite{stopxs,stopxs_2}.
+%in the single lepton and dilepton channels, respectively. 
+The former corresponds to the cross-section weighted average
+of the theoretical uncertainties on $s$-, $t$- and $Wt$-channel single top production (see Figure\cite{fig:singleTopProduction} for the relevant leading order Feynman diagrams), while the latter corresponds to the theoretical uncertainty on $Wt$-channel production.
+%, the only one contributing to the dilepton final state.
+Uncertainty on the single top background shape is assessed by comparing
+$Wt$-channel MC samples generated using different schemes (diagram removal vs diagram subtraction) to take into account the interference between
+$Wt$ and \ttbar diagrams. The change in the fitted helicity fractions due to the change of single top sample 
+was found to be negligible ($\mathcal{O}(10^{-5}$) for all fractions and is subsequently dropped from  
+the total systematic uncertainty. Additionally, a PROTOS t-channel single top sample with anomalous $Wtb$ couplings was used in place of the nominal t-channel single top sample to assess the impact on the extracted helicity fractions. The observed effect was also observed to be negligible ($\mathcal{O}(10^{-4}$) and dropped from consideration.
+
+Uncertainty on the diboson backgrounds rate includes the uncertainty
+on the inclusive diboson NNLO cross section of $\pm 5\%$~\cite{dibosonxs} added
+in quadrature to the uncertainty of 24\% due to the extrapolation to the
+high jet multiplicity region.
+
+
+%\subsubsection{Theoretical Cross-section}
+%\label{sec:syst_bkgxsect}
+%Uncertainties of +5\%/-6\% are assumed for the inclusive $t\bar{t}$
+%production cross section evaluated as described in Sect.~\ref{sec:SimulatedSamples}.
+
+%\subsubsection{Top quark \pt\ and \ttbar\ system \pt\ reweighting}
+%To achieve an agreement between data and \ttbar\ MC model, a reweighting procedure based on the difference between top quark \pt and \ttbar\ \pt distributions produced in Monte Carlo and measured in data is applied to \ttbar\ MC events. Nine largest uncertainties associated with the experimental measurement of top quark and \ttbar\ \pt\ are applied changing the size of the correction. This represents approximately 95\% of the total experimental uncertainty. A detailed list of uncertainties is given in Appendix~\ref{app:topmodel}. Each source is representated by a separate nuisance parameter in the fit thus making 9 nuisance parameters in total.
+
+%Given that the measurement is performed for the inclusive \ttbar\ sample and the size of the uncertianties applicable to the \ttbar+\ccbar\ component is not known two additional uncertainties are assigned to \ttbar+\ccbar\ events corresponding to the \ttbar\ \pt\ and top quark \pt\ corrections being turned off. Figure~\ref{fig:envelope} shows the effect of the envelope of all data-driven reweighting uncertainties on the top quark and \ttbar\ \pt. The variation applied to \ttbar+\ccbar\ in the analysis corresponds to the red histogram. The effect of the full size \ttbar\ \pt\ variation has large impact on the fit. This variation changes significantly the distribution of \ttbar+\ccbar\ component across jet multiplicity bins.
+
+%%%%%%%%%%%%%%                                                                                             
+%\begin{figure}[ht!]
+%\begin{center}
+%\includegraphics[width=0.47\textwidth]{figures/ttbarpt_env.pdf}   %%%%%%%%% FIX                                  %\includegraphics[width=0.47\textwidth]{figures/toppt_env.pdf}   %%%%%%%%% FIX                                
+%\caption{\small {The effect of the envelope of the data-driven uncertainties on top and \ttbar\ \pt\ distributions.}}
+%\label{fig:envelope}
+%\end{center}
+%\end{figure}
+%%%%%%%%%%%%%%  
+
+%\subsubsection{Parton shower}
+%\fi
+%An uncertainty due to the choice of the parton shower and hadronization model
+%is derived by comparing events produced by {\sc Powheg} interfaced with {\sc Pythia}
+%or {\sc Herwig}. Effects on the shapes are compared, symmetrized and applied to the
+%shapes predicted by the default model.
+
+%after correcting both samples to match top quark
+%\pt\ and \ttbar\ \pt\ distributions in data. Given that the change of the parton shower
+%model leads to two separate effects - a change of the number of jets distribution and
+%a change of the heavy flavor content - parton shower uncertainty is represented by three
+%parameters, acting on \ttbar+light, \ttbar+\ccbar\ and \ttbar+\bbbar\ contributions which
+%are treated as uncorrelated in the fit. These uncertainties have a significant impact
+%on the fitted signal strength and they are constrained significantly by the fit as
+%clearly {\sc Powheg}+{\sc Pythia} describes data better than {\sc Powheg}+{\sc Herwig}.
+%Figure~\ref{fig:MCcompare} shows a comparison of the fractions of different components
+%of \ttbb\ background and the shapes of top quark \pt\ distributions between {\sc Madgraph}+{\sc Pythia} default
+%and with scale variations and {\sc Powheg}+{\sc Pythia} and {\sc Powheg}+{\sc Herwig}.
+
+%%%%%%%%%%%%%%                                                                                                                                                                                                 
+%\begin{figure}[ht!]
+%\begin{center}
+%\includegraphics[width=0.47\textwidth]{figures/HFtypes.pdf}   %%%%%%%%% FIX                                                                         %                                           
+%\includegraphics[width=0.47\textwidth]{figures/Kin_Mad_PP_PH.pdf}       %%%%%%%%% FIX                                                               %                                           
+%\caption{\small {Comparison of the fractions of different components of \ttbb\ background and
+%the shapes of top quark \pt\ distributions between {\sc Madgraph}+{\sc Pythia} default
+%and with scale variations and {\sc Powheg}+{\sc Pythia} and {\sc Powheg}+{\sc Herwig}.}}
+%\label{fig:MCcompare}
+%\end{center}
+%\end{figure}
+%%%%%%%%%%%%%%                                                                                                                                                                                                 
+\subsection{Signal Modeling}
+\label{sec:ttH_PS}
+%The following sections describe uncertainties in the shapes of the signal modeling. Results are shown in Tables \ref{tab:systSummary_f0},\ref{tab:systSummary_fL}, and \ref{tab:systSummary_fR}.
+
+\subsubsection{Initial and Final State Radiation}
+The uncertainties due to QCD initial- and final-state radiation (ISR/FSR) modeling are estimated with samples generated with
+{\sc POWHEG-BOX} interfaced to {\sc Pythia} and use varied values for the factorization scale ($\mu$ is varied from 0.5 to 2), 
+the $h_{damp}$ parameter responsible for high \pt radiation damping in the {\sc POWHEG-BOX} generator ($h_{damp}=m_{t}$ for 
+$\mu=2$ and $h_{damp}=2m_{t}$ for $\mu=0.5$), and the transverse momentum scale of space-like parton-shower evolution in 
+{\sc Pythia}. These variations span the ranges compatible  with the results of measurements of \ttbar production in association with 
+jets. The variation with the largest effect on the measured helicity fractions is taken as the total radiation uncertainty and symmetrized.
+
+%The uncertainties due to QCD initial- and final-state radiation modelling are estimated using two {\sc Powheg+Pythia}
+%samples with varied parameters producing more and less radiation. The renormalization/factorization scale, $\mu$, is varied from 0.5 to 2, and the $h_{damp}$
+%parameter responsible for high \pt radiation damping in {\sc Powheg} is varied between $h_{damp}=m_{t}$ (for $\mu=2$) to $h_{damp}=2m_{t}$ (for $\mu=0.5$).
+%The maximum of the variations is taken and symmetrized.
+
+\subsubsection{PDF}
+The PDF uncertainty on the \ttbar signal is evaluated using a {\sc aMC$@$NLO} \ttbar sample following the
+recommendation of the PDF4LHC~\cite{ref:pdf4lhc}. It takes into account
+the differences between three PDF sets - CT10 NLO~\cite{ct10},
+MSTW2008 68\% CL NLO~\cite{mstw1,mstw2} and NNPDF 2.3 NLO~\cite{nnpdf}.
+The final PDF uncertainty is an envelope of a) intra-PDF uncertainty,
+which evaluates the changes due to the variation of different PDF parameters
+within a single PDF error set (used for the CT10 and MSTW PDF sets) and b) inter-PDF uncertainty, which evaluates
+differences between different PDF sets (used for the NNPDF set). For each PDF set variation, the nominal sample is reweighted using inputs from the variation sets, and the difference between the re-weighted sample and the nominal is considered in the uncertainty envelope. %The uncertainty due to re-weighting a single parameter in the CT10 set is calculated using a symmetric Hessian re-weighting, the MSTW variations are calculated using an asymmetric Hessian re-weifhting procedure, and the NNPDF variations are calculated using the sample standard deviation respectively. 
+The half width of the envelope of the three estimates is taken as the total PDF systematic uncertainty. %The corresponding plots are shown in appendix \ref{app:pdfSyst}.
+
+%The uncertainty is evaluated by reweighting the signal MC to the different
+%PDF sets and evaluating the change in acceptance as a function of the
+%variables that are used in the final fit (either \hthad~ or NN output)
+%and applying the PDF4LHC prescription to combine the different variations.intro
+%More information, as well as the shape of the systematic on the final
+%\tth\ discriminant is shown in Appendix~\ref{app:ttHPDF}.
+
+\subsubsection{Parton Shower and Hadronization}
+An uncertainty due to the choice of the parton shower and hadronization model
+is calculated by comparing events produced by {\sc Powheg} interfaced with {\sc Pythia}
+and {\sc Herwig} ($h_{damp}$ factor set to infinity). Effects on the shapes are compared, symmetrized and applied to the
+shapes predicted by the default model.
+%For the latter corrections have been introduced to match the Higgs
+%branching fractions in {\sc Herwig} to the NLO calculations
+%from Ref.~\cite{lhcxs} used to generate {\sc PowHel}+{\sc Pythia} sample.
+%Details of the {\sc PowHel}+{\sc Pythia} and {\sc PowHel}+{\sc Herwig}
+%comparison can be found in Appendix~\ref{app:tthPS}.
+
+\subsubsection{Matrix Element Generator Uncertainty}
+An uncertainty due to the MC generator choice for the hard process is evaluated by comparing events produced by
+{\sc POWHEG-BOX} and{\sc MC$@$NLO}, both interfaced to {\sc Herwig} for showering and hadronization.
+%The uncertainty due to signal generator choice is evaluated by taking the difference between the \ttbar model in the nominal {\sc Powheg} sample with {\sc aMC$@$NLO}.
+
+\subsubsection{Top mass}
+The signal templates are generated with a top quark mass of $m_{top}=172.5$ GeV. The uncertainty due to the usage of this fixed mass is evaluated pseudo-data with different input top masses for the signal processes. The obtained fractions are plotted dependent as a function of top quark mass and a slope is fitted to that curve. The uncertainty is obtained from the slope according to a change of $\pm$ 0.70 GeV taken from the $\sqrt{s}=8\,\tev$ ATLAS measurement of top quark mass of $172.84 \pm 0.70\,\GeV$~\cite{TOPQ-2013-06}). %The corresponding plots are shown in appendix \ref{app:TopMassSyst}.
+
+\subsection{Template statistics}
+To account for possible fluctuations in the templates, ensemble tests are performed. In these ensemble tests, the pseudo data distribution is not changed, but the template distributions are fluctuated within their sample statistics. The width of the distributions for the \w boson helicity fractions are taken as a measure of the uncertainty that arises due to this limited template statistics. The result is comparable to the statistical uncertainty and comes mainly from the uncertainties on the signal templates due to the re-weighting method. %The details are summarised in Appendix~\ref{app:Template_statistics}. 
+
+%%%%%%%%%%% F0
+\begin{table}[h!]
+\centering
+
+\begin{tabular}{lcccc}
+\hline\hline
+\multicolumn{5}{c}{\fo}\\
+\hline
+Systematic uncertainty & N$_{syst}$ & Lep 2incl & Had 1excl+2incl & Lep+Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Reconstructed Objects} \\\hline
+\multirow{2}{*}{Muon} & \multirow{2}{*}{6(3)} & +0.0024 & +0.0026 & +0.0026\\
+                      &                       & -0.0029 & -0.0037 & -0.0026\\\hline
+\multirow{2}{*}{Electron} & \multirow{2}{*}{5(3)} & +0.0028 & +0.0025 & +0.0026\\
+                      &                       & -0.003 & -0.0021 & -0.003\\\hline
+\multirow{2}{*}{JES} & \multirow{2}{*}{26(6)} & +0.0063 & +0.0069 & +0.0077\\
+                      &                       & -0.0033 & -0.007 & -0.009\\\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0062 & +0.0274 & +0.0068\\
+                      &                       & -0.0059 & -0.031 & -0.0068\\\hline
+\multirow{2}{*}{JVF} & \multirow{2}{*}{1(1)} & +0.0036 & +0.0129 & +0.0025\\
+                      &                       & -0.0017 & -0.0092 & -0.0015\\\hline
+\multirow{2}{*}{\bt tagging} & \multirow{2}{*}{3(3)} & +0.0017 & +0.0289 & +0.0213\\
+                      &                       & -0.0021 & -0.0307 & -0.0211\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Reco Objects} & \multirow{2}{*}{-} & +0.0104 & +0.0426 & +0.0241\\
+                      &                       & -0.0084 & -0.0454 & -0.0243\\\hline
+
+\hline
+\multicolumn{5}{c}{Modeling} \\\hline
+\multirow{2}{*}{Radiation} & radLo & 0.0033 & 0.0178 & -0.0079\\
+                           & radHi & -0.0025 & -0.0108 & 0.0025\\ \hline
+\multirow{2}{*}{Parton Shower} & \multirow{2}{*}{1(1)} & +0.0019 & +0.015 & +0.0072\\
+                      &                       & -0.0019 & -0.015 & -0.0072\\\hline
+\multirow{2}{*}{ME Generator} & \multirow{2}{*}{1(1)} & +0.0025 & +0.0159 & +0.0019\\
+                      &                       & -0.0025 & -0.0159 & -0.0019\\\hline
+\multirow{2}{*}{PDF} & \multirow{2}{*}{3(3)} & +0.003 & +0.001 & +0.002\\
+                      &                       & -0.003 & -0.001 & -0.002\\\hline
+\multirow{2}{*}{Top Mass} & \multirow{2}{*}{3(3)} & +0.002 & +0.003 & +0.001\\
+                      &                       & -0.002 & -0.003 & -0.001\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Modeling} & \multirow{2}{*}{-} & +0.0058 & +0.0284 & +0.0111\\
+                      &                       & -0.0058 & -0.0284 & -0.0111\\\hline
+
+\hline
+\multicolumn{5}{c}{Method Uncertainty} \\\hline
+\multirow{2}{*}{Template Statistics} & \multirow{2}{*}{3(3)} & +0.009 & +0.008 & +0.005\\
+                      &                       & -0.009 & -0.008 & -0.005\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0149 & +0.0518 & +0.027\\
+                      &                       & -0.0136 & -0.0541 & -0.0271\\\hline
+Stat. + Bkg. & - & 0.012 & 0.010 & 0.007 \\\hline
+
+\hline\hline
+\end{tabular}
+
+%\hline\hline
+%\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & \multirow{2}{*}{$\pm$0.0438} & \multirow{2}{*}{$\pm$0.0484} & +0.0294\\
+%                             &                    &                            &   & -0.0267\\\hline
+
+\caption{Summary of systematic and statistical errors in the 1 exclusive + 2 inclusive \bt tag leptonic, hadronic, and combined leptonic and hadronic measurements of \fo. The numbers in parentheses in the N$_{syst}$ column refer to the number of variations with corresponding templates deviating by more than two bins w.r.t. the nominal template. Errors from variations failing this condition are neglected. Systematics are grouped by their plus/minus behavior. Single-sided sources of systematic error are symmetrized. For the radiation uncertainty, the larger of the two variations is taken as the total uncertainty and symmetrized. When the difference between the up and down total systematic uncertainty is less than 0.015, the magnitude of the larger uncertainty is taken as the total symmetrized uncertainty.}
+\label{tab:systSummary_f0}
+\end{table}
+
+%%%%%%%%%%% FL
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcccc}
+\hline\hline
+\multicolumn{5}{c}{\fl}\\
+\hline
+Systematic uncertainty & N$_{syst}$ & Lep 2incl & Had 1excl+2incl & Lep+Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Reconstructed Objects} \\\hline
+\multirow{2}{*}{Muon} & \multirow{2}{*}{6(3)} & +0.0013 & +0.0046 & +0.0011\\
+                      &                       & -0.0015 & -0.0035 & -0.0008\\\hline
+\multirow{2}{*}{Electron} & \multirow{2}{*}{5(3)} & +0.0018 & +0.0028 & +0.0011\\
+                      &                       & -0.002 & -0.0038 & -0.0014\\\hline
+\multirow{2}{*}{JES} & \multirow{2}{*}{26(6)} & +0.0028 & +0.0119 & +0.0022\\
+                      &                       & -0.0025 & -0.0078 & -0.0032\\\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0048 & +0.0329 & +0.0043\\
+                      &                       & -0.0018 & -0.0407 & -0.0019\\\hline
+\multirow{2}{*}{JVF} & \multirow{2}{*}{1(1)} & +0.0019 & +0.0012 & +0.0021\\
+                      &                       & -0.0013 & -0.0046 & -0.0017\\\hline
+\multirow{2}{*}{\bt tagging} & \multirow{2}{*}{3(3)} & +0.0012 & +0.0132 & +0.0082\\
+                      &                       & -0.0013 & -0.0143 & -0.0078\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Reco Objects} & \multirow{2}{*}{-} & +0.0064 & +0.0378 & +0.0099\\
+                      &                       & -0.0044 & -0.0444 & -0.009\\\hline
+
+\hline
+\multicolumn{5}{c}{Modeling} \\\hline
+\multirow{2}{*}{Radiation} & radLo & -0.0032 & 0.0393 & -0.006\\
+                           & radHi & 0.0058 & -0.0115 & 0.0076\\ \hline
+\multirow{2}{*}{Parton Shower} & \multirow{2}{*}{1(1)} & +0.0019 & +0.001 & +0.0086\\
+                      &                       & -0.0019 & -0.001 & -0.0086\\\hline
+\multirow{2}{*}{ME Generator} & \multirow{2}{*}{1(1)} & +0.0032 & +0.0242 & +0.0016\\
+                      &                       & -0.0032 & -0.0242 & -0.0016\\\hline
+\multirow{2}{*}{PDF} & \multirow{2}{*}{3(3)} & +0.003 & +0.001 & +0.002\\
+                      &                       & -0.003 & -0.001 & -0.002\\\hline
+\multirow{2}{*}{Top Mass} & \multirow{2}{*}{3(3)} & +0.002 & +0.003 & +0.001\\
+                      &                       & -0.002 & -0.003 & -0.001\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Modeling} & \multirow{2}{*}{-} & +0.0078 & +0.0463 & +0.0118\\
+                      &                       & -0.0078 & -0.0463 & -0.0118\\\hline
+
+\hline
+\multicolumn{5}{c}{Method Uncertainty} \\\hline
+\multirow{2}{*}{Template Statistics} & \multirow{2}{*}{3(3)} & +0.006 & +0.016 & +0.004\\
+                      &                       & -0.006 & -0.016 & -0.004\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0135 & +0.0603 & +0.0162\\
+                      &                       & -0.0127 & -0.0646 & -0.0157\\\hline
+Stat. + Bkg. & - & 0.008 & 0.021 & 0.005 \\\hline
+
+\hline\hline
+\end{tabular}
+
+  
+\caption{Summary of systematic and statistical errors in the 1 exclusive + 2 inclusive \bt tag leptonic, hadronic, and combined leptonic and hadronic measurements of \fl. The numbers in parentheses in the N$_{syst}$ column refer to the number of variations with corresponding templates deviating by more than two bins w.r.t. the nominal template. Errors from variations failing this condition are neglected. Systematics are grouped by their plus/minus behavior. Single-sided sources of systematic error are symmetrized. For the radiation uncertainty, the larger of the two variations is taken as the total uncertainty and symmetrized. When the difference between the up and down total systematic uncertainty is less than 0.015, the magnitude of the larger uncertainty is taken as the total symmetrized uncertainty.}
+\label{tab:systSummary_fL}
+\end{table}
+
+%%%%%%%%%%% FR
+
+\begin{table}[h!]
+\centering
+
+\begin{tabular}{lcccc}
+\hline\hline
+\multicolumn{5}{c}{\fr}\\
+\hline
+Systematic uncertainty & N$_{syst}$ & Lep 2incl & Had 1excl+2incl & Lep+Had 1excl+2incl \\\hline
+\multicolumn{5}{c}{Reconstructed Objects} \\\hline
+\multirow{2}{*}{Muon} & \multirow{2}{*}{6(3)} & +0.001 & +0.0072 & +0.0015\\
+                      &                       & -0.0015 & -0.0072 & -0.0017\\\hline
+\multirow{2}{*}{Electron} & \multirow{2}{*}{5(3)} & +0.0011 & +0.0051 & +0.0015\\
+                      &                       & -0.0011 & -0.0058 & -0.0017\\\hline
+\multirow{2}{*}{JES} & \multirow{2}{*}{26(6)} & +0.0037 & +0.0139 & +0.0073\\
+                      &                       & -0.0014 & -0.0054 & -0.0061\\\hline
+\multirow{2}{*}{JER} & \multirow{2}{*}{11(11)} & +0.0072 & +0.0573 & +0.0076\\
+                      &                       & -0.0067 & -0.0707 & -0.0065\\\hline
+\multirow{2}{*}{JVF} & \multirow{2}{*}{1(1)} & +0.0017 & +0.0114 & +0.0003\\
+                      &                       & -0.0006 & -0.0045 & -0.0002\\\hline
+\multirow{2}{*}{\bt tagging} & \multirow{2}{*}{3(3)} & +0.0011 & +0.0336 & +0.0132\\
+                      &                       & -0.0012 & -0.0349 & -0.0132\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Reco Objects} & \multirow{2}{*}{-} & +0.0085 & +0.0694 & +0.017\\
+                      &                       & -0.0072 & -0.0797 & -0.0161\\\hline
+
+\hline
+\multicolumn{5}{c}{Modeling} \\\hline
+\multirow{2}{*}{Radiation} & radLo & -0.0001 & -0.0573 & 0.014\\
+                           & radHi & -0.0034 & 0.022 & -0.0101\\ \hline
+\multirow{2}{*}{Parton Shower} & \multirow{2}{*}{1(1)} & +0.0037 & +0.0144 & +0.0013\\
+                      &                       & -0.0037 & -0.0144 & -0.0013\\\hline
+\multirow{2}{*}{ME Generator} & \multirow{2}{*}{1(1)} & +0.0057 & +0.0401 & +0.0033\\
+                      &                       & -0.0057 & -0.0401 & -0.0033\\\hline
+\multirow{2}{*}{PDF} & \multirow{2}{*}{3(3)} & +0.003 & +0.001 & +0.002\\
+                      &                       & -0.003 & -0.001 & -0.002\\\hline
+\multirow{2}{*}{Top Mass} & \multirow{2}{*}{3(3)} & +0.002 & +0.003 & +0.001\\
+                      &                       & -0.002 & -0.003 & -0.001\\\hline
+
+\hline\hline
+\multirow{2}{*}{Sum of Modeling} & \multirow{2}{*}{-} & +0.0084 & +0.0715 & +0.0146\\
+                      &                       & -0.0084 & -0.0715 & -0.0146\\\hline
+
+\hline
+\multicolumn{5}{c}{Method Uncertainty} \\\hline
+\multirow{2}{*}{Template Statistics} & \multirow{2}{*}{3(3)} & +0.004 & +0.016 & +0.003\\
+                      &                       & -0.004 & -0.016 & -0.003\\\hline
+
+\hline\hline
+\multirow{2}{*}{Total Syst.} & \multirow{2}{*}{-} & +0.0149 & +0.0999 & +0.023\\
+                      &                       & -0.0142 & -0.1074 & -0.0223\\\hline
+Stat. + Bkg. & - & 0.006 & 0.022 & 0.004 \\\hline
+
+\hline\hline
+\end{tabular}
+
+\caption{Summary of systematic and statistical errors in the 1 exclusive + 2 inclusive \bt tag leptonic, hadronic, and combined leptonic and hadronic measurements of \fr. The numbers in parentheses in the N$_{syst}$ column refer to the number of variations with corresponding templates deviating by more than two bins w.r.t. the nominal template. Errors from variations failing this condition are neglected. Systematics are grouped by their plus/minus behavior. Single-sided sources of systematic error are symmetrized. For the radiation uncertainty, the larger of the two variations is taken as the total uncertainty and symmetrized. When the difference between the up and down total systematic uncertainty is less than 0.015, the magnitude of the larger uncertainty is taken as the total symmetrized uncertainty.}
+\label{tab:systSummary_fR}
+\end{table}
+\clearpage

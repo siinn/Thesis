@@ -1,0 +1,52 @@
+\chapter{Signal Selection}
+\label{chap:signal_selection}
+
+\section{Event preselection}
+\label{sec:selection:pre}
+
+
+Event preselection is done in the reconstruction process in section.
+
+In the first step of data reprocessing, events are selected by \texttt{DRAW\_RPVLL} filters as described in Section~\ref{sec:data_MC}. The filters are designed to select events of interest while maintaining reasonably low filter rates. Single photon ($\gamma$), single electron ($e$), di-photon ($\gamma\gamma$), di-electron ($ee$), and the combination of photon and electron ($e\gamma$) filters are used to select events with $ee$ or $e\mu$ candidates of interest. Single $\mu$ filter is used to select events with $\mu\mu$ or $e\mu$ candidates of interest.
+
+Events are required to pass one of the HLTs listed in Table~\ref{table:triggers}. In order to increase the sensitivity to electrons and muons with large transverse and longitudinal impact parameters, $d_{0}$ and $z_{0}$, the triggers with no requirement on ID tracks are used. Consequently, muon trigger with Muon Spectrometer (MS) information only and photon triggers are used.
+
+\begin{table}[!htb]
+  \centering
+  \begin{tabular}{l l}
+    \hline
+    \hline
+    Description     			& Trigger	        	                \\
+    \hline
+	Single photon 	            & \texttt{HLT\_g140\_loose}             \\
+	Di-photon	                & \texttt{HLT\_2g50\_loose}             \\
+	Single muon                 & \texttt{HLT\_mu60\_0eta105\_msonly}   \\
+    \hline
+    \hline
+  \end{tabular}
+  \caption{HLTs used to select events in \texttt{DRAW\_RPVLL} filter. Single photon trigger requires one photon with $p_{T} > 140$ GeV. Di-photon trigger requires two photons with $p_{T} > 50$ GeV. Single muon trigger requires one muon with $p_{T} > 60$ within $0 < |\eta| < 1.05$ using MS information only.}
+  \label{table:triggers}
+\end{table}
+
+In addition to the HLT requirements, each filter requires offline selection on particles such as $p_{T}$, $\eta$, and $d_{0}$. Single photon ($\gamma$) or electron ($e$) filter requires a leading photon or electron, respectively, with $p_{T} > 150$ GeV, $\eta < 2.5$, and $d_{0} > 2.0$ mm. These filters also require a second photon or lepton with $p_{T} > 10$ GeV and $\eta < 2.5$ to keep the filter rate reasonably low. Single muon $\mu$ filter requires a muon with $p_{T} > 60$ GeV, $\eta < 2.5$, and $d_{0} > 1.5$ mm. Di-photon ($\gamma\gamma$), di-electron ($ee$), and the combination of photon and electron ($e\gamma$) filters require two photons/leptons with $p_{T} > 50$ GeV, $\eta < 2.5$, and $d_{0} > 2.0$ mm. The offline selection is summarized in Table~\ref{table:rpvll_filter_selection}.
+
+\begin{table}[!htb]
+  \centering
+  \begin{tabular}{l c c c | c c c}
+    \hline
+    \hline
+    Filter          & \multicolumn{3}{c|}{Leading}  &  \multicolumn{3}{c}{Second} \\
+                    & $p_{T}$ (GeV) & $|\eta|$    & $d_{0}$ (mm) & $p_{T}$ (GeV) & $|\eta|$    & $d_{0}$ (mm)  \\
+    \hline
+    $\gamma$, $e$                   & $>$ 150   & $<$2.5  & $>$2.0  & $>$ 10 & $<$2.5 & -       \\
+    $\mu$                           & $>$ 60    & $<$2.5  & $>$1.5  & -      & -      & -       \\
+    $\gamma\gamma$, $ee$, $e\gamma$ & $>$ 50    & $<$2.5  & $>$2.0  & $>$ 50 & $<$2.5 & $>$ 2.0 \\
+    \hline
+    \hline
+  \end{tabular}
+  \caption{\texttt{RPVLL} filter offline selection on photon and leptons. Single photon ($\gamma$) or electron ($e$) filter requires a leading photon or electron, respectively, with $p_{T} > 150$ GeV, $\eta < 2.5$, and $d_{0} > 2.0$ mm and a second photon or lepton with $p_{T} > 10$ GeV, $\eta < 2.5$. Single muon $\mu$ filter requires a muon with $p_{T} > 60$ GeV, $\eta < 2.5$, and $d_{0} > 1.5$ mm. Di-photon ($\gamma\gamma$), di-electron ($ee$), and the combination of photon and electron ($e\gamma$) filters require a photon or lepton with $p_{T} > 50$ GeV, $\eta < 2.5$, and $d_{0} > 2.0$ mm.}
+  \label{table:rpvll_filter_selection}
+\end{table}
+
+The event selected by the \texttt{RPVLL} filters are passed downstream as \texttt{DRAW\_RPVLL} for the special track and vertex reconstruction.
+
