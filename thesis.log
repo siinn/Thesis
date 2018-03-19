@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  26 JAN 2018 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAR 2018 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -132,9 +132,60 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \titleskip=\skip82
 \chapterskip=\skip83
 )
+\@input{src/preamble.aux}
+\openout2 = `src/preamble.aux'.
+
+(./src/preamble.tex
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count96
+\uc@combtoks=\toks19
+\uc@combtoksb=\toks20
+\uc@temptokena=\toks21
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+\MT@toks=\toks22
+\MT@count=\count97
+LaTeX Info: Redefining \textls on input line 774.
+\MT@outer@kern=\dimen118
+LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
+\MT@listname@count=\count98
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 916.
+LaTeX Info: Redefining \lslig on input line 916.
+\MT@outer@space=\skip84
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count96
+\c@lips@count=\count99
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
@@ -146,23 +197,23 @@ LaTeX Info: Redefining \bm on input line 207.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen118
-\lightrulewidth=\dimen119
-\cmidrulewidth=\dimen120
-\belowrulesep=\dimen121
-\belowbottomsep=\dimen122
-\aboverulesep=\dimen123
-\abovetopsep=\dimen124
-\cmidrulesep=\dimen125
-\cmidrulekern=\dimen126
-\defaultaddspace=\dimen127
-\@cmidla=\count97
-\@cmidlb=\count98
-\@aboverulesep=\dimen128
-\@belowrulesep=\dimen129
-\@thisruleclass=\count99
-\@lastruleclass=\count100
-\@thisrulewidth=\dimen130
+\heavyrulewidth=\dimen119
+\lightrulewidth=\dimen120
+\cmidrulewidth=\dimen121
+\belowrulesep=\dimen122
+\belowbottomsep=\dimen123
+\aboverulesep=\dimen124
+\abovetopsep=\dimen125
+\cmidrulesep=\dimen126
+\cmidrulekern=\dimen127
+\defaultaddspace=\dimen128
+\@cmidla=\count100
+\@cmidlb=\count101
+\@aboverulesep=\dimen129
+\@belowrulesep=\dimen130
+\@thisruleclass=\count102
+\@lastruleclass=\count103
+\@thisrulewidth=\dimen131
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
@@ -216,14 +267,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen131
-\Hy@linkcounter=\count101
-\Hy@pagecounter=\count102
+\@linkdim=\dimen132
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count103
+\Hy@SavedSpaceFactor=\count106
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -235,17 +286,17 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count104
+\c@Hy@tempcnt=\count107
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
-\XeTeXLinkMargin=\dimen132
-\Fld@menulength=\count105
-\Field@Width=\dimen133
-\Fld@charsize=\dimen134
+\XeTeXLinkMargin=\dimen133
+\Fld@menulength=\count108
+\Field@Width=\dimen134
+\Fld@charsize=\dimen135
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -255,34 +306,34 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count106
-\c@Item=\count107
-\c@Hfootnote=\count108
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count109
-\c@bookmark@seq@number=\count110
+\Fld@listcount=\count112
+\c@bookmark@seq@number=\count113
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip84
+\Hy@SectionHShift=\skip85
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count111
+\BKM@id=\count114
 ))
-Package hyperref Info: Option `colorlinks' set `false' on input line 45.
-Package hyperref Info: Option `breaklinks' set `true' on input line 45.
+Package hyperref Info: Option `colorlinks' set `false' on input line 19.
+Package hyperref Info: Option `breaklinks' set `true' on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
@@ -309,10 +360,10 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count112
+\Gread@gobject=\count115
 ))
-\Gin@req@height=\dimen135
-\Gin@req@width=\dimen136
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
@@ -322,10 +373,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
 )
-\XKV@depth=\count113
+\XKV@depth=\count116
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -339,36 +390,36 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box27
 )
-\tc@llx=\dimen137
-\tc@lly=\dimen138
-\tc@urx=\dimen139
-\tc@ury=\dimen140
+\tc@llx=\dimen138
+\tc@lly=\dimen139
+\tc@urx=\dimen140
+\tc@ury=\dimen141
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen141
-\adjbox@Height=\dimen142
-\adjbox@Depth=\dimen143
-\adjbox@Totalheight=\dimen144
+\adjbox@Width=\dimen142
+\adjbox@Height=\dimen143
+\adjbox@Depth=\dimen144
+\adjbox@Totalheight=\dimen145
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count114
+\c@checkoddpage=\count117
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box28
-\sift@deathcycles=\count115
-\@vwid@loff=\dimen145
-\@vwid@roff=\dimen146
+\sift@deathcycles=\count118
+\@vwid@loff=\dimen146
+\@vwid@roff=\dimen147
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count116
-\c@@ppsavesec=\count117
-\c@@ppsaveapp=\count118
+\c@@pps=\count119
+\c@@ppsavesec=\count120
+\c@@ppsaveapp=\count121
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
@@ -389,261 +440,62 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen147
-\extrarowheight=\dimen148
-\NC@list=\toks19
-\extratabsurround=\skip85
-\backup@length=\skip86
+\col@sep=\dimen148
+\extrarowheight=\dimen149
+\NC@list=\toks25
+\extratabsurround=\skip86
+\backup@length=\skip87
 )
-\rotheadsize=\dimen149
-\c@nlinenum=\count119
-\TeXr@lab=\toks20
+\rotheadsize=\dimen150
+\c@nlinenum=\count122
+\TeXr@lab=\toks26
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count120
-\rotFPtop=\skip87
-\rotFPbot=\skip88
+\c@r@tfl@t=\count123
+\rotFPtop=\skip88
+\rotFPbot=\skip89
 \rot@float@box=\box29
-\rot@mess@toks=\toks21
+\rot@mess@toks=\toks27
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip89
-\LTright=\skip90
-\LTpre=\skip91
-\LTpost=\skip92
-\LTchunksize=\count121
-\LTcapwidth=\dimen150
+\LTleft=\skip90
+\LTright=\skip91
+\LTpre=\skip92
+\LTpost=\skip93
+\LTchunksize=\count124
+\LTcapwidth=\dimen151
 \LT@head=\box30
 \LT@firsthead=\box31
 \LT@foot=\box32
 \LT@lastfoot=\box33
-\LT@cols=\count122
-\LT@rows=\count123
-\c@LT@tables=\count124
-\c@LT@chunks=\count125
-\LT@p@ftn=\toks22
+\LT@cols=\count125
+\LT@rows=\count126
+\c@LT@tables=\count127
+\c@LT@chunks=\count128
+\LT@p@ftn=\toks28
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
-\TX@col@width=\dimen151
-\TX@old@table=\dimen152
-\TX@old@col=\dimen153
-\TX@target=\dimen154
-\TX@delta=\dimen155
-\TX@cols=\count126
-\TX@ftn=\toks23
+\TX@col@width=\dimen152
+\TX@old@table=\dimen153
+\TX@old@col=\dimen154
+\TX@target=\dimen155
+\TX@delta=\dimen156
+\TX@cols=\count129
+\TX@ftn=\toks29
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ltablex/ltablex.sty
 Package: ltablex 2014/08/13 v1.1 Modified tabularx
 )
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2017/01/19 v4.29 (NLCT)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2016/07/31 v2.04 (NLCT)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count127
-)
-\@glsmfirst=\toks24
-\@glsmrest=\toks25
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/xfor/xfor.sty
-Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2016/07/28 v2.27 (NLCT)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip93
-
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
-\ex@=\dimen156
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-LaTeX Info: Redefining \boldsymbol on input line 28.
-\pmbraise@=\dimen157
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count128
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count129
-\leftroot@=\count130
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count131
-\DOTSCASE@=\count132
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box34
-\strutbox@=\box35
-\big@size=\dimen158
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count133
-\c@MaxMatrixCols=\count134
-\dotsspace@=\muskip11
-\c@parentequation=\count135
-\dspbrk@lvl=\count136
-\tag@help=\toks27
-\row@=\count137
-\column@=\count138
-\maxfields@=\count139
-\andhelp@=\toks28
-\eqnshift@=\dimen159
-\alignsep@=\dimen160
-\tagshift@=\dimen161
-\tagwidth@=\dimen162
-\totwidth@=\dimen163
-\lineht@=\dimen164
-\@envbody=\toks29
-\multlinegap=\skip94
-\multlinetaggap=\skip95
-\mathdisplay@stack=\toks30
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/substr/substr.sty
-Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count140
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2016/07/28 v2.27 (NLCT)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp.sty
-Package: fp 1995/04/02
-
-`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/defpattern.sty
-Package: defpattern 1994/10/12
-\actioncount=\count141
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-basic.sty
-Package: fp-basic 1996/05/13
-\FP@xs=\count142
-\FP@xia=\count143
-\FP@xib=\count144
-\FP@xfa=\count145
-\FP@xfb=\count146
-\FP@rega=\count147
-\FP@regb=\count148
-\FP@regs=\count149
-\FP@times=\count150
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-addons.sty
-Package: fp-addons 1995/03/15
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-snap.sty
-Package: fp-snap 1995/04/05
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-exp.sty
-Package: fp-exp 1995/04/03
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-trigo.sty
-Package: fp-trigo 1995/04/14
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-pas.sty
-Package: fp-pas 1994/08/29
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-random.sty
-Package: fp-random 1995/02/23
-\FPseed=\count151
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eqn.sty
-Package: fp-eqn 1995/04/03
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-upn.sty
-Package: fp-upn 1996/10/21
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/fp/fp-eval.sty
-Package: fp-eval 1995/04/03
-)))
-\@dtl@toks=\toks31
-\@dtl@tmpcount=\count152
-\dtl@tmplength=\skip96
-\dtl@sortresult=\count153
-\@dtl@numgrpsepcount=\count154
-\@dtl@datatype=\count155
-\dtl@codeA=\count156
-\dtl@codeB=\count157
-\@dtl@foreach@level=\count158
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/base/glossaries-compat
-ible-307.sty
-Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
-)
-\gls@level=\count159
-\@gls@tmpb=\toks32
-\gls@tmplen=\skip97
-\glskeylisttok=\toks33
-\glslabeltok=\toks34
-\glsshorttok=\toks35
-\glslongtok=\toks36
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
-av.sty
-Package: glossary-hypernav 2017/01/19 v4.29 (NLCT)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
-ty
-Package: glossary-list 2017/01/19 v4.29 (NLCT)
-\glslistdottedwidth=\skip98
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
-ty
-Package: glossary-long 2017/01/19 v4.29 (NLCT)
-\glsdescwidth=\skip99
-\glspagelistwidth=\skip100
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-super.
-sty
-Package: glossary-super 2017/01/19 v4.29 (NLCT)
- (/usr/local/texlive/2017/texmf-dist/tex/latex/supertabular/supertabular.sty
-Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count160
-\ST@wd=\dimen165
-\ST@rightskip=\skip101
-\ST@leftskip=\skip102
-\ST@parfillskip=\skip103
-\ST@pageleft=\dimen166
-\ST@headht=\dimen167
-\ST@tailht=\dimen168
-\ST@pagesofar=\dimen169
-\ST@pboxht=\dimen170
-\ST@lineht=\dimen171
-\ST@stretchht=\dimen172
-\ST@prevht=\dimen173
-\ST@toadd=\dimen174
-\ST@dimen=\dimen175
-\ST@pbox=\box36
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
-ty
-Package: glossary-tree 2017/01/19 v4.29 (NLCT)
-\glstreeindent=\skip104
-)) (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks37
-\verbatim@line=\toks38
+\every@verbatim=\toks30
+\verbatim@line=\toks31
 \verbatim@in@stream=\read1
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
@@ -662,6 +514,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks32
 \symAMSa=\mathgroup9
 \symAMSb=\mathgroup10
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -669,10 +522,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip105
-\multirow@cntb=\count161
-\multirow@dima=\skip106
-\bigstrutjot=\dimen176
+\multirow@colwidth=\skip94
+\multirow@cntb=\count130
+\multirow@dima=\skip95
+\bigstrutjot=\dimen157
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/genmisc/nth.sty
 Package: nth 2002/02/27
@@ -695,158 +548,166 @@ Package: expl3 2017/05/13 L3 programming layer (loader)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/05/13 L3 programming layer (code)
-\c_max_int=\count162
-\l_tmpa_int=\count163
-\l_tmpb_int=\count164
-\g_tmpa_int=\count165
-\g_tmpb_int=\count166
-\g__prg_map_int=\count167
-\c_log_iow=\count168
-\l_iow_line_count_int=\count169
-\l__iow_line_target_int=\count170
-\l__iow_one_indent_int=\count171
-\l__iow_indent_int=\count172
-\c_zero_dim=\dimen177
-\c_max_dim=\dimen178
-\l_tmpa_dim=\dimen179
-\l_tmpb_dim=\dimen180
-\g_tmpa_dim=\dimen181
-\g_tmpb_dim=\dimen182
-\c_zero_skip=\skip107
-\c_max_skip=\skip108
-\l_tmpa_skip=\skip109
-\l_tmpb_skip=\skip110
-\g_tmpa_skip=\skip111
-\g_tmpb_skip=\skip112
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count173
-\c__fp_leading_shift_int=\count174
-\c__fp_middle_shift_int=\count175
-\c__fp_trailing_shift_int=\count176
-\c__fp_big_leading_shift_int=\count177
-\c__fp_big_middle_shift_int=\count178
-\c__fp_big_trailing_shift_int=\count179
-\c__fp_Bigg_leading_shift_int=\count180
-\c__fp_Bigg_middle_shift_int=\count181
-\c__fp_Bigg_trailing_shift_int=\count182
-\c__fp_rand_size_int=\count183
-\c__fp_rand_four_int=\count184
-\c__fp_rand_eight_int=\count185
-\l__sort_length_int=\count186
-\l__sort_min_int=\count187
-\l__sort_top_int=\count188
-\l__sort_max_int=\count189
-\l__sort_true_max_int=\count190
-\l__sort_block_int=\count191
-\l__sort_begin_int=\count192
-\l__sort_end_int=\count193
-\l__sort_A_int=\count194
-\l__sort_B_int=\count195
-\l__sort_C_int=\count196
-\c_empty_box=\box37
-\l_tmpa_box=\box38
-\l_tmpb_box=\box39
-\g_tmpa_box=\box40
-\g_tmpb_box=\box41
-\l__box_top_dim=\dimen183
-\l__box_bottom_dim=\dimen184
-\l__box_left_dim=\dimen185
-\l__box_right_dim=\dimen186
-\l__box_top_new_dim=\dimen187
-\l__box_bottom_new_dim=\dimen188
-\l__box_left_new_dim=\dimen189
-\l__box_right_new_dim=\dimen190
-\l__box_internal_box=\box42
-\l__coffin_internal_box=\box43
-\l__coffin_internal_dim=\dimen191
-\l__coffin_offset_x_dim=\dimen192
-\l__coffin_offset_y_dim=\dimen193
-\l__coffin_x_dim=\dimen194
-\l__coffin_y_dim=\dimen195
-\l__coffin_x_prime_dim=\dimen196
-\l__coffin_y_prime_dim=\dimen197
-\c_empty_coffin=\box44
-\l__coffin_aligned_coffin=\box45
-\l__coffin_aligned_internal_coffin=\box46
-\l_tmpa_coffin=\box47
-\l_tmpb_coffin=\box48
-\l__coffin_display_coffin=\box49
-\l__coffin_display_coord_coffin=\box50
-\l__coffin_display_pole_coffin=\box51
-\l__coffin_display_offset_dim=\dimen198
-\l__coffin_display_x_dim=\dimen199
-\l__coffin_display_y_dim=\dimen256
-\l__coffin_bounding_shift_dim=\dimen257
-\l__coffin_left_corner_dim=\dimen258
-\l__coffin_right_corner_dim=\dimen259
-\l__coffin_bottom_corner_dim=\dimen260
-\l__coffin_top_corner_dim=\dimen261
-\l__coffin_scaled_total_height_dim=\dimen262
-\l__coffin_scaled_width_dim=\dimen263
+\c_max_int=\count131
+\l_tmpa_int=\count132
+\l_tmpb_int=\count133
+\g_tmpa_int=\count134
+\g_tmpb_int=\count135
+\g__prg_map_int=\count136
+\c_log_iow=\count137
+\l_iow_line_count_int=\count138
+\l__iow_line_target_int=\count139
+\l__iow_one_indent_int=\count140
+\l__iow_indent_int=\count141
+\c_zero_dim=\dimen158
+\c_max_dim=\dimen159
+\l_tmpa_dim=\dimen160
+\l_tmpb_dim=\dimen161
+\g_tmpa_dim=\dimen162
+\g_tmpb_dim=\dimen163
+\c_zero_skip=\skip96
+\c_max_skip=\skip97
+\l_tmpa_skip=\skip98
+\l_tmpb_skip=\skip99
+\g_tmpa_skip=\skip100
+\g_tmpb_skip=\skip101
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count142
+\c__fp_leading_shift_int=\count143
+\c__fp_middle_shift_int=\count144
+\c__fp_trailing_shift_int=\count145
+\c__fp_big_leading_shift_int=\count146
+\c__fp_big_middle_shift_int=\count147
+\c__fp_big_trailing_shift_int=\count148
+\c__fp_Bigg_leading_shift_int=\count149
+\c__fp_Bigg_middle_shift_int=\count150
+\c__fp_Bigg_trailing_shift_int=\count151
+\c__fp_rand_size_int=\count152
+\c__fp_rand_four_int=\count153
+\c__fp_rand_eight_int=\count154
+\l__sort_length_int=\count155
+\l__sort_min_int=\count156
+\l__sort_top_int=\count157
+\l__sort_max_int=\count158
+\l__sort_true_max_int=\count159
+\l__sort_block_int=\count160
+\l__sort_begin_int=\count161
+\l__sort_end_int=\count162
+\l__sort_A_int=\count163
+\l__sort_B_int=\count164
+\l__sort_C_int=\count165
+\c_empty_box=\box34
+\l_tmpa_box=\box35
+\l_tmpb_box=\box36
+\g_tmpa_box=\box37
+\g_tmpb_box=\box38
+\l__box_top_dim=\dimen164
+\l__box_bottom_dim=\dimen165
+\l__box_left_dim=\dimen166
+\l__box_right_dim=\dimen167
+\l__box_top_new_dim=\dimen168
+\l__box_bottom_new_dim=\dimen169
+\l__box_left_new_dim=\dimen170
+\l__box_right_new_dim=\dimen171
+\l__box_internal_box=\box39
+\l__coffin_internal_box=\box40
+\l__coffin_internal_dim=\dimen172
+\l__coffin_offset_x_dim=\dimen173
+\l__coffin_offset_y_dim=\dimen174
+\l__coffin_x_dim=\dimen175
+\l__coffin_y_dim=\dimen176
+\l__coffin_x_prime_dim=\dimen177
+\l__coffin_y_prime_dim=\dimen178
+\c_empty_coffin=\box41
+\l__coffin_aligned_coffin=\box42
+\l__coffin_aligned_internal_coffin=\box43
+\l_tmpa_coffin=\box44
+\l_tmpb_coffin=\box45
+\l__coffin_display_coffin=\box46
+\l__coffin_display_coord_coffin=\box47
+\l__coffin_display_pole_coffin=\box48
+\l__coffin_display_offset_dim=\dimen179
+\l__coffin_display_x_dim=\dimen180
+\l__coffin_display_y_dim=\dimen181
+\l__coffin_bounding_shift_dim=\dimen182
+\l__coffin_left_corner_dim=\dimen183
+\l__coffin_right_corner_dim=\dimen184
+\l__coffin_bottom_corner_dim=\dimen185
+\l__coffin_top_corner_dim=\dimen186
+\l__coffin_scaled_total_height_dim=\dimen187
+\l__coffin_scaled_width_dim=\dimen188
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count197
-\l__driver_tmp_box=\box52
+\l__driver_color_stack_int=\count166
+\l__driver_tmp_box=\box49
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count198
-\g__xparse_grabber_int=\count199
-\l__xparse_m_args_int=\count266
-\l__xparse_mandatory_args_int=\count267
-\l__xparse_v_nesting_int=\count268
+\l__xparse_current_arg_int=\count167
+\g__xparse_grabber_int=\count168
+\l__xparse_m_args_int=\count169
+\l__xparse_mandatory_args_int=\count170
+\l__xparse_v_nesting_int=\count171
 )
 Package: siunitx 2017/05/19 v2.7g A comprehensive (SI) units package
 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen189
+))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box53
-\l__siunitx_tmp_dim=\dimen264
-\l__siunitx_tmp_int=\count269
-\l__siunitx_number_mantissa_length_int=\count270
-\l__siunitx_number_uncert_length_int=\count271
-\l__siunitx_round_int=\count272
-\l__siunitx_process_decimal_int=\count273
-\l__siunitx_process_uncertainty_int=\count274
-\l__siunitx_process_fixed_int=\count275
-\l__siunitx_process_integer_min_int=\count276
-\l__siunitx_process_precision_int=\count277
-\l__siunitx_group_min_int=\count278
-\l__siunitx_angle_marker_box=\box54
-\l__siunitx_angle_unit_box=\box55
-\l__siunitx_angle_marker_dim=\dimen265
-\l__siunitx_angle_unit_dim=\dimen266
-\l__siunitx_unit_int=\count279
-\l__siunitx_unit_denominator_int=\count280
-\l__siunitx_unit_numerator_int=\count281
-\l__siunitx_unit_prefix_int=\count282
-\l__siunitx_unit_prefix_base_int=\count283
-\l__siunitx_unit_prefix_gram_int=\count284
-\l__siunitx_number_product_int=\count285
-\c__siunitx_one_fill_skip=\skip113
-\l__siunitx_table_unit_align_skip=\skip114
-\l__siunitx_table_exponent_dim=\dimen267
-\l__siunitx_table_integer_dim=\dimen268
-\l__siunitx_table_mantissa_dim=\dimen269
-\l__siunitx_table_marker_dim=\dimen270
-\l__siunitx_table_result_dim=\dimen271
-\l__siunitx_table_uncert_dim=\dimen272
-\l__siunitx_table_fill_pre_dim=\dimen273
-\l__siunitx_table_fill_post_dim=\dimen274
-\l__siunitx_table_fill_mid_dim=\dimen275
-\l__siunitx_table_pre_box=\box56
-\l__siunitx_table_post_box=\box57
-\l__siunitx_table_mantissa_box=\box58
-\l__siunitx_table_result_box=\box59
-\l__siunitx_table_number_align_skip=\skip115
-\l__siunitx_table_text_align_skip=\skip116
+\l__siunitx_tmp_box=\box50
+\l__siunitx_tmp_dim=\dimen190
+\l__siunitx_tmp_int=\count172
+\l__siunitx_number_mantissa_length_int=\count173
+\l__siunitx_number_uncert_length_int=\count174
+\l__siunitx_round_int=\count175
+\l__siunitx_process_decimal_int=\count176
+\l__siunitx_process_uncertainty_int=\count177
+\l__siunitx_process_fixed_int=\count178
+\l__siunitx_process_integer_min_int=\count179
+\l__siunitx_process_precision_int=\count180
+\l__siunitx_group_min_int=\count181
+\l__siunitx_angle_marker_box=\box51
+\l__siunitx_angle_unit_box=\box52
+\l__siunitx_angle_marker_dim=\dimen191
+\l__siunitx_angle_unit_dim=\dimen192
+\l__siunitx_unit_int=\count182
+\l__siunitx_unit_denominator_int=\count183
+\l__siunitx_unit_numerator_int=\count184
+\l__siunitx_unit_prefix_int=\count185
+\l__siunitx_unit_prefix_base_int=\count186
+\l__siunitx_unit_prefix_gram_int=\count187
+\l__siunitx_number_product_int=\count188
+\c__siunitx_one_fill_skip=\skip102
+\l__siunitx_table_unit_align_skip=\skip103
+\l__siunitx_table_exponent_dim=\dimen193
+\l__siunitx_table_integer_dim=\dimen194
+\l__siunitx_table_mantissa_dim=\dimen195
+\l__siunitx_table_marker_dim=\dimen196
+\l__siunitx_table_result_dim=\dimen197
+\l__siunitx_table_uncert_dim=\dimen198
+\l__siunitx_table_fill_pre_dim=\dimen199
+\l__siunitx_table_fill_post_dim=\dimen256
+\l__siunitx_table_fill_mid_dim=\dimen257
+\l__siunitx_table_pre_box=\box53
+\l__siunitx_table_post_box=\box54
+\l__siunitx_table_mantissa_box=\box55
+\l__siunitx_table_result_box=\box56
+\l__siunitx_table_number_align_skip=\skip104
+\l__siunitx_table_text_align_skip=\skip105
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -968,27 +829,6 @@ Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/translator-lang
 uage-mappings.tex)))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.sty
-Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
-\MT@toks=\toks39
-\MT@count=\count286
-LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen276
-LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count287
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype-pdftex.def
-File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 916.
-LaTeX Info: Redefining \lslig on input line 916.
-\MT@outer@space=\skip117
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/microtype.cfg
-File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
-))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -1077,40 +917,90 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen277
-\captionmargin@=\dimen278
-\captionwidth=\dimen279
-\caption@tempdima=\dimen280
-\caption@indent=\dimen281
-\caption@parindent=\dimen282
-\caption@hangindent=\dimen283
+\captionmargin=\dimen258
+\captionmargin@=\dimen259
+\captionwidth=\dimen260
+\caption@tempdima=\dimen261
+\caption@indent=\dimen262
+\caption@parindent=\dimen263
+\caption@hangindent=\dimen264
 )
-\c@KVtest=\count288
-\sf@farskip=\skip118
-\sf@captopadj=\dimen284
-\sf@capskip=\skip119
-\sf@nearskip=\skip120
-\c@subfigure=\count289
-\c@subfigure@save=\count290
-\c@subtable=\count291
-\c@subtable@save=\count292
-\sf@top=\skip121
-\sf@bottom=\skip122
+\c@KVtest=\count189
+\sf@farskip=\skip106
+\sf@captopadj=\dimen265
+\sf@capskip=\skip107
+\sf@nearskip=\skip108
+\c@subfigure=\count190
+\c@subfigure@save=\count191
+\c@subtable=\count192
+\c@subtable@save=\count193
+\sf@top=\skip109
+\sf@bottom=\skip110
 )
-\glswrite=\write3
-\glo@main@file=\write4
-\openout4 = `thesis.glo'.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip111
 
-Package glossaries Info: Writing glossary file thesis.glo on input line 118.
-\glo@acronym@file=\write5
-\openout5 = `thesis.acn'.
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+LaTeX Info: Redefining \boldsymbol on input line 28.
+\pmbraise@=\dimen266
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count194
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count195
+\leftroot@=\count196
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count197
+\DOTSCASE@=\count198
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box57
+\strutbox@=\box58
+\big@size=\dimen267
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count199
+\c@MaxMatrixCols=\count266
+\dotsspace@=\muskip17
+\c@parentequation=\count267
+\dspbrk@lvl=\count268
+\tag@help=\toks34
+\row@=\count269
+\column@=\count270
+\maxfields@=\count271
+\andhelp@=\toks35
+\eqnshift@=\dimen268
+\alignsep@=\dimen269
+\tagshift@=\dimen270
+\tagwidth@=\dimen271
+\totwidth@=\dimen272
+\lineht@=\dimen273
+\@envbody=\toks36
+\multlinegap=\skip112
+\multlinetaggap=\skip113
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(./latex/atlasphysics.sty
+Package: latex/atlasphysics 2016/10/10 v.02-00-01 ATLAS physics macros
 
-Package glossaries Info: Writing glossary file thesis.acn on input line 118.
-
-\@input{latex/acronyms.aux}
-\openout2 = `latex/acronyms.aux'.
-
-(./latex/acronyms.tex)
+atlasphysics: APHY@texlive is [2013]
+(./latex/atlasbsm.sty) (./latex/atlasjetetmiss.sty) (./latex/atlasjournal.sty)
+(./latex/atlasmisc.sty
+\figwidth=\skip114
+\dkwidth=\dimen274
+) (./latex/atlasparticle.sty) (./latex/atlasunit.sty
+atlasphysics: AUNIT@texlive is [2013]
+*** atlasunit: atlaspackage TeX Live is not defined
+*** atlasunit: defining TeVc, TeVcc as siunitx > 2010
+) (./latex/atlasxref.sty)))
 \@input{latex/shortcuts.aux}
 \openout2 = `latex/shortcuts.aux'.
 
@@ -1118,87 +1008,43 @@ Package glossaries Info: Writing glossary file thesis.acn on input line 118.
 (./src/acknowledgements.aux) (./src/ch1_introduction.aux)
 (./src/ch2_experiment.aux) (./src/ch3_reconstruction.aux)
 (./src/ch4_analysis_overview.aux) (./src/ch5_data_mc_samples.aux)
-(./src/ch5_data_mc_samples.aux
+(./src/ch6_signal_selection.aux) (./src/ch7_signal_efficiency.aux)
+(./src/ch8_background_estimation.aux
 
-LaTeX Warning: Label `chap:data_mc' multiply defined.
-
-
-LaTeX Warning: Label `chap:data_mc@cref' multiply defined.
+LaTeX Warning: Label `subfig:TF_diagram_a' multiply defined.
 
 
-LaTeX Warning: Label `sec:data_mc:data' multiply defined.
+LaTeX Warning: Label `subfig:TF_diagram_a@cref' multiply defined.
 
 
-LaTeX Warning: Label `sec:data_mc:data@cref' multiply defined.
+LaTeX Warning: Label `sub@subfig:TF_diagram_a' multiply defined.
 
-
-LaTeX Warning: Label `table:data_samples' multiply defined.
-
-
-LaTeX Warning: Label `table:data_samples@cref' multiply defined.
-
-
-LaTeX Warning: Label `sec:mc_sample' multiply defined.
-
-
-LaTeX Warning: Label `sec:mc_sample@cref' multiply defined.
-
-
-LaTeX Warning: Label `sec:signal_sample' multiply defined.
-
-
-LaTeX Warning: Label `sec:signal_sample@cref' multiply defined.
-
-
-LaTeX Warning: Label `table:MC_signal_samples' multiply defined.
-
-
-LaTeX Warning: Label `table:MC_signal_samples@cref' multiply defined.
-
-
-LaTeX Warning: Label `sec:background_mc_sample' multiply defined.
-
-
-LaTeX Warning: Label `sec:background_mc_sample@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:truth_zp_muon' multiply defined.
-
-
-LaTeX Warning: Label `fig:truth_zp_muon@cref' multiply defined.
-
-
-LaTeX Warning: Label `table:background_MC' multiply defined.
-
-
-LaTeX Warning: Label `table:background_MC@cref' multiply defined.
-
-) (./src/ch8_background_estimation.aux) (./src/ch9_systematics.aux)
-(./appendices/app_signal_truth.aux))
+) (./src/ch9_systematics.aux) (./appendices/app_signal_truth.aux)
+(./appendices/app_syst_ks_fit.aux) (./appendices/app_syst_ks_zp.aux)
+(./appendices/app_TF_extrapolation.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 156.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 156.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 156.
+LaTeX Font Info:    ... okay on input line 48.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1234,53 +1080,81 @@ LaTeX Font Info:    ... okay on input line 156.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 156.
+(hyperref)                removing `math shift' on input line 48.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 156.
+(hyperref)                removing `math shift' on input line 48.
 
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 156.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 48.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 48.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+LaTeX Info: Redefining \microtypecontext on input line 48.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+\AtBeginShipoutBox=\box59
+Package hyperref Info: Link coloring OFF on input line 48.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count293
+\c@section@level=\count272
 )
-LaTeX Info: Redefining \ref on input line 156.
-LaTeX Info: Redefining \pageref on input line 156.
-LaTeX Info: Redefining \nameref on input line 156.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen285
-\scratchbox=\box61
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks40
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen286
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks41
+\scratchcounter=\count273
+\scratchdimen=\dimen275
+\scratchbox=\box60
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen276
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1305,62 +1179,32 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/05/19 v2.7g siunitx: Abbreviated units
 )
-LaTeX Info: Redefining \microtypecontext on input line 156.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c__siunitx_mathsf_int=\count300
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 156.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-eur.cfg
-File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msa on input line 156.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 156.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
+\c__siunitx_mathsf_int=\count279
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\c__siunitx_mathtt_int=\count301
+\c__siunitx_mathtt_int=\count280
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
 
-\openout3 = `thesis.ist'.
 
 
+\providecommand \oddpage@label [2]{}
 
 
 
@@ -1369,8 +1213,8 @@ arning (ext4): destination with the same identifier (name{page.i}) has been alr
 eady used, duplicate ignored
 <to be read again> 
                    \relax 
-l.160 
-       [1
+l.52 
+      [1
 
 ]
 \openout2 = `src/abstract.aux'.
@@ -1395,18 +1239,15 @@ Package hyperref Warning: bookmark level for unknown front defaults to 0.
 
 ]) (./thesis.toc [5
 
-])
-\tf@toc=\write6
-\openout6 = `thesis.toc'.
+] [6])
+\tf@toc=\write3
+\openout3 = `thesis.toc'.
 
- [6] (./thesis.lof)
-\tf@lof=\write7
-\openout7 = `thesis.lof'.
+ [7]
+(./thesis.lof [8
 
-[7
-
-] (./thesis.lot
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 75.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1414,15 +1255,22 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+[9]
+
+LaTeX Warning: Reference `sec:vertexing_systematics_data_MC' on page x undefine
+d on input line 102.
+
 )
-\tf@lot=\write8
-\openout8 = `thesis.lot'.
+\tf@lof=\write4
+\openout4 = `thesis.lof'.
 
+ [10] (./thesis.lot [11
 
-No file thesis.acr.
-[8
+])
+\tf@lot=\write5
+\openout5 = `thesis.lot'.
 
-]
+ [12]
 \openout2 = `src/ch1_introduction.aux'.
 
  (./src/ch1_introduction.tex
@@ -1432,7 +1280,7 @@ Chapter 1.
 
 
 ] [2] [3]
-LaTeX Font Info:    Try loading font information for U+eus on input line 107.
+LaTeX Font Info:    Try loading font information for U+eus on input line 105.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/ueus.fd
 File: ueus.fd 2013/01/14 v3.01 Euler Script
 )
@@ -1444,71 +1292,70 @@ File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 
  (./src/ch2_experiment.tex
 Chapter 2.
-<figs/lhc.png, id=281, 1204.5pt x 784.9325pt>
-File: figs/lhc.png Graphic file (type png)
- <use figs/lhc.png>
-Package pdftex.def Info: figs/lhc.png used on input line 11.
+<figures/lhc.png, id=476, 1204.5pt x 784.9325pt>
+File: figures/lhc.png Graphic file (type png)
+ <use figures/lhc.png>
+Package pdftex.def Info: figures/lhc.png used on input line 11.
 (pdftex.def)             Requested size: 346.89732pt x 226.05559pt.
  [6
 
 
 
 ]
-<figs/atlas.png, id=290, 1621.05624pt x 1041.8925pt>
-File: figs/atlas.png Graphic file (type png)
- <use figs/atlas.png>
-Package pdftex.def Info: figs/atlas.png used on input line 26.
+<figures/atlas.png, id=486, 1621.05624pt x 1041.8925pt>
+File: figures/atlas.png Graphic file (type png)
+
+<use figures/atlas.png>
+Package pdftex.def Info: figures/atlas.png used on input line 26.
 (pdftex.def)             Requested size: 346.89732pt x 222.95325pt.
+ [7 <./figures/lhc.png>] [8 <./figures/atlas.png (PNG copy)>] [9] <figures/calo
+rimeter.jpg, id=518, 810.52812pt x 545.53813pt>
+File: figures/calorimeter.jpg Graphic file (type jpg)
 
-[7 <./figs/lhc.png>] [8 <./figs/atlas.png (PNG copy)>] [9]
-<figs/calorimeter.jpg, id=325, 810.52812pt x 545.53813pt>
-File: figs/calorimeter.jpg Graphic file (type jpg)
-
-<use figs/calorimeter.jpg>
-Package pdftex.def Info: figs/calorimeter.jpg used on input line 69.
+<use figures/calorimeter.jpg>
+Package pdftex.def Info: figures/calorimeter.jpg used on input line 75.
 (pdftex.def)             Requested size: 346.89732pt x 233.48634pt.
- [10 <./figs/calorimeter.jpg>] [11]
-<figs/ms.png, id=345, 1027.84pt x 770.88pt>
-File: figs/ms.png Graphic file (type png)
- <use figs/ms.png>
-Package pdftex.def Info: figs/ms.png used on input line 103.
+ [10 <./figures/calorimeter.jpg>] [11]
+<figures/ms.png, id=538, 1027.84pt x 770.88pt>
+File: figures/ms.png Graphic file (type png)
+ <use figures/ms.png>
+Package pdftex.def Info: figures/ms.png used on input line 109.
 (pdftex.def)             Requested size: 303.53267pt x 227.65465pt.
- [12 <./figs/ms.png (PNG copy)>] [13] <figs/tdaq.png, id=361, 838.13126pt x 647
-.41875pt>
-File: figs/tdaq.png Graphic file (type png)
-
-<use figs/tdaq.png>
-Package pdftex.def Info: figs/tdaq.png used on input line 151.
+ [12 <./figures/ms.png (PNG copy)>] [13]
+<figures/tdaq.png, id=555, 838.13126pt x 647.41875pt>
+File: figures/tdaq.png Graphic file (type png)
+ <use figures/tdaq.png>
+Package pdftex.def Info: figures/tdaq.png used on input line 157.
 (pdftex.def)             Requested size: 346.89732pt x 267.9625pt.
- [14] [15 <./figs/tdaq.png>]) [16]
+
+[14] [15 <./figures/tdaq.png>]) [16]
 \openout2 = `src/ch3_reconstruction.aux'.
 
-
-(./src/ch3_reconstruction.tex
+ (./src/ch3_reconstruction.tex
 Chapter 3.
-<figs/tracking.png, id=385, 796.9775pt x 740.7675pt>
-File: figs/tracking.png Graphic file (type png)
- <use figs/tracking.png>
-Package pdftex.def Info: figs/tracking.png used on input line 16.
+<figures/tracking.png, id=578, 796.9775pt x 740.7675pt>
+File: figures/tracking.png Graphic file (type png)
+
+<use figures/tracking.png>
+Package pdftex.def Info: figures/tracking.png used on input line 16.
 (pdftex.def)             Requested size: 260.17465pt x 241.82039pt.
-
-[17
-
+ [17
 
 
-] [18 <./figs/tracking.png>] [19]
-<figs/vertex.png, id=412, 1341.01pt x 753.81625pt>
-File: figs/vertex.png Graphic file (type png)
- <use figs/vertex.png>
-Package pdftex.def Info: figs/vertex.png used on input line 84.
+
+] [18 <./figures/tracking.png>] [19]
+<figures/vertex.png, id=608, 1341.01pt x 753.81625pt>
+File: figures/vertex.png Graphic file (type png)
+ <use figures/vertex.png>
+Package pdftex.def Info: figures/vertex.png used on input line 103.
 (pdftex.def)             Requested size: 260.17465pt x 146.24017pt.
 
-[20]) [21 <./figs/vertex.png>]
+[20]) [21 <./figures/vertex.png>] [22]
 \openout2 = `src/ch4_analysis_overview.aux'.
 
  (./src/ch4_analysis_overview.tex
 Chapter 4.
-) [22
+) [23
 
 
 
@@ -1517,129 +1364,714 @@ Chapter 4.
 
  (./src/ch5_data_mc_samples.tex
 Chapter 5.
-
-LaTeX Warning: Reference `chap:signal_selection' on page 23 undefined on input 
-line 9.
-
-[23
+[24
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 [][][][]$\T1/cmtt/m/n/9 data16 _ 13TeV . periodAllYear _ DetStatus-[]v83-[]pro2
 0-[]15 _ DQDefects-[]00-[]02-[]04 _ PHYS _ StandardGRL _
  []
 
-[24] <figs/m_truth_zp_pt.pdf, id=469, 569.12625pt x 410.53375pt>
-File: figs/m_truth_zp_pt.pdf Graphic file (type pdf)
+[25] [26] <figures/m_truth_zp_pt.pdf, id=672, 569.12625pt x 410.53375pt>
+File: figures/m_truth_zp_pt.pdf Graphic file (type pdf)
 
-<use figs/m_truth_zp_pt.pdf>
-Package pdftex.def Info: figs/m_truth_zp_pt.pdf used on input line 113.
+<use figures/m_truth_zp_pt.pdf>
+Package pdftex.def Info: figures/m_truth_zp_pt.pdf used on input line 109.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figs/m_truth_zp_eta.pdf, id=470, 569.12625pt x 410.53375pt>
-File: figs/m_truth_zp_eta.pdf Graphic file (type pdf)
+<figures/m_truth_zp_eta.pdf, id=673, 569.12625pt x 410.53375pt>
+File: figures/m_truth_zp_eta.pdf Graphic file (type pdf)
 
-<use figs/m_truth_zp_eta.pdf>
-Package pdftex.def Info: figs/m_truth_zp_eta.pdf used on input line 114.
+<use figures/m_truth_zp_eta.pdf>
+Package pdftex.def Info: figures/m_truth_zp_eta.pdf used on input line 110.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figs/m_truth_muon_pt.pdf, id=471, 569.12625pt x 410.53375pt>
-File: figs/m_truth_muon_pt.pdf Graphic file (type pdf)
+<figures/m_truth_muon_pt.pdf, id=674, 569.12625pt x 410.53375pt>
+File: figures/m_truth_muon_pt.pdf Graphic file (type pdf)
 
-<use figs/m_truth_muon_pt.pdf>
-Package pdftex.def Info: figs/m_truth_muon_pt.pdf used on input line 115.
+<use figures/m_truth_muon_pt.pdf>
+Package pdftex.def Info: figures/m_truth_muon_pt.pdf used on input line 111.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figs/m_truth_muon_eta.pdf, id=472, 569.12625pt x 410.53375pt>
-File: figs/m_truth_muon_eta.pdf Graphic file (type pdf)
+<figures/m_truth_muon_eta.pdf, id=675, 569.12625pt x 410.53375pt>
+File: figures/m_truth_muon_eta.pdf Graphic file (type pdf)
 
-<use figs/m_truth_muon_eta.pdf>
-Package pdftex.def Info: figs/m_truth_muon_eta.pdf used on input line 116.
+<use figures/m_truth_muon_eta.pdf>
+Package pdftex.def Info: figures/m_truth_muon_eta.pdf used on input line 112.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
- [25]) [26 <./figs/m_truth_zp_pt.pdf, page is rotated 90 degrees> <./figs/m_tru
-th_zp_eta.pdf, page is rotated 90 degrees> <./figs/m_truth_muon_pt.pdf, page is
- rotated 90 degrees> <./figs/m_truth_muon_eta.pdf, page is rotated 90 degrees>]
- [27]
-\openout2 = `src/ch5_data_mc_samples.aux'.
+ [27 <./figures/m_truth_zp_pt.pdf, page is rotated 90 degrees> <./figures/m_tru
+th_zp_eta.pdf, page is rotated 90 degrees> <./figures/m_truth_muon_pt.pdf, page
+ is rotated 90 degrees> <./figures/m_truth_muon_eta.pdf, page is rotated 90 deg
+rees>]) [28] [29]
+\openout2 = `src/ch6_signal_selection.aux'.
 
- (./src/ch5_data_mc_samples.tex
+
+(./src/ch6_signal_selection.tex
 Chapter 6.
-
-LaTeX Warning: Reference `chap:signal_selection' on page 28 undefined on input 
-line 9.
-
-[28
+[30
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
-[][][][]$\T1/cmtt/m/n/9 data16 _ 13TeV . periodAllYear _ DetStatus-[]v83-[]pro2
-0-[]15 _ DQDefects-[]00-[]02-[]04 _ PHYS _ StandardGRL _
- []
+] [31] [32] [33]) [34]
+\openout2 = `src/ch7_signal_efficiency.aux'.
 
-[29]
-File: figs/m_truth_zp_pt.pdf Graphic file (type pdf)
- <use figs/m_truth_zp_pt.pdf>
-Package pdftex.def Info: figs/m_truth_zp_pt.pdf used on input line 113.
-(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
-File: figs/m_truth_zp_eta.pdf Graphic file (type pdf)
- <use figs/m_truth_zp_eta.pdf>
-Package pdftex.def Info: figs/m_truth_zp_eta.pdf used on input line 114.
-(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
-File: figs/m_truth_muon_pt.pdf Graphic file (type pdf)
+ (./src/ch7_signal_efficiency.tex
+Chapter 7.
+[35
 
-<use figs/m_truth_muon_pt.pdf>
-Package pdftex.def Info: figs/m_truth_muon_pt.pdf used on input line 115.
-(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
-File: figs/m_truth_muon_eta.pdf Graphic file (type pdf)
- <use figs/m_truth_muon_eta.pdf>
-Package pdftex.def Info: figs/m_truth_muon_eta.pdf used on input line 116.
-(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
- [30]) [31]
-[32]
+
+
+] <figures/m_dv_eff_trig_allchannel.pdf, id=922, 569.12625pt x 410.53375pt>
+File: figures/m_dv_eff_trig_allchannel.pdf Graphic file (type pdf)
+
+<use figures/m_dv_eff_trig_allchannel.pdf>
+Package pdftex.def Info: figures/m_dv_eff_trig_allchannel.pdf used on input lin
+e 26.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+ [36 <./figures/m_dv_eff_trig_allchannel.pdf, page is rotated 90 degrees>] [37]
+
+<figures/m_lepton_efficiency_d0.pdf, id=979, 569.12625pt x 410.53375pt>
+File: figures/m_lepton_efficiency_d0.pdf Graphic file (type pdf)
+
+<use figures/m_lepton_efficiency_d0.pdf>
+Package pdftex.def Info: figures/m_lepton_efficiency_d0.pdf used on input line 
+74.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+
+<figures/m_lepton_efficiency_z0.pdf, id=980, 569.12625pt x 410.53375pt>
+File: figures/m_lepton_efficiency_z0.pdf Graphic file (type pdf)
+
+<use figures/m_lepton_efficiency_z0.pdf>
+Package pdftex.def Info: figures/m_lepton_efficiency_z0.pdf used on input line 
+75.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+
+<figures/m_lepton_efficiency_eta.pdf, id=981, 569.12625pt x 410.53375pt>
+File: figures/m_lepton_efficiency_eta.pdf Graphic file (type pdf)
+
+<use figures/m_lepton_efficiency_eta.pdf>
+Package pdftex.def Info: figures/m_lepton_efficiency_eta.pdf used on input line
+ 76.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+
+<figures/m_lepton_efficiency_pt.pdf, id=982, 569.12625pt x 410.53375pt>
+File: figures/m_lepton_efficiency_pt.pdf Graphic file (type pdf)
+
+<use figures/m_lepton_efficiency_pt.pdf>
+Package pdftex.def Info: figures/m_lepton_efficiency_pt.pdf used on input line 
+77.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+ [38 <./figures/m_lepton_efficiency_d0.pdf, page is rotated 90 degrees> <./figu
+res/m_lepton_efficiency_z0.pdf, page is rotated 90 degrees> <./figures/m_lepton
+_efficiency_eta.pdf, page is rotated 90 degrees> <./figures/m_lepton_efficiency
+_pt.pdf, page is rotated 90 degrees>]
+<figures/m_event_cutflow_MC_mumu.pdf, id=1170, 569.12625pt x 410.53375pt>
+File: figures/m_event_cutflow_MC_mumu.pdf Graphic file (type pdf)
+
+<use figures/m_event_cutflow_MC_mumu.pdf>
+Package pdftex.def Info: figures/m_event_cutflow_MC_mumu.pdf used on input line
+ 99.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+
+<figures/m_dv_cutflow_MC_mumu.pdf, id=1171, 569.12625pt x 410.53375pt>
+File: figures/m_dv_cutflow_MC_mumu.pdf Graphic file (type pdf)
+
+<use figures/m_dv_cutflow_MC_mumu.pdf>
+Package pdftex.def Info: figures/m_dv_cutflow_MC_mumu.pdf used on input line 10
+0.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+ [39 <./figures/m_event_cutflow_MC_mumu.pdf, page is rotated 90 degrees> <./fig
+ures/m_dv_cutflow_MC_mumu.pdf, page is rotated 90 degrees>]
+<figures/m_dv_efficiency_r.pdf, id=1265, 569.12625pt x 410.53375pt>
+File: figures/m_dv_efficiency_r.pdf Graphic file (type pdf)
+
+<use figures/m_dv_efficiency_r.pdf>
+Package pdftex.def Info: figures/m_dv_efficiency_r.pdf used on input line 118.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+
+<figures/m_dv_efficiency_z.pdf, id=1266, 569.12625pt x 410.53375pt>
+File: figures/m_dv_efficiency_z.pdf Graphic file (type pdf)
+
+<use figures/m_dv_efficiency_z.pdf>
+Package pdftex.def Info: figures/m_dv_efficiency_z.pdf used on input line 119.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+
+<figures/m_dv_efficiency_eta.pdf, id=1267, 569.12625pt x 410.53375pt>
+File: figures/m_dv_efficiency_eta.pdf Graphic file (type pdf)
+
+<use figures/m_dv_efficiency_eta.pdf>
+Package pdftex.def Info: figures/m_dv_efficiency_eta.pdf used on input line 120
+.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+
+<figures/m_dv_efficiency_phi.pdf, id=1268, 569.12625pt x 410.53375pt>
+File: figures/m_dv_efficiency_phi.pdf Graphic file (type pdf)
+
+<use figures/m_dv_efficiency_phi.pdf>
+Package pdftex.def Info: figures/m_dv_efficiency_phi.pdf used on input line 121
+.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+) [40] [41 <./figures/m_dv_efficiency_r.pdf, page is rotated 90 degrees> <./fig
+ures/m_dv_efficiency_z.pdf, page is rotated 90 degrees> <./figures/m_dv_efficie
+ncy_eta.pdf, page is rotated 90 degrees> <./figures/m_dv_efficiency_phi.pdf, pa
+ge is rotated 90 degrees>]
 \openout2 = `src/ch8_background_estimation.aux'.
 
- (./src/ch8_background_estimation.tex
-Chapter 7.
-) [33
+
+(./src/ch8_background_estimation.tex
+Chapter 8.
+[42
 
 
 
 ]
+<figures/Cosmics/DataValidation/mup_seta_dphi.pdf, id=1465, 569.12625pt x 345.2
+9pt>
+File: figures/Cosmics/DataValidation/mup_seta_dphi.pdf Graphic file (type pdf)
+ <use figures/Cosmics/DataValidation/mup_seta_dphi.pdf>
+Package pdftex.def Info: figures/Cosmics/DataValidation/mup_seta_dphi.pdf used 
+on input line 24.
+(pdftex.def)             Requested size: 260.17465pt x 157.85533pt.
+
+<figures/Cosmics/DataValidation/cosmics_unscaled.pdf, id=1468, 569.12625pt x 41
+2.54124pt>
+File: figures/Cosmics/DataValidation/cosmics_unscaled.pdf Graphic file (type pd
+f)
+ <use figures/Cosmics/DataValidation/cosmics_unscaled.pdf>
+Package pdftex.def Info: figures/Cosmics/DataValidation/cosmics_unscaled.pdf us
+ed on input line 38.
+(pdftex.def)             Requested size: 212.47618pt x 154.01643pt.
+
+<figures/Cosmics/DataValidation/cosmics_scaled.pdf, id=1469, 569.12625pt x 412.
+54124pt>
+File: figures/Cosmics/DataValidation/cosmics_scaled.pdf Graphic file (type pdf)
+
+ <use figures/Cosmics/DataValidation/cosmics_scaled.pdf>
+Package pdftex.def Info: figures/Cosmics/DataValidation/cosmics_scaled.pdf used
+ on input line 39.
+(pdftex.def)             Requested size: 212.47618pt x 154.01643pt.
+ [43 <./figures/Cosmics/DataValidation/mup_seta_dphi.pdf, page is rotated 90 de
+grees>]
+[44 <./figures/Cosmics/DataValidation/cosmics_unscaled.pdf, page is rotated 90 
+degrees> <./figures/Cosmics/DataValidation/cosmics_scaled.pdf, page is rotated 
+90 degrees>] <figures/TF_diagram_a.pdf, id=1618, 666.49pt x 492.84125pt>
+File: figures/TF_diagram_a.pdf Graphic file (type pdf)
+
+<use figures/TF_diagram_a.pdf>
+Package pdftex.def Info: figures/TF_diagram_a.pdf used on input line 61.
+(pdftex.def)             Requested size: 216.81pt x 160.3219pt.
+
+<figures/TF_diagram_b.pdf, id=1619, 624.3325pt x 482.80376pt>
+File: figures/TF_diagram_b.pdf Graphic file (type pdf)
+
+<use figures/TF_diagram_b.pdf>
+Package pdftex.def Info: figures/TF_diagram_b.pdf used on input line 62.
+(pdftex.def)             Requested size: 216.81pt x 167.65779pt.
+ [45 <./figures/TF_diagram_a.pdf> <./figures/TF_diagram_b.pdf>] [46]
+<figures/m_FBE_cutflow_MC.pdf, id=1660, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_cutflow_MC.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_cutflow_MC.pdf>
+Package pdftex.def Info: figures/m_FBE_cutflow_MC.pdf used on input line 108.
+(pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
+ [47 <./figures/m_FBE_cutflow_MC.pdf, page is rotated 90 degrees>]
+<figures/m_FBE_M.pdf, id=1710, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_M.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_M.pdf>
+Package pdftex.def Info: figures/m_FBE_M.pdf used on input line 137.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_FBE_chi2_ndof.pdf, id=1711, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_chi2_ndof.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_chi2_ndof.pdf>
+Package pdftex.def Info: figures/m_FBE_chi2_ndof.pdf used on input line 138.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_FBE_R.pdf, id=1712, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_R.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_R.pdf>
+Package pdftex.def Info: figures/m_FBE_R.pdf used on input line 139.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_FBE_z.pdf, id=1713, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_z.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_z.pdf>
+Package pdftex.def Info: figures/m_FBE_z.pdf used on input line 140.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+ [48 <./figures/m_FBE_M.pdf, page is rotated 90 degrees> <./figures/m_FBE_chi2_
+ndof.pdf, page is rotated 90 degrees> <./figures/m_FBE_R.pdf, page is rotated 9
+0 degrees> <./figures/m_FBE_z.pdf, page is rotated 90 degrees>] <figures/m_FBE_
+data_M.pdf, id=1898, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_data_M.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_data_M.pdf>
+Package pdftex.def Info: figures/m_FBE_data_M.pdf used on input line 166.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_FBE_data_chi2_ndof.pdf, id=1899, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_data_chi2_ndof.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_data_chi2_ndof.pdf>
+Package pdftex.def Info: figures/m_FBE_data_chi2_ndof.pdf used on input line 16
+7.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_FBE_data_R.pdf, id=1900, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_data_R.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_data_R.pdf>
+Package pdftex.def Info: figures/m_FBE_data_R.pdf used on input line 168.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_FBE_data_z.pdf, id=1901, 569.12625pt x 410.53375pt>
+File: figures/m_FBE_data_z.pdf Graphic file (type pdf)
+
+<use figures/m_FBE_data_z.pdf>
+Package pdftex.def Info: figures/m_FBE_data_z.pdf used on input line 169.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+ [49 <./figures/m_FBE_data_M.pdf, page is rotated 90 degrees> <./figures/m_FBE_
+data_chi2_ndof.pdf, page is rotated 90 degrees> <./figures/m_FBE_data_R.pdf, pa
+ge is rotated 90 degrees> <./figures/m_FBE_data_z.pdf, page is rotated 90 degre
+es>]) [50] [51]
 \openout2 = `src/ch9_systematics.aux'.
 
  (./src/ch9_systematics.tex
-Chapter 8.
-) [34
+Chapter 9.
+<figures/m_syst_Ks_cf.pdf, id=2117, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_cf.pdf Graphic file (type pdf)
 
-
-
-] (./thesis.bbl [35
-
-
-
-] [36] [37]) [38]
-\openout2 = `appendices/app_signal_truth.aux'.
-
- (./appendices/app_signal_truth.tex)
-[39
+<use figures/m_syst_Ks_cf.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_cf.pdf used on input line 47.
+(pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
+ [52
 
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
- (./thesis.aux (./src/abstract.aux) (./src/acknowledgements.aux)
-(./src/ch1_introduction.aux) (./src/ch2_experiment.aux)
-(./src/ch3_reconstruction.aux) (./src/ch4_analysis_overview.aux)
-(./src/ch5_data_mc_samples.aux) (./src/ch5_data_mc_samples.aux)
+<figures/m_syst_Ks_M.pdf, id=2124, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_M.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_M.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_M.pdf used on input line 58.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_pt.pdf, id=2125, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_pt.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_pt.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_pt.pdf used on input line 59.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_mu.pdf, id=2126, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_mu.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_mu.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_mu.pdf used on input line 60.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_r.pdf, id=2127, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_r.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_r.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_r.pdf used on input line 61.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_z.pdf, id=2128, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_z.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_z.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_z.pdf used on input line 62.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+Package epstopdf Info: Source file: <figures/m_syst_Ks_l.eps>
+(epstopdf)                    date: 2018-01-27 14:58:50
+(epstopdf)                    size: 1873512 bytes
+(epstopdf)             Output file: <figures/m_syst_Ks_l-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-01-27 14:58:50
+(epstopdf)                    size: 92776 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/m_syst_Ks_l-eps-co
+nverted-to.pdf figures/m_syst_Ks_l.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/m_syst_Ks_l-eps-converted-to.pdf, id=2129, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_l-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_l-eps-converted-to.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_l-eps-converted-to.pdf used on input
+ line 63.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_Combined_MC_1.pdf, id=2132, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_1.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_1.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_1.pdf used on input line
+ 73.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_Combined_MC_2.pdf, id=2133, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_2.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_2.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_2.pdf used on input line
+ 74.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_Data_1.pdf, id=2134, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Data_1.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Data_1.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_1.pdf used on input line 75.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+
+<figures/m_syst_Ks_Data_2.pdf, id=2135, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Data_2.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Data_2.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_2.pdf used on input line 76.
+(pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
+ [53 <./figures/m_syst_Ks_cf.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Text page 54 contains only floats.
+
+[54 <./figures/m_syst_Ks_M.pdf, page is rotated 90 degrees> <./figures/m_syst_K
+s_pt.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_mu.pdf, page is rota
+ted 90 degrees> <./figures/m_syst_Ks_r.pdf, page is rotated 90 degrees> <./figu
+res/m_syst_Ks_z.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_l-eps-con
+verted-to.pdf>]
+<figures/m_syst_Ks_ratio.pdf, id=2435, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_ratio.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_ratio.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_ratio.pdf used on input line 93.
+(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+ [55 <./figures/m_syst_Ks_Combined_MC_1.pdf, page is rotated 90 degrees> <./fig
+ures/m_syst_Ks_Combined_MC_2.pdf, page is rotated 90 degrees> <./figures/m_syst
+_Ks_Data_1.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_Data_2.pdf, pa
+ge is rotated 90 degrees>]
+<figures/TrigEff/signal/eff_siph_d0.pdf, id=2619, 569.12625pt x 412.54124pt>
+File: figures/TrigEff/signal/eff_siph_d0.pdf Graphic file (type pdf)
+
+<use figures/TrigEff/signal/eff_siph_d0.pdf>
+Package pdftex.def Info: figures/TrigEff/signal/eff_siph_d0.pdf used on input l
+ine 131.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/TrigEff/signal/eff_siph_z0.pdf, id=2620, 569.12625pt x 412.54124pt>
+File: figures/TrigEff/signal/eff_siph_z0.pdf Graphic file (type pdf)
+
+<use figures/TrigEff/signal/eff_siph_z0.pdf>
+Package pdftex.def Info: figures/TrigEff/signal/eff_siph_z0.pdf used on input l
+ine 132.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/TrigEff/signal/eff_simu_d0.pdf, id=2621, 569.12625pt x 412.54124pt>
+File: figures/TrigEff/signal/eff_simu_d0.pdf Graphic file (type pdf)
+
+<use figures/TrigEff/signal/eff_simu_d0.pdf>
+Package pdftex.def Info: figures/TrigEff/signal/eff_simu_d0.pdf used on input l
+ine 133.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/TrigEff/signal/eff_simu_z0.pdf, id=2622, 569.12625pt x 412.54124pt>
+File: figures/TrigEff/signal/eff_simu_z0.pdf Graphic file (type pdf)
+
+<use figures/TrigEff/signal/eff_simu_z0.pdf>
+Package pdftex.def Info: figures/TrigEff/signal/eff_simu_z0.pdf used on input l
+ine 134.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+ [56 <./figures/m_syst_Ks_ratio.pdf, page is rotated 90 degrees>] [57 <./figure
+s/TrigEff/signal/eff_siph_d0.pdf, page is rotated 90 degrees> <./figures/TrigEf
+f/signal/eff_siph_z0.pdf, page is rotated 90 degrees> <./figures/TrigEff/signal
+/eff_simu_d0.pdf, page is rotated 90 degrees> <./figures/TrigEff/signal/eff_sim
+u_z0.pdf, page is rotated 90 degrees>] <figures/PhotonTrigEff/diph_mass.pdf, id
+=2853, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/diph_mass.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/diph_mass.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/diph_mass.pdf used on input line
+ 176.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/PhotonTrigEff/siph_mass.pdf, id=2854, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/siph_mass.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/siph_mass.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/siph_mass.pdf used on input line
+ 177.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/PhotonTrigEff/diph_eff_pt.pdf, id=2860, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/diph_eff_pt.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/diph_eff_pt.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/diph_eff_pt.pdf used on input li
+ne 187.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/PhotonTrigEff/siph_eff_pt.pdf, id=2861, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/siph_eff_pt.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/siph_eff_pt.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/siph_eff_pt.pdf used on input li
+ne 188.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/PhotonTrigEff/diph_eff_eta.pdf, id=2862, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/diph_eff_eta.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/diph_eff_eta.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/diph_eff_eta.pdf used on input l
+ine 189.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/PhotonTrigEff/siph_eff_eta.pdf, id=2863, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/siph_eff_eta.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/siph_eff_eta.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/siph_eff_eta.pdf used on input l
+ine 190.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/PhotonTrigEff/diph_eff_z0.pdf, id=2864, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/diph_eff_z0.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/diph_eff_z0.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/diph_eff_z0.pdf used on input li
+ne 191.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/PhotonTrigEff/siph_eff_z0.pdf, id=2865, 569.12625pt x 412.54124pt>
+File: figures/PhotonTrigEff/siph_eff_z0.pdf Graphic file (type pdf)
+
+<use figures/PhotonTrigEff/siph_eff_z0.pdf>
+Package pdftex.def Info: figures/PhotonTrigEff/siph_eff_z0.pdf used on input li
+ne 192.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+ [58 <./figures/PhotonTrigEff/diph_mass.pdf, page is rotated 90 degrees> <./fig
+ures/PhotonTrigEff/siph_mass.pdf, page is rotated 90 degrees>] [59 <./figures/P
+hotonTrigEff/diph_eff_pt.pdf, page is rotated 90 degrees> <./figures/PhotonTrig
+Eff/siph_eff_pt.pdf, page is rotated 90 degrees> <./figures/PhotonTrigEff/diph_
+eff_eta.pdf, page is rotated 90 degrees> <./figures/PhotonTrigEff/siph_eff_eta.
+pdf, page is rotated 90 degrees> <./figures/PhotonTrigEff/diph_eff_z0.pdf, page
+ is rotated 90 degrees> <./figures/PhotonTrigEff/siph_eff_z0.pdf, page is rotat
+ed 90 degrees>]
+<figures/MuonTrigEff/mass.pdf, id=3228, 569.12625pt x 412.54124pt>
+File: figures/MuonTrigEff/mass.pdf Graphic file (type pdf)
+
+<use figures/MuonTrigEff/mass.pdf>
+Package pdftex.def Info: figures/MuonTrigEff/mass.pdf used on input line 231.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+ [60 <./figures/MuonTrigEff/mass.pdf, page is rotated 90 degrees>]
+<figures/MuonTrigEff/simu_pt.pdf, id=3282, 569.12625pt x 412.54124pt>
+File: figures/MuonTrigEff/simu_pt.pdf Graphic file (type pdf)
+
+<use figures/MuonTrigEff/simu_pt.pdf>
+Package pdftex.def Info: figures/MuonTrigEff/simu_pt.pdf used on input line 242
+.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/MuonTrigEff/simu_z0.pdf, id=3283, 569.12625pt x 412.54124pt>
+File: figures/MuonTrigEff/simu_z0.pdf Graphic file (type pdf)
+
+<use figures/MuonTrigEff/simu_z0.pdf>
+Package pdftex.def Info: figures/MuonTrigEff/simu_z0.pdf used on input line 243
+.
+(pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+ [61 <./figures/MuonTrigEff/simu_pt.pdf, page is rotated 90 degrees> <./figures
+/MuonTrigEff/simu_z0.pdf, page is rotated 90 degrees>]) (./thesis.bbl [62
+
+
+
+] [63]
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [64]
+(/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+) [65])
+[66]
+\openout2 = `appendices/app_signal_truth.aux'.
+
+ (./appendices/app_signal_truth.tex) [67
+
+
+]
+\openout2 = `appendices/app_syst_ks_fit.aux'.
+
+ (./appendices/app_syst_ks_fit.tex <figures/m_syst_Ks_Combined_MC_3.pdf, id=347
+8, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_3.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_3.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_3.pdf used on input line
+ 6.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Combined_MC_4.pdf, id=3479, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_4.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_4.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_4.pdf used on input line
+ 7.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Combined_MC_5.pdf, id=3480, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_5.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_5.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_5.pdf used on input line
+ 8.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Combined_MC_6.pdf, id=3481, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_6.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_6.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_6.pdf used on input line
+ 9.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Combined_MC_7.pdf, id=3482, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_7.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_7.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_7.pdf used on input line
+ 10.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Combined_MC_8.pdf, id=3483, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Combined_MC_8.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Combined_MC_8.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Combined_MC_8.pdf used on input line
+ 11.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+File: figures/m_syst_Ks_Data_1.pdf Graphic file (type pdf)
+ <use figures/m_syst_Ks_Data_1.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_1.pdf used on input line 12.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Data_4.pdf, id=3484, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Data_4.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Data_4.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_4.pdf used on input line 13.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Data_5.pdf, id=3485, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Data_5.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Data_5.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_5.pdf used on input line 14.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Data_6.pdf, id=3486, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Data_6.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Data_6.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_6.pdf used on input line 15.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Data_7.pdf, id=3487, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Data_7.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Data_7.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_7.pdf used on input line 16.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+
+<figures/m_syst_Ks_Data_8.pdf, id=3488, 569.12625pt x 410.53375pt>
+File: figures/m_syst_Ks_Data_8.pdf Graphic file (type pdf)
+
+<use figures/m_syst_Ks_Data_8.pdf>
+Package pdftex.def Info: figures/m_syst_Ks_Data_8.pdf used on input line 17.
+(pdftex.def)             Requested size: 143.09538pt x 103.22202pt.
+) [68
+
+
+
+ <./figures/m_syst_Ks_Combined_MC_3.pdf, page is rotated 90 degrees> <./figures
+/m_syst_Ks_Combined_MC_4.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_
+Combined_MC_5.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_Combined_MC
+_6.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_Combined_MC_7.pdf, pag
+e is rotated 90 degrees> <./figures/m_syst_Ks_Combined_MC_8.pdf, page is rotate
+d 90 degrees> <./figures/m_syst_Ks_Data_4.pdf, page is rotated 90 degrees> <./f
+igures/m_syst_Ks_Data_5.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_D
+ata_6.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_Data_7.pdf, page is
+ rotated 90 degrees> <./figures/m_syst_Ks_Data_8.pdf, page is rotated 90 degree
+s>]
+\openout2 = `appendices/app_syst_ks_zp.aux'.
+
+ (./appendices/app_syst_ks_zp.tex
+<figures/m_syst_zp_Ks_r.pdf, id=3982, 569.12625pt x 410.53375pt>
+File: figures/m_syst_zp_Ks_r.pdf Graphic file (type pdf)
+
+<use figures/m_syst_zp_Ks_r.pdf>
+Package pdftex.def Info: figures/m_syst_zp_Ks_r.pdf used on input line 9.
+(pdftex.def)             Requested size: 173.44534pt x 125.11551pt.
+
+<figures/m_syst_zp_Ks_z.pdf, id=3983, 569.12625pt x 410.53375pt>
+File: figures/m_syst_zp_Ks_z.pdf Graphic file (type pdf)
+
+<use figures/m_syst_zp_Ks_z.pdf>
+Package pdftex.def Info: figures/m_syst_zp_Ks_z.pdf used on input line 10.
+(pdftex.def)             Requested size: 173.44534pt x 125.11551pt.
+
+<figures/m_syst_zp_Ks_eta.pdf, id=3984, 569.12625pt x 410.53375pt>
+File: figures/m_syst_zp_Ks_eta.pdf Graphic file (type pdf)
+
+<use figures/m_syst_zp_Ks_eta.pdf>
+Package pdftex.def Info: figures/m_syst_zp_Ks_eta.pdf used on input line 11.
+(pdftex.def)             Requested size: 173.44534pt x 125.11551pt.
+
+<figures/m_syst_zp_Ks_pt.pdf, id=3985, 569.12625pt x 410.53375pt>
+File: figures/m_syst_zp_Ks_pt.pdf Graphic file (type pdf)
+
+<use figures/m_syst_zp_Ks_pt.pdf>
+Package pdftex.def Info: figures/m_syst_zp_Ks_pt.pdf used on input line 12.
+(pdftex.def)             Requested size: 173.44534pt x 125.11551pt.
+
+
+LaTeX Warning: Reference `sec:vertexing_systematics_data_MC' on page 69 undefin
+ed on input line 14.
+
+
+LaTeX Warning: Reference `sec:vertexing_systematics_data_MC' on page 69 undefin
+ed on input line 14.
+
+) [69
+
+
+
+ <./figures/m_syst_zp_Ks_r.pdf, page is rotated 90 degrees> <./figures/m_syst_z
+p_Ks_z.pdf, page is rotated 90 degrees> <./figures/m_syst_zp_Ks_eta.pdf, page i
+s rotated 90 degrees> <./figures/m_syst_zp_Ks_pt.pdf, page is rotated 90 degree
+s>]
+\openout2 = `appendices/app_TF_extrapolation.aux'.
+
+ (./appendices/app_TF_extrapolation.tex) [70
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
+ (./thesis.aux
+(./src/abstract.aux) (./src/acknowledgements.aux) (./src/ch1_introduction.aux)
+(./src/ch2_experiment.aux) (./src/ch3_reconstruction.aux)
+(./src/ch4_analysis_overview.aux) (./src/ch5_data_mc_samples.aux)
+(./src/ch6_signal_selection.aux) (./src/ch7_signal_efficiency.aux)
 (./src/ch8_background_estimation.aux) (./src/ch9_systematics.aux)
-(./appendices/app_signal_truth.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 221.
+(./appendices/app_signal_truth.aux) (./appendices/app_syst_ks_fit.aux)
+(./appendices/app_syst_ks_zp.aux) (./appendices/app_TF_extrapolation.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 116.
 
 
 LaTeX Warning: There were undefined references.
@@ -1647,49 +2079,57 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 221.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 28179 strings out of 492995
- 509932 string characters out of 6132704
- 752899 words of memory out of 5000000
- 30824 multiletter control sequences out of 15000+600000
- 60383 words of font info for 271 fonts, out of 8000000 for 9000
+ 26853 strings out of 492995
+ 491172 string characters out of 6132704
+ 689465 words of memory out of 5000000
+ 29252 multiletter control sequences out of 15000+600000
+ 63414 words of font info for 286 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 53i,15n,92p,10384b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,15n,94p,10407b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/lo
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/stix/STIXGeneral-Italic.p
+fb
+
+pdfTeX warning: pdflatex (file /usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/stix/STIXGeneral-Italic.pfb): glyph `afii61289' undefined
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
 l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfcc2488.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (48 pages, 3459059 bytes).
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfcc2488.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (83 pages, 4733211 bytes).
 PDF statistics:
- 1015 PDF objects out of 1200 (max. 8388607)
- 813 compressed objects within 9 object streams
- 187 named destinations out of 1000 (max. 500000)
- 52656 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 4553 PDF objects out of 5155 (max. 8388607)
+ 2612 compressed objects within 27 object streams
+ 350 named destinations out of 1000 (max. 500000)
+ 54695 words of extra memory for PDF output out of 61914 (max. 10000000)
 

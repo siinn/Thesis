@@ -4,49 +4,67 @@
 % Encoding
 \usepackage[utf8x]{inputenc} % enables the use of UTF-8 as character encoding
 \usepackage{microtype} % enables certain features 'towards typographical perfection'
-
 \usepackage[T1]{fontenc} % ensures the use of font encodings that support accented characters
 
-% Fonts
-\usepackage{calrsfs}
-\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
 
-% Graphics
-\usepackage[pdftex]{graphicx}
-\usepackage[usenames,dvipsnames]{xcolor}
 
-% Tables
-\usepackage{booktabs}
-\usepackage{array}
-\usepackage{rotating}
 
-% Algorithms
-\usepackage{listings}
-\usepackage{algorithm}
-\usepackage{algpseudocode}
+%%%%%%%%%%%%%%%%%%%%%%%%% Packages %%%%%%%%%%%%%%%%%%%%%%%%%
+% Load your favorite packages here
+\usepackage{lipsum} % for fake latin text---you probably don't want this
+\usepackage{bm} % for bold math---useful
+\usepackage{booktabs} % for more professional tables
+\usepackage{hyperref}
+\usepackage{bookmark} % helps booksmarks look better in PDF
+\hypersetup{colorlinks=false,linkcolor=blue, breaklinks} %internal links in blue, citations in green
+\usepackage[all]{hypcap}
 
-% Others
-\usepackage{amsthm}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{mathptmx}
-\usepackage{etoolbox}
-%\usepackage{url}
-\usepackage{multirow}
-\usepackage{multicol}
-% \usepackage{textcomp}
-\usepackage{footnote}
-% SB: According to the hyperref documentation, the algorithm package should be loaded after hyperref
-\usepackage[pdftex,breaklinks,bookmarksnumbered,linktocpage=false,hidelinks=true]{hyperref}
+%Use of natbib is STRONGLY recommended to sort and compress your references within each citation
+%With these options, natbib will convert i.e. [5,3,9,4] to [3-5, 9]
+%\usepackage[sort&compress]{natbib}
+%\usepackage[nottoc,numbib]{tocbibind}
 \usepackage{cite}
-\usepackage{bm}
-\usepackage{xparse}
-\usepackage[section]{placeins}
-\usepackage{lipsum}
+
+%load package for bra-ket notation
+\usepackage{braket}
+
+% package for graphics.... why the fuck isn't this default?
+\usepackage{graphicx}
+
+% package for big tables
+\usepackage{adjustbox}
+
+%include package for appendix
+\usepackage{appendix}
+\usepackage{cleveref}
+\usepackage{makecell}
+
+% package for landscape style tabl
+\usepackage{rotating}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{ltablex}
+
+%load glossaries packages
+%\usepackage[toc,acronym, section=chapter]{glossaries}
+
+%load xspace
+\usepackage{xspace}
+
+%load verbatim for multiline comments
+\usepackage{verbatim}
+
+%%%%%%%%%% packages for whelicty %%%%%%%%%%%%
+\usepackage{mathrsfs}
+\usepackage{upgreek}
+\usepackage{amssymb}
+\usepackage{multirow}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %=========================================
 % custom from siinn
 %=========================================
+%\input{src/macros}
 \usepackage[super,negative]{nth}
 \usepackage{eucal}
 
@@ -56,10 +74,17 @@
 \usepackage{microtype,textcomp}
 \setlength{\parskip}{0.8em}
 \usepackage[caption=false]{subfig}
+\usepackage{amsmath}
+\usepackage{rotating}
 
-\usepackage[skip=2ex]{caption}
-\setlength{\abovecaptionskip}{10pt}
-\setlength{\belowcaptionskip}{-15pt}
+
+% ATLAS
+\newcommand*{\ATLASLATEXPATH}{latex/}
+\usepackage[bsm,jetetmiss]{\ATLASLATEXPATH atlasphysics}
+
+%\usepackage[skip=2ex]{caption}
+%\setlength{\abovecaptionskip}{10pt}
+%\setlength{\belowcaptionskip}{-15pt}
 
 % set LOT, LOF spacing
 %\usepackage[titles]{tocloft}
@@ -68,15 +93,86 @@
 
 %=========================================
 
+%\usepackage[xindy,toc,acronym, section=chapter]{glossaries} - recommended if supported by your OS
 
 
-\graphicspath{ {figs/} }
+%\makeglossaries %required to actually make a glossary
 
-\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+%%%%%%%%%%%%%%%%%%%%%%%%% Custom Commands/Environments %%%%%%%%%%%%%%%%%%%%%%%%%
+% Put your favorite custom commands here
+\newcommand{\fish}{\alpha} % some of my students call it the "fish" symbol
+\newcommand{\tab}{\hspace*{2em}}
 
-\setcounter{secnumdepth}{4}
+% Below is an example of customizing the style of headings in your
+% dissertation. See osudiss-2.pdf for more information.
+%
+% For example, if you simply must have uppercase titles:
+%\renewcommand\typesetLevelOne[1]{{\Large\textbf{\MakeUppercase{#1}}\par}}
+%\renewcommand\typesetLevelTwo[1]{{\Large\textbf{\MakeUppercase{#1}}}}
+% Note the \par for \typesetLevelOne
+%
+% If you want the title to be bold and |\Large| instead of |\Huge|:
+%\renewcommand\titleFont{\normalfont\Large\bfseries}
 
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: "dissertation"
-%%% End:
+% Add words that TeX may not know how to hyphenate below. This can
+% help prevent overfull hboxes. For example,
+\hyphenation{eigen-state space-time} 
+
+
+
+
+
+
+
+
+%=========================================
+% from old template
+%=========================================
+
+%% Fonts
+%\usepackage{calrsfs}
+%\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+%
+%% Graphics
+%\usepackage[pdftex]{graphicx}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%
+%% Tables
+%\usepackage{booktabs}
+%\usepackage{array}
+%\usepackage{rotating}
+%
+%% Algorithms
+%\usepackage{listings}
+%\usepackage{algorithm}
+%\usepackage{algpseudocode}
+%
+%% Others
+%\usepackage{amsthm}
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{mathptmx}
+%\usepackage{etoolbox}
+%%\usepackage{url}
+%\usepackage{multirow}
+%\usepackage{multicol}
+%% \usepackage{textcomp}
+%\usepackage{footnote}
+%% SB: According to the hyperref documentation, the algorithm package should be loaded after hyperref
+%\usepackage[pdftex,breaklinks,bookmarksnumbered,linktocpage=false,hidelinks=true]{hyperref}
+%\usepackage{cite}
+%\usepackage{bm}
+%\usepackage{xparse}
+%\usepackage[section]{placeins}
+%
+%
+%\graphicspath{ {figures/} }
+%
+%\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+%
+%\setcounter{secnumdepth}{4}
+%
+%%%% Local Variables:
+%%%% mode: latex
+%%%% TeX-master: "dissertation"
+%%%% End:

@@ -1,0 +1,33 @@
+\subsection{Extrapolation from control region}
+\begin{align}
+\label{eq:TF_extrapolation_from_control}
+N_{\mu x}^{est} &\approx 2 \cdot P(\mu) \cdot N_{xx}^{obs},\nonumber\\
+N_{e x}^{est}   &\approx 2 \cdot P(e) \cdot N_{xx}^{obs}, \nonumber \\
+N_{\mu\mu}^{est}&\approx P(\mu)^{2} \cdot N_{xx}^{obs}, \nonumber \\
+N_{ee}^{est}    &\approx P(e)^{2} \cdot N_{xx}^{obs}, \nonumber \\
+N_{e \mu}^{est} &\approx 2\cdot P(e)\cdot P(\mu) \cdot N_{xx}^{obs}.
+\end{align}
+where $N^{obs}$ and $N^{est}$ represent track-flipping vertex yield and estimated vertex yield by the extrapolation, respectively.
+
+\subsection{Extrapolation from validation region}
+\begin{align}
+\label{eq:TF_extrapolation_from_validation}
+N_{\mu\mu}^{est}&\approx \frac{1}{2} \cdot P(\mu) \cdot N_{\mu x}^{obs}, \nonumber \\
+N_{ee}^{est}    &\approx \frac{1}{2} \cdot P(e) \cdot N_{e x}^{obs}, \nonumber \\
+N_{e \mu}^{est} &\approx \frac{1}{2} \cdot (P(e) \cdot N_{\mu x}^{obs} + P(\mu) \cdot N_{ex}^{obs})
+\end{align}
+
+\subsection{Scale factors}
+\begin{align}
+\label{eq:TF_scale_factors}
+S_{xx \rightarrow \mu\mu} &=  S_{xx \rightarrow \mu x}^{2}  \nonumber\\
+S_{xx \rightarrow ee} &= S_{xx \rightarrow ex}^{2}  \nonumber\\
+S_{xx \rightarrow e\mu} &= \Big(\frac{1}{2} (S_{xx \rightarrow \mu x} + S_{xx \rightarrow ex})\Big)^{2} \nonumber\\
+S_{\mu x \rightarrow \mu\mu} &=  S_{xx \rightarrow \mu x}  \nonumber\\
+S_{e x \rightarrow ee} &= S_{xx \rightarrow ex}  \nonumber\\
+S_{e x, \mu x \rightarrow e\mu} &= \frac{1}{2} (S_{xx \rightarrow \mu x} + S_{xx \rightarrow ex})
+\end{align}
+
+
+
+
