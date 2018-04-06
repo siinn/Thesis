@@ -446,7 +446,7 @@ FUNCTION {format.collaboration}
 { collaboration empty$
     { "" }
     { author empty$
-    	{"{" collaboration * "} " * "Collaboration," *} 
+    	{"{" collaboration * "} " * "Collaboration" *} 
         {"{" collaboration * "} " * "Collaboration" * }
       if$
     }

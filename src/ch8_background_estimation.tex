@@ -50,9 +50,9 @@ The random-crossing of two uncorrelated tracks can be a major source of the back
  
 This random-crossing background is estimated by a data-driven method called the \textit{track flipping} (TF). In this method, secondary vertex reconstruction is performed on each pair of tracks from all possible combinations of tracks after one random track from each pair is flipped with respect to the beam spot. Because one track is flipped in each pair of tracks, the resulting vertices provide good estimation for random-crossing background. In addition, another random-crossing background method called the \textit{Event mixing} is used to estimate systematic uncertainty in the background estimation.
 
-The TF and event mixing methods are described in Section~\ref{sec:bkg:random_crossing_tf} and ~\ref{sec:bkg:random_crossing_em}, respectively. In Section~\ref{sec:bkg:random_crossing_MC}, the TF method is tested on the background MC samples, and the result is compared with the corresponding result from the event mixing. In Section~\ref{sec:bkg:random_crossing_data}, the random-crossing background in data is estimated by the TF method, and its systematic uncertainty is estimated by comparing the estimation from the TF and event mixing in Section~\ref{sec:bkg:random_crossing_syst}.
+The TF and event mixing methods are described in Section~\ref{sec:bkg:random_crossing_tf} and ~\ref{sec:bkg:random_crossing_em}, respectively. In Section~\ref{sec:bkg:random_crossing_MC}, the TF method is tested on the background MC samples, and the result is compared with the corresponding result from the event mixing. In Section~\ref{sec:bkg:random_crossing_data}, the random-crossing background in data is estimated by the TF method.%, and its systematic uncertainty is estimated by comparing the estimation from the TF and event mixing in Section~\ref{sec:bkg:random_crossing_syst}.
 
-\subsection{Track flipping method}
+\subsection{Track Flipping Method}
 \label{sec:bkg:random_crossing_tf}
 
 In the TF method, events are selected by the same requirement described in Section~\ref{sec:selection:pre}. From the selected events, ID tracks associated with a muon, electron, or neither, referred as muon, electron, or non-leptonic track, respectively, are selected with the track criteria (Table~\ref{table:vertex_track_selection_simple}) used for the secondary vertexing algorithm. Lepton tracks are required to pass the same selection criteria described in Table~\ref{table:lepton_requirement}. Non-leptonic tracks are required to pass the minimal kinematic selection ($p_{T} > 10$ GeV, $\eta < $2.5 to match with the kinematic selection for leptons.
@@ -76,7 +76,7 @@ The resulting vertices, referred as \textit{track-flipping vertices}, fall into 
 
 
 
-\subsection{Event mixing method}
+\subsection{Event Mixing Method}
 \label{sec:bkg:random_crossing_em}
 
 The event mixing method is similar to the TF, but instead of flipping a track from pair of tracks, it combines tracks from different events to create uncorrelated track pairs, i.e., two tracks are not originating from a real vertex.
@@ -100,7 +100,7 @@ where $N_{\mumu}$ represent the estimated random-crossing background of \mumu ty
 
 
 
-\subsection{MC study}
+\subsection{MC Study}
 \label{sec:bkg:random_crossing_MC}
 The TF method is tested using the background MC sample described in Section~\ref{sec:background_mc_sample}, and the resulting vertex yields and distributions are compared with the corresponding result from event mixing method. A representative plot of vertex cut flows in the TF method is shown in Figure~\ref{fig:m_FBE_cutflow_MC} using track-flipping \xx vertices from the background MC samples.
 
@@ -154,7 +154,7 @@ The \xx vertex yields from the track flipping and the event mixing methods agree
 
 
 
-\subsection{Estimating random-crossing background with data sample}
+\subsection{Estimating Random-crossing Background with Data Sample}
 \label{sec:bkg:random_crossing_data}
 
 Random-crossing background is estimated by performing the TF method on the data sample. Following the procedure described in Section~\ref{sec:bkg:random_crossing_tf}, track-flipping vertices are created, and the vertex yields in the control and validation regions are used to make an estimation in the signal region. 
@@ -278,5 +278,5 @@ The lepton probability, track-flipping and reconstructed vertex yields in the co
 %\item \textbf{90 degrees rotation in $\phi$}: $d_{0}\rightarrow -d_{0}, z_{0}\rightarrow -z_{0}, \phi\rightarrow\phi-\frac{\pi}{2}, \theta\rightarrow\theta$
 %\end{itemize}
 
-\subsection{Systematic uncertainty in random-crossing background}
-\label{sec:bkg:random_crossing_syst}
+%\subsection{Systematic uncertainty in random-crossing background}
+%\label{sec:bkg:random_crossing_syst}

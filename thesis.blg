@@ -14,62 +14,82 @@ A level-1 auxiliary file: src/ch8_background_estimation.aux
 A level-1 auxiliary file: src/ch9_systematics.aux
 The style file: atlasBibStyleWithTitle.bst
 A level-1 auxiliary file: appendices/app_signal_truth.aux
-A level-1 auxiliary file: appendices/app_syst_ks_fit.aux
+A level-1 auxiliary file: appendices/app_signal_efficiency_map.aux
 A level-1 auxiliary file: appendices/app_syst_ks_zp.aux
 A level-1 auxiliary file: appendices/app_TF_extrapolation.aux
 Database file #1: thesis.bib
-Repeated entry---line 657 of file thesis.bib
- : @article{Aad:2016jkr
- :                     ,
-I'm skipping whatever remains of this entry
-ptr=1, stack=
-vol.~171
----the literal stack isn't empty for entry navarro1996structure
-while executing---line 1156 of file atlasBibStyleWithTitle.bst
+Warning--I didn't find a database entry for "PhysRevLett.13.508"
+Warning--empty pages in PhysRevD.69.105009
+Warning--empty author in Alpigiani:2281629
+Warning--empty pages in ahn2003indications
 Warning--empty author in ABAZOV201188
 Warning--empty author in PhysRevD.90.052005
+Warning--empty author in Aaboud:2017yvp
+Warning--empty author in Sirunyan:2016iap
+Warning--empty author in Abbott:2307576
+Warning--empty institution in Abbott:2307576
+Warning--empty author in Vogel:1537991
 Warning--empty author in ATLAS-CONF-2011-128
+Warning--empty author in 1742-6596-293-1-012044
+Warning--empty author in HenriquesCorreia:2004868
 Warning--empty author and editor in ATLAS-LAR-CALORIMETER
+Warning--empty author in ARNAUD2008265
+Warning--empty author in 1742-6596-762-1-012003
+Warning--empty author in VazquezSchroeder:2287548
 Warning--empty author in ATL-PHYS-PUB-2017-014
+Warning--empty author in Aaboud:2016rmg
+Warning--empty author in Aaboud:2017all
+Warning--empty author in Aad:2014fxa
+Warning--empty author in Aad:2016jkr
+Warning--empty author in 1742-6596-119-3-032033
+Warning--empty author in Blackburn:1550730
+Warning--empty author in Harris:1512932
+Warning--empty author in Aad:2015rba
+Warning--empty author in Catmore:1543445
+Warning--empty author in Backhaus:2110260
+Warning--empty author in Aaboud:2016poq
+Warning--empty author in Aad:2011hd
+Warning--empty author in ATL-PHYS-PUB-2015-051
+Warning--empty author in Aaboud:2215485
 You've used 53 entries,
             2319 wiz_defined-function locations,
-            996 strings with 16130 characters,
-and the built_in function-call counts, 16131 in all, are:
-= -- 1515
-> -- 557
-< -- 9
-+ -- 209
-- -- 156
-* -- 1456
-:= -- 1931
-add.period$ -- 81
+            971 strings with 14517 characters,
+and the built_in function-call counts, 13501 in all, are:
+= -- 1317
+> -- 248
+< -- 13
++ -- 112
+- -- 59
+* -- 1347
+:= -- 1443
+add.period$ -- 84
 call.type$ -- 53
-change.case$ -- 68
+change.case$ -- 76
 chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 946
-empty$ -- 1562
-format.name$ -- 156
-if$ -- 4126
+cite$ -- 85
+duplicate$ -- 860
+empty$ -- 1467
+format.name$ -- 59
+if$ -- 3537
 int.to.chr$ -- 0
 int.to.str$ -- 53
-missing$ -- 203
-newline$ -- 198
-num.names$ -- 48
-pop$ -- 244
+missing$ -- 184
+newline$ -- 205
+num.names$ -- 24
+pop$ -- 245
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 644
+skip$ -- 497
 stack$ -- 0
-substring$ -- 740
-swap$ -- 451
-text.length$ -- 9
+substring$ -- 511
+swap$ -- 363
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 110
+warning$ -- 32
+while$ -- 69
 width$ -- 55
-write$ -- 487
-(There were 2 error messages)
+write$ -- 489
+(There were 33 warnings)

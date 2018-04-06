@@ -7,9 +7,8 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The ATLAS Muon Spectrometer}}{12}{figure.2.4}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Layout of the ATLAS Trigger and data acquisition system in Run 2.}}{15}{figure.2.5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of detector hits and reconstructed tracks in the ID. The bright colors represent the detector hits associated with reconstructed tracks\nobreakspace {}\cite {Cornelissen:1176900}.}}{18}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces }}{18}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Important vertex topologies in $pp$ collisions: primary, pile-up, and secondary vertices.}}{21}{figure.3.3}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Illustration of detector hits and reconstructed tracks in the ID. The bright colors represent the detector hits associated with reconstructed tracks.}}{18}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Important vertex topologies in $pp$ collisions: primary, pile-up, and secondary vertices.}}{21}{figure.3.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces The representative plots of generator-level (a) $p_{T}$ and (b) $\eta $ distributions of $Z'$, and (c), (d) are the corresponding distributions for the signal muons. The signal MC samples are generated with $m=$ 500, 1000 GeV, and $c\tau =$ 100 mm.}}{27}{figure.5.1}
@@ -28,79 +27,123 @@
 \contentsline {figure}{\numberline {7.3}{\ignorespaces (a) Event cut flow, and (b) vertex cut flow using the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ generated with $m =$ 500,1000 GeV for $c\tau = $ 100 mm.}}{39}{figure.7.3}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{39}{subfigure.3.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{39}{subfigure.3.2}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Overall efficiency distributions in (a) $r$, (b) $z$, (c) $\eta $, and (d) $\phi $ of the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ with $m=$ 500, 100 GeV for $c\tau =$ 100 mm.}}{41}{figure.7.4}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Signal efficiency distributions in (a) $r$, (b) $z$, (c) $\eta $, and (d) $\phi $ of the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ with $m=$ 500, 100 GeV for $c\tau =$ 100 mm.}}{41}{figure.7.4}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{41}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{41}{subfigure.4.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{41}{subfigure.4.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{41}{subfigure.4.4}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Signal efficiency map of the signal MC sample with (a) $m=500$ and (b) $m=1000$ GeV for $c\tau =$ 100 mm. The corresponding efficiency map for $c\tau =$ 500 mm is shown in (c) and (d).}}{42}{figure.7.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{42}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{42}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{42}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{42}{subfigure.5.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Distribution of pairs of two muons with leading $p_{T}$ in $|\Delta \phi |$ and $\Sigma \eta $ found in the cosmic control region using the data sample. The sharp peak at $|\Delta \phi | = \pi $ and $\Sigma \eta = 0$ shows that a significant fraction of muon pairs in the region is from cosmic muons.}}{43}{figure.8.1}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces (a) Distribution of \ensuremath {\mu ^{+}\mu ^{-}}\xspace vertices and pairs from the data sample in small $R_{\mathrm {CR}}$ region. The red distribution represents all \ensuremath {\mu ^{+}\mu ^{-}}\xspace pairs. The black dots represent the subset of pairs forming a \ensuremath {\mu ^{+}\mu ^{-}}\xspace vertex. The same distribution is shown in (b) with \ensuremath {\mu ^{+}\mu ^{-}}\xspace pairs normalized to \ensuremath {\mu ^{+}\mu ^{-}}\xspace vertices.}}{44}{figure.8.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Unscaled}}}{44}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Scaled}}}{44}{subfigure.2.2}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Description of track flipping method in (a) $r-z$ and (b) $x-y$ plane. Given two tracks $A$ and $B$ originating from a common secondary vertex, one random track is flipped with respect to the beam spot and is denoted as $B'$. The resulting flipped track pair, $AB'$, cannot form a vertex due to the separation in space.}}{45}{figure.8.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{45}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{45}{subfigure.3.2}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Vertex cut flow applied on \ensuremath {x^{+}x^{-}}\xspace vertices from the TF method.}}{47}{figure.8.4}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Comparison of of (a) vertex mass, (b) $\chi ^{2} / \mathrm {DOF}$, (c) transverse, and (d) longitudinal position of \ensuremath {x^{+}x^{-}}\xspace vertices reconstructed, found from the track flipping, and estimated using the event mixing. In (c), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}}{48}{figure.8.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{48}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{48}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{48}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{48}{subfigure.5.4}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Comparison of (a) vertex mass, (b) $\chi ^{2} / \mathrm {DOF}$, (c) transverse, and (d) longitudinal position of vertices found from reconstruction with the track-flipping vertices in the control region of the data sample. In (c), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}}{49}{figure.8.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{49}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{49}{subfigure.6.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{49}{subfigure.6.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{49}{subfigure.6.4}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Distribution of pairs of two muons with leading $p_{T}$ in $|\Delta \phi |$ and $\Sigma \eta $ found in the cosmic control region using the data sample. The sharp peak at $|\Delta \phi | = \pi $ and $\Sigma \eta = 0$ shows that a significant fraction of muon pairs in the region is from cosmic muons.}}{48}{figure.8.1}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces (a) Distribution of \ensuremath {\mu ^{+}\mu ^{-}}\xspace vertices and pairs from the data sample in small $R_{\mathrm {CR}}$ region. The red distribution represents all \ensuremath {\mu ^{+}\mu ^{-}}\xspace pairs. The black dots represent the subset of pairs forming a \ensuremath {\mu ^{+}\mu ^{-}}\xspace vertex. The same distribution is shown in (b) with \ensuremath {\mu ^{+}\mu ^{-}}\xspace pairs normalized to \ensuremath {\mu ^{+}\mu ^{-}}\xspace vertices.}}{49}{figure.8.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Unscaled}}}{49}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Scaled}}}{49}{subfigure.2.2}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Description of track flipping method in (a) $r-z$ and (b) $x-y$ plane. Given two tracks $A$ and $B$ originating from a common secondary vertex, one random track is flipped with respect to the beam spot and is denoted as $B'$. The resulting flipped track pair, $AB'$, cannot form a vertex due to the separation in space.}}{50}{figure.8.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{50}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{50}{subfigure.3.2}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Vertex cut flow applied on \ensuremath {x^{+}x^{-}}\xspace vertices from the TF method.}}{52}{figure.8.4}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Comparison of of (a) vertex mass, (b) $\chi ^{2} / \mathrm {DOF}$, (c) transverse, and (d) longitudinal position of \ensuremath {x^{+}x^{-}}\xspace vertices reconstructed, found from the track flipping, and estimated using the event mixing. In (c), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}}{53}{figure.8.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{53}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{53}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{53}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{53}{subfigure.5.4}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Comparison of (a) vertex mass, (b) $\chi ^{2} / \mathrm {DOF}$, (c) transverse, and (d) longitudinal position of vertices found from reconstruction with the track-flipping vertices in the control region of the data sample. In (c), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}}{54}{figure.8.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{54}{subfigure.6.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{54}{subfigure.6.4}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Vertex cut flow applied on $K_{S}$ vertices in the data and MC samples}}{53}{figure.9.1}
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Comparison of the (a) invariant mass, (b) $p_{T}$, (c) $\mu $, (d) transverse, (e) longitudinal position, and (f) decay length of $K_{S}$ in the data with the MC samples. Data is normalized to MC. In (d), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}}{54}{figure.9.2}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{54}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{54}{subfigure.2.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{54}{subfigure.2.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{54}{subfigure.2.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{54}{subfigure.2.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{54}{subfigure.2.6}
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Representative distributions of the $K_{S}$ invariant mass for (a) $r$ < 20 mm, and (b) 20 $<r<$ 60 mm in the background MC sample. The corresponding plots from the data sample are shown in (c) and (d). The mass distributions are fitted with a Breit-Wigner.}}{55}{figure.9.3}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{55}{subfigure.3.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{55}{subfigure.3.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{55}{subfigure.3.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{55}{subfigure.3.4}
-\contentsline {figure}{\numberline {9.4}{\ignorespaces The radial distribution of $K_{S}$ yield, normalized to the lowest $r$ bin in the data and MC samples. The lower pane shows the double ratio as defined in the text.}}{56}{figure.9.4}
-\contentsline {figure}{\numberline {9.5}{\ignorespaces The efficiency of the single photon trigger in electron (a) $|\ensuremath {d_{0}}\xspace |$ and (b) $|\ensuremath {z_{0}}\xspace |$. The corresponding plots of the single muon trigger are shown in (c) and (d).}}{57}{figure.9.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{57}{subfigure.5.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{57}{subfigure.5.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{57}{subfigure.5.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{57}{subfigure.5.4}
-\contentsline {figure}{\numberline {9.6}{\ignorespaces Invariant mass distributions of the tag-and-probe electron pairs used to study the efficiencies of the (a) \texttt {HLT\_g50\_loose} and (b) \texttt {HLT\_g140\_loose} trigger in the data and $Z$+jets MC samples. Only the pairs with a probe electron in the plateau region of Figure\nobreakspace {}\ref {fig:PhotonTrigEff:di_pt} and\nobreakspace {}\ref {fig:PhotonTrigEff:si_pt} are considered. }}{58}{figure.9.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{58}{subfigure.6.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{58}{subfigure.6.2}
-\contentsline {figure}{\numberline {9.7}{\ignorespaces Efficiencies of the \texttt {HLT\_g50\_loose} as a function of probe (a) $p_{T}$, (c) $\eta $, and (e) $|\ensuremath {z_{0}}\xspace |$ estimated using the data and $Z$+jets MC samples. The corresponding plots of the \texttt {HLT\_g140\_loose} trigger are shown in (b), (d), and (f). Only the pairs with a probe electron in the plateau region of (a) and (b) are considered in the rest. }}{59}{figure.9.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{59}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{59}{subfigure.7.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{59}{subfigure.7.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{59}{subfigure.7.6}
-\contentsline {figure}{\numberline {9.8}{\ignorespaces Invariant mass distributions of the tag-and-probe muon pairs used to study the efficiencies of the single muon trigger in the data and $Z$+jets MC samples. Only the pairs with a probe muon in the plateau region of Figure\nobreakspace {}\ref {fig:MuonTrigEff1Da} are considered. }}{60}{figure.9.8}
-\contentsline {figure}{\numberline {9.9}{\ignorespaces Efficiency of the single muon trigger as a function of probe (a) $p_{T}$ and (b) |\ensuremath {z_{0}}\xspace | estimated using the data and $Z$+jets MC samples. Only the pairs with a probe electron in the plateau region of (a) are considered in (b).}}{61}{figure.9.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{61}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{61}{subfigure.9.2}
-\contentsline {figure}{\numberline {10}{\ignorespaces $K\_{S}$ invariant mass for various $r$. The curve shows a fit to Breit-Wigner.}}{68}{figure.Alph0.10}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {MC, $60$ mm $<r<$ 100 mm}}}{68}{subfigure.10.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {MC, $100$ mm $<r<$ 140 mm}}}{68}{subfigure.10.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {MC, $140$ mm $<r<$ 180 mm}}}{68}{subfigure.10.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {MC, $180$ mm $<r<$ 220 mm}}}{68}{subfigure.10.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {MC, $220$ mm $<r<$ 260 mm}}}{68}{subfigure.10.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {MC, $260$ mm $<r<$ 300 mm}}}{68}{subfigure.10.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Data, $r<20$ mm}}}{68}{subfigure.10.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Data, $100$ mm $<r<$ 140 mm}}}{68}{subfigure.10.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Data, $140$ mm $<r<$ 180 mm}}}{68}{subfigure.10.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Data, $180$ mm $<r<$ 220 mm}}}{68}{subfigure.10.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Data, $220$ mm $<r<$ 260 mm}}}{68}{subfigure.10.11}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {Data, $260$ mm $<r<$ 300 mm}}}{68}{subfigure.10.12}
-\contentsline {figure}{\numberline {11}{\ignorespaces Distribution of transverse (a), longitudinal vertex position (b), $\eta $ (c), $p_{T}$ (d), and the opening angle between decay particles of $K_{S}$ and $Z'$ vertices (e) found in the background and the signal MC sample described in Section\nobreakspace {}\ref {sec:vertexing_systematics_data_MC}. Distributions are normalized to unity. Systematic uncertainties are shown.}}{69}{figure.Alph0.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}{subfigure.11.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{69}{subfigure.11.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{69}{subfigure.11.4}
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Vertex cut flow applied on $K_{S}$ vertices in the data and the MC samples}}{59}{figure.9.1}
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Comparison of the (a) invariant mass, (b) $p_{T}$, (c) $\mu $, (d) transverse, (e) longitudinal position, and (f) decay length of $K_{S}$ with two large-radius tracks in the data with the MC samples. Data is normalized to MC. In (d), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm). MC sample is reweighted to the pile-up distribution in data.}}{60}{figure.9.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{60}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{60}{subfigure.2.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{60}{subfigure.2.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{60}{subfigure.2.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{60}{subfigure.2.6}
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Representative distributions of the invariant mass of $K_{S}$ with two large-radius tracks for (a) 2 < $r$ < 100 mm, (b) 100 $<r<$ 150 mm, (c) 150 $<r<$ 200 mm, (d) 200 $<r<$ 250 mm, and (e) 250 $<r<$ 300 mm in the data and the MC samples. Data is normalized to MC samples.}}{62}{figure.9.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{62}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{62}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{62}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{62}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{62}{subfigure.3.5}
+\contentsline {figure}{\numberline {9.4}{\ignorespaces The radial distribution of vertex yields of $K_{S}$ with two large-radius tracks. Data is normalized by the ratio of vertex yield of $K_{\mathrm {ST}}$ in data to the corresponding vertex yields in MC. The lower pane shows the double ratio defined in Eq.\nobreakspace {}\ref {eq:Ks_eq2}.}}{63}{figure.9.4}
+\contentsline {figure}{\numberline {9.5}{\ignorespaces The efficiency of the single photon trigger in electron (a) $|\ensuremath {d_{0}}\xspace |$ and (b) $|\ensuremath {z_{0}}\xspace |$. The corresponding plots of the single muon trigger are shown in (c) and (d).}}{64}{figure.9.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{64}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{64}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{64}{subfigure.5.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{64}{subfigure.5.4}
+\contentsline {figure}{\numberline {9.6}{\ignorespaces Invariant mass distributions of the tag-and-probe electron pairs used to study the efficiencies of the (a) \texttt {HLT\_g50\_loose} and (b) \texttt {HLT\_g140\_loose} trigger in the data and $Z$+jets MC samples. Only the pairs with a probe electron in the plateau region of Figure\nobreakspace {}\ref {fig:PhotonTrigEff:di_pt} and\nobreakspace {}\ref {fig:PhotonTrigEff:si_pt} are considered. }}{65}{figure.9.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{65}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{65}{subfigure.6.2}
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Efficiencies of the \texttt {HLT\_g50\_loose} as a function of probe (a) $p_{T}$, (c) $\eta $, and (e) $|\ensuremath {z_{0}}\xspace |$ estimated using the data and $Z$+jets MC samples. The corresponding plots of the \texttt {HLT\_g140\_loose} trigger are shown in (b), (d), and (f). Only the pairs with a probe electron in the plateau region of (a) and (b) are considered in the rest. }}{66}{figure.9.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{66}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{66}{subfigure.7.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{66}{subfigure.7.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{66}{subfigure.7.6}
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Invariant mass distributions of the tag-and-probe muon pairs used to study the efficiencies of the single muon trigger in the data and $Z$+jets MC samples. Only the pairs with a probe muon in the plateau region of Figure\nobreakspace {}\ref {fig:MuonTrigEff1Da} are considered. }}{67}{figure.9.8}
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Efficiency of the single muon trigger as a function of probe (a) $p_{T}$ and (b) |\ensuremath {z_{0}}\xspace | estimated using the data and $Z$+jets MC samples. Only the pairs with a probe electron in the plateau region of (a) are considered in (b).}}{68}{figure.9.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{68}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{68}{subfigure.9.2}
+\contentsline {figure}{\numberline {10}{\ignorespaces Overall reconstruction efficiency map of $Z' \rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ MC sample.}}{75}{figure.Alph0.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=100$ GeV, $c\tau =100$ mm}}}{75}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=100$ GeV, $c\tau =250$ mm}}}{75}{subfigure.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=100$ GeV, $c\tau =500$ mm}}}{75}{subfigure.10.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=250$ GeV, $c\tau =100$ mm}}}{75}{subfigure.10.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=250$ GeV, $c\tau =250$ mm}}}{75}{subfigure.10.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=250$ GeV, $c\tau =500$ mm}}}{75}{subfigure.10.6}
+\contentsline {figure}{\numberline {11}{\ignorespaces Overall reconstruction efficiency map of $Z' \rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ MC sample.}}{76}{figure.Alph0.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=500$ GeV, $c\tau =100$ mm}}}{76}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=500$ GeV, $c\tau =250$ mm}}}{76}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=500$ GeV, $c\tau =500$ mm}}}{76}{subfigure.11.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=750$ GeV, $c\tau =100$ mm}}}{76}{subfigure.11.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=750$ GeV, $c\tau =250$ mm}}}{76}{subfigure.11.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=750$ GeV, $c\tau =500$ mm}}}{76}{subfigure.11.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$m=1000$ GeV, $c\tau =100$ mm}}}{76}{subfigure.11.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$m=1000$ GeV, $c\tau =250$ mm}}}{76}{subfigure.11.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m=1000$ GeV, $c\tau =500$ mm}}}{76}{subfigure.11.9}
+\contentsline {figure}{\numberline {12}{\ignorespaces Overall reconstruction efficiency map of $Z' \rightarrow \ensuremath {e^{+}e^{-}}\xspace $ MC sample.}}{77}{figure.Alph0.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=100$ GeV, $c\tau =100$ mm}}}{77}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=100$ GeV, $c\tau =250$ mm}}}{77}{subfigure.12.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=100$ GeV, $c\tau =500$ mm}}}{77}{subfigure.12.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=250$ GeV, $c\tau =100$ mm}}}{77}{subfigure.12.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=250$ GeV, $c\tau =250$ mm}}}{77}{subfigure.12.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=250$ GeV, $c\tau =500$ mm}}}{77}{subfigure.12.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$m=500$ GeV, $c\tau =100$ mm}}}{77}{subfigure.12.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$m=500$ GeV, $c\tau =250$ mm}}}{77}{subfigure.12.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m=500$ GeV, $c\tau =500$ mm}}}{77}{subfigure.12.9}
+\contentsline {figure}{\numberline {13}{\ignorespaces Overall reconstruction efficiency map of $Z' \rightarrow \ensuremath {e^{+}e^{-}}\xspace $ MC sample.}}{78}{figure.Alph0.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=750$ GeV, $c\tau =100$ mm}}}{78}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=750$ GeV, $c\tau =250$ mm}}}{78}{subfigure.13.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=750$ GeV, $c\tau =500$ mm}}}{78}{subfigure.13.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=1000$ GeV, $c\tau =100$ mm}}}{78}{subfigure.13.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=1000$ GeV, $c\tau =250$ mm}}}{78}{subfigure.13.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=1000$ GeV, $c\tau =500$ mm}}}{78}{subfigure.13.6}
+\contentsline {figure}{\numberline {14}{\ignorespaces Overall reconstruction efficiency map of $Z' \rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $ MC sample.}}{79}{figure.Alph0.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=100$ GeV, $c\tau =100$ mm}}}{79}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=100$ GeV, $c\tau =250$ mm}}}{79}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=100$ GeV, $c\tau =500$ mm}}}{79}{subfigure.14.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=250$ GeV, $c\tau =100$ mm}}}{79}{subfigure.14.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=250$ GeV, $c\tau =250$ mm}}}{79}{subfigure.14.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=250$ GeV, $c\tau =500$ mm}}}{79}{subfigure.14.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$m=500$ GeV, $c\tau =100$ mm}}}{79}{subfigure.14.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$m=500$ GeV, $c\tau =250$ mm}}}{79}{subfigure.14.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m=500$ GeV, $c\tau =500$ mm}}}{79}{subfigure.14.9}
+\contentsline {figure}{\numberline {15}{\ignorespaces Overall reconstruction efficiency map of $Z' \rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $ MC sample.}}{80}{figure.Alph0.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=750$ GeV, $c\tau =100$ mm}}}{80}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=750$ GeV, $c\tau =250$ mm}}}{80}{subfigure.15.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=750$ GeV, $c\tau =500$ mm}}}{80}{subfigure.15.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=1000$ GeV, $c\tau =100$ mm}}}{80}{subfigure.15.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=1000$ GeV, $c\tau =250$ mm}}}{80}{subfigure.15.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=1000$ GeV, $c\tau =500$ mm}}}{80}{subfigure.15.6}
+\contentsline {figure}{\numberline {16}{\ignorespaces Distribution of transverse (a), longitudinal vertex position (b), $\eta $ (c), $p_{T}$ (d), and the opening angle between decay particles of $K_{S}$ and $Z'$ vertices (e) found in the background and the signal MC sample described in Section\nobreakspace {}\ref {sec:background_mc_sample}. Distributions are normalized to unity. Systematic uncertainties are shown.}}{81}{figure.Alph0.16}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{81}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{81}{subfigure.16.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{81}{subfigure.16.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{81}{subfigure.16.4}

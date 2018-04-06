@@ -56,25 +56,25 @@
 \contentsline {section}{\numberline {7.2}Lepton reconstruction efficiency}{37}{section.7.2}
 \contentsline {section}{\numberline {7.3}Overall reconstruction efficiency}{39}{section.7.3}
 \contentsline {subsection}{\numberline {7.3.1}Event and vertex cut flow}{39}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Efficiency distribution}{40}{subsection.7.3.2}
-\contentsline {chapter}{\numberline {8}Background Estimation}{42}{chapter.8}
-\contentsline {section}{\numberline {8.1}Cosmic Background}{42}{section.8.1}
-\contentsline {section}{\numberline {8.2}Random-Crossing Background}{43}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Track flipping method}{44}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Event mixing method}{46}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}MC study}{47}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Estimating random-crossing background with data sample}{48}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}Systematic uncertainty in random-crossing background}{50}{subsection.8.2.5}
-\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{52}{chapter.9}
-\contentsline {section}{\numberline {9.1}Systematic Uncertainties in Tracking and Vertexing Efficiency}{52}{section.9.1}
-\contentsline {section}{\numberline {9.2}Systematic uncertainties in trigger efficiency}{55}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Photon triggers}{56}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Muon trigger}{60}{subsection.9.2.2}
-\contentsline {chapter}{Bibliography}{62}{section*.14}
-\contentsline {part}{Appendices}{66}{chapter*.15}
-\contentsline {section}{\numberline {A}Truth-level $p_{T}$ and $\eta $ distributions of Signal MC samples}{67}{section.Alph0.1}
-\contentsline {section}{\numberline {B}$K_{S}$ yields in data and MC samples used for tracking and vertexing systematic uncertainties}{68}{section.Alph0.2}
-\contentsline {section}{\numberline {C}$K_{S}$ and $Z'$ comparison}{69}{section.Alph0.3}
-\contentsline {subsection}{\numberline {C.1}Extrapolation from control region}{70}{subsection.Alph0.3.1}
-\contentsline {subsection}{\numberline {C.2}Extrapolation from validation region}{70}{subsection.Alph0.3.2}
-\contentsline {subsection}{\numberline {C.3}Scale factors}{70}{subsection.Alph0.3.3}
+\contentsline {subsection}{\numberline {7.3.2}Signal efficiency and distribution}{40}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Efficiency map}{40}{subsection.7.3.3}
+\contentsline {chapter}{\numberline {8}Background Estimation}{47}{chapter.8}
+\contentsline {section}{\numberline {8.1}Cosmic Background}{47}{section.8.1}
+\contentsline {section}{\numberline {8.2}Random-Crossing Background}{48}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Track Flipping Method}{49}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Event Mixing Method}{51}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}MC Study}{52}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Estimating Random-crossing Background with Data Sample}{53}{subsection.8.2.4}
+\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{57}{chapter.9}
+\contentsline {section}{\numberline {9.1}Systematic Uncertainty in Track and Vertex Reconstruction}{57}{section.9.1}
+\contentsline {section}{\numberline {9.2}Systematic Uncertainties in Trigger Efficiency}{61}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Photon triggers}{63}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Muon trigger}{65}{subsection.9.2.2}
+\contentsline {chapter}{Bibliography}{69}{section*.14}
+\contentsline {part}{Appendices}{73}{chapter*.15}
+\contentsline {section}{\numberline {A}Truth-level $p_{T}$ and $\eta $ distributions of Signal MC samples}{74}{section.Alph0.1}
+\contentsline {section}{\numberline {B}Efficiency Map of Signal MC Samples}{75}{section.Alph0.2}
+\contentsline {section}{\numberline {C}$K_{S}$ and $Z'$ comparison}{81}{section.Alph0.3}
+\contentsline {subsection}{\numberline {C.1}Extrapolation from control region}{82}{subsection.Alph0.3.1}
+\contentsline {subsection}{\numberline {C.2}Extrapolation from validation region}{82}{subsection.Alph0.3.2}
+\contentsline {subsection}{\numberline {C.3}Scale factors}{82}{subsection.Alph0.3.3}

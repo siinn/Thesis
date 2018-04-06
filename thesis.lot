@@ -22,16 +22,23 @@
 \contentsline {table}{\numberline {6.5}{\ignorespaces Event and vertex selections applied to select displaced vertices.}}{34}{table.6.5}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency on the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $.}}{37}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Event and vertex cut flow of signal samples}}{43}{table.7.2}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $}}{43}{subtable.2.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Event and vertex cut flow of signal samples}}{44}{table.7.2}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $}}{44}{subtable.2.2}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Event and vertex cut flow of signal samples}}{45}{table.7.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $}}{45}{subtable.2.3}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Overall signal efficiency of the signal samples.}}{46}{table.7.3}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of the number of \ensuremath {\mu ^{\pm }x^{\mp }}\xspace , \ensuremath {e^{\pm }x^{\mp }}\xspace , and \ensuremath {x^{+}x^{-}}\xspace vertices found in the track flipping, estimated from the event mixing, and reconstructed in the background MC samples.}}{47}{table.8.1}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Random-crossing background estimation in data by the TF method}}{51}{table.8.2}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Lepton probability}}}{51}{subtable.2.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Vertex yields in the control and validation region}}}{51}{subtable.2.2}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Scale factors}}}{51}{subtable.2.3}
-\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Extrapolation from control region}}}{51}{subtable.2.4}
-\contentsline {subtable}{\numberline {(e)}{\ignorespaces {Extrapolation from validation region}}}{51}{subtable.2.5}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of the number of \ensuremath {\mu ^{\pm }x^{\mp }}\xspace , \ensuremath {e^{\pm }x^{\mp }}\xspace , and \ensuremath {x^{+}x^{-}}\xspace vertices found in the track flipping, estimated from the event mixing, and reconstructed in the background MC samples.}}{52}{table.8.1}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Random-crossing background estimation in data by the TF method}}{56}{table.8.2}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Lepton probability}}}{56}{subtable.2.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Vertex yields in the control and validation region}}}{56}{subtable.2.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {Scale factors}}}{56}{subtable.2.3}
+\contentsline {subtable}{\numberline {(d)}{\ignorespaces {Extrapolation from control region}}}{56}{subtable.2.4}
+\contentsline {subtable}{\numberline {(e)}{\ignorespaces {Extrapolation from validation region}}}{56}{subtable.2.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Comparison of $Z'$ and $K_{S}$ vertex selections.}}{53}{table.9.1}
-\contentsline {table}{\numberline {9.2}{\ignorespaces Selection criteria for tag-and-probe electrons in $Z$+jets studies.}}{58}{table.9.2}
-\contentsline {table}{\numberline {9.3}{\ignorespaces Selection criteria for tag-and-probe muons.}}{60}{table.9.3}
-\contentsline {table}{\numberline {9.4}{\ignorespaces Summary table of all systematic uncertainties in the signal efficiency}}{61}{table.9.4}
+\contentsline {table}{\numberline {9.1}{\ignorespaces Comparison of $Z'$ and $K_{S}$ vertex selections.}}{59}{table.9.1}
+\contentsline {table}{\numberline {9.2}{\ignorespaces Selection criteria for tag-and-probe electrons in $Z$+jets studies.}}{63}{table.9.2}
+\contentsline {table}{\numberline {9.3}{\ignorespaces Selection criteria for tag-and-probe muons.}}{67}{table.9.3}
+\contentsline {table}{\numberline {9.4}{\ignorespaces Summary table of all systematic uncertainties in the signal efficiency}}{68}{table.9.4}
