@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  6 APR 2018 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 APR 2018 11:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1018,6 +1018,15 @@ atlasphysics: AUNIT@texlive is [2013]
 (./src/ch4_analysis_overview.aux) (./src/ch5_data_mc_samples.aux)
 (./src/ch6_signal_selection.aux) (./src/ch7_signal_efficiency.aux
 
+LaTeX Warning: Label `subfig:vertex_dist_r ' multiply defined.
+
+
+LaTeX Warning: Label `subfig:vertex_dist_r @cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@subfig:vertex_dist_r ' multiply defined.
+
+
 LaTeX Warning: Label `table:cutflow_all' multiply defined.
 
 
@@ -1039,33 +1048,28 @@ LaTeX Warning: Label `subfig:TF_diagram_a@cref' multiply defined.
 
 LaTeX Warning: Label `sub@subfig:TF_diagram_a' multiply defined.
 
-) (./src/ch9_systematics.aux) (./appendices/app_signal_truth.aux)
-(./appendices/app_signal_efficiency_map.aux
+) (./src/ch9_systematics.aux
 
-LaTeX Warning: Label `fig:signal_eff_map_app1' multiply defined.
-
-
-LaTeX Warning: Label `fig:signal_eff_map_app1@cref' multiply defined.
+LaTeX Warning: Label `fig:MuonTrigEff1Da' multiply defined.
 
 
-LaTeX Warning: Label `fig:signal_eff_map_app2' multiply defined.
+LaTeX Warning: Label `fig:MuonTrigEff1Da@cref' multiply defined.
 
 
-LaTeX Warning: Label `fig:signal_eff_map_app2@cref' multiply defined.
+LaTeX Warning: Label `sub@fig:MuonTrigEff1Da' multiply defined.
 
 
-LaTeX Warning: Label `fig:signal_eff_map_app1' multiply defined.
+LaTeX Warning: Label `fig:MuonTrigEff1Db' multiply defined.
 
 
-LaTeX Warning: Label `fig:signal_eff_map_app1@cref' multiply defined.
+LaTeX Warning: Label `fig:MuonTrigEff1Db@cref' multiply defined.
 
 
-LaTeX Warning: Label `fig:signal_eff_map_app2' multiply defined.
+LaTeX Warning: Label `sub@fig:MuonTrigEff1Db' multiply defined.
 
-
-LaTeX Warning: Label `fig:signal_eff_map_app2@cref' multiply defined.
-
-) (./appendices/app_syst_ks_zp.aux) (./appendices/app_TF_extrapolation.aux))
+) (./appendices/app_signal_truth.aux)
+(./appendices/app_signal_efficiency_map.aux) (./appendices/app_syst_ks_zp.aux)
+(./appendices/app_TF_extrapolation.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1291,7 +1295,7 @@ Package hyperref Warning: bookmark level for unknown front defaults to 0.
 (./thesis.lof [8
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 80.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 81.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1336,7 +1340,7 @@ File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 
  (./src/ch2_experiment.tex
 Chapter 2.
-<figures/lhc.png, id=496, 1204.5pt x 784.9325pt>
+<figures/lhc.png, id=500, 1204.5pt x 784.9325pt>
 File: figures/lhc.png Graphic file (type png)
  <use figures/lhc.png>
 Package pdftex.def Info: figures/lhc.png used on input line 11.
@@ -1346,27 +1350,27 @@ Package pdftex.def Info: figures/lhc.png used on input line 11.
 
 
 ]
-<figures/atlas.png, id=506, 1621.05624pt x 1041.8925pt>
+<figures/atlas.png, id=510, 1621.05624pt x 1041.8925pt>
 File: figures/atlas.png Graphic file (type png)
 
 <use figures/atlas.png>
 Package pdftex.def Info: figures/atlas.png used on input line 26.
 (pdftex.def)             Requested size: 346.89732pt x 222.95325pt.
  [7 <./figures/lhc.png>] [8 <./figures/atlas.png (PNG copy)>] [9] <figures/calo
-rimeter.jpg, id=537, 810.52812pt x 545.53813pt>
+rimeter.jpg, id=545, 810.52812pt x 545.53813pt>
 File: figures/calorimeter.jpg Graphic file (type jpg)
 
 <use figures/calorimeter.jpg>
 Package pdftex.def Info: figures/calorimeter.jpg used on input line 75.
 (pdftex.def)             Requested size: 346.89732pt x 233.48634pt.
  [10 <./figures/calorimeter.jpg>] [11]
-<figures/ms.png, id=557, 1027.84pt x 770.88pt>
+<figures/ms.png, id=565, 1027.84pt x 770.88pt>
 File: figures/ms.png Graphic file (type png)
  <use figures/ms.png>
 Package pdftex.def Info: figures/ms.png used on input line 109.
 (pdftex.def)             Requested size: 303.53267pt x 227.65465pt.
  [12 <./figures/ms.png (PNG copy)>] [13]
-<figures/tdaq.png, id=574, 838.13126pt x 647.41875pt>
+<figures/tdaq.png, id=582, 838.13126pt x 647.41875pt>
 File: figures/tdaq.png Graphic file (type png)
  <use figures/tdaq.png>
 Package pdftex.def Info: figures/tdaq.png used on input line 157.
@@ -1377,18 +1381,18 @@ Package pdftex.def Info: figures/tdaq.png used on input line 157.
 
  (./src/ch3_reconstruction.tex
 Chapter 3.
-<figures/tracking.png, id=597, 796.9775pt x 740.7675pt>
+<figures/tracking.png, id=605, 774.895pt x 736.7525pt>
 File: figures/tracking.png Graphic file (type png)
 
 <use figures/tracking.png>
 Package pdftex.def Info: figures/tracking.png used on input line 16.
-(pdftex.def)             Requested size: 260.17465pt x 241.82039pt.
+(pdftex.def)             Requested size: 260.17465pt x 247.36728pt.
  [17
 
 
 
 ] [18 <./figures/tracking.png>] [19]
-<figures/vertex.png, id=626, 1341.01pt x 753.81625pt>
+<figures/vertex.png, id=634, 1341.01pt x 753.81625pt>
 File: figures/vertex.png Graphic file (type png)
  <use figures/vertex.png>
 Package pdftex.def Info: figures/vertex.png used on input line 102.
@@ -1418,41 +1422,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--34
 0-[]15 _ DQDefects-[]00-[]02-[]04 _ PHYS _ StandardGRL _
  []
 
-[25] [26] <figures/m_truth_zp_pt.pdf, id=689, 569.12625pt x 410.53375pt>
+
+LaTeX Warning: Citation `Ball:2014uw' on page 25 undefined on input line 64.
+
+[25] [26] <figures/m_truth_zp_pt.pdf, id=699, 569.12625pt x 410.53375pt>
 File: figures/m_truth_zp_pt.pdf Graphic file (type pdf)
 
 <use figures/m_truth_zp_pt.pdf>
 Package pdftex.def Info: figures/m_truth_zp_pt.pdf used on input line 109.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_truth_zp_eta.pdf, id=690, 569.12625pt x 410.53375pt>
+<figures/m_truth_zp_eta.pdf, id=700, 569.12625pt x 410.53375pt>
 File: figures/m_truth_zp_eta.pdf Graphic file (type pdf)
 
 <use figures/m_truth_zp_eta.pdf>
 Package pdftex.def Info: figures/m_truth_zp_eta.pdf used on input line 110.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_truth_muon_pt.pdf, id=691, 569.12625pt x 410.53375pt>
+<figures/m_truth_muon_pt.pdf, id=701, 569.12625pt x 410.53375pt>
 File: figures/m_truth_muon_pt.pdf Graphic file (type pdf)
 
 <use figures/m_truth_muon_pt.pdf>
 Package pdftex.def Info: figures/m_truth_muon_pt.pdf used on input line 111.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_truth_muon_eta.pdf, id=692, 569.12625pt x 410.53375pt>
+<figures/m_truth_muon_eta.pdf, id=702, 569.12625pt x 410.53375pt>
 File: figures/m_truth_muon_eta.pdf Graphic file (type pdf)
 
 <use figures/m_truth_muon_eta.pdf>
 Package pdftex.def Info: figures/m_truth_muon_eta.pdf used on input line 112.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
- [27 <./figures/m_truth_zp_pt.pdf, page is rotated 90 degrees> <./figures/m_tru
-th_zp_eta.pdf, page is rotated 90 degrees> <./figures/m_truth_muon_pt.pdf, page
- is rotated 90 degrees> <./figures/m_truth_muon_eta.pdf, page is rotated 90 deg
-rees>]) [28] [29]
+
+
+LaTeX Warning: Citation `Ball:2014uw' on page 27 undefined on input line 122.
+
+[27 <./figures/m_truth_zp_pt.pdf, page is rotated 90 degrees> <./figures/m_trut
+h_zp_eta.pdf, page is rotated 90 degrees> <./figures/m_truth_muon_pt.pdf, page 
+is rotated 90 degrees> <./figures/m_truth_muon_eta.pdf, page is rotated 90 degr
+ees>]) [28] [29]
 \openout2 = `src/ch6_signal_selection.aux'.
 
-
-(./src/ch6_signal_selection.tex
+ (./src/ch6_signal_selection.tex
 Chapter 6.
 [30
 
@@ -1467,16 +1477,16 @@ Chapter 7.
 
 
 
-] <figures/m_dv_eff_trig_allchannel.pdf, id=939, 569.12625pt x 410.53375pt>
+] <figures/m_dv_eff_trig_allchannel.pdf, id=951, 569.12625pt x 410.53375pt>
 File: figures/m_dv_eff_trig_allchannel.pdf Graphic file (type pdf)
 
 <use figures/m_dv_eff_trig_allchannel.pdf>
 Package pdftex.def Info: figures/m_dv_eff_trig_allchannel.pdf used on input lin
 e 26.
-(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+(pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
  [36 <./figures/m_dv_eff_trig_allchannel.pdf, page is rotated 90 degrees>] [37]
 
-<figures/m_lepton_efficiency_d0.pdf, id=995, 569.12625pt x 410.53375pt>
+<figures/m_lepton_efficiency_d0.pdf, id=1007, 569.12625pt x 410.53375pt>
 File: figures/m_lepton_efficiency_d0.pdf Graphic file (type pdf)
 
 <use figures/m_lepton_efficiency_d0.pdf>
@@ -1484,7 +1494,7 @@ Package pdftex.def Info: figures/m_lepton_efficiency_d0.pdf used on input line
 74.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/m_lepton_efficiency_z0.pdf, id=996, 569.12625pt x 410.53375pt>
+<figures/m_lepton_efficiency_z0.pdf, id=1008, 569.12625pt x 410.53375pt>
 File: figures/m_lepton_efficiency_z0.pdf Graphic file (type pdf)
 
 <use figures/m_lepton_efficiency_z0.pdf>
@@ -1492,7 +1502,7 @@ Package pdftex.def Info: figures/m_lepton_efficiency_z0.pdf used on input line
 75.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/m_lepton_efficiency_eta.pdf, id=997, 569.12625pt x 410.53375pt>
+<figures/m_lepton_efficiency_eta.pdf, id=1009, 569.12625pt x 410.53375pt>
 File: figures/m_lepton_efficiency_eta.pdf Graphic file (type pdf)
 
 <use figures/m_lepton_efficiency_eta.pdf>
@@ -1500,7 +1510,7 @@ Package pdftex.def Info: figures/m_lepton_efficiency_eta.pdf used on input line
  76.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/m_lepton_efficiency_pt.pdf, id=998, 569.12625pt x 410.53375pt>
+<figures/m_lepton_efficiency_pt.pdf, id=1010, 569.12625pt x 410.53375pt>
 File: figures/m_lepton_efficiency_pt.pdf Graphic file (type pdf)
 
 <use figures/m_lepton_efficiency_pt.pdf>
@@ -1511,94 +1521,117 @@ Package pdftex.def Info: figures/m_lepton_efficiency_pt.pdf used on input line
 res/m_lepton_efficiency_z0.pdf, page is rotated 90 degrees> <./figures/m_lepton
 _efficiency_eta.pdf, page is rotated 90 degrees> <./figures/m_lepton_efficiency
 _pt.pdf, page is rotated 90 degrees>]
-<figures/m_event_cutflow_MC_mumu.pdf, id=1188, 569.12625pt x 410.53375pt>
+<figures/m_event_cutflow_MC_mumu.pdf, id=1200, 569.12625pt x 553.06625pt>
 File: figures/m_event_cutflow_MC_mumu.pdf Graphic file (type pdf)
 
 <use figures/m_event_cutflow_MC_mumu.pdf>
 Package pdftex.def Info: figures/m_event_cutflow_MC_mumu.pdf used on input line
  96.
-(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+(pdftex.def)             Requested size: 216.81pt x 210.69058pt.
 
-<figures/m_dv_cutflow_MC_mumu.pdf, id=1189, 569.12625pt x 410.53375pt>
+<figures/m_dv_cutflow_MC_mumu.pdf, id=1201, 569.12625pt x 553.06625pt>
 File: figures/m_dv_cutflow_MC_mumu.pdf Graphic file (type pdf)
 
 <use figures/m_dv_cutflow_MC_mumu.pdf>
 Package pdftex.def Info: figures/m_dv_cutflow_MC_mumu.pdf used on input line 97
 .
-(pdftex.def)             Requested size: 216.81pt x 156.39282pt.
+(pdftex.def)             Requested size: 216.81pt x 210.69058pt.
  [39 <./figures/m_event_cutflow_MC_mumu.pdf, page is rotated 90 degrees> <./fig
 ures/m_dv_cutflow_MC_mumu.pdf, page is rotated 90 degrees>]
-<figures/m_dv_efficiency_r.pdf, id=1284, 569.12625pt x 410.53375pt>
-File: figures/m_dv_efficiency_r.pdf Graphic file (type pdf)
+Overfull \hbox (3.65022pt too wide) in paragraph at lines 151--152
+ [][] 
+ []
 
-<use figures/m_dv_efficiency_r.pdf>
-Package pdftex.def Info: figures/m_dv_efficiency_r.pdf used on input line 269.
+
+Overfull \hbox (3.62659pt too wide) in paragraph at lines 203--204
+ [][] 
+ []
+
+
+Overfull \hbox (3.62706pt too wide) in paragraph at lines 254--255
+ [][] 
+ []
+
+<figures/m_eff_dv_r.pdf, id=1296, 569.12625pt x 410.53375pt>
+File: figures/m_eff_dv_r.pdf Graphic file (type pdf)
+
+<use figures/m_eff_dv_r.pdf>
+Package pdftex.def Info: figures/m_eff_dv_r.pdf used on input line 269.
 (pdftex.def)             Requested size: 212.47618pt x 153.26697pt.
 
-<figures/m_dv_efficiency_z.pdf, id=1285, 569.12625pt x 410.53375pt>
-File: figures/m_dv_efficiency_z.pdf Graphic file (type pdf)
+<figures/m_eff_dv_z.pdf, id=1297, 569.12625pt x 410.53375pt>
+File: figures/m_eff_dv_z.pdf Graphic file (type pdf)
 
-<use figures/m_dv_efficiency_z.pdf>
-Package pdftex.def Info: figures/m_dv_efficiency_z.pdf used on input line 270.
+<use figures/m_eff_dv_z.pdf>
+Package pdftex.def Info: figures/m_eff_dv_z.pdf used on input line 270.
 (pdftex.def)             Requested size: 212.47618pt x 153.26697pt.
 
-<figures/m_dv_efficiency_eta.pdf, id=1286, 569.12625pt x 410.53375pt>
-File: figures/m_dv_efficiency_eta.pdf Graphic file (type pdf)
+<figures/m_eff_dv_eta.pdf, id=1298, 569.12625pt x 410.53375pt>
+File: figures/m_eff_dv_eta.pdf Graphic file (type pdf)
 
-<use figures/m_dv_efficiency_eta.pdf>
-Package pdftex.def Info: figures/m_dv_efficiency_eta.pdf used on input line 271
-.
+<use figures/m_eff_dv_eta.pdf>
+Package pdftex.def Info: figures/m_eff_dv_eta.pdf used on input line 271.
 (pdftex.def)             Requested size: 212.47618pt x 153.26697pt.
 
-<figures/m_dv_efficiency_phi.pdf, id=1287, 569.12625pt x 410.53375pt>
-File: figures/m_dv_efficiency_phi.pdf Graphic file (type pdf)
+<figures/m_eff_dv_phi.pdf, id=1299, 569.12625pt x 410.53375pt>
+File: figures/m_eff_dv_phi.pdf Graphic file (type pdf)
 
-<use figures/m_dv_efficiency_phi.pdf>
-Package pdftex.def Info: figures/m_dv_efficiency_phi.pdf used on input line 272
-.
+<use figures/m_eff_dv_phi.pdf>
+Package pdftex.def Info: figures/m_eff_dv_phi.pdf used on input line 272.
+(pdftex.def)             Requested size: 212.47618pt x 153.26697pt.
+
+<figures/dv_eff_mu_zp.pdf, id=1300, 569.12625pt x 410.53375pt>
+File: figures/dv_eff_mu_zp.pdf Graphic file (type pdf)
+
+<use figures/dv_eff_mu_zp.pdf>
+Package pdftex.def Info: figures/dv_eff_mu_zp.pdf used on input line 273.
 (pdftex.def)             Requested size: 212.47618pt x 153.26697pt.
  [40]
-<figures/EfficiencyMap/eff_map_mumu_m500t100.pdf, id=1295, 569.12625pt x 410.53
+
+LaTeX Warning: Text page 41 contains only floats.
+
+[41 <./figures/m_eff_dv_r.pdf, page is rotated 90 degrees> <./figures/m_eff_dv_
+z.pdf, page is rotated 90 degrees> <./figures/m_eff_dv_eta.pdf, page is rotated
+ 90 degrees> <./figures/m_eff_dv_phi.pdf, page is rotated 90 degrees> <./figure
+s/dv_eff_mu_zp.pdf, page is rotated 90 degrees>]
+<figures/EfficiencyMap/eff_map_mumu_m500t100.pdf, id=1533, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m500t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m500t100.pdf>
 Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m500t100.pdf used o
-n input line 322.
+n input line 323.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf, id=1296, 569.12625pt x 410.5
+<figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf, id=1534, 569.12625pt x 410.5
 3375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf>
 Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf used 
-on input line 323.
+on input line 324.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m500t500.pdf, id=1297, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m500t500.pdf, id=1535, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m500t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m500t500.pdf>
 Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m500t500.pdf used o
-n input line 324.
+n input line 325.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m1000t500.pdf, id=1298, 569.12625pt x 410.5
+<figures/EfficiencyMap/eff_map_mumu_m1000t500.pdf, id=1536, 569.12625pt x 410.5
 3375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m1000t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m1000t500.pdf>
 Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m1000t500.pdf used 
-on input line 325.
+on input line 326.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
-) [41 <./figures/m_dv_efficiency_r.pdf, page is rotated 90 degrees> <./figures/
-m_dv_efficiency_z.pdf, page is rotated 90 degrees> <./figures/m_dv_efficiency_e
-ta.pdf, page is rotated 90 degrees> <./figures/m_dv_efficiency_phi.pdf, page is
- rotated 90 degrees>] [42 <./figures/EfficiencyMap/eff_map_mumu_m500t100.pdf, p
-age is rotated 90 degrees> <./figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf,
- page is rotated 90 degrees> <./figures/EfficiencyMap/eff_map_mumu_m500t500.pdf
-, page is rotated 90 degrees> <./figures/EfficiencyMap/eff_map_mumu_m1000t500.p
-df, page is rotated 90 degrees>] [43] [44pdfTeX warning (ext4): destination wit
-h the same identifier (name{table.7.2}) has been already used, duplicate ignore
-d
+) [42 <./figures/EfficiencyMap/eff_map_mumu_m500t100.pdf, page is rotated 90 de
+grees> <./figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf, page is rotated 90 
+degrees> <./figures/EfficiencyMap/eff_map_mumu_m500t500.pdf, page is rotated 90
+ degrees> <./figures/EfficiencyMap/eff_map_mumu_m1000t500.pdf, page is rotated 
+90 degrees>]
+[43] [44pdfTeX warning (ext4): destination with the same identifier (name{table
+.7.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1621,7 +1654,7 @@ Chapter 8.
 
 
 ]
-<figures/Cosmics/DataValidation/mup_seta_dphi.pdf, id=1691, 569.12625pt x 345.2
+<figures/Cosmics/DataValidation/mup_seta_dphi.pdf, id=1750, 569.12625pt x 345.2
 9pt>
 File: figures/Cosmics/DataValidation/mup_seta_dphi.pdf Graphic file (type pdf)
  <use figures/Cosmics/DataValidation/mup_seta_dphi.pdf>
@@ -1629,110 +1662,110 @@ Package pdftex.def Info: figures/Cosmics/DataValidation/mup_seta_dphi.pdf used
 on input line 24.
 (pdftex.def)             Requested size: 260.17465pt x 157.85533pt.
 
-<figures/Cosmics/DataValidation/cosmics_unscaled.pdf, id=1694, 569.12625pt x 41
+<figures/Cosmics/DataValidation/cosmics_unscaled.pdf, id=1753, 569.12625pt x 41
 2.54124pt>
 File: figures/Cosmics/DataValidation/cosmics_unscaled.pdf Graphic file (type pd
 f)
  <use figures/Cosmics/DataValidation/cosmics_unscaled.pdf>
 Package pdftex.def Info: figures/Cosmics/DataValidation/cosmics_unscaled.pdf us
-ed on input line 38.
+ed on input line 37.
 (pdftex.def)             Requested size: 212.47618pt x 154.01643pt.
 
-<figures/Cosmics/DataValidation/cosmics_scaled.pdf, id=1695, 569.12625pt x 412.
+<figures/Cosmics/DataValidation/cosmics_scaled.pdf, id=1754, 569.12625pt x 412.
 54124pt>
 File: figures/Cosmics/DataValidation/cosmics_scaled.pdf Graphic file (type pdf)
 
  <use figures/Cosmics/DataValidation/cosmics_scaled.pdf>
 Package pdftex.def Info: figures/Cosmics/DataValidation/cosmics_scaled.pdf used
- on input line 39.
+ on input line 38.
 (pdftex.def)             Requested size: 212.47618pt x 154.01643pt.
  [48 <./figures/Cosmics/DataValidation/mup_seta_dphi.pdf, page is rotated 90 de
 grees>]
-[49 <./figures/Cosmics/DataValidation/cosmics_unscaled.pdf, page is rotated 90 
-degrees> <./figures/Cosmics/DataValidation/cosmics_scaled.pdf, page is rotated 
-90 degrees>] <figures/TF_diagram_a.pdf, id=1844, 666.49pt x 492.84125pt>
+<figures/TF_diagram_a.pdf, id=1812, 666.49pt x 492.84125pt>
 File: figures/TF_diagram_a.pdf Graphic file (type pdf)
 
 <use figures/TF_diagram_a.pdf>
 Package pdftex.def Info: figures/TF_diagram_a.pdf used on input line 61.
 (pdftex.def)             Requested size: 216.81pt x 160.3219pt.
 
-<figures/TF_diagram_b.pdf, id=1845, 624.3325pt x 482.80376pt>
+<figures/TF_diagram_b.pdf, id=1813, 624.3325pt x 482.80376pt>
 File: figures/TF_diagram_b.pdf Graphic file (type pdf)
 
 <use figures/TF_diagram_b.pdf>
 Package pdftex.def Info: figures/TF_diagram_b.pdf used on input line 62.
 (pdftex.def)             Requested size: 216.81pt x 167.65779pt.
- [50 <./figures/TF_diagram_a.pdf> <./figures/TF_diagram_b.pdf>] [51]
-<figures/m_FBE_cutflow_MC.pdf, id=1885, 569.12625pt x 410.53375pt>
+ [49 <./figures/Cosmics/DataValidation/cosmics_unscaled.pdf, page is rotated 90
+ degrees> <./figures/Cosmics/DataValidation/cosmics_scaled.pdf, page is rotated
+ 90 degrees>] [50 <./figures/TF_diagram_a.pdf> <./figures/TF_diagram_b.pdf>]
+<figures/m_FBE_cutflow_MC.pdf, id=1939, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_cutflow_MC.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_cutflow_MC.pdf>
 Package pdftex.def Info: figures/m_FBE_cutflow_MC.pdf used on input line 108.
 (pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
- [52 <./figures/m_FBE_cutflow_MC.pdf, page is rotated 90 degrees>]
-<figures/m_FBE_M.pdf, id=1936, 569.12625pt x 410.53375pt>
+ [51]
+<figures/m_FBE_M.pdf, id=1950, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_M.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_M.pdf>
 Package pdftex.def Info: figures/m_FBE_M.pdf used on input line 137.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_FBE_chi2_ndof.pdf, id=1937, 569.12625pt x 410.53375pt>
+<figures/m_FBE_chi2_ndof.pdf, id=1951, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_chi2_ndof.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_chi2_ndof.pdf>
 Package pdftex.def Info: figures/m_FBE_chi2_ndof.pdf used on input line 138.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_FBE_R.pdf, id=1938, 569.12625pt x 410.53375pt>
+<figures/m_FBE_R.pdf, id=1952, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_R.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_R.pdf>
 Package pdftex.def Info: figures/m_FBE_R.pdf used on input line 139.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_FBE_z.pdf, id=1939, 569.12625pt x 410.53375pt>
+<figures/m_FBE_z.pdf, id=1953, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_z.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_z.pdf>
 Package pdftex.def Info: figures/m_FBE_z.pdf used on input line 140.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
- [53 <./figures/m_FBE_M.pdf, page is rotated 90 degrees> <./figures/m_FBE_chi2_
-ndof.pdf, page is rotated 90 degrees> <./figures/m_FBE_R.pdf, page is rotated 9
-0 degrees> <./figures/m_FBE_z.pdf, page is rotated 90 degrees>] <figures/m_FBE_
-data_M.pdf, id=2122, 569.12625pt x 410.53375pt>
+ [52 <./figures/m_FBE_cutflow_MC.pdf, page is rotated 90 degrees>] <figures/m_F
+BE_data_M.pdf, id=2003, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_data_M.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_data_M.pdf>
-Package pdftex.def Info: figures/m_FBE_data_M.pdf used on input line 166.
+Package pdftex.def Info: figures/m_FBE_data_M.pdf used on input line 156.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_FBE_data_chi2_ndof.pdf, id=2123, 569.12625pt x 410.53375pt>
+<figures/m_FBE_data_chi2_ndof.pdf, id=2004, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_data_chi2_ndof.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_data_chi2_ndof.pdf>
-Package pdftex.def Info: figures/m_FBE_data_chi2_ndof.pdf used on input line 16
+Package pdftex.def Info: figures/m_FBE_data_chi2_ndof.pdf used on input line 15
 7.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_FBE_data_R.pdf, id=2124, 569.12625pt x 410.53375pt>
+<figures/m_FBE_data_R.pdf, id=2005, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_data_R.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_data_R.pdf>
-Package pdftex.def Info: figures/m_FBE_data_R.pdf used on input line 168.
+Package pdftex.def Info: figures/m_FBE_data_R.pdf used on input line 158.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_FBE_data_z.pdf, id=2125, 569.12625pt x 410.53375pt>
+<figures/m_FBE_data_z.pdf, id=2006, 569.12625pt x 410.53375pt>
 File: figures/m_FBE_data_z.pdf Graphic file (type pdf)
 
 <use figures/m_FBE_data_z.pdf>
-Package pdftex.def Info: figures/m_FBE_data_z.pdf used on input line 169.
+Package pdftex.def Info: figures/m_FBE_data_z.pdf used on input line 159.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
- [54 <./figures/m_FBE_data_M.pdf, page is rotated 90 degrees> <./figures/m_FBE_
-data_chi2_ndof.pdf, page is rotated 90 degrees> <./figures/m_FBE_data_R.pdf, pa
-ge is rotated 90 degrees> <./figures/m_FBE_data_z.pdf, page is rotated 90 degre
-es>]) [55] [56]
+ [53 <./figures/m_FBE_M.pdf, page is rotated 90 degrees> <./figures/m_FBE_chi2_
+ndof.pdf, page is rotated 90 degrees> <./figures/m_FBE_R.pdf, page is rotated 9
+0 degrees> <./figures/m_FBE_z.pdf, page is rotated 90 degrees>] [54 <./figures/
+m_FBE_data_M.pdf, page is rotated 90 degrees> <./figures/m_FBE_data_chi2_ndof.p
+df, page is rotated 90 degrees> <./figures/m_FBE_data_R.pdf, page is rotated 90
+ degrees> <./figures/m_FBE_data_z.pdf, page is rotated 90 degrees>]) [55] [56]
 \openout2 = `src/ch9_systematics.aux'.
 
  (./src/ch9_systematics.tex
@@ -1741,46 +1774,46 @@ Chapter 9.
 
 
 
-] [58] <figures/m_syst_Ks_cf.pdf, id=2356, 569.12625pt x 410.53375pt>
+] [58] <figures/m_syst_Ks_cf.pdf, id=2425, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_cf.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_cf.pdf>
-Package pdftex.def Info: figures/m_syst_Ks_cf.pdf used on input line 87.
+Package pdftex.def Info: figures/m_syst_Ks_cf.pdf used on input line 78.
 (pdftex.def)             Requested size: 260.17465pt x 187.68266pt.
 
-<figures/m_syst_Ks_M.pdf, id=2358, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_M.pdf, id=2427, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_M.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_M.pdf>
-Package pdftex.def Info: figures/m_syst_Ks_M.pdf used on input line 98.
+Package pdftex.def Info: figures/m_syst_Ks_M.pdf used on input line 89.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_pt.pdf, id=2359, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_pt.pdf, id=2428, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_pt.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_pt.pdf>
-Package pdftex.def Info: figures/m_syst_Ks_pt.pdf used on input line 99.
+Package pdftex.def Info: figures/m_syst_Ks_pt.pdf used on input line 90.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_mu.pdf, id=2360, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_mu.pdf, id=2429, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_mu.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_mu.pdf>
-Package pdftex.def Info: figures/m_syst_Ks_mu.pdf used on input line 100.
+Package pdftex.def Info: figures/m_syst_Ks_mu.pdf used on input line 91.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_r.pdf, id=2361, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_r.pdf, id=2430, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_r.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_r.pdf>
-Package pdftex.def Info: figures/m_syst_Ks_r.pdf used on input line 101.
+Package pdftex.def Info: figures/m_syst_Ks_r.pdf used on input line 92.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_z.pdf, id=2362, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_z.pdf, id=2431, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_z.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_z.pdf>
-Package pdftex.def Info: figures/m_syst_Ks_z.pdf used on input line 102.
+Package pdftex.def Info: figures/m_syst_Ks_z.pdf used on input line 93.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 Package epstopdf Info: Source file: <figures/m_syst_Ks_l.eps>
 (epstopdf)                    date: 2018-03-19 22:35:40
@@ -1790,15 +1823,15 @@ Package epstopdf Info: Source file: <figures/m_syst_Ks_l.eps>
 (epstopdf)                    size: 91602 bytes
 (epstopdf)             Command: <repstopdf --outfile=figures/m_syst_Ks_l-eps-co
 nverted-to.pdf figures/m_syst_Ks_l.eps>
-(epstopdf)             \includegraphics on input line 103.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/m_syst_Ks_l-eps-converted-to.pdf, id=2363, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_l-eps-converted-to.pdf, id=2432, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_l-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_l-eps-converted-to.pdf>
 Package pdftex.def Info: figures/m_syst_Ks_l-eps-converted-to.pdf used on input
- line 103.
+ line 94.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
  [59 <./figures/m_syst_Ks_cf.pdf, page is rotated 90 degrees>]
 
@@ -1813,83 +1846,83 @@ s_pt.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_mu.pdf, page is rota
 ted 90 degrees> <./figures/m_syst_Ks_r.pdf, page is rotated 90 degrees> <./figu
 res/m_syst_Ks_z.pdf, page is rotated 90 degrees> <./figures/m_syst_Ks_l-eps-con
 verted-to.pdf>]
-<figures/m_syst_Ks_normalized_LRT_R1.pdf, id=2661, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_normalized_LRT_R1.pdf, id=2730, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_normalized_LRT_R1.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_normalized_LRT_R1.pdf>
 Package pdftex.def Info: figures/m_syst_Ks_normalized_LRT_R1.pdf used on input 
-line 113.
+line 104.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_normalized_LRT_R2.pdf, id=2662, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_normalized_LRT_R2.pdf, id=2731, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_normalized_LRT_R2.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_normalized_LRT_R2.pdf>
 Package pdftex.def Info: figures/m_syst_Ks_normalized_LRT_R2.pdf used on input 
-line 114.
+line 105.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_normalized_LRT_R3.pdf, id=2663, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_normalized_LRT_R3.pdf, id=2732, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_normalized_LRT_R3.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_normalized_LRT_R3.pdf>
 Package pdftex.def Info: figures/m_syst_Ks_normalized_LRT_R3.pdf used on input 
-line 115.
+line 106.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_normalized_LRT_R4.pdf, id=2664, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_normalized_LRT_R4.pdf, id=2733, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_normalized_LRT_R4.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_normalized_LRT_R4.pdf>
 Package pdftex.def Info: figures/m_syst_Ks_normalized_LRT_R4.pdf used on input 
-line 116.
+line 107.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_normalized_LRT_R5.pdf, id=2665, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_normalized_LRT_R5.pdf, id=2734, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_normalized_LRT_R5.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_normalized_LRT_R5.pdf>
 Package pdftex.def Info: figures/m_syst_Ks_normalized_LRT_R5.pdf used on input 
-line 117.
+line 108.
 (pdftex.def)             Requested size: 195.12767pt x 140.75104pt.
 
-<figures/m_syst_Ks_ratio_R.pdf, id=2668, 569.12625pt x 410.53375pt>
+<figures/m_syst_Ks_ratio_R.pdf, id=2737, 569.12625pt x 410.53375pt>
 File: figures/m_syst_Ks_ratio_R.pdf Graphic file (type pdf)
 
 <use figures/m_syst_Ks_ratio_R.pdf>
-Package pdftex.def Info: figures/m_syst_Ks_ratio_R.pdf used on input line 125.
+Package pdftex.def Info: figures/m_syst_Ks_ratio_R.pdf used on input line 116.
 (pdftex.def)             Requested size: 216.81pt x 156.39282pt.
 
-<figures/TrigEff/signal/eff_siph_d0.pdf, id=2676, 569.12625pt x 412.54124pt>
+<figures/TrigEff/signal/eff_siph_d0.pdf, id=2743, 569.12625pt x 412.54124pt>
 File: figures/TrigEff/signal/eff_siph_d0.pdf Graphic file (type pdf)
 
 <use figures/TrigEff/signal/eff_siph_d0.pdf>
 Package pdftex.def Info: figures/TrigEff/signal/eff_siph_d0.pdf used on input l
-ine 164.
+ine 155.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/TrigEff/signal/eff_siph_z0.pdf, id=2677, 569.12625pt x 412.54124pt>
+<figures/TrigEff/signal/eff_siph_z0.pdf, id=2744, 569.12625pt x 412.54124pt>
 File: figures/TrigEff/signal/eff_siph_z0.pdf Graphic file (type pdf)
 
 <use figures/TrigEff/signal/eff_siph_z0.pdf>
 Package pdftex.def Info: figures/TrigEff/signal/eff_siph_z0.pdf used on input l
-ine 165.
+ine 156.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/TrigEff/signal/eff_simu_d0.pdf, id=2678, 569.12625pt x 412.54124pt>
+<figures/TrigEff/signal/eff_simu_d0.pdf, id=2745, 569.12625pt x 412.54124pt>
 File: figures/TrigEff/signal/eff_simu_d0.pdf Graphic file (type pdf)
 
 <use figures/TrigEff/signal/eff_simu_d0.pdf>
 Package pdftex.def Info: figures/TrigEff/signal/eff_simu_d0.pdf used on input l
-ine 166.
+ine 157.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/TrigEff/signal/eff_simu_z0.pdf, id=2679, 569.12625pt x 412.54124pt>
+<figures/TrigEff/signal/eff_simu_z0.pdf, id=2746, 569.12625pt x 412.54124pt>
 File: figures/TrigEff/signal/eff_simu_z0.pdf Graphic file (type pdf)
 
 <use figures/TrigEff/signal/eff_simu_z0.pdf>
 Package pdftex.def Info: figures/TrigEff/signal/eff_simu_z0.pdf used on input l
-ine 167.
+ine 158.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
  [61] [62 <./figures/m_syst_Ks_normalized_LRT_R1.pdf, page is rotated 90 degree
 s> <./figures/m_syst_Ks_normalized_LRT_R2.pdf, page is rotated 90 degrees> <./f
@@ -1901,68 +1934,68 @@ ph_d0.pdf, page is rotated 90 degrees> <./figures/TrigEff/signal/eff_siph_z0.pd
 f, page is rotated 90 degrees> <./figures/TrigEff/signal/eff_simu_d0.pdf, page 
 is rotated 90 degrees> <./figures/TrigEff/signal/eff_simu_z0.pdf, page is rotat
 ed 90 degrees>]
-<figures/PhotonTrigEff/diph_mass.pdf, id=3141, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/diph_mass.pdf, id=3207, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/diph_mass.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/diph_mass.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/diph_mass.pdf used on input line
- 209.
+ 200.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/PhotonTrigEff/siph_mass.pdf, id=3142, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/siph_mass.pdf, id=3208, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/siph_mass.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/siph_mass.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/siph_mass.pdf used on input line
- 210.
+ 201.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/PhotonTrigEff/diph_eff_pt.pdf, id=3148, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/diph_eff_pt.pdf, id=3215, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/diph_eff_pt.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/diph_eff_pt.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/diph_eff_pt.pdf used on input li
-ne 220.
+ne 213.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/PhotonTrigEff/siph_eff_pt.pdf, id=3149, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/siph_eff_pt.pdf, id=3216, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/siph_eff_pt.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/siph_eff_pt.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/siph_eff_pt.pdf used on input li
-ne 221.
+ne 214.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/PhotonTrigEff/diph_eff_eta.pdf, id=3150, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/diph_eff_eta.pdf, id=3217, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/diph_eff_eta.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/diph_eff_eta.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/diph_eff_eta.pdf used on input l
-ine 222.
+ine 215.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/PhotonTrigEff/siph_eff_eta.pdf, id=3151, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/siph_eff_eta.pdf, id=3218, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/siph_eff_eta.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/siph_eff_eta.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/siph_eff_eta.pdf used on input l
-ine 223.
+ine 216.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/PhotonTrigEff/diph_eff_z0.pdf, id=3152, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/diph_eff_z0.pdf, id=3219, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/diph_eff_z0.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/diph_eff_z0.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/diph_eff_z0.pdf used on input li
-ne 224.
+ne 217.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/PhotonTrigEff/siph_eff_z0.pdf, id=3153, 569.12625pt x 412.54124pt>
+<figures/PhotonTrigEff/siph_eff_z0.pdf, id=3220, 569.12625pt x 412.54124pt>
 File: figures/PhotonTrigEff/siph_eff_z0.pdf Graphic file (type pdf)
 
 <use figures/PhotonTrigEff/siph_eff_z0.pdf>
 Package pdftex.def Info: figures/PhotonTrigEff/siph_eff_z0.pdf used on input li
-ne 225.
+ne 218.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
  [65 <./figures/PhotonTrigEff/diph_mass.pdf, page is rotated 90 degrees> <./fig
 ures/PhotonTrigEff/siph_mass.pdf, page is rotated 90 degrees>] [66 <./figures/P
@@ -1972,42 +2005,61 @@ eff_eta.pdf, page is rotated 90 degrees> <./figures/PhotonTrigEff/siph_eff_eta.
 pdf, page is rotated 90 degrees> <./figures/PhotonTrigEff/diph_eff_z0.pdf, page
  is rotated 90 degrees> <./figures/PhotonTrigEff/siph_eff_z0.pdf, page is rotat
 ed 90 degrees>]
-<figures/MuonTrigEff/mass.pdf, id=3518, 569.12625pt x 412.54124pt>
+<figures/MuonTrigEff/mass.pdf, id=3584, 569.12625pt x 412.54124pt>
 File: figures/MuonTrigEff/mass.pdf Graphic file (type pdf)
 
 <use figures/MuonTrigEff/mass.pdf>
-Package pdftex.def Info: figures/MuonTrigEff/mass.pdf used on input line 264.
+Package pdftex.def Info: figures/MuonTrigEff/mass.pdf used on input line 257.
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/MuonTrigEff/simu_pt.pdf, id=3522, 569.12625pt x 412.54124pt>
+<figures/MuonTrigEff/simu_pt.pdf, id=3589, 569.12625pt x 412.54124pt>
 File: figures/MuonTrigEff/simu_pt.pdf Graphic file (type pdf)
 
 <use figures/MuonTrigEff/simu_pt.pdf>
-Package pdftex.def Info: figures/MuonTrigEff/simu_pt.pdf used on input line 275
+Package pdftex.def Info: figures/MuonTrigEff/simu_pt.pdf used on input line 268
 .
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
 
-<figures/MuonTrigEff/simu_z0.pdf, id=3523, 569.12625pt x 412.54124pt>
+<figures/MuonTrigEff/simu_z0.pdf, id=3590, 569.12625pt x 412.54124pt>
 File: figures/MuonTrigEff/simu_z0.pdf Graphic file (type pdf)
 
 <use figures/MuonTrigEff/simu_z0.pdf>
-Package pdftex.def Info: figures/MuonTrigEff/simu_z0.pdf used on input line 276
+Package pdftex.def Info: figures/MuonTrigEff/simu_z0.pdf used on input line 269
 .
 (pdftex.def)             Requested size: 190.79385pt x 138.29817pt.
+
+<figures/MuonTrigEff/simu_eta_phi_data.pdf, id=3591, 569.12625pt x 335.2525pt>
+File: figures/MuonTrigEff/simu_eta_phi_data.pdf Graphic file (type pdf)
+
+<use figures/MuonTrigEff/simu_eta_phi_data.pdf>
+Package pdftex.def Info: figures/MuonTrigEff/simu_eta_phi_data.pdf used on inpu
+t line 277.
+(pdftex.def)             Requested size: 216.81pt x 127.71443pt.
+
+<figures/MuonTrigEff/simu_eta_phi_MC.pdf, id=3592, 569.12625pt x 335.2525pt>
+File: figures/MuonTrigEff/simu_eta_phi_MC.pdf Graphic file (type pdf)
+
+<use figures/MuonTrigEff/simu_eta_phi_MC.pdf>
+Package pdftex.def Info: figures/MuonTrigEff/simu_eta_phi_MC.pdf used on input 
+line 278.
+(pdftex.def)             Requested size: 216.81pt x 127.71443pt.
 ) [67 <./figures/MuonTrigEff/mass.pdf, page is rotated 90 degrees>] [68 <./figu
 res/MuonTrigEff/simu_pt.pdf, page is rotated 90 degrees> <./figures/MuonTrigEff
-/simu_z0.pdf, page is rotated 90 degrees>] (./thesis.bbl [69
+/simu_z0.pdf, page is rotated 90 degrees> <./figures/MuonTrigEff/simu_eta_phi_d
+ata.pdf, page is rotated 90 degrees> <./figures/MuonTrigEff/simu_eta_phi_MC.pdf
+, page is rotated 90 degrees>]
+(./thesis.bbl [69
 
 
 
 ]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
+) [70]
 (/usr/local/texlive/2017/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-) [70] [71]
-[72]) [73]
+) [71] [72])
+[73]
 \openout2 = `appendices/app_signal_truth.aux'.
 
  (./appendices/app_signal_truth.tex) [74
@@ -2018,7 +2070,7 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 
 
 (./appendices/app_signal_efficiency_map.tex
-<figures/EfficiencyMap/eff_map_mumu_m100t100.pdf, id=3757, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m100t100.pdf, id=3925, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m100t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m100t100.pdf>
@@ -2026,7 +2078,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m100t100.pdf used o
 n input line 5.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m100t250.pdf, id=3758, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m100t250.pdf, id=3926, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m100t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m100t250.pdf>
@@ -2034,7 +2086,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m100t250.pdf used o
 n input line 6.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m100t500.pdf, id=3759, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m100t500.pdf, id=3927, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m100t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m100t500.pdf>
@@ -2042,7 +2094,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m100t500.pdf used o
 n input line 7.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m250t100.pdf, id=3760, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m250t100.pdf, id=3928, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m250t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m250t100.pdf>
@@ -2050,7 +2102,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m250t100.pdf used o
 n input line 8.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m250t250.pdf, id=3761, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m250t250.pdf, id=3929, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m250t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m250t250.pdf>
@@ -2058,7 +2110,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m250t250.pdf used o
 n input line 9.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m250t500.pdf, id=3762, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m250t500.pdf, id=3930, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m250t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m250t500.pdf>
@@ -2072,7 +2124,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m500t100.pdf used o
 n input line 17.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m500t250.pdf, id=3763, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m500t250.pdf, id=3931, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m500t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m500t250.pdf>
@@ -2086,7 +2138,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m500t500.pdf used o
 n input line 19.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m750t100.pdf, id=3764, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m750t100.pdf, id=3932, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m750t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m750t100.pdf>
@@ -2094,7 +2146,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m750t100.pdf used o
 n input line 20.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m750t250.pdf, id=3765, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m750t250.pdf, id=3933, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m750t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m750t250.pdf>
@@ -2102,7 +2154,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m750t250.pdf used o
 n input line 21.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m750t500.pdf, id=3766, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_mumu_m750t500.pdf, id=3934, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m750t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m750t500.pdf>
@@ -2116,7 +2168,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m1000t100.pdf used
 on input line 23.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_mumu_m1000t250.pdf, id=3767, 569.12625pt x 410.5
+<figures/EfficiencyMap/eff_map_mumu_m1000t250.pdf, id=3935, 569.12625pt x 410.5
 3375pt>
 File: figures/EfficiencyMap/eff_map_mumu_m1000t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_mumu_m1000t250.pdf>
@@ -2130,7 +2182,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_mumu_m1000t500.pdf used
 on input line 25.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m100t100.pdf, id=3768, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m100t100.pdf, id=3936, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m100t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m100t100.pdf>
@@ -2138,7 +2190,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m100t100.pdf used on
 input line 32.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m100t250.pdf, id=3769, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m100t250.pdf, id=3937, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m100t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m100t250.pdf>
@@ -2146,7 +2198,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m100t250.pdf used on
 input line 33.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m100t500.pdf, id=3770, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m100t500.pdf, id=3938, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m100t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m100t500.pdf>
@@ -2154,7 +2206,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m100t500.pdf used on
 input line 34.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m250t100.pdf, id=3771, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m250t100.pdf, id=3939, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m250t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m250t100.pdf>
@@ -2162,7 +2214,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m250t100.pdf used on
 input line 35.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m250t250.pdf, id=3772, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m250t250.pdf, id=3940, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m250t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m250t250.pdf>
@@ -2170,7 +2222,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m250t250.pdf used on
 input line 36.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m250t500.pdf, id=3773, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m250t500.pdf, id=3941, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m250t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m250t500.pdf>
@@ -2178,7 +2230,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m250t500.pdf used on
 input line 37.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m500t100.pdf, id=3774, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m500t100.pdf, id=3942, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m500t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m500t100.pdf>
@@ -2186,7 +2238,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m500t100.pdf used on
 input line 38.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m500t250.pdf, id=3775, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m500t250.pdf, id=3943, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m500t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m500t250.pdf>
@@ -2194,7 +2246,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m500t250.pdf used on
 input line 39.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m500t500.pdf, id=3776, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m500t500.pdf, id=3944, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m500t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m500t500.pdf>
@@ -2202,7 +2254,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m500t500.pdf used on
 input line 40.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_ee_m750t100.pdf, id=3777, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m750t100.pdf, id=3945, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m750t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m750t100.pdf>
@@ -2210,7 +2262,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m750t100.pdf used on
 input line 48.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_ee_m750t250.pdf, id=3778, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m750t250.pdf, id=3946, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m750t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m750t250.pdf>
@@ -2218,7 +2270,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m750t250.pdf used on
 input line 49.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_ee_m750t500.pdf, id=3779, 569.12625pt x 410.5337
+<figures/EfficiencyMap/eff_map_ee_m750t500.pdf, id=3947, 569.12625pt x 410.5337
 5pt>
 File: figures/EfficiencyMap/eff_map_ee_m750t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m750t500.pdf>
@@ -2226,7 +2278,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m750t500.pdf used on
 input line 50.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_ee_m1000t100.pdf, id=3780, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_ee_m1000t100.pdf, id=3948, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_ee_m1000t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m1000t100.pdf>
@@ -2234,7 +2286,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m1000t100.pdf used on
  input line 51.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_ee_m1000t250.pdf, id=3781, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_ee_m1000t250.pdf, id=3949, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_ee_m1000t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m1000t250.pdf>
@@ -2242,7 +2294,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m1000t250.pdf used on
  input line 52.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_ee_m1000t500.pdf, id=3782, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_ee_m1000t500.pdf, id=3950, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_ee_m1000t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_ee_m1000t500.pdf>
@@ -2250,7 +2302,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_ee_m1000t500.pdf used on
  input line 53.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_emu_m100t100.pdf, id=3783, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m100t100.pdf, id=3951, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m100t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m100t100.pdf>
@@ -2258,7 +2310,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m100t100.pdf used on
  input line 60.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m100t250.pdf, id=3784, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m100t250.pdf, id=3952, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m100t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m100t250.pdf>
@@ -2266,7 +2318,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m100t250.pdf used on
  input line 61.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m100t500.pdf, id=3785, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m100t500.pdf, id=3953, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m100t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m100t500.pdf>
@@ -2274,7 +2326,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m100t500.pdf used on
  input line 62.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m250t100.pdf, id=3786, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m250t100.pdf, id=3954, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m250t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m250t100.pdf>
@@ -2282,7 +2334,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m250t100.pdf used on
  input line 63.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m250t250.pdf, id=3787, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m250t250.pdf, id=3955, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m250t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m250t250.pdf>
@@ -2290,7 +2342,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m250t250.pdf used on
  input line 64.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m250t500.pdf, id=3788, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m250t500.pdf, id=3956, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m250t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m250t500.pdf>
@@ -2298,7 +2350,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m250t500.pdf used on
  input line 65.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m500t100.pdf, id=3789, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m500t100.pdf, id=3957, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m500t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m500t100.pdf>
@@ -2306,7 +2358,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m500t100.pdf used on
  input line 66.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m500t250.pdf, id=3790, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m500t250.pdf, id=3958, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m500t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m500t250.pdf>
@@ -2314,7 +2366,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m500t250.pdf used on
  input line 67.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m500t500.pdf, id=3791, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m500t500.pdf, id=3959, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m500t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m500t500.pdf>
@@ -2322,7 +2374,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m500t500.pdf used on
  input line 68.
 (pdftex.def)             Requested size: 189.01091pt x 136.34102pt.
 
-<figures/EfficiencyMap/eff_map_emu_m750t100.pdf, id=3792, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m750t100.pdf, id=3960, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m750t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m750t100.pdf>
@@ -2330,7 +2382,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m750t100.pdf used on
  input line 76.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_emu_m750t250.pdf, id=3793, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m750t250.pdf, id=3961, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m750t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m750t250.pdf>
@@ -2338,7 +2390,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m750t250.pdf used on
  input line 77.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_emu_m750t500.pdf, id=3794, 569.12625pt x 410.533
+<figures/EfficiencyMap/eff_map_emu_m750t500.pdf, id=3962, 569.12625pt x 410.533
 75pt>
 File: figures/EfficiencyMap/eff_map_emu_m750t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m750t500.pdf>
@@ -2346,7 +2398,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m750t500.pdf used on
  input line 78.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_emu_m1000t100.pdf, id=3795, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_emu_m1000t100.pdf, id=3963, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_emu_m1000t100.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m1000t100.pdf>
@@ -2354,7 +2406,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m1000t100.pdf used o
 n input line 79.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_emu_m1000t250.pdf, id=3796, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_emu_m1000t250.pdf, id=3964, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_emu_m1000t250.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m1000t250.pdf>
@@ -2362,7 +2414,7 @@ Package pdftex.def Info: figures/EfficiencyMap/eff_map_emu_m1000t250.pdf used o
 n input line 80.
 (pdftex.def)             Requested size: 207.91104pt x 149.97824pt.
 
-<figures/EfficiencyMap/eff_map_emu_m1000t500.pdf, id=3797, 569.12625pt x 410.53
+<figures/EfficiencyMap/eff_map_emu_m1000t500.pdf, id=3965, 569.12625pt x 410.53
 375pt>
 File: figures/EfficiencyMap/eff_map_emu_m1000t500.pdf Graphic file (type pdf)
  <use figures/EfficiencyMap/eff_map_emu_m1000t500.pdf>
@@ -2415,28 +2467,28 @@ rotated 90 degrees> <./figures/EfficiencyMap/eff_map_emu_m1000t500.pdf, page is
 \openout2 = `appendices/app_syst_ks_zp.aux'.
 
  (./appendices/app_syst_ks_zp.tex
-<figures/m_syst_zp_Ks_r.pdf, id=5641, 569.12625pt x 410.53375pt>
+<figures/m_syst_zp_Ks_r.pdf, id=5808, 569.12625pt x 410.53375pt>
 File: figures/m_syst_zp_Ks_r.pdf Graphic file (type pdf)
 
 <use figures/m_syst_zp_Ks_r.pdf>
 Package pdftex.def Info: figures/m_syst_zp_Ks_r.pdf used on input line 9.
 (pdftex.def)             Requested size: 173.44534pt x 125.11551pt.
 
-<figures/m_syst_zp_Ks_z.pdf, id=5642, 569.12625pt x 410.53375pt>
+<figures/m_syst_zp_Ks_z.pdf, id=5809, 569.12625pt x 410.53375pt>
 File: figures/m_syst_zp_Ks_z.pdf Graphic file (type pdf)
 
 <use figures/m_syst_zp_Ks_z.pdf>
 Package pdftex.def Info: figures/m_syst_zp_Ks_z.pdf used on input line 10.
 (pdftex.def)             Requested size: 173.44534pt x 125.11551pt.
 
-<figures/m_syst_zp_Ks_eta.pdf, id=5643, 569.12625pt x 410.53375pt>
+<figures/m_syst_zp_Ks_eta.pdf, id=5810, 569.12625pt x 410.53375pt>
 File: figures/m_syst_zp_Ks_eta.pdf Graphic file (type pdf)
 
 <use figures/m_syst_zp_Ks_eta.pdf>
 Package pdftex.def Info: figures/m_syst_zp_Ks_eta.pdf used on input line 11.
 (pdftex.def)             Requested size: 173.44534pt x 125.11551pt.
 
-<figures/m_syst_zp_Ks_pt.pdf, id=5644, 569.12625pt x 410.53375pt>
+<figures/m_syst_zp_Ks_pt.pdf, id=5811, 569.12625pt x 410.53375pt>
 File: figures/m_syst_zp_Ks_pt.pdf Graphic file (type pdf)
 
 <use figures/m_syst_zp_Ks_pt.pdf>
@@ -2456,15 +2508,15 @@ s>]
 \openout2 = `appendices/app_TF_extrapolation.aux'.
 
 
-(./appendices/app_TF_extrapolation.tex) [82
+(./appendices/app_TF_extrapolation.tex [82
 
 
 
-]
+] [83] [84]) [85]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
- (./thesis.aux (./src/abstract.aux) (./src/acknowledgements.aux) (./src/ch1_int
-roduction.aux)
+ (./thesis.aux
+(./src/abstract.aux) (./src/acknowledgements.aux) (./src/ch1_introduction.aux)
 (./src/ch2_experiment.aux) (./src/ch3_reconstruction.aux)
 (./src/ch4_analysis_overview.aux) (./src/ch5_data_mc_samples.aux)
 (./src/ch6_signal_selection.aux) (./src/ch7_signal_efficiency.aux)
@@ -2483,11 +2535,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 27110 strings out of 492995
- 500707 string characters out of 6132704
- 743163 words of memory out of 5000000
- 29403 multiletter control sequences out of 15000+600000
- 63185 words of font info for 287 fonts, out of 8000000 for 9000
+ 27175 strings out of 492995
+ 501989 string characters out of 6132704
+ 744679 words of memory out of 5000000
+ 29442 multiletter control sequences out of 15000+600000
+ 63134 words of font info for 286 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  57i,15n,94p,10407b,966s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -2511,25 +2563,26 @@ e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfcc2488.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (95 pages, 5122949 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfcc2488.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/cm-super/sftt1095.pfb>
+Output written on thesis.pdf (98 pages, 5229171 bytes).
 PDF statistics:
- 6223 PDF objects out of 7423 (max. 8388607)
- 3353 compressed objects within 34 object streams
- 412 named destinations out of 1000 (max. 500000)
- 54870 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 6440 PDF objects out of 7423 (max. 8388607)
+ 3488 compressed objects within 35 object streams
+ 437 named destinations out of 1000 (max. 500000)
+ 54917 words of extra memory for PDF output out of 61914 (max. 10000000)
 

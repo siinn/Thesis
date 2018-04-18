@@ -63,8 +63,8 @@
 \contentsline {section}{\numberline {8.2}Random-Crossing Background}{48}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Track Flipping Method}{49}{subsection.8.2.1}
 \contentsline {subsection}{\numberline {8.2.2}Event Mixing Method}{51}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}MC Study}{52}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Estimating Random-crossing Background with Data Sample}{53}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.3}MC Study}{51}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Estimating Random-crossing Background with Data Sample}{52}{subsection.8.2.4}
 \contentsline {chapter}{\numberline {9}Systematic Uncertainties}{57}{chapter.9}
 \contentsline {section}{\numberline {9.1}Systematic Uncertainty in Track and Vertex Reconstruction}{57}{section.9.1}
 \contentsline {section}{\numberline {9.2}Systematic Uncertainties in Trigger Efficiency}{61}{section.9.2}
@@ -75,6 +75,10 @@
 \contentsline {section}{\numberline {A}Truth-level $p_{T}$ and $\eta $ distributions of Signal MC samples}{74}{section.Alph0.1}
 \contentsline {section}{\numberline {B}Efficiency Map of Signal MC Samples}{75}{section.Alph0.2}
 \contentsline {section}{\numberline {C}$K_{S}$ and $Z'$ comparison}{81}{section.Alph0.3}
-\contentsline {subsection}{\numberline {C.1}Extrapolation from control region}{82}{subsection.Alph0.3.1}
-\contentsline {subsection}{\numberline {C.2}Extrapolation from validation region}{82}{subsection.Alph0.3.2}
-\contentsline {subsection}{\numberline {C.3}Scale factors}{82}{subsection.Alph0.3.3}
+\contentsline {section}{\numberline {D}Extrapolation in the track flipping method}{82}{section.Alph0.4}
+\contentsline {subsection}{\numberline {D.1}Definition}{82}{subsection.Alph0.4.1}
+\contentsline {subsection}{\numberline {D.2}Vertex estimation}{82}{subsection.Alph0.4.2}
+\contentsline {subsection}{\numberline {D.3}Counting pairs}{83}{subsection.Alph0.4.3}
+\contentsline {subsection}{\numberline {D.4}Extrapolation of control region into validation and signal region}{83}{subsection.Alph0.4.4}
+\contentsline {subsection}{\numberline {D.5}Extrapolation of validation region into signal region}{84}{subsection.Alph0.4.5}
+\contentsline {subsection}{\numberline {D.6}Scale factors}{85}{subsection.Alph0.4.6}

@@ -22,7 +22,7 @@ Track reconstruction in the ATLAS uses pattern recognition algorithms to reconst
 The standard ATLAS track reconstruction is the main track reconstruction algorithm used in the ATLAS experiment. In the first stage of the track reconstruction, detector hits from the Pixel or the SCT detector are used to create \textit{track seeds}, collections of silicon hits used for the initial track finding. If a track seed passes certain quality criteria, including a $p_{T}$ and impact parameter selection, the track seed is extended to the outer part of the ID using a window search and pattern recognition algorithms. The extended tracks are evaluated based on $p_{T}$, number of hits, and impact parameters, and only the tracks satisfying the standard track selections are stored in the track collection. Figure~\ref{fig:tracking} illustrates detector hits and reconstructed tracks in the ID. The important standard track selections is summarized in Table~\ref{table:tracking}~\cite{ATL-PHYS-PUB-2017-014}.
 
 
-Tracks are described by five parameters and a reference point, using a perigee representation. The parameters are the transverse (longitudinal) impact parameter $d_{0}$ ($z_{0}$), the azimuthal angle $\phi$, the polar angle $\theta$, and the charge-to-momentum ratio, $q/p$. The average position of the $pp$ interaction, referred as beamspot, is used as the reference point for the track representation~\cite{Aaboud:2016rmg}.
+Tracks are described by five parameters (helix) and a reference point, using a perigee representation. The parameters are the transverse (longitudinal) impact parameter $d_{0}$ ($z_{0}$), the azimuthal angle $\phi$, the polar angle $\theta$, and the charge-to-momentum ratio, $q/p$. The average position of the $pp$ interaction, referred as beamspot position, is used as the reference point for the track representation~\cite{Aaboud:2016rmg}.
 
 
 \begin{table}[!htb]
@@ -41,7 +41,7 @@ Tracks are described by five parameters and a reference point, using a perigee r
     \hline
     \hline
   \end{tabular}
-  \caption{Important track selection in the standard and the LRT algorithms.}
+  \caption{Main track selection in the standard and the LRT algorithms.}
   \label{table:tracking}
 \end{table}
 
@@ -49,9 +49,9 @@ Tracks are described by five parameters and a reference point, using a perigee r
 \subsection{Large Radius Tracking}
 \label{sec:reco:lrt}
 
-The standard track reconstruction is proven to be very efficient in Run 2 with the tracking efficiency > 90\%~\cite{Aaboud:2017all}. However, the tracking algorithm is optimized for primary charged particles promptly produced from $pp$ collisions, and the strict requirements on the impact parameters, \dzero and \zzero potentially limit the tracking efficiency for the charged particles with large impact parameters ($|d_{0}|$ > 2 mm). Therefore, a dedicated track reconstruction algorithm, referred to as the large radius tracking (LRT), is developed to improve the track reconstruction efficiency for the tracks highly displaced from the primary vertex.
+The standard track reconstruction is proven to be very efficient in Run 2 with the tracking efficiency > 90\%~\cite{Aaboud:2017all}. However, the tracking algorithm is optimized for primary charged particles promptly produced from $pp$ collisions, and the strict requirements on the impact parameters, \dzero and \zzero potentially limit the tracking efficiency for charged particles with large impact parameters ($|d_{0}|$ > 2 mm). Therefore, a dedicated track reconstruction algorithm, referred to as the large radius tracking (LRT), is developed to improve the track reconstruction efficiency for the tracks highly displaced from the primary vertex.
 
-The LRT is performed in a sequence, following the standard tracking. It follows the same reconstruction strategy as the standard tracking, but there are a few importance difference between the standard tracking and the LRT.
+The LRT is performed in a sequence, following the standard tracking. It follows the same reconstruction strategy as the standard tracking, but there are a few importance difference between the standard tracking and the LRT:
 
 \begin{itemize}
 	\item The pattern recognition algorithms in the LRT only uses \textit{un-used} hits, the silicon hits that have not been used in the standard tracking, in creating and extending track seeds.
@@ -84,14 +84,14 @@ $|\eta|$ & $<$ & 5 \\
 \section{Electron Reconstruction}
 \label{sec:reco:lep}
 
-Electrons are characterized by energy deposits in the EM calorimeter and the associated reconstructed tracks in the ID. The electron reconstruction algorithm uses the energy deposits with total transverse energy $>2.5$ \si{\GeV} in a window size of 0.075$\times$0.125 in ($\eta$,$\phi$) to reconstruct EM clusters. The EM clusters are associated with tracks within the same RoI, $|\Delta\eta|<0.05$ and $|\Delta\phi|<0.1$ where the effect of bremsstrahlung is taken into account~\cite{Aad:2014fxa}. In the absence of a matching track, the EM cluster is classified as a photon candidate. The associated pairs of tracks and clusters are refitted to create electron candidates. Additional electron requirements, including likelihood-based identification criteria, are imposed on the electron candidates for reconstruction of electrons.
+Electrons are characterized by energy deposits in the EM calorimeter and the associated reconstructed tracks in the ID. The electron reconstruction algorithm uses the energy deposits with total transverse energy $>2.5$ \si{\GeV} in a window size of 0.075$\times$0.125 in ($\eta$,$\phi$) to reconstruct EM clusters. The EM clusters are associated with tracks within the same RoI, $|\Delta\eta|<0.05$ and $|\Delta\phi|<0.1$ where the effect of bremsstrahlung is taken into account~\cite{Aad:2014fxa}. In the absence of a matching track, the EM cluster is classified as a photon candidate. The associated pairs of tracks and energy clusters are refitted to improve the energy resolution of the electron candidate. Additional electron requirements, including likelihood-based identification criteria, are imposed on the electron candidates to reduce misidentification.
 
 %By default, electrons are required to have a minimum number of pixel hits and small transverse impact parameters. This is not optimal for the searches that aim to detect displaced vertices as the decay products of displaced vertices tend to have large impact parameters (\dzero, \zzero) and missing hits in the inner layers of the detector. Therefore, these requirements are removed in this analysis.
 
 \section{Muon Reconstruction}
 \label{sec:reco:muon}
 
-Muons leave very small energy deposits in the calorimeter as they traverse through the detector due to the relatively larger mass, given that the probability of bremsstrahlung is $\propto 1/m^{2}$. However, they leave tracks in both the ID and the MS, referred as inner detector (ID) tracks and muon standalone (MS) tracks. The muon reconstruction algorithm uses MS tracks as seeds, and the MS tracks are extrapolated to the ID for the association with ID tracks. A \textit{combined muon} track is created if a MS track is successfully associated with an ID track after the momentum correction for the energy loss from the interaction with the detector material. There are other types of reconstructed muons such as standalone muons, segment-tagged muons, and calorimeter-tagged muons~\cite{Aad:2016jkr}. However, these types of muons are not considered in this analysis as they do not have associated ID tracks which are required for the reconstruction of displaced vertices.
+Muons deposit very small energy in the calorimeter as they traverse through the detector due to the relatively larger mass, given that the probability of bremsstrahlung is $\propto 1/m^{2}$. However, they leave tracks in both the ID and the MS, referred as inner detector (ID) tracks and muon standalone (MS) tracks. The muon reconstruction algorithm uses MS tracks as seeds, and the MS tracks are extrapolated to the ID for the association with ID tracks. A \textit{combined muon} track is created if a MS track is successfully associated with an ID track after the momentum correction for the energy loss from the interaction with the detector material. There are other types of reconstructed muons such as standalone muons, segment-tagged muons, and calorimeter-tagged muons~\cite{Aad:2016jkr}. However, these types of muons are not considered in this analysis as they do not have associated ID tracks which are required for the reconstruction of displaced vertices.
 
 By default, muons are required to have a minimum number of Pixel, SCT hits and small transverse impact parameters. This is not optimal for the searches that aim to detect displaced vertices as the decay products of displaced vertices tend to have large impact parameters (\dzero, \zzero) and missing hits in the inner layers of the detector. Therefore, the requirements on \dzero and Pixel hits are removed. Also minimum SCT hits on muon tracks are lowered to 2.
 
@@ -101,15 +101,15 @@ By default, muons are required to have a minimum number of Pixel, SCT hits and s
 \begin{figure}[!htb]
     \includegraphics[width=0.6\textwidth]{figures/vertex.png}
     \centering
-    \caption{Important vertex topologies in $pp$ collisions: primary, pile-up, and secondary vertices.}
+    \caption{Main vertex topologies in $pp$ collisions: primary, pile-up, and secondary vertices.}
     \label{fig:vertex_topology}
 \end{figure}
 
-In the LHC, when two proton bunches collide, several different vertex topologies arise. The primary vertex and several pile-up vertices are formed along the beam line, and the vertices from photon conversion or long-lived particles are formed displaced from the primary vertex as shown in Figure~\ref{fig:vertex_topology}. These displaced vertices are referred as secondary vertices. In the search for long-lived $Z'$ in dilepton decay channel, the decay products of long-lived particles can be reconstructed as a secondary vertex.
+In the LHC, when two proton bunches collide, several different vertex topologies arise. The primary vertex and several pile-up vertices are formed along the beam line, and the vertices from photon conversion or long-lived particles are formed displaced from the primary vertex as shown in Figure~\ref{fig:vertex_topology}. These displaced vertices are referred as secondary vertices. In the search for long-lived $Z'$ in the dilepton decay channel, the decay products of long-lived particles can be reconstructed as a secondary vertex.
 
 The secondary vertex reconstruction is based on the primary vertex reconstruction algorithm~\cite{1742-6596-119-3-032033} and was originally developed for the study of material mapping of the ID in Run I. The algorithm was updated for several long-lived particle searches in Run 2.
 
-In the first stage, track are selected using the requirements on track parameters and hit patterns shown in Table~\ref{table:vertex_track_selection_simple}. The tracks reconstructed by both the standard track reconstruction and the LRT are used as input. The tracks passing the track requirements are used to create two-track vertices, based on the closeness of two tracks in the space. This process results in a large number of fake vertices. The fake vertices are rejected by considering the location of a vertex and hit patterns of the tracks associated with the vertex. A vertex is rejected if the associated tracks have any hits at a radius smaller than the vertex position. Two-track vertices passing the fake rejection are refitted using a Kalman Filter for precise vertex position measurements, and track parameters are calculated with respect to the secondary vertex.
+In the first stage, track are selected using the requirements on track parameters and hit patterns shown in Table~\ref{table:vertex_track_selection_simple}. The tracks reconstructed by both the standard track reconstruction and the LRT are used as input. The tracks passing the track requirements are used to create two-track vertices, based on the closeness of two tracks in the space. This process results in a large number of fake vertices. The fake vertices are rejected by considering the location of a vertex and hit patterns of the tracks associated with the vertex. A vertex is rejected if the associated tracks have any hits at a radius smaller than the vertex position. Two-track vertices passing the fake rejection are refitted using a Kalman Filter~\cite{Kalman:434680} for precise vertex position measurements, and track parameters are calculated with respect to the secondary vertex.
 
 The two-track vertices reconstructed by the secondary vertex reconstruction serves as the primary analysis object in this thesis. %Section~\ref{sec:vertex_selection} discusses the vertex selection applied to these two-track vertices to select displaced vertices. Lepton identification requirements are applied to the tracks from secondary vertices after applying analysis level vertex selection, so secondary vertices reconstructed can have any combination of muon, electron, or non-leptonic tracks.
 

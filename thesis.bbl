@@ -112,7 +112,7 @@ Q.-H. Cao, Z.~Li, J.-H. Yu,  {et~al.}, {\em Discovery and identification of
   \url{https://link.aps.org/doi/10.1103/PhysRevD.86.095010}.
 
 \bibitem{ABAZOV201188}
-{D0} Collaboration, {\em Search for a heavy neutral gauge boson in the
+{D{{\O}}} Collaboration, {\em Search for a heavy neutral gauge boson in the
   dielectron channel with 5.4 $fb^{-1}$ of $p\bar{p}$ collisions at
   $\sqrt{s}$=1.96 TeV},
   \href{http://dx.doi.org/https://doi.org/10.1016/j.physletb.2010.10.059}{Physics
@@ -125,6 +125,17 @@ Q.-H. Cao, Z.~Li, J.-H. Yu,  {et~al.}, {\em Discovery and identification of
   detector}, \href{http://dx.doi.org/10.1103/PhysRevD.90.052005}{Phys. Rev. D
   {\bfseries 90} (2014) 052005},
   \url{https://link.aps.org/doi/10.1103/PhysRevD.90.052005}.
+
+\bibitem{Aad:2010949}
+{ATLAS} Collaboration, {\em {Search for massive, long-lived particles using
+  multitrack displaced vertices or displaced lepton pairs in pp collisions at
+  $\sqrt{s}$ = 8 TeV with the ATLAS detector.}}, Phys. Rev. D {\bfseries 92}
+  (2015) 072004. 37, \url{https://cds.cern.ch/record/2010949}.
+
+\bibitem{Chatrchyan:1493239}
+{CMS} Collaboration, {\em {Search in leptonic channels for heavy resonances
+  decaying to long-lived neutral particles.}}, JHEP {\bfseries 02} (2012) 085.
+  31, \url{https://cds.cern.ch/record/1493239}.
 
 \bibitem{Aaboud:2017yvp}
 {ATLAS} Collaboration, {\em {Search for new phenomena in dijet events using 37
@@ -143,11 +154,6 @@ Q.-H. Cao, Z.~Li, J.-H. Yu,  {et~al.}, {\em Discovery and identification of
 \href{http://arxiv.org/abs/1611.03568}{{\ttfamily arXiv:1611.03568 [hep-ex]}}.
 %%CITATION = ARXIV:1611.03568;%%.
 
-\bibitem{Langacker:2009su}
-P.~Langacker, {\em {Z' Physics at the LHC}},
-\href{http://arxiv.org/abs/0911.4294}{{\ttfamily arXiv:0911.4294 [hep-ph]}}.
-%%CITATION = ARXIV:0911.4294;%%.
-
 \bibitem{Bruning:782076}
 O.~S. Brüning, P.~Collier, P.~Lebrun,  {et~al.}, {\em {LHC Design Report}}.
 \newblock CERN, Geneva, 2004.
@@ -162,6 +168,17 @@ H.~Pernegger, {\em The Pixel detector of the ATLAS experiment for LHC Run-2},
 {ATLAS} Collaboration, {\em {Production and integration of the ATLAS insertable
   B-layer}}, Tech. Rep. arXiv:1803.00844, Mar, 2018.
 \newblock \url{http://cds.cern.ch/record/2307576}.
+
+\bibitem{Abdesselam:974073}
+{ATLAS} Collaboration, {\em {The Barrel Modules of the ATLAS SemiConductor
+  Tracker}}, Tech. Rep. ATL-INDET-PUB-2006-005. ATL-COM-INDET-2006-009.
+  CERN-ATL-COM-INDET-2006-009, CERN, Geneva, Jul, 2006.
+\newblock \url{https://cds.cern.ch/record/974073}.
+
+\bibitem{Abdesselam:973395}
+{ATLAS} Collaboration, {\em {ATLAS SCT Endcap Module Production}}, Tech. Rep.
+  ATL-INDET-PUB-2006-007. ATL-COM-INDET-2006-008, CERN, Geneva, Jul, 2006.
+\newblock \url{https://cds.cern.ch/record/973395}.
 
 \bibitem{Vogel:1537991}
 {ATLAS} Collaboration, {\em {ATLAS transition radiation tracker (TRT): straw
@@ -252,6 +269,11 @@ H.~Pernegger, {\em The Pixel detector of the ATLAS experiment for LHC Run-2},
   experiment at LHC}, Journal of Physics: Conference Series {\bfseries 119}
   (2008) 032033, \url{http://stacks.iop.org/1742-6596/119/i=3/a=032033}.
 
+\bibitem{Kalman:434680}
+R.~E. Kalman, {\em {A new approach to linear filtering and prediction
+  problems}}, Trans. ASME, D {\bfseries 82} (1960) 35--44,
+  \url{https://cds.cern.ch/record/434680}.
+
 \bibitem{Blackburn:1550730}
 {ATLAS} Collaboration, {\em {Search for long-lived, weakly-interacting particle
   that decay to displaced hadronic jets in proton-proton collisions at
@@ -284,6 +306,13 @@ T.~Sjöstrand, S.~Mrenna,  and P.~Skands, {\em PYTHIA 6.4 physics and manual},
   Journal of High Energy Physics {\bfseries 2006} (2006) 026,
   \url{http://stacks.iop.org/1126-6708/2006/i=05/a=026}.
 
+\bibitem{Gleisberg:2008ta}
+T.~Gleisberg, S.~Hoeche, F.~Krauss,  {et~al.}, {\em {Event generation with
+  SHERPA 1.1}}, \href{http://dx.doi.org/10.1088/1126-6708/2009/02/007}{JHEP
+  {\bfseries 02} (2009) 007},
+\href{http://arxiv.org/abs/0811.4622}{{\ttfamily arXiv:0811.4622 [hep-ph]}}.
+%%CITATION = ARXIV:0811.4622;%%.
+
 \bibitem{Backhaus:2110260}
 {ATLAS} Collaboration, {\em {The upgraded Pixel detector of the ATLAS
   experiment for Run 2 at the Large Hadron Collider}}, Tech. Rep.
@@ -298,13 +327,12 @@ T.~Sjöstrand, S.~Mrenna,  and P.~Skands, {\em PYTHIA 6.4 physics and manual},
 \href{http://arxiv.org/abs/1609.04305}{{\ttfamily arXiv:1609.04305 [hep-ex]}}.
 %%CITATION = ARXIV:1609.04305;%%.
 
-\bibitem{Aad:2011hd}
-{ATLAS} Collaboration, {\em {Kshort and $\Lambda$ production in $pp$
-  interactions at $\sqrt{s}=0.9$ and 7 TeV measured with the ATLAS detector at
-  the LHC}}, \href{http://dx.doi.org/10.1103/PhysRevD.85.012001}{Phys. Rev.
-  {\bfseries D85} (2012) 012001},
-\href{http://arxiv.org/abs/1111.1297}{{\ttfamily arXiv:1111.1297 [hep-ex]}}.
-%%CITATION = ARXIV:1111.1297;%%.
+\bibitem{DuarteCampderros:2275055}
+{ATLAS} Collaboration, {\em {Search for long-lived, massive particles decaying
+  into leptons in $pp$ collisions at 13 TeV centre-of-mass energy, with the
+  ATLAS detector at the LHC}}, Tech. Rep. ATL-COM-PHYS-2017-1060, CERN, Geneva,
+  Jul, 2017.
+\newblock \url{https://cds.cern.ch/record/2275055}.
 
 \bibitem{ATL-PHYS-PUB-2015-051}
 {ATLAS} Collaboration, {\em {Early Inner Detector tracking performance in the
@@ -316,5 +344,13 @@ T.~Sjöstrand, S.~Mrenna,  and P.~Skands, {\em PYTHIA 6.4 physics and manual},
 {ATLAS} Collaboration, {\em {A measurement of material in the ATLAS tracker
   using secondary hadronic interactions in 7 TeV pp collisions.}}, JINST
   {\bfseries 11} (2016) 45, \url{https://cds.cern.ch/record/2215485}.
+
+\bibitem{Aad:2011hd}
+{ATLAS} Collaboration, {\em {Kshort and $\Lambda$ production in $pp$
+  interactions at $\sqrt{s}=0.9$ and 7 TeV measured with the ATLAS detector at
+  the LHC}}, \href{http://dx.doi.org/10.1103/PhysRevD.85.012001}{Phys. Rev.
+  {\bfseries D85} (2012) 012001},
+\href{http://arxiv.org/abs/1111.1297}{{\ttfamily arXiv:1111.1297 [hep-ex]}}.
+%%CITATION = ARXIV:1111.1297;%%.
 
 \end{thebibliography}\endgroup

@@ -8,9 +8,9 @@ The analysis uses the 2016 $pp$ collisions data (periods A-L) with the integrate
 
 In this stream, a subset of events from the main physics stream is selected by \texttt{RPVLL} filters. The filters select events using the HLT and offline selections configured for each analysis. The triggers and offline selection used in this search is discussed in Chapter~\ref{chap:signal_selection}. The selected events are passed downstream for reconstruction. The data is in \texttt{RAW} format so that low-level information such as detector hits can be used for the special reconstruction algorithms to reconstruct displaced tracks and vertices.
 
-The events passing HLTs are processed by a sequence of simulation and reconstruction algorithms with varying configurations, and the ATLAS metadate interface (AMI) tags are used to specify the configurations to be used for a data processing chain. In this analysis, the events are centrally processed with AMI tag \texttt{r8669} in which the dedicated track reconstruction algorithm, the LRT, and the secondary vertex reconstruction algorithm are enabled to reconstruct displaced tracks and vertices, respectively. The output of \texttt{DRAW\_RPVLL} stream is in \texttt{DAOD\_RPVLL} format which is a standard \texttt{xAOD} data format with additional displaced tracks and secondary vertices reconstructed. 
+The events passing HLTs are processed by a sequence of reconstruction algorithms with varying configurations, and the ATLAS metadate interface (AMI) tags are used to specify the configurations to be used for a data processing chain. In this analysis, the events are centrally processed with AMI tag \texttt{r8669} in which the dedicated track reconstruction algorithm, the LRT, and the secondary vertex reconstruction algorithm are enabled to reconstruct tracks and vertices, respectively. The output of \texttt{DRAW\_RPVLL} stream is in \texttt{DAOD\_RPVLL} format which is a standard \texttt{xAOD} data format with additional displaced tracks and secondary vertices reconstructed. 
 
-The \texttt{DAOD\_RPVLL} is further processed to produce the \texttt{DAOD\_SUSY15} derivation for data reduction and software fixes on analysis objects such as energy calibration \footnote{Software fixes are released by The ATLAS collaboration in the form of \texttt{AODfix}.}, as recommended by the Analysis Model Study Group (AMSG)~\cite{Catmore:1543445}. Table~\ref{table:data_samples} summarizes datasets used in this search.
+The \texttt{DAOD\_RPVLL} is further processed to produce the \texttt{DAOD\_SUSY15} derivation for data reduction and software fixes on analysis objects such as energy calibration\footnote{Software fixes are released by the ATLAS collaboration in the form of \texttt{AODfix}.}, as recommended by the Analysis Model Study Group (AMSG)~\cite{Catmore:1543445}. Table~\ref{table:data_samples} summarizes datasets used in this search.
 
 \begin{table}[!htb]
   \centering
@@ -22,7 +22,7 @@ The \texttt{DAOD\_RPVLL} is further processed to produce the \texttt{DAOD\_SUSY1
       \hline
       \texttt{DRAW\_RPVLL}	& data16\_13TeV.*.physics\_Main.merge.DRAW\_RPVLL.f*\_m*			\\
       \texttt{DAOD\_RPVLL}	& data16\_13TeV.*.physics\_Main.recon.DAOD\_RPVLL.f*\_r8669			\\
-      \texttt{DAOD\_SUSY15}	& data16\_13TeV.*.physics\_Main.recon.DAOD\_RPVLL.f*\_r8669\_p2950	\\
+      \texttt{DAOD\_SUSY15}	& data16\_13TeV.*.physics\_Main.recon.DAOD\_RPVLL.f*\_r8669\_p3185	\\
       \hline
       \hline
     \end{tabular}
@@ -61,7 +61,7 @@ The tag and probe studies of Section~\ref{sec:trigger_efficiency} are performed 
 
 \subsection{Signal samples}
 \label{sec:signal_sample}
-The long-lived $Z'$ is generated using \texttt{PYTHIA 6.4}~\cite{1126-6708-2006-05-026} with the \texttt{NNPDF23LO} PDF set and the min-bias tune \texttt{A14}. In this signal samples, $Z'$ is singly produced from $q\bar{q}$ scattering and decays to a $\mu\mu$, $ee$, or $e\mu$ pair. The proper lifetime, $c\tau$, is set to 100, 250, or 500 mm. The mass of $Z'$ is set between 100 and 1000 GeV. A width based on relativistic Breit-Wigner is assumed for the new resonance. A sample of 20k events are generated for each mass and lifetime. Table~\ref{table:MC_signal_samples} summarizes dataset identifiers (DIDs), mass, width, and lifetime of the signal MC samples used in this search.
+The long-lived $Z'$ is generated using \texttt{PYTHIA 6.4}~\cite{1126-6708-2006-05-026} with the \texttt{NNPDF23LO} PDF set~\cite{Ball:2014uw} and the min-bias tune \texttt{A14}. In this signal samples, $Z'$ is singly produced from $q\bar{q}$ scattering and decays to a $\mu\mu$, $ee$, or $e\mu$ pair. The proper lifetime, $c\tau$, is set to 100, 250, or 500 mm. The mass of $Z'$ is set between 100 and 1000 GeV. A width based on relativistic Breit-Wigner is assumed for the new resonance. A sample of 20k events are generated for each mass and lifetime. Table~\ref{table:MC_signal_samples} summarizes dataset identifiers (DIDs), mass, width, and lifetime of the signal MC samples used in this search.
 
 \begin{table}[!htb]
   \centering
@@ -119,7 +119,7 @@ The $\eta$ distribution of signal muons shows that most of the signal muons are 
 \label{sec:background_mc_sample}
 In this analysis, backgrounds are estimated from data because most of the backgrounds are expected to be originated from non-collision processes such as cosmic rays or random-crossing of tracks. %sources other than the SM collision process 
 
-However, SM background samples are used to study the performance of random-crossing background estimation (Section~\ref{sec:bkg:random}) and to estimate the systematic uncertainties in vertexing and tracking (Section~\ref{sec:syst:vertexing}). The $t\bar{t}$ samples are generated for QCD background study using \texttt{SHERPA} with the \texttt{NNPDF30NNLO} PDF set. The samples with leptonic decay of di-boson ($ZZ$, $WW$, $W^{\pm}Z$) are generated using \texttt{SHERPA} with the \texttt{CT10} PDF set. The di-jet samples (JZ3W-JZ7W) are generated in slices of leading jet $p_{T}$ (160-400, 400-800, 800-1300, 1300-1800, 1800-2500 GeV) using \texttt{PYTHIA8} with \texttt{NNPDF23LO} PDF set. These samples are sufficient for testing purposes, as they contain high-$p_{T}$ isolated leptons (from W boson decays) and leptons and displaced tracks in b-jets, in addition to tracks from pile-up vertices. 
+However, SM background samples are used to study the performance of random-crossing background estimation (Section~\ref{sec:bkg:random}) and to estimate the systematic uncertainties in vertexing and tracking (Section~\ref{sec:syst:vertexing}). The $t\bar{t}$ samples are generated for QCD background study using \texttt{SHERPA}~\cite{Gleisberg:2008ta} with the \texttt{NNPDF30NNLO} PDF set. The samples with leptonic decay of di-boson ($ZZ$, $WW$, $W^{\pm}Z$) are generated using \texttt{SHERPA} with the \texttt{CT10} PDF set. The di-jet samples (JZ3W-JZ7W) are generated in slices of leading jet $p_{T}$ (160-400, 400-800, 800-1300, 1300-1800, 1800-2500 GeV) using \texttt{PYTHIA8} with \texttt{NNPDF23LO} PDF set. These samples are sufficient for testing purposes, as they contain high-$p_{T}$ isolated leptons (from $W$ boson decays) and leptons and displaced tracks in $b$-jets, in addition to tracks from pile-up vertices. Details on the PDF sets can be found in Ref.~\cite{Ball:2014uw}.
 
 The SM background samples are reprocessed using the same configuration as the signal MC sample for consistency. The background MC samples used for background and systematic uncertainty estimations are summarized in Table~\ref{table:background_MC}.
 
