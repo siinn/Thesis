@@ -116,7 +116,16 @@ where the average of $P(\mu\mathrm{x})$ and $P(\mathrm{x})$ is used for $e \mu$ 
 
 \subsection{Scale factors}
 
-The extrapolation into the signal region (xx, $\mu$x, $e$x $\rightarrow \mu\mu, ee, e\mu$) is corrected by the scale factor obtained from the extrapolation of xx into the validation region (xx $\rightarrow \mu\mu, e\mu$). These scale factors, $S_{\mathrm{xx} \rightarrow \mu \mathrm{x}}$ and $S_{\mathrm{xx} \rightarrow e \mathrm{x}}$ defined in Eq.~\ref{eq:random_crossing_scale_factor}, are used to calculate the scale factors in the signal region,
+The extrapolation into the signal region (xx, $\mu$x, $e$x $\rightarrow \mu\mu, ee, e\mu$) is corrected by the scale factor obtained from the extrapolation of xx into the validation region, defined as,
+
+\begin{align}
+    S_{\mathrm{xx}\rightarrow \mu \mathrm{x}} &= \frac{N_{\mu \mathrm{x}}^{obs}}{N_{\mu \mathrm{x}}^{est}}, \nonumber \\
+    S_{\mathrm{xx}\rightarrow e\mathrm{x}}   &= \frac{N_{e\mathrm{x}}^{obs}}{ N_{e\mathrm{x}}^{est}}
+\label{eq:random_crossing_scale_factor}
+\end{align}
+where $N_{\mu \mathrm{x}}^{obs}$ and $N_{\mu \mathrm{x}}^{est}$ ($N_{e\mathrm{x}}^{obs}$ and $N_{e\mathrm{x}}^{est}$) represent the number of observed track-flipping vertex and the estimated vertex of each type.
+
+Using these results, the scale factors in the signal region are defined as,
 \begin{align}
 \label{eq:TF_scale_factors}
 S_{\mathrm{xx} \rightarrow \mu\mu} &=  S_{\mathrm{xx} \rightarrow \mu \mathrm{x}}^{2},  \nonumber\\
@@ -129,5 +138,37 @@ S_{e \mathrm{x}, \mu \mathrm{x} \rightarrow e\mu} &= \frac{1}{2} (S_{\mathrm{xx}
 where the average of $S_{\mathrm{xx} \rightarrow \mu \mathrm{x}}$ and $S_{\mathrm{xx} \rightarrow e \mathrm{x}}$ is used for $e \mu$ vertex.
 
 
+
+\subsection{Vertex yields in the TF method and data}
+\label{sec:tf_raw_yields}
+The raw vertex yields in the TF method and data, and the scale factors calculated from the vertex yields are shown in Table~\ref{table:tf_raw_yields}. The extrapolation of xx into the validation region ($\mu$x and $e$x) estimated vertex yields of 4 $\mu$x and 5 $e$x vertices, which are used to calculate the scale factors.
+
+\begin{table}[!htb]%
+  \centering
+  \subfloat[Vertex yields]{
+    \begin{tabular}[t]{ccc}
+        \hline\hline
+                & Tracks-flipped              & Data                \\
+         \hline
+         $\mathrm{xx}$   & 1255               & 1346                \\
+         $\mu \mathrm{x}$& 3                  & 4                   \\
+         $e\mathrm{x}$   & 1                  & 0                   \\
+        \hline\hline
+    \end{tabular}
+  }%
+  \qquad
+  \subfloat[Scale factors]{
+    \begin{tabular}[t]{cc}
+        \hline\hline
+         Type                                        & SF      \\
+         \hline
+         $S_{\mathrm{xx}\rightarrow\mu \mathrm{x}}$  & 0.82              \\
+         $S_{\mathrm{xx}\rightarrow e\mathrm{x}}$    & 0.19              \\
+        \hline\hline
+    \end{tabular}
+  }%
+  \caption{(a) Vertex yields in the TF and data. Also shown is (b) the scale factors calculated from the vetex yields}
+  \label{table:tf_raw_yields}
+\end{table}
 
 

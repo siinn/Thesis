@@ -111,7 +111,7 @@ Overlap removal is applied to both muons and electrons to ensure that a ID track
 
 \subsection{Vertex selection}
 \label{sec:vertex_selection}
-The vertex selection is applied to two-track secondary vertices found in Section~\ref{sec:reco:dv}. Secondary vertices with displacement of $\Delta r>$ 2 mm from the primary vertex are selected. The selected displaced vertices are made of two tracks which can be any combination of muon, electron, and non-lepton tracks. Therefore, vertices are separated into three vertex types, control, validation, and signal regions.
+The vertex selection is applied to two-track secondary vertices found in Section~\ref{sec:reco:dv}. Secondary vertices with displacement of $r_{DV}>$ 2 mm from the primary vertex are selected. The selected displaced vertices are made of two tracks which can be any combination of muon, electron, and non-lepton tracks. Therefore, vertices are separated into three vertex types, control, validation, and signal regions.
 
 In the control region, vertices are required to have two non-leptonic tracks (\xx). In the validation region, vertices are required to have a muon or an electron and another non-leptonic track (\mux, \ex). In signal region, vertices are required to have a muon pair, an electron pair, or a muon-electron pair (\mumu, \ee, \emu). The control region and the validation region are used for background (Chapter~\ref{chap:bkg}) and systematic uncertainty (Section~\ref{chap:syst}) estimations. The control, validation, and signal regions are summarized in Table~\ref{table:vertex_type}.
 
@@ -149,7 +149,7 @@ In addition to the common vertex selection, at least one electron or muon from t
     \hline
     \textbf{Vertex}          &       Trigger matching (signal region only)                                       \\
                              &       $\chi^2 / \mathrm{ DOF} < 5$                                                \\
-                             &       $r> $ 2 mm                                                                  \\
+                             &       $r_{DV} > $ 2 mm                                                                  \\
                              &       Opposite charge                                                             \\
                              &       Disabled module veto                                                        \\
                              &       Material veto (excluding \mumu)                                          \\

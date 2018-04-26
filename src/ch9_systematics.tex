@@ -51,9 +51,7 @@ where quantities estimated using MC samples are denoted by MC, and quantities es
 \label{eq:Ks_eq3}
 \end{align}
 
-The first factor in the right-hand side of Eq.~\ref{eq:Ks_eq3} is calculated in this study, and the other factors are estimated in the studies performed by the Tracking Combined Performance group~\cite{ATL-PHYS-PUB-2015-051,Aaboud:2215485} in order to estimate the systematic uncertainty in track and vertex reconstruction in LRT.
-
-Events are selected using the same event selection described in Section~\ref{sec:selection:pre} except trigger filters as the high-$p_{T}$ photon or muon triggers are not suitable for \Ks study. From the selected events, \Ks candidates, referred as \Ks vertices, are selected by applying \Ks vertex selection to secondary vertices in the events. The \Ks vertex selection is similar to the $Z'$ signal vertex selection, but for consistency with \Ks study in Run I and background reduction, additional vertex cuts described in Ref.~\cite{Aad:2011hd} are applied. The mass window of 0.35 to 0.65 GeV is used in the \Ks vertex selection. The difference between \Ks and $Z'$ vertex selections are summarized in Table~\ref{table:ks_vertex_cut}. Figure~\ref{fig:Ks_vertex_cutflow} shows \Ks vertex cut flow in the data and the background MC samples.
+Events are selected using the same event selection described in Section~\ref{sec:selection:pre} except trigger filters as the high-$p_{T}$ photon or muon triggers are not suitable for \Ks study. From the selected events, \Ks candidates, referred as \Ks vertices, are selected by applying \Ks vertex selection to secondary vertices in the events. The \Ks vertex selection is similar to the $Z'$ signal vertex selection, but for consistency with \Ks study in Run I and background reduction, additional vertex cuts described in Ref.~\cite{Aad:2011hd} are applied. The mass window of 0.35 to 0.65 GeV is used in the \Ks vertex selection. The difference between \Ks and $Z'$ vertex selections are summarized in Table~\ref{table:ks_vertex_cut}. %Figure~\ref{fig:Ks_vertex_cutflow} shows \Ks vertex cut flow in the data and the background MC samples.
 
 \begin{table}[!htb]
 %\begin{table}[tb]
@@ -74,12 +72,12 @@ Events are selected using the same event selection described in Section~\ref{sec
   \label{table:ks_vertex_cut}
 \end{table}
 
-\begin{figure}[!htb]
-	\includegraphics[width=0.60\textwidth]{figures/m_syst_Ks_cf.pdf}
-	\centering
-	\caption{Vertex cut flow applied on \Ks vertices in the data and the MC samples}
-	\label{fig:Ks_vertex_cutflow}
-\end{figure}
+%\begin{figure}[!htb]
+%	\includegraphics[width=0.60\textwidth]{figures/m_syst_Ks_cf.pdf}
+%	\centering
+%	\caption{Vertex cut flow applied on \Ks vertices in the data and the MC samples}
+%	\label{fig:Ks_vertex_cutflow}
+%\end{figure}
 
 After applying the event and \Ks vertex selection, the \Ks vertex distributions are compared between the data and the MC samples in Figure~\ref{fig:Ks_data_MC}. The data sample is normalized to the MC samples which have limited statistics. Only \Ks vertices with two large-radius tracks are shown. The distributions show good agreement in the invariant mass, $p_{T}$, transverse, longitudinal position, and decay length of the vertices, except the pile-up distribution as expected.
 
@@ -96,16 +94,16 @@ After applying the event and \Ks vertex selection, the \Ks vertex distributions 
     \label{fig:Ks_data_MC}
 \end{figure}
 
-\Ks vertices found in the data and the MC samples are binned in decay radius, $r$, and the \Ks yields in each bin are estimated after subtracting the background contributions using side-bands (350-450 GeV, 550-650 GeV) in invariant mass distribution. Figure~\ref{fig:Ks_mass} shows the mass distribution of \Ks vertex with two large-radius tracks from the data and the MC samples. The figure shows that backgrounds are small and uniform in the mass window, and the mass distributions are in good agreement between the data and the MC samples.
+\Ks vertices found in the data and the MC samples are binned in decay radius, $r$, and the \Ks yields in each bin are estimated after subtracting the background contributions using side-bands (350 - 450 GeV, 550 - 650 GeV) in invariant mass distribution. Figure~\ref{fig:Ks_mass} shows the mass distribution of \Ks vertex with two large-radius tracks from the data and the MC samples. The figure shows that backgrounds are small and uniform in the mass window, and the mass distributions are in good agreement between the data and the MC samples.
 
 %\begin{figure}[tb]
 \begin{figure}[!htb]
     \centering
-    \subfloat[]{\label{subfig:Ks_mass1}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_normalized_LRT_R1.pdf}}
-    \subfloat[]{\label{subfig:Ks_mass2}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_normalized_LRT_R2.pdf}} \\
-    \subfloat[]{\label{subfig:Ks_mass3}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_normalized_LRT_R3.pdf}} 
-    \subfloat[]{\label{subfig:Ks_mass4}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_normalized_LRT_R4.pdf}} \\
-    \subfloat[]{\label{subfig:Ks_mass5}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_normalized_LRT_R5.pdf}} 
+    \subfloat[]{\label{subfig:Ks_mass1}\includegraphics[width=0.50\textwidth]{figures/m_syst_Ks_normalized_LRT_R1.pdf}}
+    \subfloat[]{\label{subfig:Ks_mass2}\includegraphics[width=0.50\textwidth]{figures/m_syst_Ks_normalized_LRT_R2.pdf}} \\
+    \subfloat[]{\label{subfig:Ks_mass3}\includegraphics[width=0.50\textwidth]{figures/m_syst_Ks_normalized_LRT_R3.pdf}} 
+    \subfloat[]{\label{subfig:Ks_mass4}\includegraphics[width=0.50\textwidth]{figures/m_syst_Ks_normalized_LRT_R4.pdf}} \\
+    \subfloat[]{\label{subfig:Ks_mass5}\includegraphics[width=0.50\textwidth]{figures/m_syst_Ks_normalized_LRT_R5.pdf}} 
     \caption{Representative distributions of the invariant mass of \Ks candidates with two large-radius tracks for (a) 2 < $r$ < 100 mm, (b) 100 $<r<$ 150 mm, (c) 150 $<r<$ 200 mm, (d) 200 $<r<$ 250 mm, and (e) 250 $<r<$ 300 mm in the data and the MC samples. Data is normalized to MC samples.}
     \label{fig:Ks_mass}
 \end{figure}
@@ -119,203 +117,20 @@ The vertex yields of \Ks with two large-radius tracks are compared between data 
 	\label{fig:Ks_double_ratio}
 \end{figure}
 
-In estimating the systematic uncertainty, largest discrepancies ($\sim0.95$, and $\sim1.05$), shown in the first and fourth bin, are taken as a conservative estimate. The results from previous studies show that the systematic uncertainty in the standard tracking is $2\%$~\cite{ATL-PHYS-PUB-2015-051}, and the systematic uncertainty in secondary vertex reconstruction using standard tracks is $1\%$~\cite{Aaboud:2215485}. Using Eq.~\ref{eq:Ks_eq3} together with these results, the systematic uncertainty in track and vertex reconstruction in the LRT is estimated to be $10\%$.
+In estimating the systematic uncertainty, largest discrepancies ($\sim0.95$, and $\sim1.05$), shown in the first and fourthbin, are taken as a conservative estimate of $(N_{\mathrm{LRT}} \cdot N_{\mathrm{ST}}^{\mathrm{MC}}) / (N_{\mathrm{LRT}}^{\mathrm{MC}} \cdot N_{\mathrm{ST}})$. The results from previous studies show that the systematic uncertainty in the standard tracking is $2\%$~\cite{ATL-PHYS-PUB-2015-051}, and the systematic uncertainty in secondary vertex reconstruction using standard tracks is $1\%$~\cite{Aaboud:2215485}. The study on secondary vertex reconstruction is performed using min-bias data, but relatively uniform distribution of efficiency as a function of pile-up (Figure~\ref{subfig:vertex_dist_mu}) suggests that this result is still applicable for data with $\langle \mu \rangle\approx$ 24. Using Eq.~\ref{eq:Ks_eq3} together with these results, the systematic uncertainty in track and vertex reconstruction in the LRT is estimated to be $10\%$.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-\section{Systematic Uncertainties in Trigger Efficiency}
-\label{sec:syst:trigger}
-
-Systematic uncertainties in lepton triggers are usually measured with tag-and-probe studies on $Z$+jet where most leptons have small impact parameters. However, because the leptons originating from displaced vertices tend to have large impact parameters, the standard systematics on triggers provided by the performance groups cannot be applied. In the following, the systematic uncertainties in the lepton triggers are estimated using tag-and-probe method on the data and $Z$+jets MC samples. 
-
-The estimated systematic uncertainties are valid only if the trigger efficiencies do not depend on impact parameters or if this dependence is modelled reasonable well in simulations. Therefore, the efficiencies of the single photon and single muon triggers listed on Table~\ref{table:triggers} are estimated using the signal MC samples as a function of impact parameters \dzero and \zzero in Figure~\ref{fig:signal_TrigEff}.
-
-The plots show that the photon trigger efficiency is uniform up to $|\dzero| <$ 200 mm and $|\dzero| <$ 300 mm. The muon trigger efficiency starts to decrease for large impact parameters, $|\dzero| \sim120~\si{\mm}$ and $|\zzero| \sim200~\si{\mm}$. However, the decreasing muon efficiency at very large impact parameters is neglected since the fraction of reconstructed muons with such large impact parameters is less than 10\% at the lifetime of $c\tau=100~\si{\mm}$.
-
-
-\begin{figure}[!htp]
-    \centering
-    \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/TrigEff/signal/eff_siph_d0.pdf}}
-    \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/TrigEff/signal/eff_siph_z0.pdf}} \\
-    \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/TrigEff/signal/eff_simu_d0.pdf}}
-    \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/TrigEff/signal/eff_simu_z0.pdf}}
-    \caption{The efficiency of the single photon trigger for an electron as a function of (a) $|\dzero|$ and (b) $|\zzero|$. The corresponding plots of the single muon trigger are shown in (c) and (d). The lower pane shows the ratio of normalized data to MC.}
-    \label{fig:signal_TrigEff}
-\end{figure}
-
-
-
-\subsection{Photon triggers}
-\label{subsect:photonTrigEff}
-
-The systematic uncertainties of the single photon and the di-photon triggers are estimated with a standard tag and probe method on $Z\rightarrow ee$ events both in data and MC samples. The di-photon trigger (\texttt{HLT\_2g50\_loose}) is studied using the single muon trigger (\texttt{HLT\_g50\_loose}) with the same $p_{T}$ threshold. The selection criteria of electron tag-and-probe candidates are listed in Table~\ref{tab:ZeeSelection}. In addition, pairs are required to have opposite signs and to satisfy the mass requirement ($|m_{e^{+}e^{-}} - m_{Z}| < 10~\si{\GeV}$) and the isolation requirement of $\DeltaR(\mathrm{tag}, \mathrm{probe}) > 0.4$. 
-
-\begin{table}[!htb]
-	\centering
-	\begin{tabular}{ccc}
-		\hline
-		\hline
-		Selection               & Tag                                           & Probe         \\
-		\hline
-		$p_{T}$ (GeV)           & $>$ 27                                        & $>$ 30        \\
-		Trigger matched         & \texttt{HLT\_e26\_lhtight\_nod0\_ivarloose}   & -             \\
-		$|\eta|$                & $<$ 1.37 or 1.52 - 2.47                       & $<$ 2.47      \\
-		Identification          & TightLH                                       & LooseLHNoD0   \\
-		Object quality          & yes                                           & yes           \\
-		Track isolation         & yes                                           & -             \\
-		Jet veto                & -                                             & yes           \\
-		\hline
-		\hline
-	\end{tabular}
-	\caption{Selection criteria for tag-and-probe electrons in $Z$+jets studies.}
-	\label{tab:ZeeSelection}
-\end{table}
-
-The invariant mass distributions of the tag-and-probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:PhotonTrigMass}. It is evident that the background is negligible. Therefore, no background subtraction is performed in the calculation of the trigger efficiencies, 
-
-\begin{equation}
-	\label{eq:TrigEff}
-    \epsilon_{\mathrm{trigger}} = \frac{\textrm{Number of probes matched to trigger}}{\textrm{Number of all probes}}.
-\end{equation}
+%\subsection{Systematic uncertainty in Trigger Efficiency}
+%\label{sec:syst_trigger}
 %
-\begin{figure}[!htb]
-    \centering
-    \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/diph_mass.pdf}}
-    \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/siph_mass.pdf}}
-    \caption{Invariant mass distributions of the tag-and-probe electron pairs used to study the efficiencies of the (a) \texttt{HLT\_g50\_loose} and (b) \texttt{HLT\_g140\_loose} trigger in the data and $Z$+jets MC samples. Only the pairs with a probe electron in the plateau region of Figure~\ref{fig:PhotonTrigEff:di_pt} and~\ref{fig:PhotonTrigEff:si_pt} are considered.
-    }
-    \label{fig:PhotonTrigMass}
-\end{figure}
+%The efficiencies of all analysis triggers have been measured with tag-and-probe studies on data and MC as reported in Section~\ref{sec:trigger_efficiency}. Systematic uncertainties of tag-and-probe methods on the plateau efficiencies are usually of the order one percent and, therefore, negligible compared to other sources like tracking and vertexing. For this reason, no attempt was made to estimate systematic uncertainty in trigger efficiency.
+%
+%
 
-The selected tag-and-probe electrons are used to estimate the efficiencies of photon triggers, shown as a function of probe $p_{T}$, $\eta$, and $|\zzero|$ in Figure~\ref{fig:PhotonTrigEff}. The efficiency in $p_{T}$ shows that the \texttt{HLT\_g50\_loose} plateau starts at $55~\si{\GeV}$, and \texttt{HLT\_g140\_loose} plateau starts at $148~\si{\GeV}$, and the electrons in this plateau region are considered in the rest of Fig.~\ref{fig:PhotonTrigEff}. The efficiency in $\eta$ shows good agreement between data and MC for electrons reconstructed inside the barrel, whereas small discrepancy in efficiency is shown for electrons at the boundary regions and in the end-cap regions. Also, the efficiency in $|\zzero|$ shows no dependence of the photon trigger efficiencies on $|\zzero|$. The ratio of the efficiency from data to MC, binned in $\eta$, is taken as a scale factor and applied to the efficiency calculation.
+\subsection{Systematic uncertainties on background estimations}
+\label{sec:syst_bkg}
 
-
-
-\begin{figure}[!htb]
-    \centering
-    \subfloat[]{\label{fig:PhotonTrigEff:di_pt}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/diph_eff_pt.pdf}}
-    \subfloat[]{\label{fig:PhotonTrigEff:si_pt}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/siph_eff_pt.pdf}} \\
-    \subfloat[]{\label{fig:PhotonTrigEff:di_eta}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/diph_eff_eta.pdf}}
-    \subfloat[]{\label{fig:PhotonTrigEff:si_eta}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/siph_eff_eta.pdf}} \\
-    \subfloat[]{\label{fig:PhotonTrigEff:di_z0}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/diph_eff_z0.pdf}}
-    \subfloat[]{\label{fig:PhotonTrigEff:si_z0}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/siph_eff_z0.pdf}}
-    \caption{Efficiency of the \texttt{HLT\_g50\_loose} as a function of the (a) $p_{T}$, (c) $\eta$, and (e) $|\zzero|$ of the probe in the data and $Z$+jets MC samples. The corresponding plots of the \texttt{HLT\_g140\_loose} trigger are shown in (b), (d), and (f). Only the pairs with a probe electron in the plateau region of (a) and (b) are considered in (c) - (f).
-    }
-    \label{fig:PhotonTrigEff}
-\end{figure}
-
-
-
-
-\subsection{Muon trigger}
-\label{subsect:muonTrigEff}
-
-The systematic uncertainty of the single muon trigger is estimated with a standard tag-and-probe method on $Z \rightarrow \mu\mu$ events both in data and MC. The selection criteria of muon tag-and-probe candidates are listed in Table~\ref{tab:ZmmSelection}. Similar to the photon triggers, pairs are required to have opposite signs and to satisfy the mass requirement ($|m_{e^{+}e^{-}} - m_{Z}| < 10~\si{\GeV}$) and the isolation requirement of $\DeltaR(\mathrm{tag}, \mathrm{probe}) > 0.4$. 
-
-\begin{table}[!htb]
-	\centering
-	\begin{tabular}{ccc}
-		\hline
-		\hline
-		Cut & Tag muon & Probe muon \\
-		\hline
-		$p_{T}$ [GeV] $>$ & 28 & 30 \\
-		Trigger matched & \texttt{HLT\_mu26\_ivarmedium} & --- \\
-		$|\eta| <$ & 2.4 & 1.05 \\
-		Identification & Medium & Loose and combined \\
-		Isolation & Loose & --- \\
-		\dzero significance & $< 3$ & --- \\
-		$\Delta \zzero \sin{\theta}$ & $< 0.5 \si{\mm}$ & --- \\
-		\hline
-		\hline
-	\end{tabular}
-	\caption{Selection criteria for tag-and-probe muons.}
-	\label{tab:ZmmSelection}
-\end{table}
-
-The invariant mass distributions of the muon tag-and-probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:MuonTrigMass}. It is evident that the background is negligible and therefore not corrected for the calculation of the trigger efficiency.
-
-\begin{figure}[!htb]
-    \centering
-    \subfloat{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/mass.pdf}}
-    \caption{Invariant mass distributions of the tag-and-probe muon pairs used to study the efficiencies of the single muon trigger in the data and $Z$+jets MC samples. Only the pairs with a probe muon in the plateau region of Figure~\ref{fig:MuonTrigEff1Da} are considered.
-    }
-    \label{fig:MuonTrigMass}
-\end{figure}
-
-The selected tag-and-probe muons are used to estimate the efficiency of the single muon trigger, shown as a function of probe $p_{T}$ and $|\zzero|$ in Figure~\ref{fig:MuonTrigEff1D}. The efficiency in $p_{T}$ shows that the efficiency plateau starts at $62~\si{\GeV}$. The efficiency is uniform up to $|\zzero|\sim$ 150 mm. In Figure~\ref{fig:MuonTrigEff2D}, the muons in the plateau region is used to compare the efficiency in data and MC. The efficiency depends on both $\phi$ and $\eta$, and the ratio of the efficiency from data to MC, binned in $\phi$ and $\eta$, is taken as a scale factor and applied to the efficiency calculation.
-
-
-\begin{figure}[!htb]
-    \centering
-    \subfloat[\label{fig:MuonTrigEff1Da}]{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/simu_pt.pdf}}
-    \subfloat[\label{fig:MuonTrigEff1Db}]{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/simu_z0.pdf}}
-    \caption{Efficiency of the single muon trigger as a function of the (a) $p_{T}$ and (b) |\zzero| of the probe in the data and $Z$+jets MC samples. Only the muons in the plateau region of (a) are considered in (b).}
-    \label{fig:MuonTrigEff1D}
-\end{figure}
-
-
-\begin{figure}[!htb]
-    \centering
-    \subfloat[\label{fig:MuonTrigEff1Da}]{\includegraphics[width = 0.50 \textwidth]{figures/MuonTrigEff/simu_eta_phi_data.pdf}}
-    \subfloat[\label{fig:MuonTrigEff1Db}]{\includegraphics[width = 0.50 \textwidth]{figures/MuonTrigEff/simu_eta_phi_MC.pdf}}
-    \caption{Efficiency of the single muon trigger as a function the $\eta$ and $\phi$ of the probe in (a) data and (b) Z+jets MC sample. Only the muons in the plateau region in $p_{T}$ are considered.}
-    \label{fig:MuonTrigEff2D}
-\end{figure}
-
-
-
-
-\begin{table}[!htb]
-	\centering
-	\begin{tabular}{cc}
-		\hline
-		\hline
-		Source                              &       Syst. Uncert.       \\
-		\hline
-        Trigger                             &       -                   \\
-        Track and vertex reconstruction     &       10\%                \\
-		\hline
-        Total                               &       10\%                \\
-		\hline
-		\hline
-	\end{tabular}
-	\caption{Summary table of all systematic uncertainties in the signal efficiency.}
-	\label{tab:syst_total}
-\end{table}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+There are two main sources of background in this analysis; cosmic muon background and random crossing background. The cosmic muon background estimation is outlined in Section~\ref{sec:bkg:cosmic}. From this technique the estimate is $0.27 \pm 0.14 \textrm{ (stat.)}$ events. This $\pm 0.14$ is taken to be the total uncertainty on this background. In the case of the random crossing, there are two estimates event mixing and track flipping giving $2.40\times10^{-3}$ and $3.95 \times 10^{-3}$ respectively. For these the larger estimate of $3.95 \times 10^{-3}$ is used as the central value and the difference of $1.5\times10^{-3}$ is used as the uncertainty on this value.
 
 
 

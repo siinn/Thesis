@@ -12,14 +12,15 @@ A level-1 auxiliary file: src/ch6_signal_selection.aux
 A level-1 auxiliary file: src/ch7_signal_efficiency.aux
 A level-1 auxiliary file: src/ch8_background_estimation.aux
 A level-1 auxiliary file: src/ch9_systematics.aux
+A level-1 auxiliary file: src/ch10_limit_setting.aux
+A level-1 auxiliary file: src/ch11_conclusion.aux
 The style file: atlasBibStyleWithTitle.bst
-A level-1 auxiliary file: appendices/app_signal_truth.aux
+A level-1 auxiliary file: appendices/app_trig_eff_table.aux
 A level-1 auxiliary file: appendices/app_signal_efficiency_map.aux
 A level-1 auxiliary file: appendices/app_syst_ks_zp.aux
 A level-1 auxiliary file: appendices/app_TF_extrapolation.aux
 Database file #1: thesis.bib
 Warning--I didn't find a database entry for "PhysRevLett.13.508"
-Warning--I didn't find a database entry for "Ball:2014uw"
 Warning--empty pages in PhysRevD.69.105009
 Warning--empty author in Alpigiani:2281629
 Warning--empty pages in ahn2003indications
@@ -54,48 +55,48 @@ Warning--empty author in Catmore:1543445
 Warning--empty author in Backhaus:2110260
 Warning--empty author in Aaboud:2016poq
 Warning--empty author in DuarteCampderros:2275055
+Warning--empty author in Aad:2011hd
 Warning--empty author in ATL-PHYS-PUB-2015-051
 Warning--empty author in Aaboud:2215485
-Warning--empty author in Aad:2011hd
-You've used 59 entries,
+You've used 63 entries,
             2319 wiz_defined-function locations,
-            1015 strings with 15904 characters,
-and the built_in function-call counts, 15126 in all, are:
-= -- 1487
-> -- 267
+            1053 strings with 16939 characters,
+and the built_in function-call counts, 16425 in all, are:
+= -- 1608
+> -- 301
 < -- 16
-+ -- 122
-- -- 63
-* -- 1501
-:= -- 1603
-add.period$ -- 93
-call.type$ -- 59
-change.case$ -- 88
++ -- 135
+- -- 72
+* -- 1636
+:= -- 1748
+add.period$ -- 99
+call.type$ -- 63
+change.case$ -- 92
 chr.to.int$ -- 0
-cite$ -- 96
-duplicate$ -- 974
-empty$ -- 1638
-format.name$ -- 63
-if$ -- 3972
+cite$ -- 100
+duplicate$ -- 1046
+empty$ -- 1768
+format.name$ -- 72
+if$ -- 4308
 int.to.chr$ -- 0
-int.to.str$ -- 59
-missing$ -- 202
-newline$ -- 226
-num.names$ -- 25
-pop$ -- 269
+int.to.str$ -- 63
+missing$ -- 222
+newline$ -- 242
+num.names$ -- 29
+pop$ -- 286
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 573
+skip$ -- 626
 stack$ -- 0
-substring$ -- 571
-swap$ -- 419
+substring$ -- 647
+swap$ -- 457
 text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 37
-while$ -- 75
-width$ -- 61
-write$ -- 550
-(There were 39 warnings)
+while$ -- 85
+width$ -- 65
+write$ -- 585
+(There were 38 warnings)

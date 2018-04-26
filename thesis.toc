@@ -53,32 +53,39 @@
 \contentsline {subsection}{\numberline {6.1.3}Vertex selection}{33}{subsection.6.1.3}
 \contentsline {chapter}{\numberline {7}Signal Efficiency}{35}{chapter.7}
 \contentsline {section}{\numberline {7.1}Trigger efficiency}{36}{section.7.1}
-\contentsline {section}{\numberline {7.2}Lepton reconstruction efficiency}{37}{section.7.2}
-\contentsline {section}{\numberline {7.3}Overall reconstruction efficiency}{39}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Event and vertex cut flow}{39}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Signal efficiency and distribution}{40}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Efficiency map}{40}{subsection.7.3.3}
-\contentsline {chapter}{\numberline {8}Background Estimation}{47}{chapter.8}
-\contentsline {section}{\numberline {8.1}Cosmic Background}{47}{section.8.1}
-\contentsline {section}{\numberline {8.2}Random-Crossing Background}{48}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Track Flipping Method}{49}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}Event Mixing Method}{51}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}MC Study}{51}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Estimating Random-crossing Background with Data Sample}{52}{subsection.8.2.4}
-\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{57}{chapter.9}
-\contentsline {section}{\numberline {9.1}Systematic Uncertainty in Track and Vertex Reconstruction}{57}{section.9.1}
-\contentsline {section}{\numberline {9.2}Systematic Uncertainties in Trigger Efficiency}{61}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Photon triggers}{63}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Muon trigger}{65}{subsection.9.2.2}
-\contentsline {chapter}{Bibliography}{69}{section*.14}
-\contentsline {part}{Appendices}{73}{chapter*.15}
-\contentsline {section}{\numberline {A}Truth-level $p_{T}$ and $\eta $ distributions of Signal MC samples}{74}{section.Alph0.1}
-\contentsline {section}{\numberline {B}Efficiency Map of Signal MC Samples}{75}{section.Alph0.2}
-\contentsline {section}{\numberline {C}$K_{S}$ and $Z'$ comparison}{81}{section.Alph0.3}
-\contentsline {section}{\numberline {D}Extrapolation in the track flipping method}{82}{section.Alph0.4}
-\contentsline {subsection}{\numberline {D.1}Definition}{82}{subsection.Alph0.4.1}
-\contentsline {subsection}{\numberline {D.2}Vertex estimation}{82}{subsection.Alph0.4.2}
-\contentsline {subsection}{\numberline {D.3}Counting pairs}{83}{subsection.Alph0.4.3}
-\contentsline {subsection}{\numberline {D.4}Extrapolation of control region into validation and signal region}{83}{subsection.Alph0.4.4}
-\contentsline {subsection}{\numberline {D.5}Extrapolation of validation region into signal region}{84}{subsection.Alph0.4.5}
-\contentsline {subsection}{\numberline {D.6}Scale factors}{85}{subsection.Alph0.4.6}
+\contentsline {subsection}{\numberline {7.1.1}Trigger Scale Factors}{37}{subsection.7.1.1}
+\contentsline {subsubsection}{Photon triggers}{37}{subsubsection*.14}
+\contentsline {subsubsection}{Muon trigger}{40}{subsubsection*.15}
+\contentsline {subsection}{\numberline {7.1.2}Summary on trigger study}{42}{subsection.7.1.2}
+\contentsline {section}{\numberline {7.2}Lepton reconstruction efficiency}{43}{section.7.2}
+\contentsline {section}{\numberline {7.3}Overall reconstruction efficiency}{44}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Event and vertex cut flow}{45}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Signal efficiency and distribution}{46}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Efficiency map}{46}{subsection.7.3.3}
+\contentsline {chapter}{\numberline {8}Background Estimation}{53}{chapter.8}
+\contentsline {section}{\numberline {8.1}Cosmic Background}{53}{section.8.1}
+\contentsline {section}{\numberline {8.2}Random-Crossing Background}{54}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Track Flipping Method}{55}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Event Mixing Method}{56}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}MC Study}{57}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}Estimating Random-crossing Background with Data Sample}{58}{subsection.8.2.4}
+\contentsline {chapter}{\numberline {9}Systematic Uncertainties}{62}{chapter.9}
+\contentsline {section}{\numberline {9.1}Systematic Uncertainty in Track and Vertex Reconstruction}{62}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Systematic uncertainties on background estimations}{64}{subsection.9.1.1}
+\contentsline {chapter}{\numberline {10}Interpretation of Results}{69}{chapter.10}
+\contentsline {section}{\numberline {10.1}Statistical Procedure}{69}{section.10.1}
+\contentsline {section}{\numberline {10.2}Upper limits}{70}{section.10.2}
+\contentsline {chapter}{\numberline {11}Conclusion}{72}{chapter.11}
+\contentsline {chapter}{Bibliography}{73}{section*.16}
+\contentsline {part}{Appendices}{77}{chapter*.17}
+\contentsline {section}{\numberline {A}Trigger efficiency}{78}{section.Alph0.1}
+\contentsline {section}{\numberline {B}Efficiency Map of Signal MC Samples}{80}{section.Alph0.2}
+\contentsline {section}{\numberline {C}$K_{S}$ and $Z'$ comparison}{86}{section.Alph0.3}
+\contentsline {section}{\numberline {D}Extrapolation in the track flipping method}{87}{section.Alph0.4}
+\contentsline {subsection}{\numberline {D.1}Definition}{87}{subsection.Alph0.4.1}
+\contentsline {subsection}{\numberline {D.2}Vertex estimation}{87}{subsection.Alph0.4.2}
+\contentsline {subsection}{\numberline {D.3}Counting pairs}{88}{subsection.Alph0.4.3}
+\contentsline {subsection}{\numberline {D.4}Extrapolation of control region into validation and signal region}{88}{subsection.Alph0.4.4}
+\contentsline {subsection}{\numberline {D.5}Extrapolation of validation region into signal region}{89}{subsection.Alph0.4.5}
+\contentsline {subsection}{\numberline {D.6}Scale factors}{90}{subsection.Alph0.4.6}
+\contentsline {subsection}{\numberline {D.7}Vertex yields in the TF method and data}{91}{subsection.Alph0.4.7}
