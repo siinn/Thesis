@@ -20,10 +20,8 @@ A level-1 auxiliary file: appendices/app_signal_efficiency_map.aux
 A level-1 auxiliary file: appendices/app_syst_ks_zp.aux
 A level-1 auxiliary file: appendices/app_TF_extrapolation.aux
 Database file #1: thesis.bib
-Warning--I didn't find a database entry for "PhysRevLett.13.508"
 Warning--empty pages in PhysRevD.69.105009
 Warning--empty author in Alpigiani:2281629
-Warning--empty pages in ahn2003indications
 Warning--empty author in ABAZOV201188
 Warning--empty author in PhysRevD.90.052005
 Warning--empty author in Aad:2010949
@@ -55,48 +53,47 @@ Warning--empty author in Catmore:1543445
 Warning--empty author in Backhaus:2110260
 Warning--empty author in Aaboud:2016poq
 Warning--empty author in DuarteCampderros:2275055
-Warning--empty author in Aad:2011hd
 Warning--empty author in ATL-PHYS-PUB-2015-051
 Warning--empty author in Aaboud:2215485
 You've used 63 entries,
             2319 wiz_defined-function locations,
-            1053 strings with 16939 characters,
-and the built_in function-call counts, 16425 in all, are:
-= -- 1608
-> -- 301
-< -- 16
-+ -- 135
-- -- 72
-* -- 1636
-:= -- 1748
+            1044 strings with 16435 characters,
+and the built_in function-call counts, 14964 in all, are:
+= -- 1427
+> -- 308
+< -- 17
++ -- 137
+- -- 74
+* -- 1513
+:= -- 1623
 add.period$ -- 99
 call.type$ -- 63
-change.case$ -- 92
+change.case$ -- 94
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 1046
-empty$ -- 1768
-format.name$ -- 72
-if$ -- 4308
+cite$ -- 98
+duplicate$ -- 1001
+empty$ -- 1623
+format.name$ -- 74
+if$ -- 3921
 int.to.chr$ -- 0
 int.to.str$ -- 63
-missing$ -- 222
-newline$ -- 242
-num.names$ -- 29
-pop$ -- 286
+missing$ -- 217
+newline$ -- 241
+num.names$ -- 30
+pop$ -- 300
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 626
+skip$ -- 543
 stack$ -- 0
-substring$ -- 647
-swap$ -- 457
-text.length$ -- 16
+substring$ -- 310
+swap$ -- 411
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 37
-while$ -- 85
+warning$ -- 35
+while$ -- 71
 width$ -- 65
-write$ -- 585
-(There were 38 warnings)
+write$ -- 588
+(There were 35 warnings)

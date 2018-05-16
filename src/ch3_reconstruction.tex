@@ -1,7 +1,7 @@
 \chapter{Z' Reconstruction}
 \label{chap:reco}
 
-The experimental signature in the search for long-lived $Z'$ is characterized by a high-$p_{T}$ dilepton vertex, displaced (>2 \si{\milli\meter}) from the primary vertex in transverse plane, referred a \textit{displaced vertex}. In this chapter, the reconstruction of displaced vertices in the ATLAS ID is described.
+The experimental signature in the search for long-lived $Z'$ is characterized by a high-$p_{T}$ dilepton vertex, displaced (>2~\si{\milli\meter}) from the primary vertex in transverse plane, referred a \textit{displaced vertex}. In this chapter, the reconstruction of displaced vertices in the ATLAS ID is described.
 
 \section{Track Reconstruction in the Inner Detector}
 \label{sec:reco:track}
@@ -49,7 +49,7 @@ Tracks are described by five parameters (helix) and a reference point, using a p
 \subsection{Large Radius Tracking}
 \label{sec:reco:lrt}
 
-The standard track reconstruction is proven to be very efficient in Run 2 with the tracking efficiency > 90\%~\cite{Aaboud:2017all}. However, the tracking algorithm is optimized for primary charged particles promptly produced from $pp$ collisions, and the strict requirements on the impact parameters, \dzero and \zzero potentially limit the tracking efficiency for charged particles with large impact parameters ($|d_{0}|$ > 2 mm). Therefore, a dedicated track reconstruction algorithm, referred to as the large radius tracking (LRT), is developed to improve the track reconstruction efficiency for the tracks highly displaced from the primary vertex.
+The standard track reconstruction is proven to be very efficient in Run 2 with the tracking efficiency > 90\%~\cite{Aaboud:2017all}. However, the tracking algorithm is optimized for primary charged particles promptly produced from $pp$ collisions, and the strict requirements on the impact parameters, \dzero and \zzero, limit the tracking efficiency for charged particles with large impact parameters ($|d_{0}|$ > 2 mm). Therefore, a dedicated track reconstruction algorithm, referred to as the large radius tracking (LRT), is developed to improve the track reconstruction efficiency for the tracks highly displaced from the primary vertex.
 
 The LRT is performed in a sequence, following the standard tracking. It follows the same reconstruction strategy as the standard tracking, but there are a few importance difference between the standard tracking and the LRT:
 
@@ -60,7 +60,7 @@ The LRT is performed in a sequence, following the standard tracking. It follows 
 
 Tracks reconstructed by the LRT using un-used hits are required to pass certain criteria such as minimum $p_{T}$ and number of detector hits, and the selected tracks are merged into the standard track collection for the next step of reconstruction. The track selections in the LRT are summarized and compared with the standard track reconstruction in Table~\ref{table:tracking}. The combined track collection is used as an input for the lepton reconstruction and identification and secondary vertex reconstruction. More details on the LRT can be found in Ref.~\cite{ATL-PHYS-PUB-2017-014}.
 
-Combined with the standard track reconstruction, the LRT provides overall efficiency of $90\%$ or above for the particles that satisfy the fiducial selections in Table~\ref{table:TechEffTable} with a displacement in the transverse plane up to 300 \si{\milli\meter}.
+Combined with the standard track reconstruction, the LRT provides overall efficiency of $> 90\%$ for the particles that satisfy the fiducial selections in Table~\ref{table:TechEffTable} with a displacement in the transverse plane up to 300 \si{\milli\meter}.
 
 \begin{table}[!htb]
 \centering
@@ -84,7 +84,7 @@ $|\eta|$ & $<$ & 5 \\
 \section{Electron Reconstruction}
 \label{sec:reco:lep}
 
-Electrons are characterized by energy deposits in the EM calorimeter and the associated reconstructed tracks in the ID. The electron reconstruction algorithm uses the energy deposits with total transverse energy $>2.5$ \si{\GeV} in a window size of 0.075$\times$0.125 in ($\eta$,$\phi$) to reconstruct EM clusters. The EM clusters are associated with tracks within the same RoI, $|\Delta\eta|<0.05$ and $|\Delta\phi|<0.1$ where the effect of bremsstrahlung is taken into account~\cite{Aad:2014fxa}. In the absence of a matching track, the EM cluster is classified as a photon candidate. The associated pairs of tracks and energy clusters are refitted to improve the energy resolution of the electron candidate. Additional electron requirements, including likelihood-based identification criteria, are imposed on the electron candidates to reduce misidentification.
+Electrons are characterized by energy deposits in the EM calorimeter and the associated reconstructed tracks in the ID. The electron reconstruction algorithm uses the energy deposits with total transverse energy $>2.5$~\si{\GeV} in a window of 0.075$\times$0.125 in ($\eta$,$\phi$) to reconstruct EM clusters. The EM clusters are associated with tracks within the same RoI, $|\Delta\eta|<0.05$ and $|\Delta\phi|<0.1$ where the effect of bremsstrahlung is taken into account~\cite{Aad:2014fxa}. In the absence of a matching track, the EM cluster is classified as a photon candidate. The associated pairs of tracks and energy clusters are refitted to improve the energy resolution of the electron candidate. Additional electron requirements, including likelihood-based identification criteria, are imposed on the electron candidates to reduce misidentification.
 
 %By default, electrons are required to have a minimum number of pixel hits and small transverse impact parameters. This is not optimal for the searches that aim to detect displaced vertices as the decay products of displaced vertices tend to have large impact parameters (\dzero, \zzero) and missing hits in the inner layers of the detector. Therefore, these requirements are removed in this analysis.
 

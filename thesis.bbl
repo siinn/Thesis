@@ -7,32 +7,31 @@ C.~P. Burgess and G.~D. Moore, {\em {The standard model: a primer}}.
 
 \bibitem{Higgs:429539}
 P.~W. Higgs, {\em {Broken symmetries and the masses of gauge bosons}}, Phys.
-  Rev. Lett. {\bfseries 13} (1964) 508--509,
-  \url{http://cds.cern.ch/record/429539}.
+  Rev. {\bfseries 13} (1964) 508, \url{http://cds.cern.ch/record/429539}.
 
 \bibitem{Kobayashi:1117037}
 M.~Kobayashi and T.~Maskawa, {\em {CP-Violation in the renormalizable theory of
-  weak interaction}}, Prog. Theor. Phys. {\bfseries 49} (1973) 652--657,
+  weak interaction}}, Prog. Theor. Phys. {\bfseries 49} (1973) 652,
   \url{http://cds.cern.ch/record/1117037}.
 
 \bibitem{Hata:135318}
 H.~Hata, {\em {Color confinement as a result of restoration of local gauge
-  symmetry}}, Tech. Rep. HE-TH-81-13. KUNS-618, Kyoto Univ., Kyoto, Nov, 1981.
+  symmetry}}, Tech. Rep. HE-TH-81-13, KUNS-618, Kyoto Univ., Kyoto, Nov, 1981.
 \newblock \url{http://cds.cern.ch/record/135318}.
 
 \bibitem{PhysRevD.69.105009}
-V.~A. Kosteleck\'y, {\em Gravity, lorentz violation, and the standard model},
+V.~A. Kosteleck\'y, {\em Gravity, Lorentz violation, and the standard model},
   \href{http://dx.doi.org/10.1103/PhysRevD.69.105009}{Phys. Rev. D {\bfseries
   69} (2004)}, \url{https://link.aps.org/doi/10.1103/PhysRevD.69.105009}.
 
 \bibitem{Magg:875284}
 M.~Magg, Q.~Shafi,  and C.~Wetterich, {\em {Gauge hierarchy in the presence of
-  discrete symmetry}}, Phys. Lett. B {\bfseries 87} (1979) 227--32,
+  discrete symmetry}}, Phys. Rev. B {\bfseries 87} (1979) 227,
   \url{http://cds.cern.ch/record/875284}.
 
 \bibitem{Magg:133759}
 M.~Magg and C.~Wetterich, {\em {Neutrino mass problem and gauge hierarchy}},
-  Phys. Lett. B {\bfseries 94} (1980) 61--64,
+  Phys. Rev. B {\bfseries 94} (1980) 61,
   \url{http://cds.cern.ch/record/133759}.
 
 \bibitem{Alpigiani:2281629}
@@ -42,7 +41,7 @@ M.~Magg and C.~Wetterich, {\em {Neutrino mass problem and gauge hierarchy}},
 
 \bibitem{bertone2005particle}
 G.~Bertone, D.~Hooper,  and J.~Silk, {\em Particle dark matter: evidence,
-  candidates and constraints}, Physics Reports {\bfseries 405} (2005) 279--390.
+  candidates and constraints}, Physics Reports {\bfseries 405} (2005) 279.
 
 \bibitem{clowe2006direct}
 D.~Clowe, M.~Brada{\v{c}}, A.~H. Gonzalez,  {et~al.}, {\em A direct empirical
@@ -51,12 +50,12 @@ D.~Clowe, M.~Brada{\v{c}}, A.~H. Gonzalez,  {et~al.}, {\em A direct empirical
 
 \bibitem{ahn2003indications}
 M.~Ahn, S.~Aoki, H.~Bhang,  {et~al.}, {\em Indications of neutrino oscillation
-  in a 250 km long-baseline experiment}, Physical Review Letters {\bfseries 90}
-  (2003).
+  in a 250 km long-baseline experiment}, Phys. Rev. {\bfseries 90} (2003)
+  041801.
 
 \bibitem{toussaint1979matter}
 D.~Toussaint, S.~Treiman, F.~Wilczek,  {et~al.}, {\em Matter-antimatter
-  accounting, thermodynamics, and black-hole radiation}, Physical Review D
+  accounting, thermodynamics, and black-hole radiation}, Phys. Rev. D
   {\bfseries 19} (1979) 1036.
 
 \bibitem{dine2003origin}
@@ -65,26 +64,25 @@ M.~Dine and A.~Kusenko, {\em Origin of the matter-antimatter asymmetry},
 
 \bibitem{strassler2007echoes}
 M.~J. Strassler and K.~M. Zurek, {\em Echoes of a hidden valley at hadron
-  colliders}, Physics Letters B {\bfseries 651} (2007) 374--379.
+  colliders}, Phys. Rev. B {\bfseries 651} (2007) 374.
 
 \bibitem{cassel2010electroweak}
 S.~Cassel, D.~Ghilencea,  and G.~Ross, {\em Electroweak and dark matter
   constraints on a $Z'$ in models with a hidden valley}, Nuclear Physics B
-  {\bfseries 827} (2010) 256--280.
+  {\bfseries 827} (2010) 256.
 
 \bibitem{senjanovic1975exact}
 G.~Senjanovic and R.~N. Mohapatra, {\em Exact left-right symmetry and
-  spontaneous violation of parity}, Physical Review D {\bfseries 12} (1975)
-  1502.
+  spontaneous violation of parity}, Phys. Rev. D {\bfseries 12} (1975) 1502.
 
 \bibitem{mohapatra1981neutrino}
 R.~N. Mohapatra and G.~Senjanovi{\'c}, {\em Neutrino masses and mixings in
-  gauge models with spontaneous parity violation}, Physical Review D {\bfseries
-  23} (1981) 165.
+  gauge models with spontaneous parity violation}, Phys. Rev. D {\bfseries 23}
+  (1981) 165.
 
 \bibitem{Basso:2008iv}
 L.~Basso, A.~Belyaev, S.~Moretti,  {et~al.}, {\em {Phenomenology of the minimal
-  B-L extension of the Standard model: $Z'$ and neutrinos}},
+  B-L extension of the standard model: $Z'$ and neutrinos}},
   \href{http://dx.doi.org/10.1103/PhysRevD.80.055030}{Phys. Rev. {\bfseries
   D80} (2009) 055030},
 \href{http://arxiv.org/abs/0812.4313}{{\ttfamily arXiv:0812.4313 [hep-ph]}}.
@@ -93,14 +91,14 @@ L.~Basso, A.~Belyaev, S.~Moretti,  {et~al.}, {\em {Phenomenology of the minimal
 \bibitem{Langacker:2008yv}
 P.~Langacker, {\em {The physics of heavy $Z^\prime$ gauge bosons}},
   \href{http://dx.doi.org/10.1103/RevModPhys.81.1199}{Rev. Mod. Phys.
-  {\bfseries 81} (2009) 1199--1228},
+  {\bfseries 81} (2009) 1199},
 \href{http://arxiv.org/abs/0801.1345}{{\ttfamily arXiv:0801.1345 [hep-ph]}}.
 %%CITATION = ARXIV:0801.1345;%%.
 
 \bibitem{BARGER1980377}
 V.~Barger, W.~Keung,  and E.~Ma, {\em Sequential W and Z bosons},
-  \href{http://dx.doi.org/https://doi.org/10.1016/0370-2693(80)90900-4}{Physics
-  Letters B {\bfseries 94} (1980) 377--380},
+  \href{http://dx.doi.org/https://doi.org/10.1016/0370-2693(80)90900-4}{Phys.
+  Rev. B {\bfseries 94} (1980) 377},
   \url{http://www.sciencedirect.com/science/article/pii/0370269380909004}.
 
 \bibitem{PhysRevD.86.095010}
@@ -114,9 +112,9 @@ Q.-H. Cao, Z.~Li, J.-H. Yu,  {et~al.}, {\em Discovery and identification of
 \bibitem{ABAZOV201188}
 {D{{\O}}} Collaboration, {\em Search for a heavy neutral gauge boson in the
   dielectron channel with 5.4 $fb^{-1}$ of $p\bar{p}$ collisions at
-  $\sqrt{s}$=1.96 TeV},
-  \href{http://dx.doi.org/https://doi.org/10.1016/j.physletb.2010.10.059}{Physics
-  Letters B {\bfseries 695} (2011) 88--94},
+  $\sqrt{s}=$1.96 TeV},
+  \href{http://dx.doi.org/https://doi.org/10.1016/j.physletb.2010.10.059}{Phys.
+  Rev. B {\bfseries 695} (2011) 88},
   \url{http://www.sciencedirect.com/science/article/pii/S0370269310012700}.
 
 \bibitem{PhysRevD.90.052005}
@@ -129,13 +127,13 @@ Q.-H. Cao, Z.~Li, J.-H. Yu,  {et~al.}, {\em Discovery and identification of
 \bibitem{Aad:2010949}
 {ATLAS} Collaboration, {\em {Search for massive, long-lived particles using
   multitrack displaced vertices or displaced lepton pairs in pp collisions at
-  $\sqrt{s}$ = 8 TeV with the ATLAS detector.}}, Phys. Rev. D {\bfseries 92}
-  (2015) 072004. 37, \url{https://cds.cern.ch/record/2010949}.
+  $\sqrt{s}$ = 8 TeV with the ATLAS detector}}, Phys. Rev. D {\bfseries 92}
+  (2015) 072004, \url{https://cds.cern.ch/record/2010949}.
 
 \bibitem{Chatrchyan:1493239}
 {CMS} Collaboration, {\em {Search in leptonic channels for heavy resonances
-  decaying to long-lived neutral particles.}}, JHEP {\bfseries 02} (2012) 085.
-  31, \url{https://cds.cern.ch/record/1493239}.
+  decaying to long-lived neutral particles.}}, JHEP {\bfseries 02} (2012) 085,
+  \url{https://cds.cern.ch/record/1493239}.
 
 \bibitem{Aaboud:2017yvp}
 {ATLAS} Collaboration, {\em {Search for new phenomena in dijet events using 37
@@ -149,13 +147,12 @@ Q.-H. Cao, Z.~Li, J.-H. Yu,  {et~al.}, {\em Discovery and identification of
 {CMS} Collaboration, {\em {Search for dijet resonances in proton–proton
   collisions at $\sqrt{s}$ = 13 TeV and constraints on dark matter and other
   models}}, \href{http://dx.doi.org/10.1016/j.physletb.2017.09.029,
-  10.1016/j.physletb.2017.02.012}{Phys. Lett. {\bfseries B769} (2017)
-  520--542},
+  10.1016/j.physletb.2017.02.012}{Phys. Rev. {\bfseries B769} (2017) 520},
 \href{http://arxiv.org/abs/1611.03568}{{\ttfamily arXiv:1611.03568 [hep-ex]}}.
 %%CITATION = ARXIV:1611.03568;%%.
 
 \bibitem{Bruning:782076}
-O.~S. Brüning, P.~Collier, P.~Lebrun,  {et~al.}, {\em {LHC Design Report}}.
+O.~S. Brüning, P.~Collier, P.~Lebrun,  {et~al.}, {\em {LHC design report}}.
 \newblock CERN, Geneva, 2004.
 \newblock \url{https://cds.cern.ch/record/782076}.
 
@@ -170,14 +167,14 @@ H.~Pernegger, {\em The Pixel detector of the ATLAS experiment for LHC Run-2},
 \newblock \url{http://cds.cern.ch/record/2307576}.
 
 \bibitem{Abdesselam:974073}
-{ATLAS} Collaboration, {\em {The Barrel Modules of the ATLAS SemiConductor
-  Tracker}}, Tech. Rep. ATL-INDET-PUB-2006-005. ATL-COM-INDET-2006-009.
+{ATLAS} Collaboration, {\em {The barrel modules of the ATLAS semi-conductor
+  tracker}}, Tech. Rep. ATL-INDET-PUB-2006-005, ATL-COM-INDET-2006-009,
   CERN-ATL-COM-INDET-2006-009, CERN, Geneva, Jul, 2006.
 \newblock \url{https://cds.cern.ch/record/974073}.
 
 \bibitem{Abdesselam:973395}
-{ATLAS} Collaboration, {\em {ATLAS SCT Endcap Module Production}}, Tech. Rep.
-  ATL-INDET-PUB-2006-007. ATL-COM-INDET-2006-008, CERN, Geneva, Jul, 2006.
+{ATLAS} Collaboration, {\em {ATLAS SCT endcap module production}}, Tech. Rep.
+  ATL-INDET-PUB-2006-007, ATL-COM-INDET-2006-008, CERN, Geneva, Jul, 2006.
 \newblock \url{https://cds.cern.ch/record/973395}.
 
 \bibitem{Vogel:1537991}
@@ -212,7 +209,7 @@ H.~Pernegger, {\em The Pixel detector of the ATLAS experiment for LHC Run-2},
 {ATLAS} Collaboration, {\em Commissioning of the magnetic field in the ATLAS
   muon spectrometer},
   \href{http://dx.doi.org/https://doi.org/10.1016/j.nuclphysbps.2007.11.123}{Nuclear
-  Physics B - Proceedings Supplements {\bfseries 177-178} (2008) 265--266},
+  Physics B {\bfseries 177-178} (2008) 265},
   \url{http://www.sciencedirect.com/science/article/pii/S0920563207009528}.
 
 \bibitem{1742-6596-762-1-012003}
@@ -271,7 +268,7 @@ H.~Pernegger, {\em The Pixel detector of the ATLAS experiment for LHC Run-2},
 
 \bibitem{Kalman:434680}
 R.~E. Kalman, {\em {A new approach to linear filtering and prediction
-  problems}}, Trans. ASME, D {\bfseries 82} (1960) 35--44,
+  problems}}, Trans. ASME, D {\bfseries 82} (1960) 35,
   \url{https://cds.cern.ch/record/434680}.
 
 \bibitem{Blackburn:1550730}
@@ -321,7 +318,7 @@ T.~Gleisberg, S.~Hoeche, F.~Krauss,  {et~al.}, {\em {Event generation with
 %%CITATION = ARXIV:0811.4622;%%.
 
 \bibitem{Backhaus:2110260}
-{ATLAS} Collaboration, {\em {The upgraded Pixel detector of the ATLAS
+{ATLAS} Collaboration, {\em {The upgraded pixel detector of the ATLAS
   experiment for Run 2 at the Large Hadron Collider}}, Tech. Rep.
   ATL-INDET-PROC-2015-015, CERN, Geneva, Dec, 2015.
 \newblock \url{https://cds.cern.ch/record/2110260}.
@@ -341,23 +338,21 @@ T.~Gleisberg, S.~Hoeche, F.~Krauss,  {et~al.}, {\em {Event generation with
   Jul, 2017.
 \newblock \url{https://cds.cern.ch/record/2275055}.
 
-\bibitem{Aad:2011hd}
-{ATLAS} Collaboration, {\em {Kshort and $\Lambda$ production in $pp$
-  interactions at $\sqrt{s}=0.9$ and 7 TeV measured with the ATLAS detector at
-  the LHC}}, \href{http://dx.doi.org/10.1103/PhysRevD.85.012001}{Phys. Rev.
-  {\bfseries D85} (2012) 012001},
-\href{http://arxiv.org/abs/1111.1297}{{\ttfamily arXiv:1111.1297 [hep-ex]}}.
-%%CITATION = ARXIV:1111.1297;%%.
+\bibitem{Oh:1951024}
+S.~H. Oh and C.~Wang, {\em {Kshort and lambda production in jets from pp
+  collisions at 7 TeV center-of-mass energy.}}, Tech. Rep.
+  ATL-COM-PHYS-2014-1258, CERN, Geneva, Sep, 2014.
+\newblock \url{https://cds.cern.ch/record/1951024}.
 
 \bibitem{ATL-PHYS-PUB-2015-051}
-{ATLAS} Collaboration, {\em {Early Inner Detector tracking performance in the
+{ATLAS} Collaboration, {\em {Early inner detector tracking performance in the
   2015 data at $\sqrt s$ = 13 TeV}}, Tech. Rep. ATL-PHYS-PUB-2015-051, CERN,
   Geneva, Dec, 2015.
 \newblock \url{https://cds.cern.ch/record/2110140}.
 
 \bibitem{Aaboud:2215485}
 {ATLAS} Collaboration, {\em {A measurement of material in the ATLAS tracker
-  using secondary hadronic interactions in 7 TeV pp collisions.}}, JINST
+  using secondary hadronic interactions in 7 TeV pp collisions}}, JINST
   {\bfseries 11} (2016) 45, \url{https://cds.cern.ch/record/2215485}.
 
 \bibitem{Baak:2014wma}
@@ -374,13 +369,13 @@ V.~Obraztsov, {\em Confidence limits for processes with small statistics in
   \href{http://dx.doi.org/https://doi.org/10.1016/0168-9002(92)90925-T}{Nuclear
   Instruments and Methods in Physics Research Section A: Accelerators,
   Spectrometers, Detectors and Associated Equipment {\bfseries 316} (1992)
-  388--390},
+  388},
   \url{http://www.sciencedirect.com/science/article/pii/016890029290925T}.
 
 \bibitem{PhysRevD.57.3873}
 G.~J. Feldman and R.~D. Cousins, {\em Unified approach to the classical
   statistical analysis of small signals},
   \href{http://dx.doi.org/10.1103/PhysRevD.57.3873}{Phys. Rev. D {\bfseries 57}
-  (1998) 3873--3889}, \url{https://link.aps.org/doi/10.1103/PhysRevD.57.3873}.
+  (1998) 3873}, \url{https://link.aps.org/doi/10.1103/PhysRevD.57.3873}.
 
 \end{thebibliography}\endgroup

@@ -1,5 +1,5 @@
 \section{Extrapolation in the track flipping method}
-In this section, the extrapolation method used in the TF method is derived. The TF method yields vertices in the control (\xx), validation (\mux, \ex), and signal region (\mumu, \ee, \emu) which represent the estimate of random-crossing background in each region. However, because of limited number in lepton pairs in the data sample, it is not practical to use the vertex yields in the signal region to estimate the background. Instead, the vertex yields in the control and validation region are extrapolated into the signal region in order to estimate the random-crossing background.
+In this section, the extrapolation method used in the TF method is derived. The TF method estimates the number of vertices in the control (\xx), validation (\mux, \ex), and signal region (\mumu, \ee, \emu) which represent the estimate of random-crossing background in each region. However, because of limited number in lepton pairs in the data sample, it is not practical to use the vertex yields in the signal region to estimate the background. Instead, the vertex yields in the control and validation region are extrapolated into the signal region in order to estimate the random-crossing background.
 
 
 
@@ -13,30 +13,28 @@ In this derivation, the following definition of $\mu$, $e$, and x is used where 
 
 Furthermore, the following conventions for the number of tracks, pairs, vertices, and lepton probability are used.
 \begin{itemize}
-\item $N^{\mathrm{T}}_{\mathrm{x}}$, $N^{\mathrm{T}}_{e}$, $N^{\mathrm{T}}_{\mu}$ represent number of x, $e$, and $\mu$ tracks, respectively.
-\item $N^{\mathrm{R}}_{\mathrm{xx}}$, $N^{\mathrm{R}}_{\mu \mathrm{x}}$, $N^{\mathrm{R}}_{e\mathrm{x}}$, $N^{\mathrm{R}}_{\mu\mu}$, $N^{\mathrm{R}}_{ee}$, $N^{\mathrm{R}}_{e\mu}$ represent the number of pairs of each type.
-\item $N_{\mathrm{xx}}$, $N_{\mu \mathrm{x}}$, $N_{e\mathrm{x}}$, $N_{\mu\mu}$, $N_{ee}$, $N_{e\mu}$ represent the number of vertices of each type.
-\item $P(\mu) = \frac{N^{\mathrm{T}}_{\mu}}{N^{\mathrm{T}}_{\mu} + N^{\mathrm{T}}_{e} + N^{\mathrm{T}}_{\mathrm{x}}}$ represent the muon probability.
-\item $P(e) = \frac{N^{\mathrm{T}}_{e}}{N^{\mathrm{T}}_{\mu} + N^{\mathrm{T}}_{e} + N^{\mathrm{T}}_{\mathrm{x}}}$ represent the electron probability.
+\item \Nx, \Ne, \Nm represent number of x, $e$, and $\mu$ tracks.
+\item \Nxx, \Nmx, \Nex, \Nmm, \Nee, \Nem represent the number of pairs of each type.
+\item \NVxx{}, \NVmx{}, \NVex{}, \NVmm{}, \NVee{}, \NVem{} represent the number of vertices of each type.
+\item $\Pm = \frac{\Nm}{\Nm + \Ne + \Nx}$ represents the probability for a track being a muon.
+\item $\Pe = \frac{\Ne}{\Nm + \Ne + \Nx}$ represents the probability for a track being an electron.
 \end{itemize}
 
 
 \subsection{Vertex estimation}
 A number of reconstructed vertices in the sample can be estimated by the number of track pairs in the sample and the probability of a pair to form a vertex, i.e.
-
 \begin{equation}
-N_{\mathrm{xx}} = N^{\mathrm{R}}_{\mathrm{xx}} \times P(\mathrm{xx}),
+\NVxx{est} = \Nxx \times \Pxx,
 \end{equation}
 %
-where $P(\mathrm{xx})$ is the probability for a $xx$ pair to form a vertex. Similarly, the vertexing probability for track pairs in the validation and signal region can be defined as below.
-
+where $\Pxx$ is the probability for a xx pair to form a vertex. Similarly, the vertexing probability for track pairs in the validation and signal region can be defined as below.
 \begin{align}
 \label{estimation_generic}
-N_{\mu \mathrm{x}}& = N^{\mathrm{R}}_{\mu \mathrm{x}} \times P(\mu \mathrm{x}), \nonumber \\
-N_{e\mathrm{x}} &= N^{\mathrm{R}}_{e\mathrm{x}} \times P(e\mathrm{x}), \nonumber \\
-N_{\mu\mu} &= N^{\mathrm{R}}_{\mu\mu} \times P(\mu\mu), \nonumber \\
-N_{ee} &= N^{\mathrm{R}}_{ee} \times P(ee), \nonumber \\
-N_{e \mu} &= N^{\mathrm{R}}_{e \mu} \times P(e\mu).
+\NVmx{}& = \Nmx \times \Pmx, \nonumber \\
+\NVex{} &= \Nex \times \Pex, \nonumber \\
+\NVmm{} &= \Nmm \times \Pmm, \nonumber \\
+\NVee{} &= \Nee \times \Pee, \nonumber \\
+\NVem{} &= \Nem \times \Pem.
 \end{align}
 
 
@@ -45,97 +43,92 @@ N_{e \mu} &= N^{\mathrm{R}}_{e \mu} \times P(e\mu).
 Given a collection of x tracks in a single event, the number of all possible pairs can be expressed as,
 \begin{equation}
 \label{counting_pairs1}
-N^{\mathrm{R}}_{\mathrm{xx}} = \binom{N^{\mathrm{T}}_{\mathrm{x}}}{2} = \frac{N^{\mathrm{T}}_{\mathrm{x}}!}{(N^{\mathrm{T}}_{\mathrm{x}}-2)!\cdot 2!} = \frac{1}{2} \cdot (N^{\mathrm{T}}_{\mathrm{x}}\cdot(N^{\mathrm{T}}_{\mathrm{x}}-1)).
+\Nxx = \binom{\Nx}{2} = \frac{\Nx!}{(\Nx-2)!\cdot 2!} = \frac{1}{2} \cdot (\Nx\cdot(\Nx-1)).
 \end{equation}
 %
 Given two different sets of tracks, for example x and $\mu$, the number of possible pairs is
 \begin{equation}
-N^{\mathrm{R}}_{\mu \mathrm{x}} = N^{\mathrm{T}}_{\mu} \cdot N^{\mathrm{T}}_{\mathrm{x}}.
+\Nmx = \Nm \cdot \Nx.
 \end{equation}
 %
 Similarly, the number of pairs from other combinations of tracks are
 \begin{align}
 \label{counting_pairs2}
-N^{\mathrm{R}}_{ee} &= \binom{N^{\mathrm{T}}_{e}}{2} = \frac{N^{\mathrm{T}}_{e}!}{(N^{\mathrm{T}}_{e}-2)!\cdot 2!} = \frac{1}{2} \cdot (N^{\mathrm{T}}_{e}\cdot(N^{\mathrm{T}}_{e}-1)), \nonumber\\
-N^{\mathrm{R}}_{\mu\mu} &= \binom{N^{\mathrm{T}}_{\mu}}{2} = \frac{N^{\mathrm{T}}_{\mu}!}{(N^{\mathrm{T}}_{\mu}-2)!\cdot 2!} = \frac{1}{2} \cdot (N^{\mathrm{T}}_{\mu}\cdot(N^{\mathrm{T}}_{\mu}-1)), \nonumber\\
-N^{\mathrm{R}}_{e\mathrm{x}} &= N^{\mathrm{T}}_{e} \cdot N^{\mathrm{T}}_{\mathrm{x}},\nonumber \\
-N^{\mathrm{R}}_{e \mu} &= N^{\mathrm{T}}_{e} \cdot N^{\mathrm{T}}_{\mu}.
+\Nee &= \binom{\Ne}{2} = \frac{\Ne!}{(\Ne-2)!\cdot 2!} = \frac{1}{2} \cdot (\Ne\cdot(\Ne-1)), \nonumber\\
+\Nmm &= \binom{\Nm}{2} = \frac{\Nm!}{(\Nm-2)!\cdot 2!} = \frac{1}{2} \cdot (\Nm\cdot(\Nm-1)), \nonumber\\
+\Nex &= \Ne \cdot \Nx,\nonumber \\
+\Nem &= \Ne \cdot \Nm.
 \end{align}
 
-Note that Eq.~\ref{counting_pairs1}-\ref{counting_pairs2} are only true event-wise. If there are $N^{\mathrm{T}}_{\mathrm{x}}$ tracks in data, it can not be directly translated to $N^{\mathrm{R}}_{\mathrm{xx}}$ using Eq.~\ref{counting_pairs1}. Instead, the sum of $N^{\mathrm{R}}_{\mathrm{xx}}$ from each event needs to be calculated.
-
-%In the following discussion, I will naively think of data as one big event since all events should behave the same in large data. 
-%However, this means that we cannot directly use quantities like $N^{\mathrm{T}}_{\mathrm{x}}$ and $N^{\mathrm{R}}_{\mathrm{xx}}$, and we are only allowed to use the probabilities and total vertex yields from data.
-
+%Note that Eqs.~\ref{counting_pairs1}-\ref{counting_pairs2} are only true event-wise. If there are \Nx tracks in data, it can not be directly translated to $\Nxx$ using Eq.~\ref{counting_pairs1}. Instead, the sum of $\Nxx$ from each event needs to be calculated.
 
 \subsection{Extrapolation of control region into validation and signal region}
 
 The track-flipped vertex yield in the control region can be extrapolated into the validation and signal region as follows.
 
-Given a number of tracks ($\mu$, $e$, x), we can estimate the number of vertices in the validation and signal region using Eq.~\ref{counting_pairs1}$-$Eq.~\ref{counting_pairs2} and Eq.~\ref{estimation_generic}. However, since the vertexing probabilities in the validation and signal region ($P(\mu \mathrm{x})$, $P(e\mathrm{x})$, etc..) are unknown without using the information from those regions, the vertexing probability obtained from the control region ($P(\mathrm{xx})$) can be used as an estimation of the vertexing probability in the validation and the signal region. $P(\mathrm{xx})$ can be expressed as,
+Given a number of tracks ($\mu$, $e$, x), we can estimate the number of vertices in the validation and signal region using Eqs.~\ref{estimation_generic}$-$\ref{counting_pairs2}. However, since the vertexing probabilities in the validation and signal region ($\Pmx$, $\Pex$, etc.) are unknown without using the information from those regions, the vertexing probability obtained from the control region ($\Pxx$) is used as an estimation of the vertexing probability in the validation and the signal region. $\Pxx$ can be expressed as,
 
 \begin{align}
 \label{p_xx}
-P(\mathrm{xx}) &= \frac{N_{\mathrm{xx}}^{obs}}{N^{\mathrm{R}}_{\mathrm{xx}}} = \frac{N_{\mathrm{xx}}^{obs}}{{\frac{1}{2} \cdot (N^{\mathrm{T}}_{\mathrm{x}}\cdot(N^{\mathrm{T}}_{\mathrm{x}}-1))}}.
+\Pxx &= \frac{\NVxx{obs}}{\Nxx} = \frac{\NVxx{obs}}{{\frac{1}{2} \cdot (\Nx\cdot(\Nx-1))}}.
 \end{align}
 %
-Using Eq.~\ref{estimation_generic} and Eq.~\ref{p_xx}, the vertex yield in the validation and signal region can be estimated as,
-
+Using Eqs.~\ref{estimation_generic}-\ref{p_xx}, the vertex yield in the validation and signal region can be estimated as,
 \begin{align}
 \label{eq:TF_extrapolation_from_control}
-N_{\mu \mathrm{x}}^{est} &= N^{\mathrm{R}}_{\mu \mathrm{x}} \cdot P(\mu \mathrm{x}) \approx N^{\mathrm{R}}_{\mu \mathrm{x}} \cdot P(\mathrm{xx})    = 2 \cdot \frac{N^{\mathrm{T}}_{\mu}}{N^{\mathrm{T}}_{\mathrm{x}} -1} \cdot N_{\mathrm{xx}}^{obs} \approx 2 \cdot P(\mu) \cdot N_{\mathrm{xx}}^{obs},\nonumber\\
-N_{e \mathrm{x}}^{est}   &= N^{\mathrm{R}}_{e \mathrm{x}} \cdot P(e\mathrm{x}) \approx N^{\mathrm{R}}_{e \mathrm{x}} \cdot P(\mathrm{xx})      = 2 \cdot \frac{N^{\mathrm{T}}_{e}}{N^{\mathrm{T}}_{\mathrm{x}} -1} \cdot N_{\mathrm{xx}}^{obs} \approx 2 \cdot P(e) \cdot N_{\mathrm{xx}}^{obs}, \nonumber \\
-N_{\mu\mu}^{est}&= N^{\mathrm{R}}_{\mu\mu} \times P(\mu\mu) \approx N^{\mathrm{R}}_{\mu\mu} \times P(\mathrm{xx})  = \frac{N^{\mathrm{T}}_{\mu}\cdot(N^{\mathrm{T}}_{\mu} - 1)}{N^{\mathrm{T}}_{\mathrm{x}}\cdot(N^{\mathrm{T}}_{\mathrm{x}}-1)} \cdot N_{\mathrm{xx}}^{obs} \approx P(\mu)^{2} \cdot N_{\mathrm{xx}}^{obs}, \nonumber \\
-N_{ee}^{est}    &= N^{\mathrm{R}}_{ee} \times P(ee) \approx N^{\mathrm{R}}_{ee} \times P(\mathrm{xx}) 		= \frac{N^{\mathrm{T}}_{e}\cdot(N^{\mathrm{T}}_{e} - 1)}{N^{\mathrm{T}}_{\mathrm{x}}\cdot(N^{\mathrm{T}}_{\mathrm{x}}-1)} \cdot N_{\mathrm{xx}}^{obs} \approx P(e)^{2} \cdot N_{\mathrm{xx}}^{obs}, \nonumber \\
-N_{e \mu}^{est} &= N^{\mathrm{R}}_{e \mu} \times P(e \mu) \approx N^{\mathrm{R}}_{e \mu} \times P(\mathrm{xx}) 	= N^{\mathrm{T}}_{e} \cdot N^{\mathrm{T}}_{\mu} \frac{2 \cdot N_{\mathrm{xx}}^{obs}}{N^{\mathrm{T}}_{\mathrm{x}} \cdot (N^{\mathrm{T}}_{\mathrm{x}}-1)} \approx 2\cdot P(e)\cdot P(\mu) \cdot N_{\mathrm{xx}}^{obs},
+\NVmx{est} &= \Nmx \cdot \Pmx \approx \Nmx \cdot \Pxx    = 2 \cdot \frac{\Nm}{\Nx -1} \cdot \NVxx{obs} \approx 2 \cdot \Pm \cdot \NVxx{obs},\nonumber\\
+\NVex{est}   &= \Nex \cdot \Pex \approx \Nex \cdot \Pxx      = 2 \cdot \frac{\Ne}{\Nx -1} \cdot \NVxx{obs} \approx 2 \cdot \Pe \cdot \NVxx{obs}, \nonumber \\
+\NVmm{est}&= \Nmm \cdot \Pmm \approx \Nmm \cdot \Pxx  = \frac{\Nm\cdot(\Nm - 1)}{\Nx\cdot(\Nx-1)} \cdot \NVxx{obs} \approx (\Pm)^{2} \cdot \NVxx{obs}, \nonumber \\
+\NVee{est}    &= \Nee \cdot \Pee \approx \Nee \cdot \Pxx 		= \frac{\Ne\cdot(\Ne - 1)}{\Nx\cdot(\Nx-1)} \cdot \NVxx{obs} \approx (\Pe)^{2} \cdot \NVxx{obs}, \nonumber \\
+\NVem{est} &= \Nem \cdot \Pem \approx \Nem \cdot \Pxx 	= \Ne \cdot \Nm \frac{2 \cdot \NVxx{obs}}{\Nx \cdot (\Nx-1)} \approx 2\cdot \Pe\cdot \Pm \cdot \NVxx{obs},
 \end{align}
 %
-where $N^{obs}$ represents measured track-flipped vertex yield in the data and $N^{est}$ represents the estimated vertex yield in the validation and signal region by the extrapolation.
+where $N^{\mathrm{v},obs}$ represents the measured track-flipped vertex yield in the data and $N^{est}$ represents the estimated vertex yield in the validation and signal region by the extrapolation.
 
 \subsection{Extrapolation of validation region into signal region}
 
-Similarly, the track-flipped vertex yield in the validation region can be extrapolated into the signal region by $P(\mu\mathrm{x})$ and $P(\mathrm{x})$ as estimates of $P(\mu\mu)$ and $P(ee)$ where
-
+Similarly, the track-flipped vertex yield in the validation region can be extrapolated into the signal region by using $\Pmx$ and $\Pex$ as estimates of $\Pmm$ and $\Pee$ where,
 \begin{align}
-P(\mu\mathrm{x}) &= \frac{N_{\mu\mathrm{x}}^{obs}}{N^{\mathrm{R}}_{\mu\mathrm{x}}} = \frac{N_{\mu\mathrm{x}}^{obs}}{N^{\mathrm{T}}_{\mu} \cdot N^{\mathrm{T}}_{\mathrm{x}}}, \nonumber\\
-P(\mathrm{x}) &= \frac{N_{ex}^{obs}}{N^{\mathrm{R}}_{ex}} = \frac{N_{ex}^{obs}}{N^{\mathrm{T}}_{e} \cdot N^{\mathrm{T}}_{\mathrm{x}}}.
+\Pmx &= \frac{\NVmx{obs}}{\Nmx} = \frac{\NVmx{obs}}{\Nm \cdot \Nx}, \nonumber\\
+\Pex &= \frac{\NVex{obs}}{\Nex} = \frac{\NVex{obs}}{\Ne \cdot \Nx}.
 \end{align}
 %
-Using $P(\mu\mathrm{x})$ and $P(\mathrm{x})$, the track-flipped vertex yield in the validation region ($N_{\mu\mathrm{x}}$, $N_{ex}$) can be extrapolated into the signal regions,
-
+The track-flipped vertex yield in the validation region ($\NVmx{obs}$, $\NVex{obs}$) can be extrapolated into the signal regions by,
 \begin{align}
 \label{eq:TF_extrapolation_from_validation}
-N_{\mu\mu}^{est}&= N^{\mathrm{R}}_{\mu\mu} \times P(\mu\mu) \approx N^{\mathrm{R}}_{\mu\mu} \times P(\mu\mathrm{x})  = \frac{1}{2} \cdot \frac{N^{\mathrm{T}}_{\mu}-1}{N^{\mathrm{T}}_{\mathrm{x}}} \cdot N_{\mu\mathrm{x}}^{obs} \approx \frac{1}{2} \cdot P(\mu) \cdot N_{\mu\mathrm{x}}^{obs}, \nonumber \\
-N_{ee}^{est}    &= N^{\mathrm{R}}_{ee} \times P(ee) \approx N^{\mathrm{R}}_{ee} \times P(\mathrm{x}) = \frac{1}{2} \cdot \frac{N^{\mathrm{T}}_{e}-1}{N^{\mathrm{T}}_{\mathrm{x}}} \cdot N_{e \mathrm{x}}^{obs} \approx \frac{1}{2} \cdot P(e) \cdot N_{e \mathrm{x}}^{obs}, \nonumber \\
-N_{e \mu}^{est} &= N^{\mathrm{R}}_{e \mu} \times P(e \mu) \approx N^{\mathrm{R}}_{e \mu} \times \frac{P(\mu\mathrm{x}) + P(\mathrm{x})}{2} = \frac{1}{2} \cdot (\frac{N^{\mathrm{T}}_{e}}{N^{\mathrm{T}}_{\mathrm{x}}} \cdot N_{\mu\mathrm{x}}^{obs} + \frac{N^{\mathrm{T}}_{\mu}}{N^{\mathrm{T}}_{\mathrm{x}}} \cdot N_{e \mathrm{x}}^{obs}) \nonumber \\
-&= \frac{1}{2} \cdot (P(e) \cdot N_{\mu\mathrm{x}}^{obs} + P(\mu) \cdot N_{ex}^{obs}),
+\NVmm{est}&= \Nmm \times \Pmm \approx \Nmm \times \Pmx  = \frac{1}{2} \cdot \frac{\Nm-1}{\Nx} \cdot \NVmx{obs} \approx \frac{1}{2} \cdot \Pm \cdot \NVmx{obs}, \nonumber \\
+\NVee{est}    &= \Nee \times \Pee \approx \Nee \times \Pex = \frac{1}{2} \cdot \frac{\Ne-1}{\Nx} \cdot \NVex{obs} \approx \frac{1}{2} \cdot \Pe \cdot \NVex{obs}, \nonumber \\
+\NVem{est} &= \Nem \times \Pem \approx \Nem \times \frac{\Pmx + \Pex}{2} = \frac{1}{2} \cdot \bigg(\frac{\Ne}{\Nx} \cdot \NVmx{obs} + \frac{\Nm}{\Nx} \cdot \NVex{obs}\bigg) \nonumber \\
+&= \frac{1}{2} \cdot \bigg(\Pe \cdot \NVmx{obs} + \Pm \cdot \NVex{obs}\bigg),
 \end{align}
 %
-where the average of $P(\mu\mathrm{x})$ and $P(\mathrm{x})$ is used for $e \mu$ vertex.
+where the average of $\Pmx$ and $\Pex$ is used for $e \mu$ vertex.
 
 
 \subsection{Scale factors}
-
-The extrapolation into the signal region (xx, $\mu$x, $e$x $\rightarrow \mu\mu, ee, e\mu$) is corrected by the scale factor obtained from the extrapolation of xx into the validation region, defined as,
-
+The extrapolation of the control (validation) region into the signal region,
+\begin{equation}
+\mathrm{i.e.}~\xxns~(\muxns, \exns) \rightarrow \mumuns,~\eens,~\emuns, \nonumber
+\end{equation}
+ uses \Pxx (\Pmx, \Pex) as an approximation of \Pmx, \Pex (\Pmm, \Pee, \Pem). Therefore, these extrapolation into the signal region are corrected by the scale factors obtained from the extrapolation of $\xxns \rightarrow \muxns,~\exns$, defined as,
 \begin{align}
-    S_{\mathrm{xx}\rightarrow \mu \mathrm{x}} &= \frac{N_{\mu \mathrm{x}}^{obs}}{N_{\mu \mathrm{x}}^{est}}, \nonumber \\
-    S_{\mathrm{xx}\rightarrow e\mathrm{x}}   &= \frac{N_{e\mathrm{x}}^{obs}}{ N_{e\mathrm{x}}^{est}}
+    \SxxTOmx &= \frac{\NVmx{obs}}{\NVmx{est}}, \nonumber \\
+    \SxxTOex   &= \frac{\NVex{obs}}{ \NVex{est}}
 \label{eq:random_crossing_scale_factor}
 \end{align}
-where $N_{\mu \mathrm{x}}^{obs}$ and $N_{\mu \mathrm{x}}^{est}$ ($N_{e\mathrm{x}}^{obs}$ and $N_{e\mathrm{x}}^{est}$) represent the number of observed track-flipping vertex and the estimated vertex of each type.
+where $\NVmx{obs}$ and $\NVmx{est}$ ($\NVex{obs}$ and $\NVex{est}$) represent the number of observed track-flipping vertex and the estimated vertex of each type.
 
-Using these results, the scale factors in the signal region are defined as,
+Using these results, the scale factors applied to the extrapolation into the signal region are defined as,
 \begin{align}
 \label{eq:TF_scale_factors}
-S_{\mathrm{xx} \rightarrow \mu\mu} &=  S_{\mathrm{xx} \rightarrow \mu \mathrm{x}}^{2},  \nonumber\\
-S_{\mathrm{xx} \rightarrow ee} &= S_{\mathrm{xx} \rightarrow e\mathrm{x}}^{2},  \nonumber\\
-S_{\mathrm{xx} \rightarrow e\mu} &= \Big(\frac{1}{2} (S_{\mathrm{xx} \rightarrow \mu \mathrm{x}} + S_{\mathrm{xx} \rightarrow e\mathrm{x}})\Big)^{2}, \nonumber\\
-S_{\mu \mathrm{x} \rightarrow \mu\mu} &=  S_{\mathrm{xx} \rightarrow \mu \mathrm{x}},  \nonumber\\
-S_{e \mathrm{x} \rightarrow ee} &= S_{\mathrm{xx} \rightarrow e\mathrm{x}},  \nonumber\\
-S_{e \mathrm{x}, \mu \mathrm{x} \rightarrow e\mu} &= \frac{1}{2} (S_{\mathrm{xx} \rightarrow \mu \mathrm{x}} + S_{\mathrm{xx} \rightarrow e\mathrm{x}}),
+\SxxTOmm &=  (\SxxTOmx)^{2},  \nonumber\\
+\SxxTOee &= (\SxxTOex)^{2},  \nonumber\\
+\SxxTOem &= \Big(\frac{1}{2} (\SxxTOmx + \SxxTOex)\Big)^{2}, \nonumber\\
+\SmxTOmm &=  \SxxTOmx,  \nonumber\\
+\SexTOee &= \SxxTOex,  \nonumber\\
+\SemxTOem &= \frac{1}{2} (\SxxTOmx + \SxxTOex),
 \end{align}
-where the average of $S_{\mathrm{xx} \rightarrow \mu \mathrm{x}}$ and $S_{\mathrm{xx} \rightarrow e \mathrm{x}}$ is used for $e \mu$ vertex.
+where the average of $\SxxTOmx$ and $\SxxTOex$ is used for $e \mu$ vertex.
 
 
 
@@ -148,11 +141,11 @@ The raw vertex yields in the TF method and data, and the scale factors calculate
   \subfloat[Vertex yields]{
     \begin{tabular}[t]{ccc}
         \hline\hline
-                & Tracks-flipped              & Data                \\
+                & Tracks-flipped                & Data                \\
          \hline
-         $\mathrm{xx}$   & 1255               & 1346                \\
-         $\mu \mathrm{x}$& 3                  & 4                   \\
-         $e\mathrm{x}$   & 1                  & 0                   \\
+         \xx    & 1255                          & 1346                \\
+         \mux   & 3                             & 4                   \\
+         \ex    & 1                             & 0                   \\
         \hline\hline
     \end{tabular}
   }%
@@ -160,10 +153,10 @@ The raw vertex yields in the TF method and data, and the scale factors calculate
   \subfloat[Scale factors]{
     \begin{tabular}[t]{cc}
         \hline\hline
-         Type                                        & SF      \\
+         Type               & SF      \\
          \hline
-         $S_{\mathrm{xx}\rightarrow\mu \mathrm{x}}$  & 0.82              \\
-         $S_{\mathrm{xx}\rightarrow e\mathrm{x}}$    & 0.19              \\
+         $\SxxTOmx$         & 0.82    \\
+         $\SxxTOex$         & 0.19    \\
         \hline\hline
     \end{tabular}
   }%

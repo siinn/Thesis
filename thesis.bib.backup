@@ -1,0 +1,918 @@
+@article{SUGANUMA1995207,
+      title = "Color confinement, quark pair creation and dynamical chiral-symmetry breaking in the dual Ginzburg-Landau theory",
+      journal = "Nuclear Physics B",
+      volume = "435",
+      number = "1",
+      pages = "207-240",
+      year = "1995",
+      issn = "0550-3213",
+      doi = "https://doi.org/10.1016/0550-3213(94)00392-R",
+      url = "http://www.sciencedirect.com/science/article/pii/055032139400392R",
+      author = "H. Suganuma and S. Sasaki and H. Toki"
+}
+@techreport{Hata:135318,
+      author        = "Hata, H",
+      title         = "{Color confinement as a result of restoration of local
+                       gauge symmetry}",
+      institution   = "Kyoto Univ.",
+      address       = "Kyoto",
+      number        = "HE-TH-81-13, KUNS-618",
+      month         = "Nov",
+      year          = "1981",
+      url           = "http://cds.cern.ch/record/135318",
+}
+
+
+
+@article{Kobayashi:1117037,
+      author        = "Kobayashi, M and Maskawa, Toshihide",
+      title         = "{CP-Violation in the renormalizable theory of weak
+                       interaction}",
+      journal       = "Prog. Theor. Phys.",
+      volume        = "49",
+      pages         = "652-657",
+      year          = "1973",
+      url           = "http://cds.cern.ch/record/1117037",
+}
+
+
+
+@article{Higgs:429539,
+      author        = "Higgs, Peter Ware",
+      title         = "{Broken symmetries and the masses of gauge bosons}",
+      journal       = "Phys. Rev.",
+      volume        = "13",
+      pages         = "508-509",
+      year          = "1964",
+      url           = "http://cds.cern.ch/record/429539",
+}
+
+@book{Burgess:1003111,
+      author        = "Burgess, Cliff P and Moore, Guy D",
+      title         = "{The standard model: a primer}",
+      publisher     = "Cambridge Univ. Press",
+      address       = "Cambridge",
+      year          = "2007",
+      url           = "http://cds.cern.ch/record/1003111",
+}
+
+
+
+
+
+@article{PhysRevD.69.105009,
+      title = {Gravity, Lorentz violation, and the standard model},
+      author = {Kosteleck\'y, V. Alan},
+      journal = {Phys. Rev. D},
+      volume = {69},
+      issue = {10},
+      year = {2004},
+      month = {May},
+      publisher = {American Physical Society},
+      doi = {10.1103/PhysRevD.69.105009},
+      url = {https://link.aps.org/doi/10.1103/PhysRevD.69.105009}
+}
+
+@article{MAGG1979227,
+      title = "Gauge hierarchy in the presence of discrete symmetry",
+      journal = "Phys. Rev. B",
+      volume = "87",
+      number = "3",
+      pages = "227-232",
+      year = "1979",
+      issn = "0370-2693",
+      doi = "https://doi.org/10.1016/0370-2693(79)90970-5",
+      url = "http://www.sciencedirect.com/science/article/pii/0370269379909705",
+      author = "M. Magg and Q. Shafi and C. Wetterich"
+}
+
+@article{Magg:875284,
+      author        = "Magg, M and Shafi, Q and Wetterich, C",
+      title         = "{Gauge hierarchy in the presence of discrete symmetry}",
+      journal       = "Phys. Rev. B",
+      number        = "3",
+      volume        = "87",
+      pages         = "227-32",
+      year          = "1979",
+      url           = "http://cds.cern.ch/record/875284",
+}
+
+
+@article{Magg:133759,
+      author        = "Magg, M and Wetterich, C",
+      title         = "{Neutrino mass problem and gauge hierarchy}",
+      journal       = "Phys. Rev. B",
+      number        = "CERN-TH-2829",
+      volume        = "94",
+      pages         = "61-64",
+      month         = "Mar",
+      year          = "1980",
+      url           = "http://cds.cern.ch/record/133759",
+}
+
+
+@techreport{Alpigiani:2281629,
+      title         = "{Searches for dark matter in ATLAS}",
+      institution   = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      number        = "ATL-PHYS-PROC-2017-112",
+      month         = "Aug",
+      year          = "2017",
+      reportNumber  = "ATL-PHYS-PROC-2017-112",
+      url           = "http://cds.cern.ch/record/2281629",
+}
+
+@article{Blumenthal:151656,
+      author        = "Blumenthal, G R and Faber, S M and Primack, Joel R and
+                       Rees, Martin J",
+      title         = "{Formation of galaxies and large scale structure with cold
+                       dark matter}",
+      journal       = "Nature",
+      number        = "SLAC-PUB-3307",
+      volume        = "311",
+      pages         = "517",
+      month         = "Mar",
+      year          = "1984",
+      url           = "http://cds.cern.ch/record/151656",
+}
+
+@article{bertone2005particle,
+  title={Particle dark matter: evidence, candidates and constraints},
+  author={Bertone, Gianfranco and Hooper, Dan and Silk, Joseph},
+  journal={Physics Reports},
+  volume={405},
+  number={5},
+  pages={279-390},
+  year={2005},
+  publisher={Elsevier}
+}
+
+@article{clowe2006direct,
+  title={A direct empirical proof of the existence of dark matter},
+  author={Clowe, Douglas and Brada{\v{c}}, Maru{\v{s}}a and Gonzalez, Anthony H and others},
+  journal={The Astrophysical Journal Letters},
+  volume={648},
+  number={2},
+  pages={109},
+  year={2006},
+  publisher={IOP Publishing}
+}
+
+@article{ahn2003indications,
+  title={Indications of neutrino oscillation in a 250 km long-baseline experiment},
+  author={Ahn, MH and Aoki, S and Bhang, H and others},
+  journal={Phys. Rev.},
+  volume={90},
+  number={4},
+  year={2003},
+  pages = "041801",
+  publisher={APS}
+}
+
+
+@article{dine2003origin,
+  title={Origin of the matter-antimatter asymmetry},
+  author={Dine, Michael and Kusenko, Alexander},
+  journal={Reviews of Modern Physics},
+  volume={76},
+  number={1},
+  pages={1},
+  year={2003},
+  publisher={APS}
+}
+
+
+@article{toussaint1979matter,
+  title={Matter-antimatter accounting, thermodynamics, and black-hole radiation},
+  author={Toussaint, D and Treiman, SB and Wilczek, Frank and others},
+  journal={Phys. Rev. D},
+  volume={19},
+  number={4},
+  pages={1036},
+  year={1979},
+  publisher={APS}
+}
+
+@article{strassler2007echoes,
+  title={Echoes of a hidden valley at hadron colliders},
+  author={Strassler, Matthew J and Zurek, Kathryn M},
+  journal={Phys. Rev. B},
+  volume={651},
+  number={5},
+  pages={374-379},
+  year={2007},
+  publisher={Elsevier}
+}
+
+@article{cassel2010electroweak,
+  title={Electroweak and dark matter constraints on a $Z'$ in models with a hidden valley},
+  author={Cassel, S and Ghilencea, DM and Ross, GG},
+  journal={Nuclear Physics B},
+  volume={827},
+  number={1},
+  pages={256-280},
+  year={2010},
+  publisher={Elsevier}
+}
+
+@article{senjanovic1975exact,
+  title={Exact left-right symmetry and spontaneous violation of parity},
+  author={Senjanovic, Gt and Mohapatra, Rabindra N},
+  journal={Phys. Rev. D},
+  volume={12},
+  number={5},
+  pages={1502},
+  year={1975},
+  publisher={APS}
+}
+
+@article{mohapatra1981neutrino,
+  title={Neutrino masses and mixings in gauge models with spontaneous parity violation},
+  author={Mohapatra, Rabindra N and Senjanovi{\'c}, Goran},
+  journal={Phys. Rev. D},
+  volume={23},
+  number={1},
+  pages={165},
+  year={1981},
+  publisher={APS}
+}
+
+@article{Basso:2008iv,
+      author         = "Basso, Lorenzo and Belyaev, Alexander and Moretti,
+                        Stefano and others",
+      title          = "{Phenomenology of the minimal B-L extension of the
+                        standard model: $Z'$ and neutrinos}",
+      journal        = "Phys. Rev.",
+      volume         = "D80",
+      year           = "2009",
+      pages          = "055030",
+      doi            = "10.1103/PhysRevD.80.055030",
+      eprint         = "0812.4313",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "SHEP-08-13",
+      SLACcitation   = "%%CITATION = ARXIV:0812.4313;%%"
+}
+
+
+@article{Langacker:2008yv,
+      author         = "Langacker, Paul",
+      title          = "{The physics of heavy $Z^\prime$ gauge bosons}",
+      journal        = "Rev. Mod. Phys.",
+      volume         = "81",
+      year           = "2009",
+      pages          = "1199-1228",
+      doi            = "10.1103/RevModPhys.81.1199",
+      eprint         = "0801.1345",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0801.1345;%%"
+}
+
+@article{BARGER1980377,
+title = "Sequential W and Z bosons",
+journal = "Phys. Rev. B",
+volume = "94",
+number = "3",
+pages = "377-380",
+year = "1980",
+issn = "0370-2693",
+doi = "https://doi.org/10.1016/0370-2693(80)90900-4",
+url = "http://www.sciencedirect.com/science/article/pii/0370269380909004",
+author = "V. Barger and W.Y. Keung and Ernest Ma"
+}
+
+@article{PhysRevD.86.095010,
+  title = {Discovery and identification of ${W}^{\mathbf{\ensuremath{'}}}$ and ${Z}^{\mathbf{\ensuremath{'}}}$ in $SU(2{)}_{1}\ensuremath{\bigotimes}SU(2{)}_{2}\ensuremath{\bigotimes}U(1{)}_{X}$ models at the LHC},
+  author = {Cao, Qing-Hong and Li, Zhao and Yu, Jiang-Hao and others},
+  journal = {Phys. Rev. D},
+  volume = {86},
+  issue = {9},
+  pages = {095010},
+  numpages = {19},
+  year = {2012},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.86.095010},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.86.095010}
+}
+@article{ABAZOV201188,
+  title = "Search for a heavy neutral gauge boson in the dielectron channel with 5.4 $fb^{-1}$ of $p\bar{p}$ collisions at $\sqrt{s}$=1.96 TeV",
+  collaboration = {D{{\O}}},
+  journal = "Phys. Rev. B",
+  volume = "695",
+  number = "1",
+  pages = "88-94",
+  year = "2011",
+  issn = "0370-2693",
+  doi = "https://doi.org/10.1016/j.physletb.2010.10.059",
+  url = "http://www.sciencedirect.com/science/article/pii/S0370269310012700",
+  keywords = "Extensions of standard model, New gauge bosons"
+}
+
+
+@article{PhysRevD.90.052005,
+  title = {Search for high-mass dilepton resonances in $pp$ collisions at $\sqrt{s}=8\text{ }\text{ }\mathrm{TeV}$ with the ATLAS detector},
+  collaboration = {ATLAS},
+  journal = {Phys. Rev. D},
+  volume = {90},
+  issue = {5},
+  pages = {052005},
+  numpages = {30},
+  year = {2014},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevD.90.052005},
+  url = {https://link.aps.org/doi/10.1103/PhysRevD.90.052005}
+}
+
+@article{Aaboud:2017yvp,
+      title          = "{Search for new phenomena in dijet events using 37
+                        fb$^{-1}$ of $pp$ collision data collected at
+                        $\sqrt{s}=$13 TeV with the ATLAS detector}",
+      collaboration  = "ATLAS",
+      journal        = "Phys. Rev.",
+      volume         = "D96",
+      year           = "2017",
+      number         = "5",
+      pages          = "052004",
+      doi            = "10.1103/PhysRevD.96.052004",
+      eprint         = "1703.09127",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2017-042",
+      SLACcitation   = "%%CITATION = ARXIV:1703.09127;%%"
+}
+
+@article{Langacker:2009su,
+      author         = "Langacker, Paul",
+      title          = "{Z' Physics at the LHC}",
+      year           = "2009",
+      eprint         = "0911.4294",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      SLACcitation   = "%%CITATION = ARXIV:0911.4294;%%"
+}
+@book{Bruning:782076,
+      author        = "Brüning, Oliver Sim and Collier, Paul and Lebrun, P and
+                       others",
+      title         = "{LHC design report}",
+      publisher     = "CERN",
+      address       = "Geneva",
+      year          = "2004",
+      url           = "https://cds.cern.ch/record/782076",
+}
+
+
+@article{1748-0221-10-06-C06012,
+  author={H. Pernegger},
+  title={The Pixel detector of the ATLAS experiment for LHC Run-2},
+  journal={Journal of Instrumentation},
+  volume={10},
+  number={06},
+  pages={C06012},
+  url={http://stacks.iop.org/1748-0221/10/i=06/a=C06012},
+  year={2015},
+}
+
+
+@techreport{Abbott:2307576,
+      title         = "{Production and integration of the ATLAS insertable
+                       B-layer}",
+      collaboration = "ATLAS",
+      number        = "arXiv:1803.00844",
+      month         = "Mar",
+      year          = "2018",
+      reportNumber  = "arXiv:1803.00844",
+      url           = "http://cds.cern.ch/record/2307576",
+}
+
+
+
+@techreport{Vogel:1537991,
+      collaboration = "ATLAS",
+      title         = "{ATLAS transition radiation tracker (TRT): straw tube
+                       gaseous detectors at high rates}",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-INDET-PROC-2013-005",
+      month         = "Apr",
+      year          = "2013",
+      reportNumber  = "ATL-INDET-PROC-2013-005",
+      url           = "https://cds.cern.ch/record/1537991",
+}
+
+@techreport{ATLAS-CONF-2011-128,
+      title         = "{Particle identification performance of the ATLAS
+                       transition radiation tracker}",
+      institution   = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      number        = "ATLAS-CONF-2011-128",
+      month         = "Sep",
+      year          = "2011",
+      reportNumber  = "ATLAS-CONF-2011-128",
+      url           = "https://cds.cern.ch/record/1383793",
+}
+
+
+
+@article{1742-6596-293-1-012044,
+  collaboration = "ATLAS",
+  title={The ATLAS liquid argon calorimeter: overview and performance},
+  journal={Journal of Physics: Conference Series},
+  volume={293},
+  number={1},
+  pages={012044},
+  url={http://stacks.iop.org/1742-6596/293/i=1/a=012044},
+  year={2011},
+}
+
+
+@book{ATLAS-LAR-CALORIMETER,
+      title         = "{ATLAS liquid-argon calorimeter: technical design report}",
+      publisher     = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      year          = "1996",
+      url           = "https://cds.cern.ch/record/331061",
+}
+@techreport{HenriquesCorreia:2004868,
+      title         = "{The ATLAS tile calorimeter}",
+      institution   = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      number        = "ATL-TILECAL-PROC-2015-002",
+      month         = "Mar",
+      year          = "2015",
+      reportNumber  = "ATL-TILECAL-PROC-2015-002",
+      url           = "http://cds.cern.ch/record/2004868",
+}
+@article{ARNAUD2008265,
+      title = "Commissioning of the magnetic field in the ATLAS muon spectrometer",
+      collaboration = "ATLAS",
+      journal = "Nuclear Physics B",
+      volume = "177-178",
+      pages = "265-266",
+      year = "2008",
+      issn = "0920-5632",
+      doi = "https://doi.org/10.1016/j.nuclphysbps.2007.11.123",
+      url = "http://www.sciencedirect.com/science/article/pii/S0920563207009528",
+}
+
+  	
+@article{1742-6596-762-1-012003,
+  title={The Run 2 ATLAS trigger system},
+  collaboration = "ATLAS",
+  volume={762},
+  number={1},
+  pages={012003},
+  url={http://stacks.iop.org/1742-6596/762/i=1/a=012003},
+  year={2016},
+}
+	
+
+@techreport{VazquezSchroeder:2287548,
+      title         = "{The ATLAS trigger in Run-2: design, menu, and
+                       performance}",
+      institution   = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      number        = "ATL-DAQ-PROC-2017-027",
+      month         = "Oct",
+      year          = "2017",
+      reportNumber  = "ATL-DAQ-PROC-2017-027",
+      url           = "https://cds.cern.ch/record/2287548",
+}
+
+@techreport{ATL-PHYS-PUB-2017-014,
+      title         = "{Performance of the reconstruction of large impact
+                       parameter tracks in the ATLAS inner detector}",
+      institution   = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      number        = "ATL-PHYS-PUB-2017-014",
+      month         = "Jul",
+      year          = "2017",
+      reportNumber  = "ATL-PHYS-PUB-2017-014",
+      url           = "https://cds.cern.ch/record/2275635",
+}
+@article{Aaboud:2016rmg,
+      title          = "{Reconstruction of primary vertices at the ATLAS
+                        experiment in Run 1 proton–proton collisions at the
+                        LHC}",
+      collaboration  = "ATLAS",
+      journal        = "Eur. Phys. J.",
+      volume         = "C77",
+      year           = "2017",
+      number         = "5",
+      pages          = "332",
+      doi            = "10.1140/epjc/s10052-017-4887-5",
+      eprint         = "1611.10235",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CERN-EP-2016-150",
+      SLACcitation   = "%%CITATION = ARXIV:1611.10235;%%"
+}
+
+@article{Aaboud:2017all,
+      title          = "{Performance of the ATLAS track reconstruction algorithms
+                        in dense environments in LHC Run 2}",
+      collaboration  = "ATLAS",
+      journal        = "Eur. Phys. J.",
+      volume         = "C77",
+      year           = "2017",
+      number         = "10",
+      pages          = "673",
+      doi            = "10.1140/epjc/s10052-017-5225-7",
+      eprint         = "1704.07983",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2017-045",
+      SLACcitation   = "%%CITATION = ARXIV:1704.07983;%%"
+}
+
+@article{Aad:2016jkr,
+      title          = "{Muon reconstruction performance of the ATLAS detector in
+                        proton–proton collision data at $\sqrt{s}$ =13 TeV}",
+      collaboration  = "ATLAS",
+      journal        = "Eur. Phys. J.",
+      volume         = "C76",
+      year           = "2016",
+      number         = "5",
+      pages          = "292",
+      doi            = "10.1140/epjc/s10052-016-4120-y",
+      eprint         = "1603.05598",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2016-033",
+      SLACcitation   = "%%CITATION = ARXIV:1603.05598;%%"
+}
+
+@techreport{ATLAS-CONF-2010-058,
+      title         = "{Mapping the material in the ATLAS inner detector using
+                       secondary hadronic interactions in 7 TeV collisions}",
+      institution   = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      number        = "ATLAS-CONF-2010-058",
+      month         = "Jul",
+      year          = "2010",
+      reportNumber  = "ATLAS-CONF-2010-058",
+      url           = "https://cds.cern.ch/record/1281331",
+}
+
+
+
+
+@article{1742-6596-119-3-032033,
+    title={Primary vertex reconstruction in the ATLAS experiment at LHC},
+    collaboration = "ATLAS",
+    journal={Journal of Physics: Conference Series},
+    volume={119},
+    number={3},
+    pages={032033},
+    url={http://stacks.iop.org/1742-6596/119/i=3/a=032033},
+    year={2008},
+}
+
+@techreport{Blackburn:1550730,
+      title         = "{Search for long-lived, weakly-interacting particle that
+                       decay to displaced hadronic jets in proton-proton
+                       collisions at $\sqrt{s}$ = 8 TeV with the ATLAS detector}",
+      collaboration = "ATLAS",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-COM-PHYS-2013-683",
+      month         = "May",
+      year          = "2013",
+      reportNumber  = "ATL-COM-PHYS-2013-683",
+      url           = "https://cds.cern.ch/record/1550730",
+}
+
+@techreport{Harris:1512932,
+      title         = "{Searches for long-lived neutral particles decaying into
+                       heavy flavors in the hadronic calorimeter of ATLAS at
+                       $\sqrt{s}$ = 8 TeV}",
+      collaboration = "ATLAS",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-COM-PHYS-2013-113",
+      month         = "Feb",
+      year          = "2013",
+      reportNumber  = "ATL-COM-PHYS-2013-113",
+      url           = "https://cds.cern.ch/record/1512932",
+}
+@article{Aad:2015rba,
+      title          = "{Search for massive, long-lived particles using
+                        multitrack displaced vertices or displaced lepton pairs in
+                        pp collisions at $\sqrt{s}$ = 8 TeV with the ATLAS
+                        detector}",
+      collaboration  = "ATLAS",
+      journal        = "Phys. Rev.",
+      volume         = "D92",
+      year           = "2015",
+      number         = "7",
+      pages          = "072004",
+      doi            = "10.1103/PhysRevD.92.072004",
+      eprint         = "1504.05162",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2015-065",
+      SLACcitation   = "%%CITATION = ARXIV:1504.05162;%%"
+}
+
+@techreport{Catmore:1543445,
+      collaboration = "ATLAS",
+      title         = "{Report of the analysis model study group}",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-COM-SOFT-2013-005",
+      month         = "Apr",
+      year          = "2013",
+      reportNumber  = "ATL-COM-SOFT-2013-005",
+      url           = "https://cds.cern.ch/record/1543445",
+}
+
+
+
+@article{1126-6708-2006-05-026,
+  author={Torbjörn Sjöstrand and Stephen Mrenna and Peter Skands},
+  title={PYTHIA 6.4 physics and manual},
+  journal={Journal of High Energy Physics},
+  volume={2006},
+  number={05},
+  pages={026},
+  url={http://stacks.iop.org/1126-6708/2006/i=05/a=026},
+  year={2006},
+}
+
+
+@article{Aaboud:2016poq,
+      title          = "{A measurement of material in the ATLAS tracker using
+                        secondary hadronic interactions in 7 TeV pp collisions}",
+      collaboration  = "ATLAS",
+      journal        = "JINST",
+      volume         = "11",
+      year           = "2016",
+      number         = "11",
+      pages          = "P11020",
+      doi            = "10.1088/1748-0221/11/11/P11020",
+      eprint         = "1609.04305",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-EP-2016-137",
+      SLACcitation   = "%%CITATION = ARXIV:1609.04305;%%"
+}
+
+@techreport{Backhaus:2110260,
+      title         = "{The upgraded pixel detector of the ATLAS experiment for
+                       Run 2 at the Large Hadron Collider}",
+      institution   = "CERN",
+      collaboration = "ATLAS",
+      address       = "Geneva",
+      number        = "ATL-INDET-PROC-2015-015",
+      month         = "Dec",
+      year          = "2015",
+      reportNumber  = "ATL-INDET-PROC-2015-015",
+      url           = "https://cds.cern.ch/record/2110260",
+}
+
+@techreport{Oh:1951024,
+      author        = "Oh, S H and Wang, C",
+      title         = "{Kshort and lambda production in jets from pp collisions
+                       at 7 TeV center-of-mass energy.}",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-COM-PHYS-2014-1258",
+      month         = "Sep",
+      year          = "2014",
+      reportNumber  = "ATL-COM-PHYS-2014-1258",
+      url           = "https://cds.cern.ch/record/1951024",
+}
+
+@article{Aad:2014fxa,
+      title          = "{Electron reconstruction and identification efficiency
+                        measurements with the ATLAS detector using the 2011 LHC
+                        proton-proton collision data}",
+      collaboration  = "ATLAS",
+      journal        = "Eur. Phys. J.",
+      volume         = "C74",
+      year           = "2014",
+      number         = "7",
+      pages          = "2941",
+      doi            = "10.1140/epjc/s10052-014-2941-0",
+      eprint         = "1404.2240",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CERN-PH-EP-2014-040",
+      SLACcitation   = "%%CITATION = ARXIV:1404.2240;%%"
+}
+
+@techreport{ATL-PHYS-PUB-2015-051,
+      title         = "{Early inner detector tracking performance in the 2015
+                       data at $\sqrt s$ = 13 TeV}",
+      collaboration  = "ATLAS",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-PHYS-PUB-2015-051",
+      month         = "Dec",
+      year          = "2015",
+      reportNumber  = "ATL-PHYS-PUB-2015-051",
+      url           = "https://cds.cern.ch/record/2110140",
+}
+
+
+@article{Aaboud:2215485,
+      title         = "{A measurement of material in the ATLAS tracker using
+                       secondary hadronic interactions in 7 TeV pp collisions.}",
+      journal       = "JINST",
+      collaboration = "ATLAS",
+      number        = "CERN-EP-2016-137",
+      volume        = "11",
+      pages         = "45",
+      month         = "Sep",
+      year          = "2016",
+      reportNumber  = "CERN-EP-2016-137",
+      url           = "https://cds.cern.ch/record/2215485",
+}
+@article{Sirunyan:2016iap,
+      title          = "{Search for dijet resonances in proton–proton
+                        collisions at $\sqrt{s}$ = 13 TeV and constraints on dark
+                        matter and other models}",
+      collaboration  = "CMS",
+      journal        = "Phys. Rev.",
+      volume         = "B769",
+      year           = "2017",
+      pages          = "520-542",
+      doi            = "10.1016/j.physletb.2017.09.029,
+                        10.1016/j.physletb.2017.02.012",
+      eprint         = "1611.03568",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      reportNumber   = "CMS-EXO-16-032, CERN-EP-2016-277",
+      SLACcitation   = "%%CITATION = ARXIV:1611.03568;%%"
+}
+
+@article{Chatrchyan:1493239,
+      title         = "{Search in leptonic channels for heavy resonances decaying
+                       to long-lived neutral particles.}",
+      journal       = "JHEP",
+      collaboration = "CMS",
+      number        = "CMS-EXO-11-101. CMS-EXO-11-101. CERN-PH-EP-2012-304",
+      volume        = "02",
+      pages         = "085",
+      month         = "Nov",
+      year          = "2012",
+      reportNumber  = "CMS-EXO-11-101",
+      url           = "https://cds.cern.ch/record/1493239",
+}
+
+@article{Aad:2010949,
+      title         = "{Search for massive, long-lived particles using multitrack
+                       displaced vertices or displaced lepton pairs in pp
+                       collisions at $\sqrt{s}$ = 8 TeV with the ATLAS detector}",
+      journal       = "Phys. Rev. D",
+      collaboration = "ATLAS",
+      number        = "CERN-PH-EP-2015-065, CERN-PH-EP-2015-065",
+      volume        = "92",
+      pages         = "072004",
+      month         = "Apr",
+      year          = "2015",
+      reportNumber  = "CERN-PH-EP-2015-065",
+      url           = "https://cds.cern.ch/record/2010949",
+}
+
+
+@techreport{Abdesselam:974073,
+      title         = "{The barrel modules of the ATLAS semi-conductor tracker}",
+      collaboration = "ATLAS",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-INDET-PUB-2006-005, ATL-COM-INDET-2006-009,
+                       CERN-ATL-COM-INDET-2006-009",
+      month         = "Jul",
+      year          = "2006",
+      reportNumber  = "ATL-INDET-PUB-2006-005",
+      url           = "https://cds.cern.ch/record/974073",
+}
+
+@techreport{Abdesselam:973395,
+      title         = "{ATLAS SCT endcap module production}",
+      collaboration = "ATLAS",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-INDET-PUB-2006-007, ATL-COM-INDET-2006-008",
+      month         = "Jul",
+      year          = "2006",
+      reportNumber  = "ATL-INDET-PUB-2006-007",
+      url           = "https://cds.cern.ch/record/973395",
+}
+
+@article{Kalman:434680,
+      author        = "Kalman, R E",
+      title         = "{A new approach to linear filtering and prediction
+                       problems}",
+      journal       = "Trans. ASME, D",
+      volume        = "82",
+      pages         = "35-44",
+      year          = "1960",
+      url           = "https://cds.cern.ch/record/434680",
+}
+@article{Gleisberg:2008ta,
+      author         = "Gleisberg, T. and Hoeche, Stefan. and Krauss, F. and others",
+      title          = "{Event generation with SHERPA 1.1}",
+      journal        = "JHEP",
+      volume         = "02",
+      year           = "2009",
+      pages          = "007",
+      doi            = "10.1088/1126-6708/2009/02/007",
+      eprint         = "0811.4622",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "FERMILAB-PUB-08-477-T, SLAC-PUB-13420, ZU-TH-17-08,
+                        DCPT-08-138, IPPP-08-69, EDINBURGH-2008-30, MCNET-08-14",
+      SLACcitation   = "%%CITATION = ARXIV:0811.4622;%%"
+}
+
+
+@article{Ball:2014uwa,
+      author         = "Ball, Richard D. and others",
+      title          = "{Parton distributions for the LHC Run II}",
+      collaboration  = "NNPDF",
+      journal        = "JHEP",
+      volume         = "04",
+      year           = "2015",
+      pages          = "040",
+      doi            = "10.1007/JHEP04(2015)040",
+      eprint         = "1410.8849",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ph",
+      reportNumber   = "EDINBURGH-2014-15, IFUM-1034-FT, CERN-PH-TH-2013-253,
+                        OUTP-14-11P, CAVENDISH-HEP-14-11",
+      SLACcitation   = "%%CITATION = ARXIV:1410.8849;%%"
+}
+
+@techreport{DuarteCampderros:2275055,
+      title         = "{Search for long-lived, massive particles decaying into
+                       leptons in $pp$ collisions at 13 TeV centre-of-mass energy,
+                       with the ATLAS detector at the LHC}",
+      collaboration  = "ATLAS",
+      institution   = "CERN",
+      address       = "Geneva",
+      number        = "ATL-COM-PHYS-2017-1060",
+      month         = "Jul",
+      year          = "2017",
+      reportNumber  = "ATL-COM-PHYS-2017-1060",
+      url           = "https://cds.cern.ch/record/2275055",
+}
+
+@article{Baak:2014wma,
+      author         = "Baak, M. and Besjes, G. J. and Côte, D. and others",
+      title          = "{HistFitter software framework for statistical data
+                        analysis}",
+      journal        = "Eur. Phys. J.",
+      volume         = "C75",
+      year           = "2015",
+      pages          = "153",
+      doi            = "10.1140/epjc/s10052-015-3327-7",
+      eprint         = "1410.1280",
+      archivePrefix  = "arXiv",
+      primaryClass   = "hep-ex",
+      SLACcitation   = "%%CITATION = ARXIV:1410.1280;%%"
+}
+
+
+@article{OBRAZTSOV1992388,
+      title = "Confidence limits for processes with small statistics in several subchannels and with measurement errors",
+      journal = "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment",
+      volume = "316",
+      number = "2",
+      pages = "388-390",
+      year = "1992",
+      issn = "0168-9002",
+      doi = "https://doi.org/10.1016/0168-9002(92)90925-T",
+      url = "http://www.sciencedirect.com/science/article/pii/016890029290925T",
+      author = "V.F. Obraztsov"
+}
+
+@article{PhysRevD.57.3873,
+      title = {Unified approach to the classical statistical analysis of small signals},
+      author = {Feldman, Gary J. and Cousins, Robert D.},
+      journal = {Phys. Rev. D},
+      volume = {57},
+      issue = {7},
+      pages = {3873-3889},
+      numpages = {0},
+      year = {1998},
+      month = {Apr},
+      publisher = {American Physical Society},
+      doi = {10.1103/PhysRevD.57.3873},
+      url = {https://link.aps.org/doi/10.1103/PhysRevD.57.3873}
+}
+
+
+
+
+

@@ -1,7 +1,7 @@
 \chapter{Signal Efficiency}
 \label{chap:eff}
 
-A signal efficiency of finding displaced dilepton vertex is defined by the ratio of the number of events passing the signal selection (Chapter~\ref{chap:signal_selection}) to the total number of events generated. The signal efficiency can be written as Eq.~\ref{eq:OverallEff}. 
+A signal efficiency of finding displaced dilepton vertex is defined by the ratio of the number of events passing the signal selection (Chapter~\ref{chap:signal_selection}) to the total number of events generated. The signal efficiency can be written as,
 
 \begin{equation}
 \label{eq:OverallEff}
@@ -11,7 +11,7 @@ A signal efficiency of finding displaced dilepton vertex is defined by the ratio
                      \varepsilon_{\mathrm{vertexFit}}.
 \end{equation}
 %
-$\varepsilon_{\mathrm{filter}}$ and $\varepsilon_{\mathrm{trigger}}$ together represent the efficiency of \texttt{RPVLL} filter, the ratio of the events passing \texttt{RPVLL} filter to the total events processed. \texttt{RPVLL} filter has the trigger filter as one of its requirements. Because it is desirable to study the trigger efficiency independently from the filter efficiency, \texttt{RPVLL} filter efficiency is factorized into the filter efficiency and the trigger efficiency. $\varepsilon_{\mathrm{tracking}}$ represents the efficiency to reconstruct ID tracks from signal particles, and $\varepsilon_{\mathrm{lepton}}$ represents the efficiency to reconstruct and identify the signal particles as leptons using ID tracks, energy deposite in calorimeters, and MS tracks. $\varepsilon_{\mathrm{vertexTrack}}$ represents the efficiency for the reconstructed signal leptons to be selected for secondary vertex reconstruction, and $\varepsilon_{\mathrm{vertexFit}}$ represents the efficiency to reconstruct a displaced vertex using two signal leptons and pass the vertex selection.
+$\varepsilon_{\mathrm{filter}}$ and $\varepsilon_{\mathrm{trigger}}$ together represent the efficiency of \texttt{RPVLL} filter, the ratio of the events passing \texttt{RPVLL} filter to the total events processed. \texttt{RPVLL} filter has the trigger filter as one of its requirements. Because it is desirable to study the trigger efficiency independently from the filter efficiency, \texttt{RPVLL} filter efficiency is factorized into the filter efficiency and the trigger efficiency. $\varepsilon_{\mathrm{tracking}}$ represents the efficiency to reconstruct ID tracks from signal particles, and $\varepsilon_{\mathrm{lepton}}$ represents the efficiency to reconstruct and identify the signal particles as leptons using ID tracks, energy deposite in calorimeters, or MS tracks. $\varepsilon_{\mathrm{vertexTrack}}$ represents the efficiency for the reconstructed signal leptons to be selected for secondary vertex reconstruction, and $\varepsilon_{\mathrm{vertexFit}}$ represents the efficiency to reconstruct a displaced vertex using two signal leptons and pass the vertex selection.
 %Therefore, $\varepsilon_{\mathrm{filter}}$ is defined by the fraction of events passing \texttt{RPVLL} filter requirements without the trigger filter, and $\varepsilon_{\mathrm{trigger}}$ is defined by the fraction of events passing one of the HLTs used in this search.
 
 In order to understand the source of signal efficiency loss, the trigger efficiency is studied in Section~\ref{sec:trigger_efficiency}, and the tracking and lepton identification efficiencies are studied in Section~\ref{sec:tracking_efficiency}. In Section~\ref{sec:combined_reco_efficiency}, the overall reconstruction efficiency, also referred as signal efficiency, of the $Z'$ signal model after the full analysis selection is presented. 
@@ -50,7 +50,7 @@ The plots show that the photon trigger efficiency is uniform up to $|\dzero| <$ 
     \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/TrigEff/signal/eff_siph_z0.pdf}} \\
     \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/TrigEff/signal/eff_simu_d0.pdf}}
     \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/TrigEff/signal/eff_simu_z0.pdf}}
-    \caption{The efficiency of the single photon trigger for an electron as a function of (a) $|\dzero|$ and (b) $|\zzero|$. The corresponding plots of the single muon trigger are shown in (c) and (d). The lower pane shows the ratio of normalized data to MC.}
+    \caption{The efficiency of the single photon trigger for an electron as a function of (a) $|\dzero|$ and (b) $|\zzero|$. The corresponding plots of the single muon trigger are shown in (c) and (d).}
     \label{fig:signal_TrigEff}
 \end{figure}
 
@@ -82,11 +82,11 @@ The scale factors of the single photon and the di-photon triggers are estimated 
 	\label{tab:ZeeSelection}
 \end{table}
 
-The invariant mass distributions of the tag-and-probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:PhotonTrigMass}. It is evident that the background is negligible. Therefore, no background subtraction is performed in the calculation of the trigger efficiencies, 
+The invariant mass distributions of the tag-and-probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:PhotonTrigMass}. It is evident that the background is negligible, and the shapes of distributions are in good agreement between data and MC. Therefore, no background subtraction is performed in the calculation of the trigger efficiencies, 
 
 \begin{equation}
 	\label{eq:TrigEff}
-    \epsilon_{\mathrm{trigger}} = \frac{\textrm{Number of probes matched to trigger}}{\textrm{Number of all probes}}.
+    \epsilon_{\mathrm{trigger}} = \frac{\textrm{Number of probes matched to trigger}}{\textrm{Number of probes}}.
 \end{equation}
 %
 \begin{figure}[!htb]
@@ -130,15 +130,15 @@ The scale factor of the single muon trigger is estimated with a standard tag-and
 	\begin{tabular}{ccc}
 		\hline
 		\hline
-		Cut & Tag muon & Probe muon \\
+		Selection           & Tag                               & Probe                     \\
 		\hline
-		$p_{T}$ [GeV] $>$ & 28 & 30 \\
-		Trigger matched & \texttt{HLT\_mu26\_ivarmedium} & --- \\
-		$|\eta| <$ & 2.4 & 1.05 \\
-		Identification & Medium & Loose and combined \\
-		Isolation & Loose & --- \\
-		\dzero significance & $< 3$ & --- \\
-		$\Delta \zzero \sin{\theta}$ & $< 0.5 \si{\mm}$ & --- \\
+		$p_{T}$ (GeV)       & $>$ 28                            & $>$ 30                    \\
+		Trigger matched     & \texttt{HLT\_mu26\_ivarmedium}    & -                         \\
+		$|\eta|$            & $<$ 2.4                           & $<$ 1.05                  \\
+		Identification      & Medium                            & Loose and combined        \\
+		Isolation           & Loose                             & -                         \\
+		\dzero significance & $< 3$                             & -                         \\
+		$\Delta \zzero \sin{\theta}$ & $< 0.5~\si{\mm}$         & -                         \\
 		\hline
 		\hline
 	\end{tabular}
@@ -156,7 +156,7 @@ The invariant mass distributions of the muon tag-and-probe pairs found in the da
     \label{fig:MuonTrigMass}
 \end{figure}
 
-The selected tag-and-probe muons are used to estimate the efficiency of the single muon trigger, shown as a function of probe $p_{T}$ and $|\zzero|$ in Figure~\ref{fig:MuonTrigEff1D}. The efficiency in $p_{T}$ shows that the efficiency plateau starts at $62~\si{\GeV}$. The efficiency is uniform up to $|\zzero|\sim$ 150 mm. In Figure~\ref{fig:MuonTrigEff2D}, the muons in the plateau region is used to compare the efficiency in data and MC. It is evident that efficiency depends on both $\phi$ and $\eta$. 
+The selected tag-and-probe muons are used to estimate the efficiency of the single muon trigger, shown as a function of probe $p_{T}$ and $|\zzero|$ in Figure~\ref{fig:MuonTrigEff1D}. The efficiency in $p_{T}$ shows that the efficiency plateau starts at $62~\si{\GeV}$. The efficiency is uniform up to $|\zzero|\sim$ 150 mm. In Figure~\ref{fig:MuonTrigEff2D}, the muons in this plateau region ($p_{T} > 62$) are used to compare the efficiency in data and MC. It is evident that efficiency depends on both $\phi$ and $\eta$. 
 
 The ratio of the efficiency from data to MC, binned in $\phi$ and $\eta$, is taken as a scale factor and applied to the efficiency calculation.
 
@@ -165,21 +165,39 @@ The ratio of the efficiency from data to MC, binned in $\phi$ and $\eta$, is tak
     \centering
     \subfloat[\label{fig:MuonTrigEff1Da}]{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/simu_pt.pdf}}
     \subfloat[\label{fig:MuonTrigEff1Db}]{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/simu_z0.pdf}}
-    \caption{Efficiency of the single muon trigger as a function of the (a) $p_{T}$ and (b) |\zzero| of the probe in the data and $Z$+jets MC samples. Only the muons in the plateau region of (a) are considered in (b).}
+    \caption{Efficiency of the single muon trigger as a function of the (a) $p_{T}$ and (b) |\zzero| of the probe in the data and $Z$+jets MC samples. Only the muons in the plateau region ($p_{T} > 62$ GeV) of (a) are considered in (b).}
     \label{fig:MuonTrigEff1D}
 \end{figure}
 
 
 \begin{figure}[!htb]
     \centering
-    \subfloat[\label{fig:MuonTrigEff1Da}]{\includegraphics[width = 0.50 \textwidth]{figures/MuonTrigEff/simu_eta_phi_data.pdf}}
-    \subfloat[\label{fig:MuonTrigEff1Db}]{\includegraphics[width = 0.50 \textwidth]{figures/MuonTrigEff/simu_eta_phi_MC.pdf}}
-    \caption{Efficiency of the single muon trigger as a function the $\eta$ and $\phi$ of the probe in (a) data and (b) Z+jets MC sample. Only the muons in the plateau region in $p_{T}$ are considered.}
+    \subfloat[\label{fig:MuonTrigEff2Da}]{\includegraphics[width = 0.50 \textwidth]{figures/MuonTrigEff/simu_eta_phi_data.pdf}}
+    \subfloat[\label{fig:MuonTrigEff2Db}]{\includegraphics[width = 0.50 \textwidth]{figures/MuonTrigEff/simu_eta_phi_MC.pdf}}
+    \caption{Efficiency of the single muon trigger as a function the $\eta$ and $\phi$ of the probe in (a) data and (b) Z+jets MC sample.}
     \label{fig:MuonTrigEff2D}
 \end{figure}
 
 \subsection{Summary on trigger study}
-The trigger studies show that the triggers have no dependence on the impact parameters up to $d_{0}\sim$120 and $z_{0}\sim$200 mm (Fig.~\ref{fig:signal_TrigEff}). Using the tag-and-probe method, the total scale factors of 0.988, 0.980, and 0.884 are calculated for \texttt{HLT\_g140\_loose}, \texttt{HLT\_g50\_loose} (Section~\ref{subsect:photonTrigEff}), and \texttt{HLT\_mu60\_0eta105\_msonly} (Section~\ref{subsect:muonTrigEff}), respectively. The scale factors are binned in $\eta$ for the photon triggers and are binned in both $\eta$ and $\phi$ for the muon trigger to correct signal efficiency. The overall trigger efficiency ranges between 24-58\% for $\mu\mu$, 38-93\% for $ee$, and 17-88\% for $e\mu$ at $m\geq$ 250 GeV, and the trigger efficiency is much reduced for lower mass due to the $p_{T}$ threshold of the triggers.
+The trigger studies show that the triggers have no dependence on the impact parameters up to $d_{0}\sim$120 and $z_{0}\sim$200 mm (Fig.~\ref{fig:signal_TrigEff}). Using the tag-and-probe method, scale factors are obtained, and the total scale factors are summarized in Table~\ref{table:trigger_scale_factor}.
+
+\begin{table}[!htb]
+	\centering
+	\begin{tabular}{cc}
+		\hline
+		\hline
+		Trigger                                     & Total scale factor \\
+		\hline
+        \texttt{HLT\_g140\_loose}                   & 0.988 \\
+        \texttt{HLT\_g50\_loose}                    & 0.980 \\
+        \texttt{HLT\_mu60\_0eta105\_msonly}         & 0.884 \\
+		\hline
+		\hline
+	\end{tabular}
+	\caption{Total trigger scale factors from the tag-and-probe method.}
+	\label{table:trigger_scale_factor}
+\end{table}
+These scale factors are binned in $\eta$ for the photon triggers and are binned in both $\eta$ and $\phi$ for the muon trigger to correct signal efficiency. The overall trigger efficiency depends on the mass of $Z'$, 24-58\% for $\mu\mu$, 38-93\% for $ee$, and 17-88\% for $e\mu$ at $m\geq$ 250 GeV, and the trigger efficiency is much reduced for lower mass due to the $p_{T}$ threshold of the triggers.
 
 
 \section{Lepton reconstruction efficiency}
@@ -194,17 +212,17 @@ Figure~\ref{fig:lepton_eff} shows the representative plot of the lepton reconstr
     \subfloat[]{\includegraphics[width=0.50\textwidth]{figures/m_lepton_efficiency_z0.pdf}} \\
     \subfloat[]{\includegraphics[width=0.50\textwidth]{figures/m_lepton_efficiency_eta.pdf}}
     \subfloat[]{\includegraphics[width=0.50\textwidth]{figures/m_lepton_efficiency_pt.pdf}} 
-    \caption{Lepton reconstruction efficiency as a function of (a) $d_{0}$, (b) $z_{0}$, (c) $\eta$, and (d) $p_{T}$ of signal leptons using the signal MC sample generated with $m=$ 250 GeV and $c\tau=$ 250 mm.}
+    \caption{Lepton reconstruction efficiency as a function of (a) $d_{0}$, (b) $z_{0}$, (c) $\eta$, and (d) $p_{T}$ of signal leptons for the $Z'$ signal MC sample generated with $m=$ 250 GeV and $c\tau=$ 250 mm.}
     \label{fig:lepton_eff}
 \end{figure}
 
-It is evident that the efficiency drops drastically at $\eta > 2.0$ where the Pixel barrel region ends due to the minimum silicon hits requirement on tracks as shown in Table~\ref{table:tracking}. The efficiency is not very sensitive to $p_{T}$ except low $p_{T}$ region ($p_{T} < 20$ GeV).
+It is evident that the efficiency decreases drastically at $|\eta| > 2.0$ where the Pixel barrel region ends due to the minimum silicon hits requirement on tracks as shown in Table~\ref{table:tracking}. The efficiency is not very sensitive to $p_{T}$ except low $p_{T}$ region ($p_{T} < 20$ GeV).
 
-The lepton reconstruction efficiency decreases for large $d_{0}$ and $z_{0}$. In the signal MC samples, most of $Z'$ decay within the Pixel barrel region, $r < $ 122.5 mm and $z < $ 400.5 mm, where the lepton reconstruction efficiency is high.
+The lepton reconstruction efficiency decreases for large $d_{0}$ and $z_{0}$. In the signal MC samples, most of $Z'$ decay within the Pixel barrel region, $r < $ 122.5 mm and $|z| < $ 400.5 mm, where the lepton reconstruction efficiency is high.
 
 \section{Overall reconstruction efficiency}
 \label{sec:combined_reco_efficiency}
-The overall reconstruction efficiency represents the signal efficiency defined in Eq.~\ref{eq:OverallEff}, i.e. the ratio of $Z'$s reconstructed as displaced vertices in the signal region to the total $Z'$ produced in the sample. In this section, the signal selection cut flows (Section~\ref{sec:signal_cutflow}), the signal efficiency, and the efficiency distributions (Section~\ref{sec:efficiency}) are presented. In Section~\ref{sec:efficiency_map}, efficiency maps of the signal samples are presented as a function of $p_{T}$, $\eta$ of $Z'$.
+The overall reconstruction efficiency represents the signal efficiency defined in Eq.~\ref{eq:OverallEff}, i.e. the ratio of $Z'$s reconstructed as displaced vertices in the signal region to the total $Z'$ produced in the sample. In this section, the signal selection cut flows (Section~\ref{sec:signal_cutflow}), the signal efficiency, and the efficiency distributions (Section~\ref{sec:efficiency}) are presented. In Section~\ref{sec:efficiency_map}, efficiency maps of the signal samples are presented as a function of $p_{T}$ and $|\eta|$ of $Z'$.
 
 \subsection{Event and vertex cut flow}
 \label{sec:signal_cutflow}
@@ -218,7 +236,7 @@ The signal MC samples are processed as described in Section~\ref{sec:selection:p
     \label{fig:signal_cutflow_MC_mumu}
 \end{figure}
 
-In the event cut flow, \texttt{GoodRunsList} filter and Event cleaning are shown as place holders as they are only applied to data sample. About 34-60$\%$ of signal events passed the event cut flow, but the vertex cut flow shows that only about 18-25$\%$ of signal events have a displaced vertex candidate, indicating that there is a significant loss of signal efficiency in the vertex reconstruction process. The following selection criteria, $\chi^{2} /$ DOF $<$ 5 and the displacement cut ($r_{DV} > $ 2 mm), are applied, but the effect is very small as expected because the same requirements are applied in the secondary vertex reconstruction algorithm. Material veto is applied to all vertex types except \mumu vertex. The minimum dilepton mass requirement has minimum impact on the signal efficiency.
+In the event cut flow, \texttt{GoodRunsList} filter and Event cleaning are shown as place holders as they are only applied to data sample. About 34-60$\%$ of signal events passed the event cut flow, but the vertex cut flow shows that only about 18-25$\%$ of signal events have a displaced vertex candidate, indicating that there is a significant loss of signal efficiency in the vertex reconstruction process. The following selection criteria, $\chi^{2} /$ DOF $<$ 5 and the displacement cut ($r_{\mathrm{DV}} > $ 2 mm), are applied, but the effect is very small as expected because the same requirements are applied in the secondary vertex reconstruction algorithm. Material veto is applied to all vertex types except \mumu vertex. The minimum dilepton mass requirement has minimum impact on the signal efficiency.
 
 Events and vertex cut flow of other signal samples are available in Table~\ref{table:cutflow_all}.
 
@@ -233,7 +251,7 @@ Events and vertex cut flow of other signal samples are available in Table~\ref{t
     $m_{Z'}$ (GeV) & $c\tau$ (mm)   & \rot{All events} 
                                     & \rot{Trigger filter} 
                                     & \rot{Cosmic veto} 
-                                    & \rot{$Z_{PV}<200$ mm} 
+                                    & \rot{$z_{PV}<200$ mm} 
                                     & \rot{Vertex} 
                                     & \rot{$N_{\mu} \geq 2$ }
                                     & \rot{Muon selection} 
@@ -241,13 +259,13 @@ Events and vertex cut flow of other signal samples are available in Table~\ref{t
                                     & \rot{$N_{\mu}=2$}
                                     & \rot{Trigger matching}
                                     & \rot{$\chi^{2} /$ DOF $< 5$}
-                                    & \rot{$r_{DV} >$ 2 mm}
+                                    & \rot{$r_{\mathrm{DV}} >$ 2 mm}
                                     & \rot{\mumu}
                                     & \rot{Disabled module}
                                     & \rot{$m > 10$ GeV}
                                     & \rot{Filter matching}
-                                    & \rot{$r_{DV} < 300$ mm}
-                                    & \rot{$z_{DV} < 300$ mm} \\
+                                    & \rot{$r_{\mathrm{DV}} < 300$ mm}
+                                    & \rot{$|z_{DV}| < 300$ mm} \\
     \hline
     100&	250&	20000&	818&	818&	818&	533&	269&	260&	260&	260&	259&	259&	259&	259&	252&	252&	82&	82&	81 \\
     100&	500&	20000&	761&	761&	761&	416&	165&	154&	154&	154&	154&	154&	154&	154&	148&	148&	50&	50&	49 \\
@@ -283,7 +301,7 @@ Events and vertex cut flow of other signal samples are available in Table~\ref{t
     $m_{Z'}$ (GeV) & $c\tau$ (mm)   & \rot{All events} 
                                     & \rot{Trigger filter} 
                                     & \rot{Cosmic veto} 
-                                    & \rot{$Z_{PV}<200$ mm} 
+                                    & \rot{$z_{PV}<200$ mm} 
                                     & \rot{Vertex} 
                                     & \rot{$N_{e} \geq 2$ }
                                     & \rot{Electron selection} 
@@ -292,14 +310,14 @@ Events and vertex cut flow of other signal samples are available in Table~\ref{t
                                     & \rot{$N_{e} = 2$}
                                     & \rot{Trigger matching}
                                     & \rot{$\chi^{2} /$ DOF $< 5$}
-                                    & \rot{$r_{DV} > 2$ mm}
+                                    & \rot{$r_{\mathrm{DV}} > 2$ mm}
                                     & \rot{\ee}
                                     & \rot{Disabled module}
                                     & \rot{Material veto}
                                     & \rot{$m > 10$ GeV}
                                     & \rot{Filter matching}
-                                    & \rot{$r_{DV} < 300$ mm}
-                                    & \rot{$z_{DV} < 300$ mm} \\
+                                    & \rot{$r_{\mathrm{DV}} < 300$ mm}
+                                    & \rot{$|z_{DV}| < 300$ mm} \\
     \hline
     100&	250&	20000&	323&	323&	323&	145&	61&	59&	58&	56&	56&	56&	56&	56&	56&	55&	36&	36&	15&	15&	15 \\
     100&	500&	20000&	241&	241&	241&	111&	31&	30&	29&	29&	29&	27&	27&	27&	27&	26&	19&	19&	10&	10&	9 \\
@@ -334,7 +352,7 @@ Events and vertex cut flow of other signal samples are available in Table~\ref{t
     $m_{Z'}$ (GeV) & $c\tau$ (mm)   & \rot{All events} 
                                     & \rot{Trigger filter} 
                                     & \rot{Cosmic veto} 
-                                    & \rot{$Z_{PV} < 200$ mm} 
+                                    & \rot{$z_{PV} < 200$ mm} 
                                     & \rot{Vertex} 
                                     & \rot{$N_{\ell} \geq 2$ }
                                     & \rot{Electron selection} 
@@ -343,14 +361,14 @@ Events and vertex cut flow of other signal samples are available in Table~\ref{t
                                     & \rot{$N_{\ell} = 2$}
                                     & \rot{Trigger matching}
                                     & \rot{$\chi^{2} /$ DOF $< 5$}
-                                    & \rot{$r_{DV} > 2$ mm}
+                                    & \rot{$r_{\mathrm{DV}} > 2$ mm}
                                     & \rot{\emu}
                                     & \rot{Disabled module}
                                     & \rot{Material veto}
                                     & \rot{$m > 10$ GeV}
                                     & \rot{Filter matching}
-                                    & \rot{$r_{DV} < 300$ mm}
-                                    & \rot{$z_{DV} < 300$ mm} \\
+                                    & \rot{$r_{\mathrm{DV}} < 300$ mm}
+                                    & \rot{$|z_{DV}| < 300$ mm} \\
     \hline
     100&	250&	20000&	483&	483&	483&	255&	94&	91&	91&	89&	88&	88&	88&	88&	88&	87&	61&	61&	21&	21&	19 \\
     100&	500&	19000&	379&	379&	379&	178&	56&	53&	53&	53&	53&	53&	53&	53&	53&	50&	34&	34&	15&	15&	14 \\
@@ -381,7 +399,7 @@ Events and vertex cut flow of other signal samples are available in Table~\ref{t
 \subsection{Signal efficiency and distribution}
 \label{sec:efficiency}
 
-The signal efficiency is studied by examining the efficiency distributions in the transverse ($r$), longitudinal ($z$) vertex position, and the angular distributions of the signal vertices. The representative efficiency distributions are shown in Figure~\ref{fig:signal_vertex_dist} using the signal MC samples generated with $m =$ 500, 1000 GeV for $c\tau=$ 100 mm.
+The signal efficiency is studied by examining the efficiency distributions in the transverse ($r$), longitudinal ($z$) vertex position, and the $\eta$ and $\phi$ distributions of the signal vertices. The representative efficiency distributions are shown in Figure~\ref{fig:signal_vertex_dist} using the signal MC samples generated with $m =$ 500, 1000 GeV for $c\tau=$ 100 mm.
 
 \begin{figure}[!htb]
     \centering
@@ -390,13 +408,13 @@ The signal efficiency is studied by examining the efficiency distributions in th
     \subfloat[]{\label{subfig:vertex_dist_eta}\includegraphics[width=0.49\textwidth]{figures/m_eff_dv_eta.pdf}}
     \subfloat[]{\label{subfig:vertex_dist_phi}\includegraphics[width=0.49\textwidth]{figures/m_eff_dv_phi.pdf}}\\
     \subfloat[]{\label{subfig:vertex_dist_mu}\includegraphics[width=0.49\textwidth]{figures/dv_eff_mu_zp.pdf}}
-    \caption{Signal efficiency distributions in (a) $r$, (b) $z$, (c) $\eta$, (d) $\phi$, and (e) pile-up of the signal MC samples of $Z'\rightarrow \mumu$ with $m=$ 500, 1000 GeV for $c\tau=$ 100 mm.}
+    \caption{Signal efficiency as a function of (a) $r$, (b) $z$, (c) $\eta$, (d) $\phi$, and (e) pile-up for the signal MC samples of $Z'\rightarrow \mumu$ with $m=$ 500, 1000 GeV for $c\tau=$ 100 mm.}
     \label{fig:signal_vertex_dist}
 \end{figure}
 
-The signal efficiency shows a dependence on vertex position which decreases at large $r$ and $z$ due to the minimum silicon hits requirement on tracks. The first (central) bins in $r$ ($z$) distributions have lower efficiency due to the minimum displacement requirement ($r_{DV} > $ 2 mm) on secondary vertices. The $\eta$ distribution has higher efficiency than overall efficiency in the tracking region ($|\eta| < 2.5$), and the $\phi$ distribution is uniform as expected. Pile-up distribution of the signal efficiency shows that the efficiency is reduced for high pile-up as expected.
+The signal efficiency shows a dependence on vertex position which decreases at large $r$ and $z$ due to the minimum silicon hits requirement on tracks. The first (central) bins in $r$ ($z$) distributions have lower efficiency due to the minimum displacement requirement ($r_{\mathrm{DV}} > $ 2 mm) on secondary vertices. The $\eta$ distribution has an uniform efficiency of $\sim25\%$ for $|\eta|<$ 2.5. The $\phi$ distribution is uniform as expected. Pile-up distribution of the signal efficiency shows that the efficiency is reduced for high pile-up as expected.
 
-The overall signal efficiency for the signal samples are shown in Table~\ref{table:signal_eff}. The signal efficiency ranges from 14.9-33.3\% for mass above 500 GeV, but the efficiency is reduced for lower $Z'$ mass due to minimum $p_{T}$ thresholds on the leptons, especially for the samples with $m_{Z'}=100~\si{\GeV}$. The samples with shorter lifetime tend to have higher signal efficiency as expected. 
+The overall signal efficiency for the signal samples are shown in Table~\ref{table:signal_eff}. The signal efficiency is 14.9-33.3\% for mass above 500 GeV, but the efficiency is reduced for lower $Z'$ mass due to minimum $p_{T}$ thresholds on the leptons, especially for the samples with $m_{Z'}=100~\si{\GeV}$. The samples with shorter lifetime tend to have higher signal efficiency as expected. 
 
 \begin{table}[!htb]
   \centering
@@ -432,9 +450,9 @@ The overall signal efficiency for the signal samples are shown in Table~\ref{tab
 
 \subsection{Efficiency map}
 \label{sec:efficiency_map}
-Signal efficiency for each mass and lifetime of long-lived $Z'$ sample is presented as a function of $p_{T}$ and $\eta$ of $Z'$. Because any neutral, LLP decaying to a dilepton pair can be mostly described by mass, lifetime, $p_{T}$, and $\eta$ of the LLP, these efficiency maps can be used for other BSM searches such as searching for long-lived neutralino in the context of SUSY R-parity violating theory.
+Signal efficiency for each mass and lifetime of long-lived $Z'$ sample is presented as a function of $p_{T}$ and $|\eta|$ of $Z'$. Because any neutral, LLP decaying to a dilepton pair can be mostly described by mass, lifetime, $p_{T}$, and $\eta$ of the LLP, these efficiency maps can be used for other BSM searches such as searching for long-lived neutralino in the context of SUSY R-parity violating theory.
 
-Representative efficiency maps are shown in Figure~\ref{fig:signal_eff_map} using the signal MC samples of $Z' \rightarrow \mu\mu, ee, e\mu$ with $m=$ 500, 1000 GeV and $c\tau=$ 100 mm. Although the overall signal efficiency is $\sim$10\% for these samples, the efficiencies in the central region of the efficiency maps are much higher but much reduced in the forward region ($\eta > 2.5$) due to limited coverage. Efficiency maps of other signal samples are available in Appendix~\ref{app:signal_efficiency_map}.
+Representative efficiency maps are shown in Figure~\ref{fig:signal_eff_map} using the signal MC samples of $Z' \rightarrow \mu\mu, ee, e\mu$ with $m=$ 500, 1000 GeV and $c\tau=$ 100 mm. The overall signal efficiency is $\sim$10\%, but the efficiencies in the central region ($|\eta| < $ 2.5) are much higher. Efficiency maps of other signal samples are available in Appendix~\ref{app:signal_efficiency_map}.
 
 \begin{figure}[!htb]
     \centering

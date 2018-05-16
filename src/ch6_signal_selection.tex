@@ -6,9 +6,9 @@ The primary physics objects of this analysis are muons, electrons, and dilepton 
 \section{Event preselection}
 \label{sec:selection:pre}
 
-Events are pre-selected in data processing using a combination of offline triggers and custom filters, called \texttt{DRAW\_RPVLL}. The selected events from the main physics stream are reprocessed for the special reconstruction. The filters are designed to select events containing displaced vertex candidates while maintaining reasonably low filter rates (<30 \si{\hertz}). Single photon ($\gamma$), single electron ($e$), di-photon ($\gamma\gamma$), di-electron (\ee), and the combination of photon and electron ($e\gamma$) filters are used to select events with \ee or \emu candidates of interest. Single $\mu$ filter is used to select events with \mumu or \emu candidates of interest.
+Events are pre-selected in data processing using a combination of offline triggers and custom filters, called \texttt{DRAW\_RPVLL}. The selected events from the main physics stream are reprocessed for the special reconstruction. The filters are designed to select events containing displaced vertex candidates while maintaining reasonably low filter rates (< 30~\si{\hertz}). Single photon ($\gamma$), single electron ($e$), di-photon ($\gamma\gamma$), di-electron (\ee), and the combination of photon and electron ($e\gamma$) filters are used to select events with \ee or \emu candidates of interest. Single $\mu$ filter is used to select events with \mumu or \emu candidates of interest.
 
-The filters require events to pass one of the HLTs listed in Table~\ref{table:triggers}. Most of the HLTs developed in the ATLAS are designed for prompt searches, and there are implicit requirements on particles so that the extrapolation of a particle points back to the IP. Therefore, the triggers with no requirement on ID tracks are used to increase the sensitivity to electrons and muons with large transverse and longitudinal impact parameters, $d_{0}$ and $z_{0}$. Consequently, the muon trigger that only uses the muon spectrometer information is used to trigger displaced muons. The photon triggers are used to trigger displaced electrons so that only the calorimeter information is used.
+The filters require events to pass one of the HLTs listed in Table~\ref{table:triggers}. Most of the HLTs developed in the ATLAS are designed for prompt searches, and there are implicit requirements on particles that back to the IP. Therefore, the triggers with no requirement on ID tracks are used to increase the sensitivity to electrons and muons with large transverse and longitudinal impact parameters, $d_{0}$ and $z_{0}$. Consequently, the muon trigger that only uses the muon spectrometer information is used to trigger displaced muons. The photon triggers are used to trigger displaced electrons so that only the calorimeter information is used.
 
 \begin{table}[!htb]
   \centering
@@ -23,11 +23,11 @@ The filters require events to pass one of the HLTs listed in Table~\ref{table:tr
     \hline
     \hline
   \end{tabular}
-  \caption{HLTs used to select events in \texttt{DRAW\_RPVLL} filter. Single photon trigger requires one photon with $p_{T} > 140$ GeV. Di-photon trigger requires two photons with $p_{T} > 50$ GeV. Single muon trigger requires one muon with $p_{T} > 60$ within $0 < |\eta| < 1.05$ using MS information only.}
+  \caption{HLTs used to select events in \texttt{DRAW\_RPVLL} filter. Single photon trigger requires one photon with $p_{T} > 140$ GeV. Di-photon trigger requires two photons with $p_{T} > 50$ GeV. Single muon trigger requires one muon with $p_{T} > 60$ within $|\eta| < 1.05$ using MS information only.}
   \label{table:triggers}
 \end{table}
 
-In addition to the HLT requirements, each filter requires offline selections on particles such as $p_{T}$, $\eta$, and $d_{0}$. Single photon ($\gamma$) or electron ($e$) filter requires a leading photon or electron, respectively, with $p_{T} > 150$ GeV, $\eta < 2.5$, and $d_{0} > 2.0$ mm. These filters also require a second photon or lepton with $p_{T} > 10$ GeV and $\eta < 2.5$ to keep the filter rate reasonably low. Single muon $\mu$ filter requires a muon with $p_{T} > 60$ GeV, $\eta < 2.5$, and $d_{0} > 1.5$ mm. Di-photon ($\gamma\gamma$), di-electron (\ee), and the combination of photon and electron ($e\gamma$) filters require two photons/leptons with $p_{T} > 50$ GeV, $\eta < 2.5$, and $d_{0} > 2.0$ mm. The offline selection is summarized in Table~\ref{table:rpvll_filter_selection}.
+In addition to the HLT requirements, each filter requires offline selections on particles such as $p_{T}$, $|\eta|$, and $d_{0}$. Single photon ($\gamma$) or electron ($e$) filter requires a leading photon or electron, respectively, with $p_{T} > 150$ GeV, $|\eta| < 2.5$, and $d_{0} > 2.0$ mm. These filters also require a second photon or lepton with $p_{T} > 10$ GeV and $|\eta| < 2.5$ to keep the filter rate reasonably low. Single muon $\mu$ filter requires a muon with $p_{T} > 60$ GeV, $|\eta| < 2.5$, and $d_{0} > 1.5$ mm. Di-photon ($\gamma\gamma$), di-electron (\ee), and the combination of photon and electron ($e\gamma$) filters require two photons/leptons with $p_{T} > 50$ GeV, $|\eta| < 2.5$, and $d_{0} > 2.0$ mm. The offline selection is summarized in Table~\ref{table:rpvll_filter_selection}.
 
 \begin{table}[!htb]
   \centering
@@ -43,7 +43,7 @@ In addition to the HLT requirements, each filter requires offline selections on 
     \hline
     \hline
   \end{tabular}
-  \caption{\texttt{RPVLL} filter offline selection on photon and leptons. Single photon (electron) filter requires a leading photon (electron) with $p_{T} > 150$ GeV, $d_{0} > 2.0$ mm and a second photon (electron) with $p_{T} > 10$ GeV, both with $\eta < 2.5$. Single muon $\mu$ filter requires a muon with $p_{T} > 60$ GeV, $\eta < 2.5$, and $d_{0} > 1.5$ mm. Di-photon ($\gamma\gamma$), di-electron (\ee), and electron-photon ($e\gamma$) filters require a photon or lepton with $p_{T} > 50$ GeV, $\eta < 2.5$, and $d_{0} > 2.0$ mm.}
+  \caption{\texttt{RPVLL} filter offline selection on photon and leptons.}
   \label{table:rpvll_filter_selection}
 \end{table}
 
@@ -62,7 +62,7 @@ At analysis-level, minimum requirements are placed on events based on the qualit
     \item Event cleaning removes corrupted/bad events due to problems in TileCal, LAr calorimeter noise bursts, and detector downtimes.
     \item Events are required to pass one of the HLTs listed in Table~\ref{table:triggers}.
     \item At least one primary vertex is required along the beam line ($z<200$ \si{\mm}).
-    \item Events are rejected if there is a pair of leptons with $R_{\mathrm{CR}} < 0.01$ where $R_{\mathrm{CR}} = \sqrt{(\Delta \phi - \pi)^{2} + (\Sigma \eta)^{2}}$.
+    \item Events are rejected if there is a pair of leptons with $R_{\mathrm{CR}} = \sqrt{(\Delta \phi - \pi)^{2} + (\Sigma \eta)^{2}} < 0.01$.
 \end{itemize}
 
 The event selection is summarized in Table~\ref{table:signal_selection}.
@@ -87,7 +87,7 @@ Overlap removal is applied to both muons and electrons to ensure that a ID track
     \textbf{Muon}     &       Overlap removal                                                                      \\
                                   &       Muon \texttt{Loose} (no requirement on Pixel hits)                       \\
                                   &       $|\eta| < 2.5$                                                           \\
-                                  &       $p_{T} > 10.0$ GeV                                                       \\
+                                  &       $p_{T} > 10$ GeV                                                         \\
                                  % &       Associated Inner detector track                                          \\
                                   &       Combined Muon                                                            \\
     \hline
@@ -95,7 +95,7 @@ Overlap removal is applied to both muons and electrons to ensure that a ID track
                                   &       Bad cluster removal                                                      \\
                                   &       Electron \texttt{LooseLH} (no requirement related to $d_{0}$, silicon hits)\\
                                   &       $|\eta| < 2.47$                                                          \\
-                                  &       $p_{T} > 10.0$ GeV                                                       \\
+                                  &       $p_{T} > 10$ GeV                                                         \\
     \hline
     \hline
   \end{tabular}
@@ -111,7 +111,7 @@ Overlap removal is applied to both muons and electrons to ensure that a ID track
 
 \subsection{Vertex selection}
 \label{sec:vertex_selection}
-The vertex selection is applied to two-track secondary vertices found in Section~\ref{sec:reco:dv}. Secondary vertices with displacement of $r_{DV}>$ 2 mm from the primary vertex are selected. The selected displaced vertices are made of two tracks which can be any combination of muon, electron, and non-lepton tracks. Therefore, vertices are separated into three vertex types, control, validation, and signal regions.
+The vertex selection is applied to two-track secondary vertices found in Section~\ref{sec:reco:dv}. Secondary vertices with displacement of $r_{\mathrm{DV}}>$ 2 mm from the primary vertex are selected. The selected displaced vertices are made of two tracks which can be any combination of muon, electron, and non-lepton tracks. Therefore, vertices are separated into three vertex types, control, validation, and signal regions.
 
 In the control region, vertices are required to have two non-leptonic tracks (\xx). In the validation region, vertices are required to have a muon or an electron and another non-leptonic track (\mux, \ex). In signal region, vertices are required to have a muon pair, an electron pair, or a muon-electron pair (\mumu, \ee, \emu). The control region and the validation region are used for background (Chapter~\ref{chap:bkg}) and systematic uncertainty (Section~\ref{chap:syst}) estimations. The control, validation, and signal regions are summarized in Table~\ref{table:vertex_type}.
 
@@ -132,7 +132,7 @@ In the control region, vertices are required to have two non-leptonic tracks (\x
   \label{table:vertex_type}
 \end{table}
 
-In all regions, vertices are required to pass a common set of vertex selections described as follows. Vertices are required to have $\chi^2 / \mathrm{ DOF} <$ 5 to reject poorly reconstructed vertices. A minimum transverse displacement of 2~\si{mm} from the primary vertex is required to suppress background from prompt decays. Two tracks from a vertex are required to have opposite charges. Vertices within the volume of disabled Pixel module~\cite{Backhaus:2110260} are rejected. Hadronic interaction of charged particles with detector material is a major source of backgrounds. Therefore, the vertices within dense detector material~\cite{Aaboud:2016poq} are rejected. The material veto is not applied to \mumu vertex due to low probability of muon interaction with detector material. Vertices are also required to be in the detector volume covered by the material mapping ($r < 300$~\si{mm}, $z < 300$~\si{mm}). The invariant mass of the lepton pairs, also referred as vertex mass, is required to have $m_{\ell\ell} >$ 10 GeV to suppress backgrounds from low mass SM particles such as $J/\Psi$. The vertex mass is calculated by the secondary vertex reconstruction algorithm with the assumption that all tracks are pion. Cosmic veto is applied to vertices by requiring $R_{\mathrm{CR}} > 0.01$. The veto is very effective in rejecting cosmic muons reconstructed as back-to-back muon vertices, and the details are discussed in Section~\ref{sec:bkg:cosmic}.
+In all regions, vertices are required to pass a common set of vertex selections described as follows. Vertices are required to have $\chi^2 / \mathrm{ DOF} <$ 5 to reject poorly reconstructed vertices. A minimum transverse displacement of 2~\si{mm} from the primary vertex is required to suppress background from prompt decays. Two tracks from a vertex are required to have opposite charges. Vertices within the volume of disabled Pixel module~\cite{Backhaus:2110260} are rejected. Hadronic interaction of charged particles with detector material produces irreducible backgrounds. Therefore, the vertices within dense detector material~\cite{Aaboud:2016poq} are rejected. The material veto is not applied to \mumu vertex due to low probability of muon interaction with detector material. Vertices are also required to be in the detector volume covered by the material mapping ($r < 300$~\si{mm}, $z < 300$~\si{mm}). The invariant mass of the lepton pairs, also referred as vertex mass, is required to have $m_{\ell\ell} >$ 10 GeV to suppress backgrounds from low mass SM particles such as $J/\Psi$. The vertex mass is calculated by the secondary vertex reconstruction algorithm with the assumption that all tracks are pion. Cosmic veto is applied to vertices by requiring $R_{\mathrm{CR}} > 0.01$. The veto is very effective in rejecting cosmic muons reconstructed as back-to-back muon vertices, and the details are discussed in Section~\ref{sec:bkg:cosmic}.
 
 In addition to the common vertex selection, at least one electron or muon from the vertex is required to match one of the triggers listed on Table~\ref{table:triggers} and the filters listed on Table~\ref{table:rpvll_filter_selection} in the signal region. The vertex selection is summarized in Table~\ref{table:signal_selection}.
 
@@ -145,16 +145,16 @@ In addition to the common vertex selection, at least one electron or muon from t
                              &       Event cleaning                                                              \\
                              &       Trigger filter                                                              \\
                              &       Cosmic veto                                                                 \\
-                             &       Primary vertex ($z<$200~\si{\mm})                                           \\
+                             &       Primary vertex ($|z|<$200~\si{\mm})                                         \\
     \hline
     \textbf{Vertex}          &       Trigger matching (signal region only)                                       \\
                              &       $\chi^2 / \mathrm{ DOF} < 5$                                                \\
-                             &       $r_{DV} > $ 2 mm                                                                  \\
+                             &       $r_{\mathrm{DV}} > $ 2 mm                                                            \\
                              &       Opposite charge                                                             \\
                              &       Disabled module veto                                                        \\
-                             &       Material veto (excluding \mumu)                                          \\
+                             &       Material veto (excluding \mumu)                                             \\
                              &       $m > 10$ GeV                                                                \\
-                             &       $r < 300$ \si{mm}, $z < 300$ \si{mm}                                        \\
+                             &       $r < 300$~\si{mm}, $|z| < 300$~\si{mm}                                      \\
                              &       Filter matching (signal region only)                                                            \\
     \hline
     \hline

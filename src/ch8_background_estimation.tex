@@ -1,7 +1,7 @@
 \chapter{Background Estimation}
 \label{chap:bkg}
 
-Due to the lifetime ($c\tau > 2$ mm) and mass ($m > 10$ GeV) requirements applied at vertex selection, no SM background is expected in the signal region in search for displaced dilepton resonance. Therefore, two non-collision backgrounds are considered in this search: cosmic background and \textit{random-crossing} background. The cosmic background is the dominant background in this analysis and is estimated In Section~\ref{sec:bkg:cosmic}. In Section~\ref{sec:bkg:random}, background from random-crossing of two uncorrelated tracks are estimated.
+Due to the lifetime ($c\tau > 2$ mm) and mass ($m > 10$ GeV) requirements applied at vertex selection, no SM background is expected in the signal region in search for displaced dilepton resonance. Therefore, two non-collision backgrounds are considered in this search: cosmic background and \textit{random-crossing} background. The cosmic background is the dominant background in this analysis and is estimated. In Section~\ref{sec:bkg:cosmic}. In Section~\ref{sec:bkg:random}, background from random-crossing of two uncorrelated tracks are estimated.
 
 
 \section{Cosmic Background}
@@ -29,7 +29,7 @@ In this control region, pairs of two muons with leading $p_{T}$ are studied usin
 
 To estimate the cosmic background in the signal region, the \Rcr distribution of \mumu pairs is compared to those forming a vertex in Figure~\ref{fig:cosmicCRb}. There are 246 \mumu vertices found in the data sample that pass all of the signal selection except the cosmic veto, and there is no event with \Rcr > 0.004, indicating that the cosmic background is effectively suppressed by the cosmic veto of \Rcr = 0.01.
 
-For more accurate estimation of the background, the \Rcr distribution is normalized to the \mumu pairs forming a vertex as shown in Figure~\ref{fig:cosmicCRb}, and the normalized distribution is extrapolated into the signal region. This yields a cosmic background of 0.27$\pm$0.14 (stat.). This background is about two orders of magnitude larger than the random crossing background. Therefore, the cosmic muon background is the dominant source of background for this analysis.
+The \Rcr distribution, normalized to \mumu pairs forming a vertex, yields a cosmic background of 0.27$\pm$0.14 (stat.). This background is about two orders of magnitude larger than the random crossing background. Therefore, the cosmic muon background is the dominant source of background in the signal region.
 
 
 \begin{figure}[!htb]
@@ -55,7 +55,7 @@ The TF and event mixing methods are described in Section~\ref{sec:bkg:random_cro
 \subsection{Track Flipping Method}
 \label{sec:bkg:random_crossing_tf}
 
-In the TF method, events are selected by the same requirement described in Section~\ref{sec:selection:pre}. From the selected events, ID tracks associated with a muon, electron, or neither, referred as muon, electron, or non-leptonic track, respectively, are selected with the track criteria (Table~\ref{table:vertex_track_selection_simple}) used for the secondary vertexing algorithm. Lepton tracks are required to pass the same selection criteria described in Table~\ref{table:lepton_requirement}. Non-leptonic tracks are required to pass the same kinematic selection ($p_{T} > 10$ GeV, $\eta < $2.5) as leptons.
+In the TF method, events are selected by the same requirement described in Section~\ref{sec:selection:pre}. From the selected events, ID tracks associated with a muon, electron, or neither, referred as muon, electron, or non-leptonic track, respectively, are selected with the track criteria (Table~\ref{table:vertex_track_selection_simple}) used for the secondary vertexing algorithm. Lepton tracks are required to pass the same selection criteria described in Table~\ref{table:lepton_requirement}. Non-leptonic tracks are required to pass the same kinematic selection ($p_{T} > 10$ GeV, $|\eta| < $ 2.5) as leptons.
 
 \begin{figure}[!htb]
     \subfloat[]{\label{subfig:TF_diagram_a}\includegraphics[width=0.50\textwidth]{figures/TF_diagram_a.pdf}}
@@ -65,18 +65,18 @@ In the TF method, events are selected by the same requirement described in Secti
 	\label{fig:TF_diagram}
 \end{figure}
 
-From the selected tracks, track pairs are created from all possible combination of muon, electron, or non-leptonic tracks, i.e., \mumu, \ee, \emu, \ex, \mux, or \xx, where x represents a non-leptonic track. For each pair of tracks, one random track is flipped with respect to the beam spot ($\dzero \rightarrow -\dzero, \zzero \rightarrow -\zzero, \phi\rightarrow\phi+\pi, \theta\rightarrow\pi-\theta$), creating a \textit{flipped track pair}. The secondary vertex algorithm used in the reconstruction of data or MC sample is used to reconstruct displaced vertices using these flipped track pairs. Vertex selection cuts similar to the cuts listed in Table~\ref{table:vertex_track_selection_simple} are applied to the vertices found from flipped track pairs, except that the trigger matching and filter matching are only required for $\mu\mu$, $ee$, and $e\mu$. 
+From the selected tracks, track pairs are created from all possible combination of muon, electron, or non-leptonic tracks, i.e. \mumu, \ee, \emu, \ex, \mux, or \xx, where x represents a non-leptonic track. For each pair of tracks, one random track is flipped with respect to the beam spot ($\dzero \rightarrow -\dzero, \zzero \rightarrow -\zzero, \phi\rightarrow\phi+\pi, \theta\rightarrow\pi-\theta$), creating a \textit{flipped track pair}. The secondary vertex algorithm used in the reconstruction of data or MC sample is used to reconstruct displaced vertices using these flipped track pairs. Vertex selection cuts similar to the cuts listed in Table~\ref{table:vertex_track_selection_simple} are applied to the vertices found from flipped track pairs, except that the trigger matching and filter matching are only required for $\mu\mu$, $ee$, and $e\mu$. 
 
-Track-flipped vertices are formed purely from random-crossing of tracks as depicted in Figure~\ref{fig:TF_diagram}. Therefore, track-flipped vertex yields provide a good estimation for random-crossing background. Also, because trigger and filter matchings are not required in the control and validation region, the TF method provides conservative background estimation. 
+Track-flipped vertices are formed purely from random-crossing of tracks as depicted in Figure~\ref{fig:TF_diagram}. Therefore, track-flipped vertex yields provide a good estimation for random-crossing background. Also, because trigger and filter matchings are not imposed in the control and validation region, the TF method provides conservative background estimation. 
 
 
 
 \subsection{Event Mixing Method}
 \label{sec:bkg:random_crossing_em}
 
-The event mixing method is similar to the TF, but instead of flipping a track from pair of tracks, it combines tracks from different events to create uncorrelated track pairs, i.e., two tracks are not originating from a real vertex.
+The event mixing method is similar to the TF, but instead of flipping a track from pair of tracks, it combines tracks from different events to create uncorrelated track pairs, i.e. two tracks are not originating from a real vertex.
 
-The event mixing method proceed as follows. First, muon, electron, and non-leptonic tracks that satisfy the track criteria (Table~\ref{table:vertex_track_selection_simple}) are collected from all events, resulting in a collection of all potential seed objects in the sample. Lepton tracks are required to pass the same selection criteria\footnote{Only lepton pairs with an invariant mass greater than $6~\si{\GeV}$ are used in the normalization procedure to remove any contamination from low mass processes.} described in Table~\ref{table:lepton_requirement}. Non-leptonic tracks are required to pass the minimal kinematic selection ($p_{T} > 10$ GeV, $\eta < $2.5 to match with the kinematic selection for leptons.
+The event mixing method proceed as follows. First, muon, electron, and non-leptonic tracks that satisfy the track criteria (Table~\ref{table:vertex_track_selection_simple}) are collected from all events, resulting in a collection of all potential seed objects in the sample. Lepton tracks are required to pass the same selection criteria\footnote{Only lepton pairs with an invariant mass greater than $6~\si{\GeV}$ are used in the normalization procedure to remove any contamination from low mass processes.} described in Table~\ref{table:lepton_requirement}. Non-leptonic tracks are required to pass the minimal kinematic selection ($p_{T} > 10$ GeV, $|\eta| <$ 2.5 to match with the kinematic selection for leptons.
 
 Pairs of tracks are randomly sampled from the collection. For each track pair, a primary vertex is randomly chosen from all events with a lepton candidate. Primary vertices are needed in order to evaluate the displacement cut and quality requirements of the vertexing algorithm. The secondary vertex reconstruction is performed on each track pair.
 
@@ -116,8 +116,8 @@ The vertex yields from the TF and event mixing method, which represent the estim
 	Vertex Type					& Track Flipping	        & Event Mixing	        & Background MC Samples \\
     \hline
 	\mux						&	1						&	1.3 				&	0					\\
-	\ex						    &	0						&	0.3 				&	0					\\
-	\xx						    &	741 					&	714.0				&	676 				\\
+	\ex						    &	0						&	0.3 				&	1					\\
+	\xx						    &	591 					&	714.0				&	497 				\\
     \hline
     \hline
   \end{tabular}
@@ -134,7 +134,7 @@ The \xx vertex yields from the TF and the event mixing methods agree within the 
     \subfloat[]{\label{subfig:random-crossing_MC_r}\includegraphics[width=0.45\textwidth]{figures/m_FBE_R.pdf}}
     \subfloat[]{\label{subfig:random-crossing_MC_z}\includegraphics[width=0.45\textwidth]{figures/m_FBE_z.pdf}}
     %\subfloat[l]{\label{subfig:random-crossing_l}\includegraphics[width=0.45\textwidth]{figures/m_FBE_l.eps}}
-    \caption{Comparison of of (a) vertex mass, (b) $\chi^{2} / \mathrm{DOF}$, (c) transverse, and (d) longitudinal position of \xx vertices reconstructed in TF and event mixing with those of the background MC samples. In (c), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}
+    \caption{Comparison of of (a) vertex mass, (b) $\chi^{2} / \mathrm{DOF}$, (c) transverse, and (d) longitudinal position of \xx vertices reconstructed in TF and event mixing with those reconstructed in the background MC samples. In (c), the red dashed lines indicate the four Pixel layers. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}
     \label{fig:random-crossing_vertex_dist}
 \end{figure}
 
@@ -153,7 +153,7 @@ In the control region, the xx vertices found from the track flipping method are 
     \subfloat[]{\label{subfig:random-crossing_r}\includegraphics[width=0.45\textwidth]{figures/m_FBE_data_R.pdf}}
     \subfloat[]{\label{subfig:random-crossing_z}\includegraphics[width=0.45\textwidth]{figures/m_FBE_data_z.pdf}}
     %\subfloat[l]{\label{subfig:random-crossing_l}\includegraphics[width=0.45\textwidth]{figures/m_FBE_data_l.eps}}
-    \caption{Comparison of (a) vertex mass, (b) $\chi^{2} / \mathrm{DOF}$, (c) transverse, and (d) longitudinal position of vertices found from reconstruction with the track-flipped vertices in the control region of the data sample. In (c), the red dashed lines indicate the four Pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}
+    \caption{Comparison of (a) vertex mass, (b) $\chi^{2} / \mathrm{DOF}$, (c) transverse, and (d) longitudinal position of vertices found in data with vertices formed in track flipping in the control region. In (c), the red dashed lines indicate the four Pixel layers. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm).}
     \label{fig:random-crossing_vertex_dist_data}
 \end{figure}
 
@@ -183,7 +183,7 @@ where track requirements described in Table~\ref{table:vertex_track_selection_si
 
 Using the lepton probabilities, the track-flipping vertex yield in the control region (xx) is extrapolated into the validation region using Eq.~\ref{eq:TF_extrapolation_from_validation}, and the extrapolated $\mu$x and $e$x vertex yields are compared with the observed track-flipping vertex yield to determine scale factors as defined in Eq~\ref{eq:random_crossing_scale_factor}.
 
-The track-flipping vertex yields in the control and validation regions are then extrapolated into the signal region using Eq.~\ref{eq:TF_extrapolation_from_control} and \ref{eq:TF_extrapolation_from_validation} to estimate random-crossing background, and the scale factors (Eq.~\ref{eq:TF_scale_factors}) are applied to these extrapolation for more accurate estimation of the background.
+The track-flipping vertex yields in the control and validation regions are then extrapolated into the signal region using Eqs.~\ref{eq:TF_extrapolation_from_control}$-$\ref{eq:TF_extrapolation_from_validation} to estimate random-crossing background, and the scale factors (Eq.~\ref{eq:TF_scale_factors}) are applied to these extrapolation for more accurate estimation of the background.
 
 
 
@@ -213,10 +213,10 @@ The raw vertex yields in the TF method and data, and the scale factors calculate
          $N_{ee}$                 & $5.56\times10^{-3}$  & $1.05\times10^{-3}$            & $1.99\times10^{-4}$ \\
          $N_{e\mu}$               & $7.73\times10^{-3}$  & $3.89\times10^{-3}$            & $1.96\times10^{-3}$ \\
          \hline
-         Signal region            & $1.60\times10^{-2}$  & $7.13\times10^{-3}$            & $3.95\times10^{-3}$ \\
+         Sum of signal regions    & $1.60\times10^{-2}$  & $7.13\times10^{-3}$            & $3.95\times10^{-3}$ \\
         \hline\hline
     \end{tabular}
-  \caption{The estimate of random-crossing background in the signal region. Scale factors (Table~\ref{table:tf_raw_yields}) are applied for the corrected estimate of the background.}%
+  \caption{The estimate of random-crossing background in the signal region. Scale factors (Table~\ref{table:tf_raw_yields}) are applied to obtain the corrected estimate of the background.}%
   \label{table:track_flipping}
 \end{table}
 

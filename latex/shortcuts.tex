@@ -2,12 +2,104 @@
 % Added by Siinn
 \newcommand*{\dzero}{\ensuremath{d_{0}}\xspace}
 \newcommand*{\zzero}{\ensuremath{z_{0}}\xspace}
+
+% signed
 \newcommand*{\ee}{\ensuremath{e^{+}e^{-}}\xspace}
 \newcommand*{\mumu}{\ensuremath{\mu^{+}\mu^{-}}\xspace}
 \newcommand*{\emu}{\ensuremath{e^{\pm}\mu^{\mp}}\xspace}
+
 \newcommand*{\mux}{\ensuremath{\mu^{\pm}\mathrm{x}^{\mp}}\xspace}
 \newcommand*{\ex}{\ensuremath{e^{\pm}\mathrm{x}^{\mp}}\xspace}
 \newcommand*{\xx}{\ensuremath{\mathrm{x}^{+}\mathrm{x}^{-}}\xspace}
+
+% non-signed 
+\newcommand*{\eens}{\ensuremath{ee}\xspace}
+\newcommand*{\mumuns}{\ensuremath{\mu\mu}\xspace}
+\newcommand*{\emuns}{\ensuremath{e\mu}\xspace}
+
+\newcommand*{\muxns}{\ensuremath{\mu\mathrm{x}}\xspace}
+\newcommand*{\exns}{\ensuremath{e\mathrm{x}}\xspace}
+\newcommand*{\xxns}{\ensuremath{\mathrm{xx}}\xspace}
+
 \newcommand*{\Rcr}{\ensuremath{R_{\mathrm{CR}}}\xspace}
 \newcommand*{\Ks}{\ensuremath{K_{S}}\xspace}
 \newcommand*{\CLs}{\ensuremath{\mathrm{CL}_{s}}\xspace}
+
+
+% notation for TF extrapolations
+\newcommand*{\Nx}{\ensuremath{N_{\mathrm{x}}}\xspace}
+\newcommand*{\Ne}{\ensuremath{N_{e}}\xspace}
+\newcommand*{\Nm}{\ensuremath{N_{\mu}}\xspace}
+
+\newcommand*{\Nxx}{\ensuremath{N_{\mathrm{xx}}}\xspace}
+\newcommand*{\Nmx}{\ensuremath{N_{\mu\mathrm{x}}}\xspace}
+\newcommand*{\Nex}{\ensuremath{N_{e\mathrm{x}}}\xspace}
+\newcommand*{\Nmm}{\ensuremath{N_{\mu\mu}}\xspace}
+\newcommand*{\Nee}{\ensuremath{N_{ee}}\xspace}
+\newcommand*{\Nem}{\ensuremath{N_{e\mu}}\xspace}
+
+
+\newcommand*{\NVxx}[1]{%
+    \ifthenelse{\isempty{#1}}%
+    {\ensuremath{    N_{\mathrm{xx}}^{\mathrm{v}}             }\xspace}%
+    {\ensuremath{    N_{\mathrm{xx}}^{\mathrm{v}, #1}          }\xspace}%
+    }
+\newcommand*{\NVmx}[1]{%
+    \ifthenelse{\isempty{#1}}%
+    {\ensuremath{    N_{\mu\mathrm{x}}^{\mathrm{v}}           }\xspace}%
+    {\ensuremath{    N_{\mu\mathrm{x}}^{\mathrm{v}, #1}        }\xspace}%
+    }
+\newcommand*{\NVex}[1]{%
+    \ifthenelse{\isempty{#1}}%
+    {\ensuremath{    N_{e\mathrm{x}}^{\mathrm{v}}           }\xspace}%
+    {\ensuremath{    N_{e\mathrm{x}}^{\mathrm{v}, #1}        }\xspace}%
+    }
+\newcommand*{\NVmm}[1]{%
+    \ifthenelse{\isempty{#1}}%
+    {\ensuremath{    N_{\mu\mu}^{\mathrm{v}}           }\xspace}%
+    {\ensuremath{    N_{\mu\mu}^{\mathrm{v}, #1}        }\xspace}%
+    }
+\newcommand*{\NVee}[1]{%
+    \ifthenelse{\isempty{#1}}%
+    {\ensuremath{    N_{ee}^{\mathrm{v}}           }\xspace}%
+    {\ensuremath{    N_{ee}^{\mathrm{v}, #1}        }\xspace}%
+    }
+\newcommand*{\NVem}[1]{%
+    \ifthenelse{\isempty{#1}}%
+    {\ensuremath{    N_{e\mu}^{\mathrm{v}}           }\xspace}%
+    {\ensuremath{    N_{e\mu}^{\mathrm{v}, #1}        }\xspace}%
+    }
+
+% vertex probability
+\newcommand*{\Pxx}{\ensuremath{P_{(\mathrm{xx})}           }\xspace}
+\newcommand*{\Pmx}{\ensuremath{P_{(\mu \mathrm{x})}        }\xspace}
+\newcommand*{\Pex}{\ensuremath{P_{(e \mathrm{x})}          }\xspace}
+\newcommand*{\Pee}{\ensuremath{P_{(ee)}                    }\xspace}
+\newcommand*{\Pmm}{\ensuremath{P_{(\mu\mu)}                }\xspace}
+\newcommand*{\Pem}{\ensuremath{P_{(e\mu)}                  }\xspace}
+
+% lepton probability
+\newcommand*{\Px}{\ensuremath{P_{(\mathrm{x})}           }\xspace}
+\newcommand*{\Pm}{\ensuremath{P_{(\mu)}                  }\xspace}
+\newcommand*{\Pe}{\ensuremath{P_{(e)}                    }\xspace}
+
+% scale factors
+\newcommand*{\SxxTOmx}{\ensuremath{S_{\mathrm{xx}\rightarrow \mu \mathrm{x}}    }\xspace}
+\newcommand*{\SxxTOex}{\ensuremath{S_{\mathrm{xx}\rightarrow e \mathrm{x}}      }\xspace}
+\newcommand*{\SxxTOmm}{\ensuremath{S_{\mathrm{xx}\rightarrow \mu\mu}            }\xspace}
+\newcommand*{\SxxTOee}{\ensuremath{S_{\mathrm{xx}\rightarrow ee}                }\xspace}
+\newcommand*{\SxxTOem}{\ensuremath{S_{\mathrm{xx}\rightarrow e\mu}              }\xspace}
+
+\newcommand*{\SmxTOmm}{\ensuremath{S_{\mu \mathrm{x}\rightarrow \mu\mu}         }\xspace}
+\newcommand*{\SexTOee}{\ensuremath{S_{e \mathrm{x}\rightarrow ee}               }\xspace}
+\newcommand*{\SemxTOem}{\ensuremath{S_{e \mathrm{x},~\mu \mathrm{x} \rightarrow e\mu} }\xspace}
+
+
+
+
+
+
+
+
+
+
