@@ -85,7 +85,7 @@
 \contentsline {subsection}{\numberline {D.1}Definition}{87}{subsection.Alph0.4.1}
 \contentsline {subsection}{\numberline {D.2}Vertex estimation}{87}{subsection.Alph0.4.2}
 \contentsline {subsection}{\numberline {D.3}Counting pairs}{88}{subsection.Alph0.4.3}
-\contentsline {subsection}{\numberline {D.4}Extrapolation of control region into validation and signal region}{88}{subsection.Alph0.4.4}
+\contentsline {subsection}{\numberline {D.4}Extrapolation of control region into validation and signal regions}{88}{subsection.Alph0.4.4}
 \contentsline {subsection}{\numberline {D.5}Extrapolation of validation region into signal region}{89}{subsection.Alph0.4.5}
 \contentsline {subsection}{\numberline {D.6}Scale factors}{90}{subsection.Alph0.4.6}
 \contentsline {subsection}{\numberline {D.7}Vertex yields in the TF method and data}{90}{subsection.Alph0.4.7}

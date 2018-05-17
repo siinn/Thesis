@@ -1,5 +1,6 @@
 \section{Extrapolation in the track flipping method}
-In this section, the extrapolation method used in the TF method is derived. The TF method estimates the number of vertices in the control (\xx), validation (\mux, \ex), and signal region (\mumu, \ee, \emu) which represent the estimate of random-crossing background in each region. However, because of limited number in lepton pairs in the data sample, it is not practical to use the vertex yields in the signal region to estimate the background. Instead, the vertex yields in the control and validation region are extrapolated into the signal region in order to estimate the random-crossing background.
+In this section, the extrapolation method used in the TF method is derived. The TF method estimates the number of vertices in the control (\xx), validation (\mux, \ex), and signal region (\mumu, \ee, \emu) which represent the estimate of random-crossing background in each region. %However, because of limited number in lepton pairs in the data sample, it is not practical to use the vertex yields in the signal region to estimate the background. Instead,
+The vertex yields in the control and validation region are extrapolated into the signal region to estimate the random-crossing background.
 
 
 
@@ -62,11 +63,11 @@ Similarly, the number of pairs from other combinations of tracks are
 
 %Note that Eqs.~\ref{counting_pairs1}-\ref{counting_pairs2} are only true event-wise. If there are \Nx tracks in data, it can not be directly translated to $\Nxx$ using Eq.~\ref{counting_pairs1}. Instead, the sum of $\Nxx$ from each event needs to be calculated.
 
-\subsection{Extrapolation of control region into validation and signal region}
+\subsection{Extrapolation of control region into validation and signal regions}
 
 The track-flipped vertex yield in the control region can be extrapolated into the validation and signal region as follows.
 
-Given a number of tracks ($\mu$, $e$, x), we can estimate the number of vertices in the validation and signal region using Eqs.~\ref{estimation_generic}$-$\ref{counting_pairs2}. However, since the vertexing probabilities in the validation and signal region ($\Pmx$, $\Pex$, etc.) are unknown without using the information from those regions, the vertexing probability obtained from the control region ($\Pxx$) is used as an estimation of the vertexing probability in the validation and the signal region. $\Pxx$ can be expressed as,
+Given a number of tracks ($\mu$, $e$, x), we can estimate the number of vertices in the validation and signal region using Eqs.~\ref{estimation_generic}$-$\ref{counting_pairs2}. However, since the vertexing probabilities in the validation and signal region ($\Pmx$, $\Pex$, etc.) are unknown without using the information from those regions, the vertexing probability obtained from the control region, $\Pxx$, is used as an estimation of the vertexing probability in the validation and the signal region. $\Pxx$ can be expressed as,
 
 \begin{align}
 \label{p_xx}
@@ -83,7 +84,7 @@ Using Eqs.~\ref{estimation_generic}-\ref{p_xx}, the vertex yield in the validati
 \NVem{est} &= \Nem \cdot \Pem \approx \Nem \cdot \Pxx 	= \Ne \cdot \Nm \frac{2 \cdot \NVxx{obs}}{\Nx \cdot (\Nx-1)} \approx 2\cdot \Pe\cdot \Pm \cdot \NVxx{obs},
 \end{align}
 %
-where $N^{\mathrm{v},obs}$ represents the measured track-flipped vertex yield in the data and $N^{est}$ represents the estimated vertex yield in the validation and signal region by the extrapolation.
+where $N^{\mathrm{v, obs}}$ represents the measured track-flipped vertex yield in the data and $N^{est}$ represents the estimated vertex yield in the validation and signal region by the extrapolation.
 
 \subsection{Extrapolation of validation region into signal region}
 
@@ -160,7 +161,7 @@ The raw vertex yields in the TF method and data, and the scale factors calculate
         \hline\hline
     \end{tabular}
   }%
-  \caption{(a) Vertex yields in the TF and data. Also shown is (b) the scale factors calculated from the vetex yields}
+  \caption{(a) Vertex yields in the TF and data. (b) The scale factors calculated from the vetex yields}
   \label{table:tf_raw_yields}
 \end{table}
 
