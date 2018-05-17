@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 MAY 2018 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 MAY 2018 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1907,12 +1907,7 @@ e is rotated 90 degrees> <./figures/m_FBE_R.pdf, page is rotated 90 degrees> <.
 /figures/m_FBE_z.pdf, page is rotated 90 degrees>] [60 <./figures/m_FBE_data_M.
 pdf, page is rotated 90 degrees> <./figures/m_FBE_data_chi2_ndof.pdf, page is r
 otated 90 degrees> <./figures/m_FBE_data_R.pdf, page is rotated 90 degrees> <./
-figures/m_FBE_data_z.pdf, page is rotated 90 degrees>]
-Overfull \hbox (35.2981pt too wide) in paragraph at lines 208--219
- [][] 
- []
-
-) [61]
+figures/m_FBE_data_z.pdf, page is rotated 90 degrees>]) [61]
 \openout2 = `src/ch9_systematics.aux'.
 
  (./src/ch9_systematics.tex
@@ -2606,7 +2601,7 @@ s/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/public/cm-super/sftt0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/public/cm-super/sftt1095.pfb>
-Output written on thesis.pdf (104 pages, 5272325 bytes).
+Output written on thesis.pdf (104 pages, 5272356 bytes).
 PDF statistics:
  6632 PDF objects out of 7423 (max. 8388607)
  3619 compressed objects within 37 object streams
