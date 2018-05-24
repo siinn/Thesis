@@ -102,14 +102,14 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{71}{subfigure.1.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{71}{subfigure.1.3}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ MC sample with $m_{Z'} = $ 100 and 250 GeV.}}{80}{figure.Alph0.1}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ MC sample with $m_{Z'} = $ 100 and 250 GeV.}}{80}{figure.1..1}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=100$ GeV, $c\tau =100$ mm}}}{80}{subfigure.1.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=100$ GeV, $c\tau =250$ mm}}}{80}{subfigure.1.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=100$ GeV, $c\tau =500$ mm}}}{80}{subfigure.1.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=250$ GeV, $c\tau =100$ mm}}}{80}{subfigure.1.4}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=250$ GeV, $c\tau =250$ mm}}}{80}{subfigure.1.5}
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=250$ GeV, $c\tau =500$ mm}}}{80}{subfigure.1.6}
-\contentsline {figure}{\numberline {2}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ MC sample with $m_{Z'} = $ 500, 750 and 1000 GeV.}}{81}{figure.Alph0.2}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $ MC sample with $m_{Z'} = $ 500, 750 and 1000 GeV.}}{81}{figure.1..2}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=500$ GeV, $c\tau =100$ mm}}}{81}{subfigure.2.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=500$ GeV, $c\tau =250$ mm}}}{81}{subfigure.2.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=500$ GeV, $c\tau =500$ mm}}}{81}{subfigure.2.3}
@@ -119,7 +119,7 @@
 \contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$m=1000$ GeV, $c\tau =100$ mm}}}{81}{subfigure.2.7}
 \contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$m=1000$ GeV, $c\tau =250$ mm}}}{81}{subfigure.2.8}
 \contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m=1000$ GeV, $c\tau =500$ mm}}}{81}{subfigure.2.9}
-\contentsline {figure}{\numberline {3}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{+}e^{-}}\xspace $ MC sample with $m_{Z'} = $ 100, 250 and 500 GeV.}}{82}{figure.Alph0.3}
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{+}e^{-}}\xspace $ MC sample with $m_{Z'} = $ 100, 250 and 500 GeV.}}{82}{figure.1..3}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=100$ GeV, $c\tau =100$ mm}}}{82}{subfigure.3.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=100$ GeV, $c\tau =250$ mm}}}{82}{subfigure.3.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=100$ GeV, $c\tau =500$ mm}}}{82}{subfigure.3.3}
@@ -129,14 +129,14 @@
 \contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$m=500$ GeV, $c\tau =100$ mm}}}{82}{subfigure.3.7}
 \contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$m=500$ GeV, $c\tau =250$ mm}}}{82}{subfigure.3.8}
 \contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m=500$ GeV, $c\tau =500$ mm}}}{82}{subfigure.3.9}
-\contentsline {figure}{\numberline {4}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{+}e^{-}}\xspace $ MC sample with $m_{Z'} = $ 750 and 1000 GeV.}}{83}{figure.Alph0.4}
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{+}e^{-}}\xspace $ MC sample with $m_{Z'} = $ 750 and 1000 GeV.}}{83}{figure.1..4}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=750$ GeV, $c\tau =100$ mm}}}{83}{subfigure.4.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=750$ GeV, $c\tau =250$ mm}}}{83}{subfigure.4.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=750$ GeV, $c\tau =500$ mm}}}{83}{subfigure.4.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=1000$ GeV, $c\tau =100$ mm}}}{83}{subfigure.4.4}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=1000$ GeV, $c\tau =250$ mm}}}{83}{subfigure.4.5}
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=1000$ GeV, $c\tau =500$ mm}}}{83}{subfigure.4.6}
-\contentsline {figure}{\numberline {5}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $ MC sample with $m_{Z'} = $ 100, 250 and 500 GeV.}}{84}{figure.Alph0.5}
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $ MC sample with $m_{Z'} = $ 100, 250 and 500 GeV.}}{84}{figure.1..5}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=100$ GeV, $c\tau =100$ mm}}}{84}{subfigure.5.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=100$ GeV, $c\tau =250$ mm}}}{84}{subfigure.5.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=100$ GeV, $c\tau =500$ mm}}}{84}{subfigure.5.3}
@@ -146,14 +146,14 @@
 \contentsline {subfigure}{\numberline {(g)}{\ignorespaces {$m=500$ GeV, $c\tau =100$ mm}}}{84}{subfigure.5.7}
 \contentsline {subfigure}{\numberline {(h)}{\ignorespaces {$m=500$ GeV, $c\tau =250$ mm}}}{84}{subfigure.5.8}
 \contentsline {subfigure}{\numberline {(i)}{\ignorespaces {$m=500$ GeV, $c\tau =500$ mm}}}{84}{subfigure.5.9}
-\contentsline {figure}{\numberline {6}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $ MC sample with $m_{Z'} = $ 750 and 1000 GeV.}}{85}{figure.Alph0.6}
+\contentsline {figure}{\numberline {B.6}{\ignorespaces Reconstruction efficiency map of $|\eta |$ vs. $p_{T}$ for $Z' \rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $ MC sample with $m_{Z'} = $ 750 and 1000 GeV.}}{85}{figure.1..6}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$m=750$ GeV, $c\tau =100$ mm}}}{85}{subfigure.6.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$m=750$ GeV, $c\tau =250$ mm}}}{85}{subfigure.6.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$m=750$ GeV, $c\tau =500$ mm}}}{85}{subfigure.6.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$m=1000$ GeV, $c\tau =100$ mm}}}{85}{subfigure.6.4}
 \contentsline {subfigure}{\numberline {(e)}{\ignorespaces {$m=1000$ GeV, $c\tau =250$ mm}}}{85}{subfigure.6.5}
 \contentsline {subfigure}{\numberline {(f)}{\ignorespaces {$m=1000$ GeV, $c\tau =500$ mm}}}{85}{subfigure.6.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Distribution of (a) transverse and (b) longitudinal position, (c) $\eta $, and (d) $p_{T}$ of $K_{S}$ and $Z'$ vertices found in the $Z'$ and genetic MC sample described in Section\nobreakspace {}\ref {sec:background_mc_sample}. $Z'$ distribution is normalized to $K_{S}$ distribution. Statistical uncertainties are shown.}}{86}{figure.Alph0.7}
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Distribution of (a) transverse and (b) longitudinal position, (c) $\eta $, and (d) $p_{T}$ of $K_{S}$ and $Z'$ vertices found in the $Z'$ and genetic MC sample described in Section\nobreakspace {}\ref {sec:background_mc_sample}. $Z'$ distribution is normalized to $K_{S}$ distribution. Statistical uncertainties are shown.}}{86}{figure.1..7}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{86}{subfigure.7.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{86}{subfigure.7.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{86}{subfigure.7.3}

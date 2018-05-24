@@ -77,15 +77,14 @@
 \contentsline {section}{\numberline {10.2}Upper limits}{70}{section.10.2}
 \contentsline {chapter}{\numberline {11}Conclusion}{72}{chapter.11}
 \contentsline {chapter}{Bibliography}{73}{section*.16}
-\contentsline {part}{Appendices}{77}{chapter*.17}
-\contentsline {section}{\numberline {A}Trigger efficiency}{78}{section.Alph0.1}
-\contentsline {section}{\numberline {B}Efficiency Map of Signal MC Samples}{80}{section.Alph0.2}
-\contentsline {section}{\numberline {C}$K_{S}$ and $Z'$ comparison}{86}{section.Alph0.3}
-\contentsline {section}{\numberline {D}Extrapolation in the track flipping method}{87}{section.Alph0.4}
-\contentsline {subsection}{\numberline {D.1}Definition}{87}{subsection.Alph0.4.1}
-\contentsline {subsection}{\numberline {D.2}Vertex estimation}{87}{subsection.Alph0.4.2}
-\contentsline {subsection}{\numberline {D.3}Counting pairs}{88}{subsection.Alph0.4.3}
-\contentsline {subsection}{\numberline {D.4}Extrapolation of control region into validation and signal regions}{88}{subsection.Alph0.4.4}
-\contentsline {subsection}{\numberline {D.5}Extrapolation of validation region into signal region}{89}{subsection.Alph0.4.5}
-\contentsline {subsection}{\numberline {D.6}Scale factors}{90}{subsection.Alph0.4.6}
-\contentsline {subsection}{\numberline {D.7}Vertex yields in the TF method and data}{90}{subsection.Alph0.4.7}
+\contentsline {section}{\numberline {A}Trigger efficiency}{78}{section.1..1}
+\contentsline {section}{\numberline {B}Efficiency Map of Signal MC Samples}{80}{section.1..2}
+\contentsline {section}{\numberline {C}$K_{S}$ and $Z'$ comparison}{86}{section.1..3}
+\contentsline {section}{\numberline {D}Extrapolation in the track flipping method}{87}{section.1..4}
+\contentsline {subsection}{\numberline {D.1}Definition}{87}{subsection.1..4.1}
+\contentsline {subsection}{\numberline {D.2}Vertex estimation}{87}{subsection.1..4.2}
+\contentsline {subsection}{\numberline {D.3}Counting pairs}{88}{subsection.1..4.3}
+\contentsline {subsection}{\numberline {D.4}Extrapolation of control region into validation and signal regions}{88}{subsection.1..4.4}
+\contentsline {subsection}{\numberline {D.5}Extrapolation of validation region into signal region}{89}{subsection.1..4.5}
+\contentsline {subsection}{\numberline {D.6}Scale factors}{90}{subsection.1..4.6}
+\contentsline {subsection}{\numberline {D.7}Vertex yields in the TF method and data}{90}{subsection.1..4.7}

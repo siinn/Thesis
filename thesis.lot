@@ -32,18 +32,18 @@
 \contentsline {subtable}{\numberline {(c)}{\ignorespaces {$Z'\rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $}}}{51}{subtable.4.3}
 \contentsline {table}{\numberline {7.5}{\ignorespaces Overall signal efficiency of the signal samples. Statistical uncertainties are shown.}}{52}{table.7.5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of the number of \ensuremath {\mu ^{\pm }\mathrm {x}^{\mp }}\xspace , \ensuremath {e^{\pm }\mathrm {x}^{\mp }}\xspace , and \ensuremath {\mathrm {x}^{+}\mathrm {x}^{-}}\xspace vertices found in the TF and event mixing with those reconstructed in the background MC samples.}}{58}{table.8.1}
+\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of the estimated vertex yields from the TF and event mixing with those reconstructed in the background MC samples.}}{58}{table.8.1}
 \contentsline {table}{\numberline {8.2}{\ignorespaces Number of x, $\mu $, $e$ tracks and the calculated lepton probability from data.}}{60}{table.8.2}
 \contentsline {table}{\numberline {8.3}{\ignorespaces The estimate of random-crossing background in the signal region. Scale factors (Table\nobreakspace {}\ref {table:tf_raw_yields}) are applied to obtain the corrected estimate of the background.}}{61}{table.8.3}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {9.1}{\ignorespaces Comparison of $Z'$ and \ensuremath {K_{S}}\xspace vertex selections.}}{64}{table.9.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $. Statistical uncertainty is shown.}}{78}{table.Alph0.1}
-\contentsline {table}{\numberline {2}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{+}e^{-}}\xspace $. Statistical uncertainty is shown.}}{79}{table.Alph0.2}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $. Statistical uncertainty is shown.}}{78}{table.1..1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{+}e^{-}}\xspace $. Statistical uncertainty is shown.}}{79}{table.1..2}
 \contentsline {subtable}{\numberline {(a)}{\ignorespaces {}}}{79}{subtable.2.1}
-\contentsline {table}{\numberline {3}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $. Statistical uncertainty is shown.}}{79}{table.Alph0.3}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $. Statistical uncertainty is shown.}}{79}{table.1..3}
 \contentsline {subtable}{\numberline {(a)}{\ignorespaces {}}}{79}{subtable.3.1}
-\contentsline {table}{\numberline {4}{\ignorespaces (a) Vertex yields in the TF and data. (b) The scale factors calculated from the vetex yields}}{91}{table.Alph0.4}
+\contentsline {table}{\numberline {D.4}{\ignorespaces (a) Vertex yields in the TF and data. (b) The scale factors calculated from the vetex yields}}{91}{table.1..4}
 \contentsline {subtable}{\numberline {(a)}{\ignorespaces {Vertex yields}}}{91}{subtable.4.1}
 \contentsline {subtable}{\numberline {(b)}{\ignorespaces {Scale factors}}}{91}{subtable.4.2}

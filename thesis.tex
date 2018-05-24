@@ -96,15 +96,14 @@ some more text}
 
 
 
-% Note: GS 2010 requires bibliography/references _before_ the appendix
-% if you believe their guidelines; however, conversations with GS
-% staff suggests _they don't care_. Go figure. So do what you like.
-
-
-\appendix
+%\appendix
+\begin{appendices}
 \renewcommand{\thesection}{\Alph{section}}
-%\clearpage
-%\include{appendices/app_signal_truth}
+\titleformat{\section}{\centering\Large\bfseries}{\appendixname~\thesection:}{0.5em}{}
+%\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand\thetable{\Alph{section}.\arabic{table}}
+\renewcommand\thefigure{\Alph{section}.\arabic{figure}}
+
 \clearpage
 \include{appendices/app_trig_eff_table}
 
@@ -116,5 +115,6 @@ some more text}
 
 \clearpage
 \include{appendices/app_TF_extrapolation}
+\end{appendices}
 
 \end{document}

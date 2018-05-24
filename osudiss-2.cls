@@ -161,12 +161,12 @@
 \renewcommand\listtablename{List of Tables}
 \renewcommand\listfigurename{List of Figures}
 \renewcommand\abstractname{Abstract}
-\renewcommand\appendixname{Appendix}
+%\renewcommand\appendixname{}
 \renewcommand\chaptername{Chapter}
 \renewcommand\bibname{Bibliography}
 \newcommand\pagename{Page}
 \newcommand\chaptersname{Chapters}
-\newcommand\appendicesname{Appendices}
+%\newcommand\appendicesname{Appendices}
 \newcommand\acknowledgmentsname{Acknowledgments}
 \newcommand\advisorword{Advisor}
 \newcommand\coadvisorword{Co-Advisor}
