@@ -3,47 +3,45 @@
 \contentsline {table}{\numberline {1.1}{\ignorespaces The fundamental fermions and their electric charge $Q$ and masses.}}{2}{table.1.1}
 \contentsline {table}{\numberline {1.2}{\ignorespaces Gauge bosons and their associated fields and masses.}}{3}{table.1.2}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces The spatial, energy resolution and the particle identification of the Atlas detector.}}{17}{table.2.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Main track selection in the standard and the LRT algorithms.}}{18}{table.3.1}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Fiducial selections on particles for tracking efficiency measurements.}}{19}{table.3.2}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Track requirements for secondary vertex reconstruction.}}{22}{table.3.3}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Dataset used in \texttt {DRAW\_RPVLL}, \texttt {DAOD\_RPVLL}, and \texttt {DAOD\_SUSY15} format.}}{25}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Datasets used for tag and probe studies.}}{25}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Mass, lifetime, and DID of the signal MC samples.}}{26}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Background MC samples used in the study of random-crossing background and in the estimation of tracking and vertexing systematic uncertainty.}}{28}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Background MC samples without the LRT used for tag and probe studies.}}{29}{table.5.5}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces HLTs used to select events in \texttt {DRAW\_RPVLL} filter. Single photon trigger requires one photon with $p_{T} > 140$ GeV. Di-photon trigger requires two photons with $p_{T} > 50$ GeV. Single muon trigger requires one muon with $p_{T} > 60$ within $|\eta | < 1.05$ using MS information only.}}{31}{table.6.1}
-\contentsline {table}{\numberline {6.2}{\ignorespaces \texttt {RPVLL} filter offline selection on photon and leptons.}}{31}{table.6.2}
-\contentsline {table}{\numberline {6.3}{\ignorespaces Muon and electron requirements applied at analysis level.}}{33}{table.6.3}
-\contentsline {table}{\numberline {6.4}{\ignorespaces The control, validation, and signal regions defined by the vertex type.}}{33}{table.6.4}
-\contentsline {table}{\numberline {6.5}{\ignorespaces Event and vertex selections applied to select displaced vertices.}}{34}{table.6.5}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Selection criteria for tag-and-probe electrons in $Z$+jets studies.}}{39}{table.7.1}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Selection criteria for tag-and-probe muons.}}{40}{table.7.2}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Total trigger scale factors from the tag-and-probe method.}}{43}{table.7.3}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Event and vertex cut flow of signal samples}}{49}{table.7.4}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {$Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $}}}{49}{subtable.4.1}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Event and vertex cut flow of signal samples}}{50}{table.7.4}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {$Z'\rightarrow \ensuremath {e^{+}e^{-}}\xspace $}}}{50}{subtable.4.2}
-\contentsline {table}{\numberline {7.4}{\ignorespaces Event and vertex cut flow of signal samples}}{51}{table.7.4}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {$Z'\rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $}}}{51}{subtable.4.3}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Overall signal efficiency of the signal samples. Statistical uncertainties are shown.}}{52}{table.7.5}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of the estimated vertex yields from the TF and event mixing with those reconstructed in the background MC samples.}}{58}{table.8.1}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Number of x, $\mu $, $e$ tracks and the calculated lepton probability from data.}}{60}{table.8.2}
-\contentsline {table}{\numberline {8.3}{\ignorespaces The estimate of random-crossing background in the signal region. Scale factors (Table\nobreakspace {}\ref {table:tf_raw_yields}) are applied to obtain the corrected estimate of the background.}}{61}{table.8.3}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {9.1}{\ignorespaces Comparison of $Z'$ and \ensuremath {K_{S}}\xspace vertex selections.}}{64}{table.9.1}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Main track selection in the standard and large radius tracking algorithms.}}{19}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Fiducial selections on particles for tracking efficiency measurements.}}{20}{table.3.2}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Track requirements for secondary vertex reconstruction.}}{23}{table.3.3}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $. Statistical uncertainty is shown.}}{78}{table.1..1}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{+}e^{-}}\xspace $. Statistical uncertainty is shown.}}{79}{table.1..2}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {}}}{79}{subtable.2.1}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $. Statistical uncertainty is shown.}}{79}{table.1..3}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {}}}{79}{subtable.3.1}
-\contentsline {table}{\numberline {D.4}{\ignorespaces (a) Vertex yields in the TF and data. (b) The scale factors calculated from the vetex yields}}{91}{table.1..4}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Vertex yields}}}{91}{subtable.4.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Scale factors}}}{91}{subtable.4.2}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Dataset used in \texttt {DRAW\_RPVLL}, \texttt {DAOD\_RPVLL}, and \texttt {DAOD\_SUSY15} format.}}{26}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Datasets used for tag and probe studies.}}{26}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Mass, lifetime, and DSID of the signal MC samples.}}{27}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Background MC samples used in the study of random-crossing background and in the estimation of tracking and vertexing systematic uncertainty.}}{29}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Background MC samples without the LRT used for tag and probe studies.}}{30}{table.5.5}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces HLTs used to select events in \texttt {DRAW\_RPVLL} filter. The single photon trigger requires one photon with $p_{T} > 140$ GeV. The di-photon trigger requires two photons with $p_{T} > 50$ GeV. The single muon trigger requires one muon with $p_{T} > 60$ within $|\eta | < 1.05$ using MS information only.}}{32}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces \texttt {RPVLL} filter offline selection on photon and leptons.}}{32}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Muon and electron requirements applied at analysis level.}}{34}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces The control, validation, and signal regions defined by the vertex type.}}{34}{table.6.4}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Event and vertex selections applied to select displaced vertices.}}{35}{table.6.5}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Selection criteria for tag-and-probe electrons in $Z$+jets studies.}}{40}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Selection criteria for tag-and-probe muons.}}{41}{table.7.2}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Total trigger scale factors from the tag-and-probe method.}}{44}{table.7.3}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Event and vertex cut flow of the signal MC sample of $Z' \rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $.}}{50}{table.7.4}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Event and vertex cut flow of the signal MC sample of $Z' \rightarrow \ensuremath {e^{+}e^{-}}\xspace $.}}{51}{table.7.5}
+\contentsline {table}{\numberline {7.6}{\ignorespaces Event and vertex cut flow of the signal MC sample of $Z' \rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $.}}{52}{table.7.6}
+\contentsline {table}{\numberline {7.7}{\ignorespaces Overall signal efficiency of the signal samples. Statistical uncertainties are shown.}}{53}{table.7.7}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Comparison of the estimated vertex yields from the TF and event mixing with those reconstructed in the background MC samples.}}{59}{table.8.1}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Number of x, $\mu $, $e$ tracks and the calculated lepton probability from data.}}{61}{table.8.2}
+\contentsline {table}{\numberline {8.3}{\ignorespaces The estimate of random-crossing background in the signal region. Scale factors (Table\nobreakspace {}\ref {table:tf_raw_yields}) are applied to obtain the corrected estimate of the background.}}{62}{table.8.3}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Comparison of $Z'$ and \ensuremath {K_{S}}\xspace vertex selections.}}{65}{table.9.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {\mu ^{+}\mu ^{-}}\xspace $. Statistical uncertainty is shown.}}{80}{table.1..1}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{+}e^{-}}\xspace $. Statistical uncertainty is shown.}}{81}{table.1..2}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {}}}{81}{subtable.2.1}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Trigger efficiency of single muon, single photon, di-photon triggers, and the combined trigger efficiency of the signal MC samples of $Z'\rightarrow \ensuremath {e^{\pm }\mu ^{\mp }}\xspace $. Statistical uncertainty is shown.}}{81}{table.1..3}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {}}}{81}{subtable.3.1}
+\contentsline {table}{\numberline {D.4}{\ignorespaces (a) Vertex yields in the TF and data. (b) The scale factors calculated from the vetex yields}}{93}{table.1..4}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {Vertex yields}}}{93}{subtable.4.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {Scale factors}}}{93}{subtable.4.2}

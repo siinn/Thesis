@@ -9,11 +9,6 @@ C.~P. Burgess and G.~D. Moore, {\em {The standard model: a primer}}.
 P.~W. Higgs, {\em {Broken symmetries and the masses of gauge bosons}}, Phys.
   Rev. {\bfseries 13} (1964) 508, \url{http://cds.cern.ch/record/429539}.
 
-\bibitem{Kobayashi:1117037}
-M.~Kobayashi and T.~Maskawa, {\em {CP-Violation in the renormalizable theory of
-  weak interaction}}, Prog. Theor. Phys. {\bfseries 49} (1973) 652,
-  \url{http://cds.cern.ch/record/1117037}.
-
 \bibitem{Hata:135318}
 H.~Hata, {\em {Color confinement as a result of restoration of local gauge
   symmetry}}, Tech. Rep. HE-TH-81-13, KUNS-618, Kyoto Univ., Kyoto, Nov, 1981.
@@ -41,7 +36,7 @@ M.~Magg and C.~Wetterich, {\em {Neutrino mass problem and gauge hierarchy}},
 
 \bibitem{bertone2005particle}
 G.~Bertone, D.~Hooper,  and J.~Silk, {\em Particle dark matter: evidence,
-  candidates and constraints}, Physics Reports {\bfseries 405} (2005) 279.
+  candidates and constraints}, Phys. Rept. {\bfseries 405} (2005) 279.
 
 \bibitem{clowe2006direct}
 D.~Clowe, M.~Brada{\v{c}}, A.~H. Gonzalez,  {et~al.}, {\em A direct empirical
@@ -79,6 +74,13 @@ G.~Senjanovic and R.~N. Mohapatra, {\em Exact left-right symmetry and
 R.~N. Mohapatra and G.~Senjanovi{\'c}, {\em Neutrino masses and mixings in
   gauge models with spontaneous parity violation}, Phys. Rev. D {\bfseries 23}
   (1981) 165.
+
+\bibitem{Barbier:2004ez}
+R.~Barbier, C.~Berat, M.~Besancon,  {et~al.}, {\em {R-parity violating
+  supersymmetry}}, \href{http://dx.doi.org/10.1016/j.physrep.2005.08.006}{Phys.
+  Rept. {\bfseries 420} (2005) 1},
+\href{http://arxiv.org/abs/hep-ph/0406039}{{\ttfamily arXiv:hep-ph/0406039}}.
+%%CITATION = HEP-PH/0406039;%%.
 
 \bibitem{Basso:2008iv}
 L.~Basso, A.~Belyaev, S.~Moretti,  {et~al.}, {\em {Phenomenology of the minimal
@@ -205,6 +207,12 @@ H.~Pernegger, {\em The Pixel detector of the ATLAS experiment for LHC Run-2},
 \newblock CERN, Geneva, 1996.
 \newblock \url{https://cds.cern.ch/record/331061}.
 
+\bibitem{1748-0221-9-09-C09007}
+{ATLAS} Collaboration, {\em Performance of the ATLAS Liquid Argon Calorimeter
+  after three years of LHC operation and plans for a future upgrade}, Journal
+  of Instrumentation {\bfseries 9} (2014) C09007,
+  \url{http://stacks.iop.org/1748-0221/9/i=09/a=C09007}.
+
 \bibitem{ARNAUD2008265}
 {ATLAS} Collaboration, {\em Commissioning of the magnetic field in the ATLAS
   muon spectrometer},
@@ -221,11 +229,25 @@ H.~Pernegger, {\em The Pixel detector of the ATLAS experiment for LHC Run-2},
   performance}}, Tech. Rep. ATL-DAQ-PROC-2017-027, CERN, Geneva, Oct, 2017.
 \newblock \url{https://cds.cern.ch/record/2287548}.
 
+\bibitem{Aad:2010bx}
+{ATLAS} Collaboration, {\em {The ATLAS Inner Detector commissioning and
+  calibration}}, \href{http://dx.doi.org/10.1140/epjc/s10052-010-1366-7}{Eur.
+  Phys. J. {\bfseries C70} (2010) 787--821},
+\href{http://arxiv.org/abs/1004.5293}{{\ttfamily arXiv:1004.5293
+  [physics.ins-det]}}.
+%%CITATION = ARXIV:1004.5293;%%.
+
 \bibitem{ATL-PHYS-PUB-2017-014}
 {ATLAS} Collaboration, {\em {Performance of the reconstruction of large impact
   parameter tracks in the ATLAS inner detector}}, Tech. Rep.
   ATL-PHYS-PUB-2017-014, CERN, Geneva, Jul, 2017.
 \newblock \url{https://cds.cern.ch/record/2275635}.
+
+\bibitem{Akesson:973401}
+{ATLAS} Collaboration, {\em {ATLAS Tracking Event Data Model}}, Tech. Rep.
+  ATL-SOFT-PUB-2006-004. ATL-COM-SOFT-2006-005. CERN-ATL-COM-SOFT-2006-005,
+  CERN, Geneva, Jul, 2006.
+\newblock \url{https://cds.cern.ch/record/973401}.
 
 \bibitem{Aaboud:2016rmg}
 {ATLAS} Collaboration, {\em {Reconstruction of primary vertices at the ATLAS
@@ -293,6 +315,13 @@ R.~E. Kalman, {\em {A new approach to linear filtering and prediction
 \href{http://arxiv.org/abs/1504.05162}{{\ttfamily arXiv:1504.05162 [hep-ex]}}.
 %%CITATION = ARXIV:1504.05162;%%.
 
+\bibitem{Aaboud:2016leb}
+{ATLAS} Collaboration, {\em {Performance of the ATLAS Trigger System in 2015}},
+  \href{http://dx.doi.org/10.1140/epjc/s10052-017-4852-3}{Eur. Phys. J.
+  {\bfseries C77} (2017) 317},
+\href{http://arxiv.org/abs/1611.09661}{{\ttfamily arXiv:1611.09661 [hep-ex]}}.
+%%CITATION = ARXIV:1611.09661;%%.
+
 \bibitem{Catmore:1543445}
 {ATLAS} Collaboration, {\em {Report of the analysis model study group}}, Tech.
   Rep. ATL-COM-SOFT-2013-005, CERN, Geneva, Apr, 2013.
@@ -323,13 +352,10 @@ T.~Gleisberg, S.~Hoeche, F.~Krauss,  {et~al.}, {\em {Event generation with
   ATL-INDET-PROC-2015-015, CERN, Geneva, Dec, 2015.
 \newblock \url{https://cds.cern.ch/record/2110260}.
 
-\bibitem{Aaboud:2016poq}
+\bibitem{Aaboud:2215485}
 {ATLAS} Collaboration, {\em {A measurement of material in the ATLAS tracker
-  using secondary hadronic interactions in 7 TeV pp collisions}},
-  \href{http://dx.doi.org/10.1088/1748-0221/11/11/P11020}{JINST {\bfseries 11}
-  (2016) P11020},
-\href{http://arxiv.org/abs/1609.04305}{{\ttfamily arXiv:1609.04305 [hep-ex]}}.
-%%CITATION = ARXIV:1609.04305;%%.
+  using secondary hadronic interactions in 7 TeV pp collisions}}, JINST
+  {\bfseries 11} (2016) 45, \url{https://cds.cern.ch/record/2215485}.
 
 \bibitem{DuarteCampderros:2275055}
 {ATLAS} Collaboration, {\em {Search for long-lived, massive particles decaying
@@ -349,11 +375,6 @@ S.~H. Oh and C.~Wang, {\em {Kshort and lambda production in jets from pp
   2015 data at $\sqrt s$ = 13 TeV}}, Tech. Rep. ATL-PHYS-PUB-2015-051, CERN,
   Geneva, Dec, 2015.
 \newblock \url{https://cds.cern.ch/record/2110140}.
-
-\bibitem{Aaboud:2215485}
-{ATLAS} Collaboration, {\em {A measurement of material in the ATLAS tracker
-  using secondary hadronic interactions in 7 TeV pp collisions}}, JINST
-  {\bfseries 11} (2016) 45, \url{https://cds.cern.ch/record/2215485}.
 
 \bibitem{Baak:2014wma}
 M.~Baak, G.~J. Besjes, D.~Côte,  {et~al.}, {\em {HistFitter software framework

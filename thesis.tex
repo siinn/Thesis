@@ -98,11 +98,13 @@ some more text}
 
 %\appendix
 \begin{appendices}
+\addcontentsline{toc}{chapter}{Appendices}
 \renewcommand{\thesection}{\Alph{section}}
 \titleformat{\section}{\centering\Large\bfseries}{\appendixname~\thesection:}{0.5em}{}
 %\renewcommand{\thetable}{A\arabic{table}}
 \renewcommand\thetable{\Alph{section}.\arabic{table}}
 \renewcommand\thefigure{\Alph{section}.\arabic{figure}}
+\renewcommand\theequation{\Alph{section}.\arabic{equation}}
 
 \clearpage
 \include{appendices/app_trig_eff_table}

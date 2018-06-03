@@ -1,10 +1,10 @@
 \chapter{Interpretation of Results}
 \label{chap:upper_limit}
 
-No event was observed in data that satisfies the signal selection, and the result is consistent with the SM expectations. Therefore, upper limits (ULs) are set on the cross section times branching ratio ($\sigma \times$ BR) for resonances decaying to a dilepton.
+No events were observed in data that satisfies the signal selection, and the result is consistent with the SM expectations. Therefore, upper limits (ULs) are set on the cross section times branching ratio ($\sigma \times$ BR) for resonances decaying to a dilepton.
 
 \section{Statistical Procedure}
-The limits are calculated using \texttt{HistFitter}~\cite{Baak:2014wma}, a statistical tool used for limit settings in the ATLAS. The limit setting procedure is based on the modified Frequentist method, \CLs~\cite{OBRAZTSOV1992388,PhysRevD.57.3873}. In this framework, a number of events, $n$, is modeled as a Poisson distribution with the mean $\lambda = \mu_{\mathrm{sig}}\cdot s + b$ where $\mu_{\mathrm{sig}}$ is the signal strength parameter. Systematic uncertainty estimated in Chapter~\ref{chap:syst} is introduced as the nuisance parameter $\theta$ to $s$ and $b$, i.e. $s$ and $b$ become a function of $\theta$. The method uses the profile likelihood ratio $q_{\mu_{\mathrm{sig}}}$ as a test statistic,
+The limits are calculated using \textit{HistFitter v0.61.0}~\cite{Baak:2014wma}, a statistical tool used for limit settings in ATLAS. The limit setting procedure is based on the modified Frequentist method, \CLs~\cite{OBRAZTSOV1992388,PhysRevD.57.3873}. In this framework, a number of events, $n$, is modeled as a Poisson distribution with the mean $\lambda = \mu_{\mathrm{sig}}\cdot s + b$ where $\mu_{\mathrm{sig}}$ is the signal strength parameter. The systematic uncertainty estimated in Chapter~\ref{chap:syst} is introduced as the nuisance parameter $\theta$ to $s$ and $b$, i.e. $s$ and $b$ become a function of $\theta$. The method uses the LHC default one-sided profile likelihood ratio $q_{\mu_{\mathrm{sig}}}$ as a test statistic,
 
 \begin{equation}
 q_{\mu_{\mathrm{sig}}} = -2 \log \Bigg( \dfrac{L(n_\mathrm{obs}~|~\mu_{n_\mathrm{sig}}, \Hat{\Hat{\theta}})}{L(n_\mathrm{obs}~|~\Hat{\mu}_{\mathrm{sig}}, \Hat{\theta})}\Bigg)
@@ -27,7 +27,7 @@ where $\mathrm{CL}_{s+b}$ is the probability to obtain a test statistic value mo
 \label{eq:cls}
 \end{align}
 
-The ULs at the 95\% confidence level are obtained by adjusting $\mu_{\mathrm{sig}}$ until \CLs reaches 0.05, and the limit is translated to the $\sigma \times$ BR by the simple relation,
+The UL at the 95\% confidence level are obtained by adjusting $\mu_{\mathrm{sig}}$ until \CLs reaches 0.05, and the limit is translated to the $\sigma \times$ BR by the relation,
 
 \begin{equation}
 \label{eq:signal_strength}

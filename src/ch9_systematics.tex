@@ -1,7 +1,7 @@
 \chapter{Systematic Uncertainties}
 \label{chap:syst}
 
-The systematic uncertainties in the signal efficiency is computed by estimating the contribution of each efficiency factor in Eq.~\ref{eq:OverallEff} when possible. 
+The systematic uncertainties in the signal efficiency is computed by estimating the contribution of each efficiency factor in Eq.~\ref{eq:OverallEff}. 
 
 The systematic uncertainty in track and vertex reconstruction is studied using \Ks in Section~\ref{sec:syst:vertexing}. The systematic uncertainty in trigger is studied in Section~\ref{sec:syst:trigger} using tag-and-probe method with $Z\rightarrow \ee,\mumu$ events. %The systematic uncertainty in lepton reconstruction and identification cannot be estimated using data since no known particle exists in nature that has a long lifetime and mass larger than 10 GeV.
 
@@ -16,14 +16,13 @@ Tracks originating from a \Ks decay can be reconstructed by either the standard 
 
 \begin{align}
     N_{\mathrm{ST}}  &= K_{S}~\mathrm{produced} \times (\epsilon_{\mathrm{ST~Track}})^{2} \cdot \epsilon_{\mathrm{ST~Vertex}}, \nonumber \\
-    N_{\mathrm{ST+LRT}}  &= K_{S}~\mathrm{produced} \times (\epsilon_{\mathrm{ST~Track}} \cdot \epsilon_{\mathrm{LRT~Track}}) \cdot \epsilon_{\mathrm{LRT~Vertex}}, \nonumber \\
+    N_{\mathrm{ST+LRT}}  &= K_{S}~\mathrm{produced} \times (\epsilon_{\mathrm{ST~Track}} \cdot \epsilon_{\mathrm{LRT~Track}}) \cdot \epsilon_{\mathrm{ST+LRT~Vertex}}, \nonumber \\
     N_{\mathrm{LRT}}&= K_{S}~\mathrm{produced} \times (\epsilon_{\mathrm{LRT~Track}})^{2} \cdot \epsilon_{\mathrm{LRT~Vertex}},
 \label{eq:Ks_eq1}
 \end{align}
 %
-where $N$ represents vertex yields in each category. $\epsilon_{\mathrm{ST~Track}}$ and $\epsilon_{\mathrm{LRT~Track}}$ represent track reconstruction efficiency in the ST and the LRT, respectively. $\epsilon_{\mathrm{ST~Vertex}}$ and $\epsilon_{\mathrm{LRT~Vertex}}$ represents two-track vertex reconstruction efficiency on two standard or large-radius tracks, respectively.
+where $N$ represents vertex yields in each category. $\epsilon_{\mathrm{ST~Track}}$ and $\epsilon_{\mathrm{LRT~Track}}$ represent track reconstruction efficiency in the ST and the LRT, respectively. $\epsilon_{\mathrm{ST~Vertex}}$, $\epsilon_{\mathrm{ST+LRT~Vertex}}$, and $\epsilon_{\mathrm{LRT~Vertex}}$ represent two-track vertex reconstruction efficiency on two standard, two large-radius, or one standard and one large-radius tracks.
 
-%In order to compare the efficiency between data and MC samples, the \Ks yields of LRT type in data is normalized by the ratio of ST vertex yields in MC to data,
 In order to compare the efficiency between data and MC samples, the \Ks yields of LRT type in data is normalized to the MC for \Ks found with the ST,
 
 \begin{equation}
@@ -94,7 +93,7 @@ After applying the event and \Ks vertex selection, the \Ks vertex distributions 
     \subfloat[]{\label{subfig:Ks_r}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_r.pdf}}  \\
     \subfloat[]{\label{subfig:Ks_z}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_z.pdf}} 
     \subfloat[]{\label{subfig:Ks_l}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_l.pdf}} \\
-    \caption{Comparison of the (a) invariant mass, (b) $p_{T}$, (c) $\mu$, (d) transverse, (e) longitudinal position, and (f) decay length of \Ks vertex with two large-radius tracks in the data with the MC samples. Data is normalized to MC. In (d), the red dashed lines indicate the four pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm). MC sample is reweighted to the pile-up distribution in data.}
+    \caption{Comparison of the (a) invariant mass, (b) $p_{T}$, (c) $\mu$, (d) transverse, (e) longitudinal position, and (f) decay length of \Ks vertex with two large-radius tracks in the data with the MC samples. Data is normalized to MC. In (d), the red dashed lines indicate the four pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm). MC sample is reweighted to the pile-up distribution in the data.}
     \label{fig:Ks_data_MC}
 \end{figure}
 
@@ -121,7 +120,7 @@ The \Ks yields with two large-radius tracks are compared between data and MC sam
 	\label{fig:Ks_double_ratio}
 \end{figure}
 
-In estimating the systematic uncertainty, largest discrepancy ($4\%$), shown in the fourth bin, is taken as a conservative estimate of $(N_{\mathrm{LRT}} \cdot N_{\mathrm{ST}}^{\mathrm{MC}}) / (N_{\mathrm{LRT}}^{\mathrm{MC}} \cdot N_{\mathrm{ST}})$. The results from previous studies show that the systematic uncertainty in the standard tracking is $2\%$~\cite{ATL-PHYS-PUB-2015-051}, and the systematic uncertainty in secondary vertex reconstruction using standard tracks is $1\%$~\cite{Aaboud:2215485}. The study on secondary vertex reconstruction is performed using min-bias data, but relatively uniform distribution of efficiency as a function of pile-up (Figure~\ref{subfig:vertex_dist_mu}) suggests that this result is still applicable for data with $\langle \mu \rangle\approx$ 24. Using Eq.~\ref{eq:Ks_eq3} together with these results, the systematic uncertainty in track and vertex reconstruction in the LRT is estimated to be $10\%$\footnote{10\% is a conservative estimate of the calculation, $1.04\cdot1.02^{2}\cdot1.01\approx1.09$}.
+In estimating the systematic uncertainty, largest discrepancy ($4\%$), shown in the fourth bin, is taken as a conservative estimate of $(N_{\mathrm{LRT}} \cdot N_{\mathrm{ST}}^{\mathrm{MC}}) / (N_{\mathrm{LRT}}^{\mathrm{MC}} \cdot N_{\mathrm{ST}})$. The results from previous studies show that the systematic uncertainty in the standard tracking is $2\%$~\cite{ATL-PHYS-PUB-2015-051}, and the systematic uncertainty in secondary vertex reconstruction using standard tracks is $1\%$~\cite{Aaboud:2215485}. The study on secondary vertex reconstruction is performed using min-bias data, but the relatively uniform distribution of efficiency as a function of pile-up (Figure~\ref{subfig:vertex_dist_mu}) suggests that this result is still applicable for data with $\langle \mu \rangle\approx$ 24. Using Eq.~\ref{eq:Ks_eq3} together with these results, the systematic uncertainty in track and vertex reconstruction in the LRT is estimated to be $10\%$\footnote{10\% is a rounded estimate of the calculation, $1.04\cdot1.02^{2}\cdot1.01\approx1.093$}.
 
 
 %\subsection{Systematic uncertainty in Trigger Efficiency}
@@ -134,7 +133,10 @@ In estimating the systematic uncertainty, largest discrepancy ($4\%$), shown in 
 \subsection{Systematic uncertainties on background estimations}
 \label{sec:syst_bkg}
 
-There are two main sources of background in this analysis; cosmic muon background and random crossing background. The cosmic muon background estimation is outlined in Section~\ref{sec:bkg:cosmic}. From this technique the estimate is $0.27 \pm 0.14 \textrm{ (stat.)}$ events. This $\pm 0.14$ is taken to be the total uncertainty on this background. In the case of the random crossing, there are two estimates event mixing and track flipping giving $2.40\times10^{-3}$ and $3.95 \times 10^{-3}$ respectively. For these the larger estimate of $3.95 \times 10^{-3}$ is used as the central value and the difference of $1.5\times10^{-3}$ is used as the uncertainty on this value.
+There are two main sources of background in this analysis; cosmic muon background and random crossing background. The cosmic muon background estimation was outlined in Section~\ref{sec:bkg:cosmic}. From this technique, the estimate is $0.27 \pm 0.14 \textrm{ (stat.)}$ events. This $\pm 0.14$ is taken to be the total uncertainty on this background. In the case of the random crossing, the estimate from the TF method is used as the central value, $3.95 \times 10^{-3}$, and the difference between the TF and event mixing method, $1.5\times10^{-3}$, is used as the uncertainty on the random-crossing background.
+
+
+%giving $2.40\times10^{-3}$ and $3.95 \times 10^{-3}$ respectively. For these the larger estimate of $3.95 \times 10^{-3}$ is used as the central value and the difference of $1.5\times10^{-3}$ is used as the uncertainty on this value.
 
 
 
