@@ -3,7 +3,7 @@
 
 The primary physics objects of this analysis are muons, electrons, and dilepton displaced vertices (DVs). In this section, the signal selection criteria for these physics objects are described.
 
-\section{Event preselection}
+\section{Event Preselection}
 \label{sec:selection:pre}
 
 Events are pre-selected in data processing using a combination of offline triggers and custom filters, called \texttt{DRAW\_RPVLL}. The selected events from the main physics stream are reprocessed for the special reconstruction. The filters are designed to select events containing displaced vertex candidates while maintaining reasonably low filter rates (< 30~\si{\hertz}). A single photon ($\gamma$), single electron ($e$), di-photon ($\gamma\gamma$), di-electron (\ee), and the combination of photon and electron ($e\gamma$) filters are used to select events with \ee or \emu candidates of interest. A single $\mu$ filter is used to select events with \mumu or \emu candidates of interest.
@@ -27,15 +27,15 @@ The filters require events to pass one of the HLTs listed in Table~\ref{table:tr
   \label{table:triggers}
 \end{table}
 
-In addition to the HLT requirements, each filter requires offline selections on particles such as $p_{T}$, $|\eta|$, and $d_{0}$. The single photon ($\gamma$) or electron ($e$) filters require a leading photon or electron, respectively, with $p_{T} > 150$ GeV, $|\eta| < 2.5$, and $d_{0} > 2.0$ mm. These filters also require a second photon or lepton with $p_{T} > 10$ GeV and $|\eta| < 2.5$ to keep the filter rate reasonably low. The single muon $\mu$ filter requires a muon with $p_{T} > 60$ GeV, $|\eta| < 2.5$, and $d_{0} > 1.5$ mm. The di-photon ($\gamma\gamma$), di-electron (\ee), and the combination of photon and electron ($e\gamma$) filters require two photons/leptons with $p_{T} > 50$ GeV, $|\eta| < 2.5$, and $d_{0} > 2.0$ mm. The offline selection is summarized in Table~\ref{table:rpvll_filter_selection}.
+In addition to the HLT requirements, each filter requires offline selections on particles such as $p_{T}$, $\eta$, and $d_{0}$. The single photon ($\gamma$) or electron ($e$) filters require a leading photon or electron, respectively, with $p_{T} > 150$ GeV, $|\eta| < 2.5$, and $|d_{0}| > 2.0$ mm. These filters also require a second photon or lepton with $p_{T} > 10$ GeV and $|\eta| < 2.5$ to keep the filter rate reasonably low. The single muon $\mu$ filter requires a muon with $p_{T} > 60$ GeV, $|\eta| < 2.5$, and $|d_{0}| > 1.5$ mm. The di-photon ($\gamma\gamma$), di-electron (\ee), and the combination of photon and electron ($e\gamma$) filters require two photons/leptons with $p_{T} > 50$ GeV, $|\eta| < 2.5$, and $|d_{0}| > 2.0$ mm. The offline selection is summarized in Table~\ref{table:rpvll_filter_selection}.
 
 \begin{table}[!htb]
   \centering
   \begin{tabular}{l c c c | c c c}
     \hline
     \hline
-    Filter          & \multicolumn{3}{c|}{Leading}  &  \multicolumn{3}{c}{Second} \\
-                    & $p_{T}$ (GeV) & $|\eta|$    & $d_{0}$ (mm) & $p_{T}$ (GeV) & $|\eta|$    & $d_{0}$ (mm)  \\
+    Filter          & \multicolumn{3}{c|}{Leading}  &  \multicolumn{3}{c}{Secondary} \\
+                    & $p_{T}$ (GeV) & $|\eta|$    & $|d_{0}|$ (mm) & $p_{T}$ (GeV) & $|\eta|$    & $|d_{0}|$ (mm)  \\
     \hline
     $\gamma$, $e$                   & $>$ 150   & $<$ 2.5  & $>$ 2.0  & $>$ 10 & $<$ 2.5 & -       \\
     $\mu$                           & $>$ 62    & $<$ 2.5  & $>$ 1.5  & -      & -      & -       \\
@@ -47,28 +47,28 @@ In addition to the HLT requirements, each filter requires offline selections on 
   \label{table:rpvll_filter_selection}
 \end{table}
 
-The events selected by the \texttt{RPVLL} filters are passed downstream for the special reconstruction process, and the physics objects such as electron, muon, and secondary vertices are reconstructed for anlaysis.
+The events selected by the \texttt{RPVLL} filters are passed downstream for the special reconstruction process, and the physics objects such as electron, muon, and secondary vertices are reconstructed for analysis.
 
 
 
 
-\subsection{Event selection}
+\subsection{Event Selection}
 \label{sec:event_selection}
 %Events are selected by minimum requirements on the quality of events, completeness of luminosity blocks, and HLTs used in this analysis. The event selections are as follows.
-At analysis-level, minimum requirements are placed on events based on the quality of events, completeness of the corresponding luminosity blocks, primary vertex, and HLTs used in this analysis. In addition, a cosmic veto is applied to reject events with back-to-back muons. The event selection is described below.
+At analysis-level, minimum requirements are placed on events based on the quality of events, completeness of the corresponding luminosity blocks, primary vertex, and HLTs used in this analysis. In addition, a cosmic veto is applied to reject events with back-to-back muons. The event selection is described below:
 
 \begin{itemize}
     \item \texttt{GoodRunsList} removes events from incomplete luminosity blocks.
     \item Event cleaning removes corrupted/bad events due to problems in TileCal, LAr calorimeter noise bursts, and detector downtimes.
     \item Events are required to pass one of the HLTs listed in Table~\ref{table:triggers}.
-    \item At least one primary vertex is required along the beam line ($z<200$ \si{\mm}).
-    \item Events are rejected if there is a pair of leptons with $R_{\mathrm{CR}} = \sqrt{(\Delta \phi - \pi)^{2} + (\Sigma \eta)^{2}} < 0.01$.
+    \item At least one primary vertex is required along the beam line ($|z|<200$ \si{\mm}).
+    \item Events are rejected if there is a pair of leptons with $\Rcr = \sqrt{(\Delta \phi - \pi)^{2} + (\Sigma \eta)^{2}} < 0.01$.
 \end{itemize}
 
 %The event selection is summarized in Table~\ref{table:signal_selection}.
 
 
-\subsection{Muon and electron requirements}
+\subsection{Muon and Electron Requirements}
 \label{sec:muon_electron_selection}
 
 The analysis searches for displaced vertices with two leptonic tracks, \mumu, \ee, and \emu. Prior to applying the vertex level selections, tracks from vertices are required pass muon or electron selections based on track quality, kinematics, and lepton identification criteria. 
@@ -109,7 +109,7 @@ Overlap removal is applied to both muons and electrons to ensure that a ID track
 
 
 
-\subsection{Vertex selection}
+\subsection{Vertex Selection}
 \label{sec:vertex_selection}
 The vertex selection is applied to two-track secondary vertices found in Section~\ref{sec:reco:dv}. Secondary vertices with displacement of $r_{\mathrm{DV}}>$ 2 mm from the primary vertex are selected. The selected displaced vertices are made of two tracks which can be any combination of muon, electron, and non-lepton tracks. Therefore, vertices are separated into three vertex types, control, validation, and signal regions.
 
@@ -132,9 +132,9 @@ In the control region, vertices are required to have two non-leptonic tracks (\x
   \label{table:vertex_type}
 \end{table}
 
-In all regions, vertices are required to pass a common set of vertex selections described as follows. Vertices are required to have $\chi^2 / \mathrm{ DOF} <$ 5, which is the default selection used by the Tracking Combined Performance group, to reject poorly reconstructed vertices. A minimum transverse displacement of 2~\si{mm} from the primary vertex is required to suppress background from prompt decays. Two tracks from a vertex are required to have opposite electric charges. Vertices within the volume of disabled Pixel module~\cite{Backhaus:2110260} are rejected. Since hadronic interactions of charged particles with detector material produces irreducible backgrounds, the vertices within dense detector material~\cite{Aaboud:2215485} are rejected. The material veto is not applied to \mumu vertex due to low probability of muon interaction with detector material. Vertices are also required to be in the detector volume covered by the material mapping ($r < 300$~\si{mm}, $z < 300$~\si{mm}). The invariant mass of the lepton pairs, also referred as vertex mass, is required to have $m_{\ell\ell} >$ 10 GeV to suppress backgrounds from low mass SM particles such as $J/\Psi$ and $\Upsilon$. The vertex mass is calculated by the secondary vertex reconstruction algorithm with the assumption that all tracks are pions. A cosmic veto is applied to vertices by requiring $R_{\mathrm{CR}} > 0.01$. The veto is very effective in rejecting cosmic muons reconstructed as back-to-back muon vertices, and the details are discussed in Section~\ref{sec:bkg:cosmic}.
+In all regions, vertices are required to pass a common set of vertex selections described as follows. Vertices are required to have $\chi^2 / \mathrm{ DOF} <$ 5, which is the default selection used by the Tracking Combined Performance group, to reject poorly reconstructed vertices. A minimum transverse displacement of 2~\si{mm} from the primary vertex is required to suppress background from prompt decays. Two tracks from a vertex are required to have opposite electric charges. Vertices within the volume of disabled Pixel module~\cite{Backhaus:2110260} are rejected. Since hadronic interactions of charged particles with detector material produces irreducible backgrounds, the vertices within dense detector material~\cite{Aaboud:2215485} are rejected. The material veto is not applied to \mumu vertex due to low probability of muon interaction with detector material. Vertices are also required to be in the detector volume covered by the material mapping ($r < 300$~\si{mm}, $|z| < 300$~\si{mm}). The invariant mass of the lepton pairs, also referred as vertex mass, is required to have $m_{\ell\ell} >$ 10 GeV to suppress backgrounds from low mass SM particles such as $J/\Psi$ and $\Upsilon$. The vertex mass is calculated by the secondary vertex reconstruction algorithm with the assumption that all tracks are pions. A cosmic veto is applied to vertices by requiring $\Rcr > 0.01$. The veto is very effective in rejecting cosmic muons reconstructed as back-to-back muon vertices, and the details are discussed in Section~\ref{sec:bkg:cosmic}.
 
-In addition to the common vertex selection, at least one electron or muon from the vertex is required to match one of the triggers listed on Table~\ref{table:triggers} and the filters listed on Table~\ref{table:rpvll_filter_selection} in the signal region. The vertex selection is summarized in Table~\ref{table:signal_selection}.
+In addition to the common vertex selection, at least one electron or muon from the vertex is required to match one of the HLTs listed on Table~\ref{table:triggers} and the filters listed on Table~\ref{table:rpvll_filter_selection} in the signal region. The vertex selection is summarized in Table~\ref{table:signal_selection}.
 
 \begin{table}[!htb]
   \centering
@@ -162,17 +162,4 @@ In addition to the common vertex selection, at least one electron or muon from t
   \caption{Event and vertex selections applied to select displaced vertices.}
   \label{table:signal_selection}
 \end{table}
-
-
-
-
-%\begin{itemize}
-%    \item Vertices are required to have $\chi^2 / \mathrm{ DOF} <$ 5 to reject poorly reconstructed vertices.
-%    \item A minimum transverse displacement of 2 mm from the primary vertex is required to suppress background from prompt decays ($r >$ 2 mm).
-%    \item Two tracks from a vertex are required to have opposite charges.
-%    \item Vertices are rejected if they are within the volume of disabled Pixel module ~\cite{Backhaus:2110260}.
-%    \item Hadronic interaction of charged particles with detector material is a major source of backgrounds. Therefore, the vertices are rejected if they are within dense detector material ~\cite{Aaboud:2016poq}. The material veto is not applied to \mumu type vertex due to low chance of muon interaction with detector material.
-%    \item The vertices are required to have $m >$ 10 GeV to suppress backgrounds from long-lived, low mass SM particles such as $J/\Psi$. The vertex mass is calculated by the secondary vertex reconstruction algorithm with the assumption that all tracks have pion mass.
-%    \item Cosmic veto is applied to vertices by requiring $R_{\mathrm{CR}} > 0.04$. The cosmic veto is very effective in rejecting cosmic muons reconstructed as back-to-back muon vertices, and the details are discussed in Section~\ref{sec:cosmic_ray}
-%\end{itemize}
 

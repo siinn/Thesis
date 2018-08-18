@@ -1,7 +1,7 @@
-\chapter{Data and MC samples}
+\chapter{Data and MC Samples}
 \label{chap:data_mc}
 
-\section{Data samples}
+\section{Data Samples}
 \label{sec:data_mc:data}
 
 The analysis uses the 2016 $pp$ collisions data (periods A-L) with the integrated luminosity of 32.8 $\mathrm{fb^{-1}}$. In this search, because the standard ATLAS track reconstruction does not provide good sensitivity for long-lived particles, a dedicated data \textit{stream}, \texttt{DRAW\_RPVLL}, is used to reconstruct events using the non-standard reconstruction as described in Chapter~\ref{chap:reco}. The stream is used in several Exotics and SUSY analyses, searching for long-lived particles. %non-standard reconstruction objects.
@@ -56,10 +56,10 @@ The tag and probe studies of Section~\ref{sec:trigger_efficiency} are performed 
 
 
 
-\section{MC samples}
+\section{MC Samples}
 \label{sec:mc_sample}
 
-\subsection{Signal samples}
+\subsection{Signal Samples}
 \label{sec:signal_sample}
 The long-lived $Z'$ is generated using \pythia 8.1/8.2~\cite{1126-6708-2006-05-026} with the \texttt{NNPDF23LO} PDF set~\cite{Ball:2014uwa} and the min-bias tune \texttt{A14}. In this signal samples, $Z'$ is singly produced from $q\bar{q}$ scattering and decays to a $\mu\mu$, $ee$, or $e\mu$ pair. The proper lifetime, $c\tau$, is set to 100, 250, or 500 mm. The mass of $Z'$ is set between 100 and 1000 GeV. A width based on relativistic Breit-Wigner is assumed for the new resonance. A sample of 20k events are generated for each mass and lifetime. Table~\ref{table:MC_signal_samples} summarizes dataset identifiers (DSID), mass, width, and lifetime of the signal MC samples used in this search.
 
@@ -93,7 +93,7 @@ The long-lived $Z'$ is generated using \pythia 8.1/8.2~\cite{1126-6708-2006-05-0
   \label{table:MC_signal_samples}
 \end{table}
 
-The signal MC samples generated using \pythia are processed to include detector simulation using the AMI tags \texttt{s2698} and \texttt{s2726}. The samples are overlaid with simulated minimum-bias events to model multiple interactions (pile-up) in data samples. In the signal MC samples, the average pile-up, $\langle\mu\rangle$, ranges from 10 to 40 with small number of events having $\langle\mu\rangle$ < 10. The difference in the $\langle\mu\rangle$ distributions between MC and data samples are corrected for by pile-up reweighting. The resulting MC samples are reconstructed using AMI tag \texttt{r8788}.
+The signal MC samples generated using \pythia are processed to include detector simulation using the AMI tags \texttt{s2698} and \texttt{s2726}. The samples are overlaid with simulated minimum-bias events to model multiple interactions (pile-up) in data samples. In the signal MC samples, the average pile-up, denoted as $\langle\mu\rangle$, ranges from 10 to 40 with small number of events having $\langle\mu\rangle$ < 10. The difference in the $\langle\mu\rangle$ distributions between MC and data samples are corrected for by pile-up reweighting. The resulting MC samples are reconstructed using AMI tag \texttt{r8788}.
 
 In the reconstruction process, the LRT and the secondary vertex reconstruction algorithms are used with the same configuration as data samples to reconstruct displaced tracks and vertices. The reconstructed events are stored in \texttt{DAOD\_RPVLL}, and the samples are processed to produce the \texttt{DAOD\_SUSY15} derivation for data reduction and software fixes on analysis objects.
 
@@ -115,7 +115,7 @@ The $\eta$ distribution of signal muons shows that most of the signal muons are 
 \end{figure}
 
 
-\subsection{Background MC samples}
+\subsection{Background MC Samples}
 \label{sec:background_mc_sample}
 In this analysis, backgrounds are estimated from data because most of the backgrounds are expected to originate from non-collision processes such as cosmic rays or random-crossing of tracks. %sources other than the SM collision process 
 

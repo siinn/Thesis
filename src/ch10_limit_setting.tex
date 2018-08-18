@@ -4,10 +4,10 @@
 No events were observed in data that satisfies the signal selection, and the result is consistent with the SM expectations. Therefore, upper limits (ULs) are set on the cross section times branching ratio ($\sigma \times$ BR) for resonances decaying to a dilepton.
 
 \section{Statistical Procedure}
-The limits are calculated using \textit{HistFitter v0.61.0}~\cite{Baak:2014wma}, a statistical tool used for limit settings in ATLAS. The limit setting procedure is based on the modified Frequentist method, \CLs~\cite{OBRAZTSOV1992388,PhysRevD.57.3873}. In this framework, a number of events, $n$, is modeled as a Poisson distribution with the mean $\lambda = \mu_{\mathrm{sig}}\cdot s + b$ where $\mu_{\mathrm{sig}}$ is the signal strength parameter. The systematic uncertainty estimated in Chapter~\ref{chap:syst} is introduced as the nuisance parameter $\theta$ to $s$ and $b$, i.e. $s$ and $b$ become a function of $\theta$. The method uses the LHC default one-sided profile likelihood ratio $q_{\mu_{\mathrm{sig}}}$ as a test statistic,
+The limits are calculated using \textit{HistFitter v0.61.0}~\cite{Baak:2014wma}, a statistical tool used for limit settings in ATLAS. The limit setting procedure is based on the modified Frequentist method, \CLs~\cite{OBRAZTSOV1992388,PhysRevD.57.3873}. In this framework, the number of observed events, $n_{\mathrm{obs}}$, is modeled as a Poisson distribution with the mean $\lambda = \mu_{\mathrm{sig}}\cdot s + b$ where $\mu_{\mathrm{sig}}$ is the signal strength parameter. The systematic uncertainty estimated in Chapter~\ref{chap:syst} is introduced as the nuisance parameter $\theta$ to $s$ and $b$, i.e. $s$ and $b$ become a function of $\theta$. The method uses the LHC default one-sided profile likelihood ratio $q_{\mu_{\mathrm{sig}}}$ as a test statistic,
 
 \begin{equation}
-q_{\mu_{\mathrm{sig}}} = -2 \log \Bigg( \dfrac{L(n_\mathrm{obs}~|~\mu_{n_\mathrm{sig}}, \Hat{\Hat{\theta}})}{L(n_\mathrm{obs}~|~\Hat{\mu}_{\mathrm{sig}}, \Hat{\theta})}\Bigg)
+q_{\mu_{\mathrm{sig}}} = -2 \log \Bigg( \dfrac{L(n_\mathrm{obs}~|~\mu_{\mathrm{sig}}, \Hat{\Hat{\theta}})}{L(n_\mathrm{obs}~|~\Hat{\mu}_{\mathrm{sig}}, \Hat{\theta})}\Bigg)
 \label{eq:test_statistic}
 \end{equation}
 %
@@ -37,9 +37,9 @@ The UL at the 95\% confidence level are obtained by adjusting $\mu_{\mathrm{sig}
 where $\mathcal{L}_{Int.}$ is the integrated luminosity and  $\epsilon$ is the signal efficiency.
 
 \section{Upper limits}
-The observed ULs are evaluated by performing pseudo experiments with an expected background of 0.27$\pm$0.14 events, the systematic uncertainty of 10\%, and the uncertainty of the luminosity measurement of 2.2\%.
+The observed ULs are evaluated by performing pseudo experiments with an expected background of 0.27$\pm$0.14 events from cosmic and random-crossing backgrounds, the systematic uncertainty of 10\% for track and vertex reconstruction, and the uncertainty of the luminosity measurement of 2.2\%.
 
-The observed ULs at 95\% CL on $\sigma \times$ BR for $Z' \rightarrow$ \mumu, \ee, and \emu are shown in Figure~\ref{fig:upper_limits} as a function of $c\tau$. The observed limits are relatively uniform in $c\tau$ for all channels. At $m_{Z'}=$ 1 TeV, the ULs are from 0.5 - 0.9 fb. At $m_{Z'}=$ 100 GeV, the ULs are much larger (50 - 400 pb) than other mass points due to the limited trigger efficiency.
+The observed ULs at 95\% CL on $\sigma \times$ BR for $Z' \rightarrow$ \mumu, \ee, and \emu are shown in Figure~\ref{fig:upper_limits} as a function of $c\tau$. The observed limits increase with $c\tau$ for all channels due to the lower efficiency at long lifetime. At $m_{Z'}=$ 1 TeV, the ULs are 0.7 - 0.9 fb. At $m_{Z'}=$ 100 GeV, the ULs are much larger (20 - 200 pb) due to the limited trigger efficiency.
 
 
 \begin{figure}[!htb]

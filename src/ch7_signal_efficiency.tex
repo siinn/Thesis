@@ -16,11 +16,11 @@ $\varepsilon_{\mathrm{filter}}$ and $\varepsilon_{\mathrm{trigger}}$ together re
 
 In order to understand the source of signal efficiency loss, the trigger efficiency is studied in Section~\ref{sec:trigger_efficiency}, and the tracking and lepton identification efficiencies are studied in Section~\ref{sec:tracking_efficiency}. In Section~\ref{sec:combined_reco_efficiency}, the overall reconstruction efficiency, also referred as signal efficiency, of the $Z'$ signal model after the full analysis selection is presented. 
 
-\section{Trigger efficiency}
+\section{Trigger Efficiency}
 \label{sec:trigger_efficiency}
-The trigger efficiency is defined as the ratio of the events passing one of the triggers used in this analysis to the total events generated. In this analysis, three triggers listed on Table~\ref{table:triggers} are used to select the events with displaced dilepton vertex candidates. The single muon trigger is sensitive to the events with a \mumu or \emu vertex. The di-photon trigger is mainly used to select the events with an \ee vertex, but a small number of events with an \emu vertex pass this trigger. The single photon trigger is sensitive to events with \ee or \emu vertex, but its efficiency is relatively low in comparison with the other two triggers.
+The HLT efficiency is defined as the ratio of the events passing one of the triggers used in this analysis to the total events generated. In this analysis, three triggers listed on Table~\ref{table:triggers} are used to select the events with displaced dilepton vertex candidates. The single muon trigger is sensitive to the events with a \mumu or \emu vertex. The di-photon trigger is mainly used to select the events with an \ee vertex, but a small number of events with an \emu vertex pass this trigger. The single photon trigger is sensitive to events with \ee or \emu vertex, but its efficiency is relatively low in comparison with the other two triggers.
 
-To illustrate the impact of the trigger efficiencies on the signal samples, the efficiency of each trigger and the combined trigger efficiency is shown in Figure~\ref{fig:m_trig_eff_allchannel} using the signal MC samples of $Z'$ decaying to all three channels at $m = $ 250 GeV and $c\tau=$ 250 mm. The sample with \ee channel shows the highest combined trigger efficiency due to the high efficiency in di-photon trigger, and the sample with \emu channel shows the reduced combined trigger efficiency because \emu vertices have only one track that can satisfy either the single muon or photon trigger.
+To illustrate the impact of the trigger efficiencies on the signal samples, the efficiency of each trigger and the combined trigger efficiency is shown in Fig.~\ref{fig:m_trig_eff_allchannel} using the signal MC samples of $Z'$ decaying to all three channels at $m = $ 250 GeV and $c\tau=$ 250 mm. The sample with \ee channel shows the highest combined trigger efficiency due to the high efficiency in di-photon trigger, and the sample with \emu channel shows the reduced combined trigger efficiency because \emu vertices have only one track that can satisfy either the single muon or photon trigger.
 
 \begin{figure}[!htb]
 	\includegraphics[width=0.60\textwidth]{figures/m_dv_eff_trig_allchannel.pdf}
@@ -37,11 +37,11 @@ The trigger study indicates that there is a substantial loss in the signal effic
 \subsection{Trigger Scale Factors}
 \label{sec:syst:trigger}
 
-The performance of triggers may be different in data and MC simulations. Therefore, trigger scale factors are usually measured with tag-and-probe studies on $Z$+jet and applied to efficiency calculation, where most leptons have small impact parameters. However, because the leptons originating from displaced vertices tend to have large impact parameters, the standard scale factors on triggers provided by the performance groups cannot be applied. In the following, the scale factors on the lepton triggers are estimated using tag-and-probe method on the data and $Z$+jets MC samples. 
+The triggers may not be well simulated by the MC. Therefore, the trigger efficiency is estimated directly from the data using the \textit{tag--and--probe} method with $Z$+jet events. The estimated efficiency is compared with the trigger efficiency from the MC samples obtained using the same method. 
 
-The estimated scale factors are valid only if the trigger efficiencies do not depend on impact parameters or if this dependence is modelled reasonable well in simulations. Therefore, the efficiencies of the single photon and single muon triggers listed on Table~\ref{table:triggers} are estimated using the signal MC samples as a function of impact parameters \dzero and \zzero in Figure~\ref{fig:signal_TrigEff}.
+The tag--and--probe method uses $Z$ to two leptons (\ee and \mumu) final states, identified with one lepton passing tight requirement (\textit{tag}) and the other lepton passing loose requirement (\textit{probe}). The two-lepton invariant mass must be consistent with the $Z$ mass. The tag must satisfy the trigger requirement so that the fraction of the probes that satisfies the trigger requirement of interest is then the trigger efficiency.
 
-The plots show that the photon trigger efficiency is uniform up to $|\dzero| <$ 200 mm and $|\dzero| <$ 300 mm. The muon trigger efficiency starts to decrease for large impact parameters, $|\dzero| \sim120~\si{\mm}$ and $|\zzero| \sim200~\si{\mm}$. However, the decreasing muon efficiency at very large impact parameters is neglected since the fraction of reconstructed muons with such large impact parameters is less than 10\% at the lifetime of $c\tau=100~\si{\mm}$.
+Since the standard tag-and-probe method uses prompt $Z$+jet events, i.e. $Z$ decays at small impact parameters, this method can be used only if the trigger efficiency does not depend on the impact parameters. Figure~\ref{fig:signal_TrigEff} shows that both the photon and muon triggers have small dependence on the impact parameters since both triggers do not rely on inner detector information. The photon trigger efficiency is uniform up to $|\dzero| <$ 200 mm and $|\zzero| <$ 300 mm. The muon trigger efficiency starts to decrease for large impact parameters, $|\dzero| \sim120~\si{\mm}$ and $|\zzero| \sim200~\si{\mm}$. However, the decreasing muon efficiency at very large impact parameters is neglected since the fraction of reconstructed muons with such large impact parameters is less than 10\% at the lifetime of $c\tau=100~\si{\mm}$.
 
 
 \begin{figure}[!htp]
@@ -56,10 +56,10 @@ The plots show that the photon trigger efficiency is uniform up to $|\dzero| <$ 
 
 
 
-\subsubsection{Photon triggers}
+\subsubsection{Photon Triggers}
 \label{subsect:photonTrigEff}
 
-The scale factors of the single photon and the di-photon triggers are estimated with a standard tag and probe method on $Z\rightarrow ee$ events both in data and MC samples. The di-photon trigger (\texttt{HLT\_2g50\_loose}) is studied using the single photon trigger (\texttt{HLT\_g50\_loose}) with the same $p_{T}$ threshold. The selection criteria of electron tag-and-probe candidates are listed in Table~\ref{tab:ZeeSelection}. In addition, pairs are required to have opposite signs and to satisfy the mass requirement ($|m_{e^{+}e^{-}} - m_{Z}| < 10~\si{\GeV}$) and the isolation requirement of $\DeltaR(\mathrm{tag}, \mathrm{probe}) > 0.4$. 
+The scale factors of the single photon and the di-photon triggers are estimated with a standard tag and probe method on $Z\rightarrow ee$ events by comparing the efficiency in data and MC samples. The di-photon trigger (\texttt{HLT\_2g50\_loose}) is studied using the single photon trigger (\texttt{HLT\_g50\_loose}) with the same $p_{T}$ threshold. The selection criteria of electron tag--and--probe candidates are listed in Table~\ref{tab:ZeeSelection}. In addition, pairs are required to have opposite signs and to satisfy the mass requirement ($|m_{e^{+}e^{-}} - m_{Z}| < 10~\si{\GeV}$) and the isolation requirement of $\DeltaR(\mathrm{tag}, \mathrm{probe}) > 0.4$. 
 
 \begin{table}[!htb]
 	\centering
@@ -78,11 +78,11 @@ The scale factors of the single photon and the di-photon triggers are estimated 
 		\hline
 		\hline
 	\end{tabular}
-	\caption{Selection criteria for tag-and-probe electrons in $Z$+jets studies.}
+	\caption{Selection criteria for tag--and--probe electrons in $Z$+jets studies.}
 	\label{tab:ZeeSelection}
 \end{table}
 
-The invariant mass distributions of the tag-and-probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:PhotonTrigMass}. It is evident that the background is negligible, and the shapes of distributions are in good agreement with data and MC. Therefore, no background subtraction is performed in the calculation of the trigger efficiencies, 
+The invariant mass distributions of the tag--and--probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:PhotonTrigMass}. It is evident that the background is negligible, and the shapes of distributions are in good agreement with data and MC. Therefore, no background subtraction is performed in the calculation of the trigger efficiencies, 
 
 \begin{equation}
 	\label{eq:TrigEff}
@@ -93,12 +93,12 @@ The invariant mass distributions of the tag-and-probe pairs found in the data an
     \centering
     \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/diph_mass.pdf}}
     \subfloat[]{\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/siph_mass.pdf}}
-    \caption{Invariant mass distributions of the tag-and-probe electron pairs used to study the efficiencies of the (a) \texttt{HLT\_g50\_loose} and (b) \texttt{HLT\_g140\_loose} trigger in the data and $Z$+jets MC samples. Only the pairs with a probe electron in the plateau region of Figure~\ref{fig:PhotonTrigEff:di_pt} and~\ref{fig:PhotonTrigEff:si_pt} are used in the tag-and-probe method.
+    \caption{Invariant mass distributions of the tag--and--probe electron pairs used to study the efficiencies of the (a) \texttt{HLT\_g50\_loose} and (b) \texttt{HLT\_g140\_loose} trigger in the data and $Z$+jets MC samples. The vertical lines indicate the mass window of the $Z$ candidates.
     }
     \label{fig:PhotonTrigMass}
 \end{figure}
 
-The selected tag-and-probe electrons are used to estimate the efficiencies of photon triggers, shown as a function of probe $p_{T}$, $\eta$, and $|\zzero|$ in Figure~\ref{fig:PhotonTrigEff}. The efficiency in $p_{T}$ shows that the \texttt{HLT\_g50\_loose} plateau starts at $55~\si{\GeV}$, and \texttt{HLT\_g140\_loose} plateau starts at $148~\si{\GeV}$, and the electrons in this plateau region are used in the rest of Fig.~\ref{fig:PhotonTrigEff}. The efficiency in $\eta$ shows good agreement between data and MC for electrons reconstructed inside the barrel, whereas a small discrepancy in efficiency is shown for electrons at the boundary regions and in the end-cap regions. Also, the efficiency in $|\zzero|$ shows no dependence of the photon trigger efficiencies on $|\zzero|$.
+The selected tag--and--probe electrons are used to estimate the efficiencies of photon triggers, shown as a function of probe $p_{T}$, $\eta$, and $|\zzero|$ in Figure~\ref{fig:PhotonTrigEff}. The efficiency in $p_{T}$ shows that the \texttt{HLT\_g50\_loose} plateau starts at $55~\si{\GeV}$, and \texttt{HLT\_g140\_loose} plateau starts at $148~\si{\GeV}$, and the electrons in this plateau region are used to estimate the trigger efficieny in Fig.~\ref{fig:PhotonTrigEff}(c-f). The efficiency in $\eta$ shows good agreement between data and MC for electrons reconstructed inside the barrel, whereas a small discrepancy in efficiency is shown for electrons at the boundary regions and in the end-cap regions. Also, the efficiency in $|\zzero|$ shows no dependence of the photon trigger efficiencies on $|\zzero|$.
 
 The ratio of the efficiency from data to MC, binned in $\eta$, is taken as a scale factor and applied to the efficiency calculation.
 
@@ -112,7 +112,7 @@ The ratio of the efficiency from data to MC, binned in $\eta$, is taken as a sca
     \subfloat[]{\label{fig:PhotonTrigEff:si_eta}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/siph_eff_eta.pdf}} \\
     \subfloat[]{\label{fig:PhotonTrigEff:di_z0}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/diph_eff_z0.pdf}}
     \subfloat[]{\label{fig:PhotonTrigEff:si_z0}\includegraphics[width = 0.44 \textwidth]{figures/PhotonTrigEff/siph_eff_z0.pdf}}
-    \caption{Efficiency of the \texttt{HLT\_g50\_loose} as a function of the (a) $p_{T}$, (c) $\eta$, and (e) $|\zzero|$ of the probe in the data and $Z$+jets MC samples. The corresponding plots of the \texttt{HLT\_g140\_loose} trigger are shown in (b), (d), and (f). Only the pairs with a probe electron in the plateau region of (a) and (b) are used in (c) - (f).
+    \caption{Efficiency of the \texttt{HLT\_g50\_loose} as a function of the (a) $p_{T}$, (c) $\eta$, and (e) $|\zzero|$ of the probe in the data and $Z$+jets MC samples. The corresponding plots of the \texttt{HLT\_g140\_loose} trigger are shown in (b), (d), and (f).
     }
     \label{fig:PhotonTrigEff}
 \end{figure}
@@ -120,10 +120,10 @@ The ratio of the efficiency from data to MC, binned in $\eta$, is taken as a sca
 
 
 
-\subsubsection{Muon trigger}
+\subsubsection{Muon Trigger}
 \label{subsect:muonTrigEff}
 
-The scale factor of the single muon trigger is estimated with a standard tag-and-probe method on $Z \rightarrow \mu\mu$ events both in data and MC. The selection criteria of muon tag-and-probe candidates are listed in Table~\ref{tab:ZmmSelection}. Similar to the photon triggers, pairs are required to have opposite signs and to satisfy the mass requirement ($|m_{e^{+}e^{-}} - m_{Z}| < 10~\si{\GeV}$) and the isolation requirement of $\DeltaR(\mathrm{tag}, \mathrm{probe}) > 0.4$. 
+The scale factor of the single muon trigger is estimated with a standard tag--and--probe method on $Z \rightarrow \mu\mu$ events by comparing the efficiency in data and MC. The selection criteria of muon tag--and--probe candidates are listed in Table~\ref{tab:ZmmSelection}. Similar to the photon triggers, pairs are required to have opposite signs and to satisfy the mass requirement ($|m_{e^{+}e^{-}} - m_{Z}| < 10~\si{\GeV}$) and the isolation requirement of $\DeltaR(\mathrm{tag}, \mathrm{probe}) > 0.4$. 
 
 \begin{table}[!htb]
 	\centering
@@ -138,25 +138,25 @@ The scale factor of the single muon trigger is estimated with a standard tag-and
 		Identification      & Medium                            & Loose and combined        \\
 		Isolation           & Loose                             & -                         \\
 		\dzero significance & $< 3$                             & -                         \\
-		$\Delta \zzero \sin{\theta}$ & $< 0.5~\si{\mm}$         & -                         \\
+		$|\Delta \zzero \sin{\theta}|$ & $< 0.5~\si{\mm}$       & -                         \\
 		\hline
 		\hline
 	\end{tabular}
-	\caption{Selection criteria for tag-and-probe muons.}
+	\caption{Selection criteria for tag--and--probe muons.}
 	\label{tab:ZmmSelection}
 \end{table}
 
-The invariant mass distributions of the muon tag-and-probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:MuonTrigMass}. It is evident that the background is negligible and therefore not corrected for the calculation of the trigger efficiency.
+The invariant mass distributions of the muon tag--and--probe pairs found in the data and the MC samples are shown in Figure~\ref{fig:MuonTrigMass}. It is evident that the background is negligible and therefore not corrected in calculating the trigger efficiency.
 
 \begin{figure}[!htb]
     \centering
     \subfloat{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/mass.pdf}}
-    \caption{Invariant mass distributions of the tag-and-probe muon pairs used to study the efficiencies of the single muon trigger in the data and $Z$+jets MC samples. Only the pairs with a probe muon in the plateau region of Figure~\ref{fig:MuonTrigEff1Da} are used in the tag-and-probe method.
+    \caption{Invariant mass distributions of the tag--and--probe muon pairs used to study the efficiencies of the single muon trigger in the data and $Z$+jets MC samples. The vertical lines indicate the mass window of the $Z$ candidates.
     }
     \label{fig:MuonTrigMass}
 \end{figure}
 
-The selected tag-and-probe muons are used to estimate the efficiency of the single muon trigger, shown as a function of probe $p_{T}$ and $|\zzero|$ in Figure~\ref{fig:MuonTrigEff1D}. The efficiency in $p_{T}$ shows that the efficiency plateau starts at $62~\si{\GeV}$. The efficiency is uniform up to $|\zzero|\sim$ 150 mm. In Figure~\ref{fig:MuonTrigEff2D}, the muons in this plateau region ($p_{T} > 62$) are used to compare the efficiency in data and MC. It is evident that efficiency depends on both $\phi$ and $\eta$. 
+The selected tag--and--probe muons are used to estimate the efficiency of the single muon trigger, shown as a function of probe $p_{T}$ and $|\zzero|$ in Figure~\ref{fig:MuonTrigEff1D}. The efficiency in $p_{T}$ shows that the efficiency plateau starts at $62~\si{\GeV}$. The efficiency is uniform up to $|\zzero|\sim$ 150 mm. In Figure~\ref{fig:MuonTrigEff2D}, the muons in this plateau region are used to compare the efficiency in data and MC. It is evident that efficiency depends on both $\phi$ and $\eta$. 
 
 The ratio of the efficiency from data to MC, binned in $\phi$ and $\eta$, is taken as a scale factor and applied to the efficiency calculation.
 
@@ -165,7 +165,8 @@ The ratio of the efficiency from data to MC, binned in $\phi$ and $\eta$, is tak
     \centering
     \subfloat[\label{fig:MuonTrigEff1Da}]{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/simu_pt.pdf}}
     \subfloat[\label{fig:MuonTrigEff1Db}]{\includegraphics[width = 0.44 \textwidth]{figures/MuonTrigEff/simu_z0.pdf}}
-    \caption{Efficiency of the single muon trigger as a function of the (a) $p_{T}$ and (b) |\zzero| of the probe in the data and $Z$+jets MC samples. Only the muons in the plateau region ($p_{T} > 62$ GeV) of (a) are used in (b).}
+    \caption{Efficiency of the single muon trigger as a function of the (a) $p_{T}$ and (b) |\zzero| of the probe in the data and $Z$+jets MC samples.
+    }
     \label{fig:MuonTrigEff1D}
 \end{figure}
 
@@ -178,15 +179,15 @@ The ratio of the efficiency from data to MC, binned in $\phi$ and $\eta$, is tak
     \label{fig:MuonTrigEff2D}
 \end{figure}
 
-\subsection{Summary on trigger study}
-The trigger studies show that the triggers have no dependence on the impact parameters up to $d_{0}\sim$120 and $z_{0}\sim$200 mm (Fig.~\ref{fig:signal_TrigEff}). Using the tag-and-probe method, scale factors are obtained, and the total scale factors are summarized in Table~\ref{table:trigger_scale_factor}.
+\subsection{Summary on Trigger Study}
+The trigger studies show that the triggers have no dependence on the impact parameters up to $|d_{0}|\sim$120 and $|z_{0}|\sim$200 mm (Fig.~\ref{fig:signal_TrigEff}). Using the tag--and--probe method, scale factors are obtained, and the scale factors are summarized in Table~\ref{table:trigger_scale_factor}.
 
 \begin{table}[!htb]
 	\centering
 	\begin{tabular}{cc}
 		\hline
 		\hline
-		Trigger                                     & Total scale factor \\
+		Trigger                                     & Scale factor \\
 		\hline
         \texttt{HLT\_g140\_loose}                   & 0.988 \\
         \texttt{HLT\_g50\_loose}                    & 0.980 \\
@@ -194,13 +195,13 @@ The trigger studies show that the triggers have no dependence on the impact para
 		\hline
 		\hline
 	\end{tabular}
-	\caption{Total trigger scale factors from the tag-and-probe method.}
+	\caption{Trigger scale factors from the tag--and--probe method.}
 	\label{table:trigger_scale_factor}
 \end{table}
-These scale factors are binned in $\eta$ for the photon triggers and are binned in both $\eta$ and $\phi$ for the muon trigger to correct signal efficiency. The overall trigger efficiency depends on the mass of $Z'$, 24-58\% for $\mu\mu$, 38-93\% for $ee$, and 17-88\% for $e\mu$ at $m\geq$ 250 GeV, and the trigger efficiency is much reduced for lower mass due to the $p_{T}$ threshold of the triggers.
+These scale factors are binned in $\eta$ for the photon triggers and are binned in both $\eta$ and $\phi$ for the muon trigger to correct the signal efficiency. The overall trigger efficiency depends on the mass of $Z'$, 24-58\% for $\mu\mu$, 38-93\% for $ee$, and 17-88\% for $e\mu$ at $m > $ 250 GeV, and the trigger efficiency is much reduced for lower mass due to the $p_{T}$ threshold of the triggers.
 
 
-\section{Lepton reconstruction efficiency}
+\section{Lepton Reconstruction Efficiency}
 \label{sec:tracking_efficiency}
 The tracking efficiency, $\varepsilon_{\mathrm{track}}$, and the lepton identification efficiency, $\varepsilon_{\mathrm{lepton}}$, are studied together as a lepton reconstruction efficiency. The lepton reconstruction efficiency is defined and estimated as follows. From a signal MC sample, the leptons decaying from $Z'$ are collected at generator-level, referred as \textit{truth} signal leptons. For each truth signal lepton, if there is a reconstructed lepton with its ID track matched to the ID track of the truth signal lepton by a hit-based truth matching scheme, it is marked as reconstructed. The ratio of reconstructed signal leptons to the total number of signal leptons produced in the sample is taken as the lepton reconstruction efficiency. No \texttt{RPVLL} or trigger filter is applied in estimating the lepton reconstruction efficiency.
 
@@ -220,13 +221,13 @@ It is evident that the efficiency decreases drastically at $|\eta| > 2.0$ where 
 
 The lepton reconstruction efficiency decreases for large $d_{0}$ and $z_{0}$. In the signal MC samples, most of the $Z'$ decay within the Pixel barrel region, $r < $ 122.5 mm and $|z| < $ 400.5 mm, where the lepton reconstruction efficiency is high.
 
-\section{Overall reconstruction efficiency}
+\section{Overall Reconstruction Efficiency}
 \label{sec:combined_reco_efficiency}
 The overall reconstruction efficiency represents the signal efficiency defined in Eq.~\ref{eq:OverallEff}, i.e. the ratio of $Z'$s reconstructed as displaced vertices in the signal region to the total $Z'$ produced in the sample. In this section, the signal selection cut flows (Section~\ref{sec:signal_cutflow}), the signal efficiency, and the efficiency distributions (Section~\ref{sec:efficiency}) are presented. In Section~\ref{sec:efficiency_map}, efficiency maps of the signal samples are presented as a function of $p_{T}$ and $|\eta|$ of $Z'$.
 
-\subsection{Event and vertex cut flow}
+\subsection{Event and Vertex Cut Flow}
 \label{sec:signal_cutflow}
-The signal MC samples are processed as described in Section~\ref{sec:selection:pre}, in which long-lived $Z'$s are reconstructed as secondary vertices. The event and the vertex selections (Table~\ref{table:signal_selection}) are applied to the processed samples, and representative plots of the event vertex cut flow are shown in Figure~\ref{fig:signal_cutflow_MC_mumu} using the signal MC samples of $Z'$ decaying to \mumu generated with $m=$ 250, 1000 GeV for $c\tau=$ 100 mm.
+The signal MC samples are processed as described in Section~\ref{sec:selection:pre}, in which long-lived $Z'$s are reconstructed as secondary vertices. The event and the vertex selections (Table~\ref{table:signal_selection}) are applied to the processed samples, and representative plots of the event vertex cut flow are shown in Fig.~\ref{fig:signal_cutflow_MC_mumu} using the signal MC samples of $Z'$ decaying to \mumu generated with $m=$ 250, 1000 GeV for $c\tau=$ 100 mm.
 
 \begin{figure}[!htb]
     \centering
@@ -251,7 +252,7 @@ Events and vertex cut flow of other signal samples are shown in Tables~\ref{tabl
     $m_{Z'}$ (GeV) & $c\tau$ (mm)   & \rot{All events} 
                                     & \rot{Trigger filter} 
                                     & \rot{Cosmic veto} 
-                                    & \rot{$z_{PV}<200$ mm} 
+                                    & \rot{$|z_{PV}|<200$ mm} 
                                     & \rot{Vertex} 
                                     & \rot{$N_{\mu} \geq 2$ }
                                     & \rot{Muon selection} 
@@ -302,7 +303,7 @@ Events and vertex cut flow of other signal samples are shown in Tables~\ref{tabl
     $m_{Z'}$ (GeV) & $c\tau$ (mm)   & \rot{All events} 
                                     & \rot{Trigger filter} 
                                     & \rot{Cosmic veto} 
-                                    & \rot{$z_{PV}<200$ mm} 
+                                    & \rot{$|z_{PV}|<200$ mm} 
                                     & \rot{Vertex} 
                                     & \rot{$N_{e} \geq 2$ }
                                     & \rot{Electron selection} 
@@ -355,7 +356,7 @@ Events and vertex cut flow of other signal samples are shown in Tables~\ref{tabl
     $m_{Z'}$ (GeV) & $c\tau$ (mm)   & \rot{All events} 
                                     & \rot{Trigger filter} 
                                     & \rot{Cosmic veto} 
-                                    & \rot{$z_{PV} < 200$ mm} 
+                                    & \rot{$|z_{PV}| < 200$ mm} 
                                     & \rot{Vertex} 
                                     & \rot{$N_{\ell} \geq 2$ }
                                     & \rot{Electron selection} 
@@ -400,7 +401,7 @@ Events and vertex cut flow of other signal samples are shown in Tables~\ref{tabl
 
 
 
-\subsection{Signal efficiency and distribution}
+\subsection{Signal Efficiency and Distribution}
 \label{sec:efficiency}
 
 The signal efficiency is studied by examining the efficiency distributions in the transverse ($r$), longitudinal ($z$) vertex position, and the $\eta$ and $\phi$ distributions of the signal vertices. The representative efficiency distributions are shown in Figure~\ref{fig:signal_vertex_dist} using the signal MC samples generated with $m =$ 500, 1000 GeV for $c\tau=$ 100 mm.
@@ -418,7 +419,7 @@ The signal efficiency is studied by examining the efficiency distributions in th
 
 The signal efficiency shows a dependence on vertex position which decreases at large $r$ and $z$ due to the minimum silicon hits requirement on tracks. The first (central) bins in $r$ ($z$) distributions have lower efficiency due to the minimum displacement requirement ($r_{\mathrm{DV}} > $ 2 mm) on secondary vertices. The $\eta$ distribution has an uniform efficiency of $\sim25\%$ for $|\eta|<$ 2.5. The $\phi$ distribution is uniform as expected. The pile-up distribution of the signal efficiency shows that the efficiency is reduced for high pile-up as expected.
 
-The overall signal efficiency for the signal samples are shown in Table~\ref{table:signal_eff}. The signal efficiency is 14.9-33.3\% for mass above 500 GeV, but the efficiency is reduced for lower $Z'$ mass due to minimum $p_{T}$ thresholds on the leptons, especially for the samples with $m_{Z'}=100~\si{\GeV}$. The samples with shorter lifetime tend to have higher signal efficiency as expected. 
+The overall signal efficiency for the signal samples are shown in Table~\ref{table:signal_eff}. The signal efficiency is 6.0-12.2\% for mass above 500 GeV, but the efficiency is reduced for lower $Z'$ mass due to minimum $p_{T}$ thresholds on the leptons, especially for the samples with $m_{Z'}=100~\si{\GeV}$. The samples with shorter lifetime tend to have higher signal efficiency as expected. 
 
 \begin{table}[!htb]
   \centering
@@ -452,9 +453,9 @@ The overall signal efficiency for the signal samples are shown in Table~\ref{tab
 
 
 
-\subsection{Efficiency map}
+\subsection{Efficiency Map}
 \label{sec:efficiency_map}
-Signal efficiency for each mass and lifetime of long-lived $Z'$ sample is presented as a function of $p_{T}$ and $|\eta|$ of $Z'$. Because any neutral, LLP decaying to a dilepton pair can be described by mass, lifetime, $p_{T}$, and $\eta$ of the LLP, these efficiency maps can be used for other BSM searches such as searching for long-lived neutralino in the context of SUSY R-parity violating theory.
+Signal efficiency for each mass and lifetime of long-lived $Z'$ sample is presented as a function of $p_{T}$ and $|\eta|$ of $Z'$. Because any neutral, LLP decaying to a dilepton pair can be characterized by mass, lifetime, $p_{T}$, and $\eta$ of the LLP, these efficiency maps can be used for other BSM searches such as searching for long-lived neutralino in the context of SUSY R-parity violating theory.
 
 Representative efficiency maps are shown in Figure~\ref{fig:signal_eff_map} using the signal MC samples of $Z' \rightarrow \mu\mu, ee, e\mu$ with $m=$ 500, 1000 GeV and $c\tau=$ 100 mm. The overall signal efficiency is $\sim$10\%, but the efficiencies in the central region ($|\eta| < $ 2.5) are much higher. Efficiency maps of other signal samples are available in Appendix~\ref{app:signal_efficiency_map}.
 

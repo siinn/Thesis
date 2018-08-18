@@ -10,7 +10,7 @@ The systematic uncertainty in track and vertex reconstruction is studied using \
 \section{Systematic Uncertainty in Track and Vertex Reconstruction}
 \label{sec:syst:vertexing}
 
-In a typical analysis, the systematic uncertainty in track and vertex reconstruction is estimated by the Inner Tracking Combined Performance group using the standard tracking setup. This result cannot be directly used for this analysis due to the special reconstruction setup described in Chapter~\ref{chap:reco}. Instead, the systematic uncertainty in track and vertex reconstruction is estimated by comparing vertex yields between the data and the MC samples using the process, $K_{S}\rightarrow\pi^{+}\pi^{-}$. This process allows the comparison of the efficiencies between data and MC samples to the long lifetime ($c\tau \sim26.8~\si{\mm}$). However, there are intrinsic differences between \Ks and signal long-lived particles such as mass and $p_{T}$. In order to understand the validity and the limitation of this method, the kinematic distributions of \Ks and $Z'$ candidates are compared in Appendix~\ref{app:syst_Ks_Zp}.
+In a typical analysis, the systematic uncertainty in track and vertex reconstruction is estimated by the Inner Tracking Combined Performance group. This result cannot be directly used for this analysis due to the special reconstruction setup described in Chapter~\ref{chap:reco}. Instead, the systematic uncertainty in track and vertex reconstruction is estimated by comparing vertex yields between the data and the MC samples using the process, $K_{S}\rightarrow\pi^{+}\pi^{-}$. This process allows the comparison of the efficiencies between data and MC samples to long lifetime ($c\tau \sim26.8~\si{\mm}$). However, there are intrinsic differences between \Ks and signal long-lived particles such as mass and $p_{T}$. In order to understand the validity and the limitation of this method, the kinematic distributions of \Ks and $Z'$ candidates are compared in Appendix~\ref{app:syst_Ks_Zp}.
 
 Tracks originating from a \Ks decay can be reconstructed by either the standard tracking (ST) or the LRT algorithm, resulting in three categories of \Ks vertices: vertices with two \textit{standard tracks}, one standard track and one \textit{large-radius track}, and two large-radius tracks. \Ks vertex yields in each category can be expressed by total \Ks produced in a sample and tracking and vertexing efficiency,
 
@@ -21,16 +21,9 @@ Tracks originating from a \Ks decay can be reconstructed by either the standard 
 \label{eq:Ks_eq1}
 \end{align}
 %
-where $N$ represents vertex yields in each category. $\epsilon_{\mathrm{ST~Track}}$ and $\epsilon_{\mathrm{LRT~Track}}$ represent track reconstruction efficiency in the ST and the LRT, respectively. $\epsilon_{\mathrm{ST~Vertex}}$, $\epsilon_{\mathrm{ST+LRT~Vertex}}$, and $\epsilon_{\mathrm{LRT~Vertex}}$ represent two-track vertex reconstruction efficiency on two standard, two large-radius, or one standard and one large-radius tracks.
+where $N$ represents vertex yields in each category. $\epsilon_{\mathrm{ST~Track}}$ and $\epsilon_{\mathrm{LRT~Track}}$ represent track reconstruction efficiency in the ST and the LRT, respectively. $\epsilon_{\mathrm{ST~Vertex}}$, $\epsilon_{\mathrm{LRT~Vertex}}$, and $\epsilon_{\mathrm{ST+LRT~Vertex}}$ represent two-track vertex reconstruction efficiency on two standard, two large-radius, or one standard and one large-radius tracks.
 
-In order to compare the efficiency between data and MC samples, the \Ks yields of LRT type in data is normalized to the MC for \Ks found with the ST,
-
-\begin{equation}
-\mathrm{Normalized~data~to~MC} = \dfrac{N_{\mathrm{LRT}} \cdot \Big(N_{\mathrm{ST}}^{\mathrm{MC}} / N_{\mathrm{ST}}\Big)}{N_{\mathrm{LRT}}^{\mathrm{MC}}},
-\label{eq:Ks_eq2}
-\end{equation}
-%
-where quantities estimated using MC samples are denoted by MC, and quantities estimated using data are denoted otherwise. Using Eqs.~\ref{eq:Ks_eq1}$-$~\ref{eq:Ks_eq2}, the systematic uncertainty in track and vertex reconstruction is expressed as,
+In order to compare the efficiency between data and MC samples, the \Ks yields of LRT type in data is normalized to the MC for \Ks found with the ST. Using Eq.~\ref{eq:Ks_eq1}, the systematic uncertainty in track and vertex reconstruction is expressed as,
 
 %\begin{align}
 %    \dfrac{\dfrac{N_{LRT}}{N_{ST}}}{\dfrac{N'_{LRT}}{N'_{ST}}}  &= 
@@ -82,7 +75,7 @@ for background reduction, additional vertex cuts motivated by Ref.~\cite{Oh:1951
 %	\label{fig:Ks_vertex_cutflow}
 %\end{figure}
 
-After applying the event and \Ks vertex selection, the \Ks vertex distributions in the data and MC samples are compared in Figure~\ref{fig:Ks_data_MC}. The data sample is normalized to the MC samples which have limited statistics. Only \Ks vertices with two large-radius tracks are shown. The distributions show good agreement in the invariant mass, $p_{T}$, transverse and longitudinal position, and decay length of the vertices, except the pile-up distribution as expected.
+After applying the event and \Ks vertex selection, the \Ks vertex distributions in the data and MC samples are compared in Figure~\ref{fig:Ks_data_MC}. The data sample is normalized to the MC samples which have limited statistics. The distributions show good agreement in the invariant mass, $p_{T}$, transverse and longitudinal position, and decay length of the vertices, except the pile-up distribution as expected.
 
 
 \begin{figure}[!htb]
@@ -93,11 +86,11 @@ After applying the event and \Ks vertex selection, the \Ks vertex distributions 
     \subfloat[]{\label{subfig:Ks_r}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_r.pdf}}  \\
     \subfloat[]{\label{subfig:Ks_z}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_z.pdf}} 
     \subfloat[]{\label{subfig:Ks_l}\includegraphics[width=0.45\textwidth]{figures/m_syst_Ks_l.pdf}} \\
-    \caption{Comparison of the (a) invariant mass, (b) $p_{T}$, (c) $\mu$, (d) transverse, (e) longitudinal position, and (f) decay length of \Ks vertex with two large-radius tracks in the data with the MC samples. Data is normalized to MC. In (d), the red dashed lines indicate the four pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm). MC sample is reweighted to the pile-up distribution in the data.}
+    \caption{Comparison of the (a) invariant mass, (b) $p_{T}$, (c) $\mu$, (d) transverse, (e) longitudinal position, and (f) decay length of \Ks vertex in the data with the MC samples. Data is normalized to MC. In (d), the red dashed lines indicate the four pixel layers and the first layer of SCT. The green dotted lines indicate the Inner Support Tube (45.5 mm) and Pixel Support Tube (229 mm). MC sample is reweighted to the pile-up distribution in the data.}
     \label{fig:Ks_data_MC}
 \end{figure}
 
-\Ks vertices found in the data and the MC samples are binned in decay radius, $r$, and the \Ks yields in each bin are estimated after subtracting the background contributions using side-bands (350 - 450, 550 - 650 GeV) in the invariant mass distribution. Figure~\ref{fig:Ks_mass} shows the mass distribution of \Ks vertex with two large-radius tracks from the data and the MC samples. The figure shows that backgrounds are small and uniform in the mass window, and the mass distributions are in good agreement between the data and the MC samples.
+\Ks vertices found in the data and the MC samples are binned in decay radius, $r$, and the \Ks yields in each bin are estimated after subtracting the background contributions using side-bands (350 - 450, 550 - 650 MeV) in the invariant mass distribution. Figure~\ref{fig:Ks_mass} shows the mass distribution of \Ks vertex with two large-radius tracks from the data and the MC samples. The figure shows that backgrounds are small and uniform in the mass window, and the mass distributions are in good agreement between the data and the MC samples.
 
 %\begin{figure}[tb]
 \begin{figure}[!htb]
@@ -111,7 +104,8 @@ After applying the event and \Ks vertex selection, the \Ks vertex distributions 
     \label{fig:Ks_mass}
 \end{figure}
 
-The \Ks yields with two large-radius tracks are compared between data and MC samples in Figure~\ref{fig:Ks_double_ratio}, where the data is normalized by a factor of $N_{\mathrm{ST}} / N_{\mathrm{ST}}^{\mathrm{MC}}$, integrated over $r$. The ratio between two, representing the double ratio (Eq.~\ref{eq:Ks_eq2}), is shown in the lower pane.
+The \Ks yields with two large-radius tracks are compared between data and MC samples in Figure~\ref{fig:Ks_double_ratio} using the normalization fraction described above. The ratio between the normalized data and MC is shown in the lower pane.
+%, where the total number of \Ks found with two standard tracks has been normalized to the corresponding number in the MC and the same normalization factor ($N_{\mathrm{ST}} / N_{\mathrm{ST}}^{\mathrm{MC}}$) is used for the \Ks yield found with two large-radius tracks in the data.
 
 \begin{figure}[!htb]
 	\includegraphics[width=0.70\textwidth]{figures/m_syst_Ks_ratio_LRT_R.pdf}
@@ -120,7 +114,7 @@ The \Ks yields with two large-radius tracks are compared between data and MC sam
 	\label{fig:Ks_double_ratio}
 \end{figure}
 
-In estimating the systematic uncertainty, largest discrepancy ($4\%$), shown in the fourth bin, is taken as a conservative estimate of $(N_{\mathrm{LRT}} \cdot N_{\mathrm{ST}}^{\mathrm{MC}}) / (N_{\mathrm{LRT}}^{\mathrm{MC}} \cdot N_{\mathrm{ST}})$. The results from previous studies show that the systematic uncertainty in the standard tracking is $2\%$~\cite{ATL-PHYS-PUB-2015-051}, and the systematic uncertainty in secondary vertex reconstruction using standard tracks is $1\%$~\cite{Aaboud:2215485}. The study on secondary vertex reconstruction is performed using min-bias data, but the relatively uniform distribution of efficiency as a function of pile-up (Figure~\ref{subfig:vertex_dist_mu}) suggests that this result is still applicable for data with $\langle \mu \rangle\approx$ 24. Using Eq.~\ref{eq:Ks_eq3} together with these results, the systematic uncertainty in track and vertex reconstruction in the LRT is estimated to be $10\%$\footnote{10\% is a rounded estimate of the calculation, $1.04\cdot1.02^{2}\cdot1.01\approx1.093$}.
+In estimating the systematic uncertainty, largest discrepancy ($4\%$), shown in the fourth bin, is taken as a conservative estimate of $(N_{\mathrm{LRT}} \cdot N_{\mathrm{ST}}^{\mathrm{MC}}) / (N_{\mathrm{LRT}}^{\mathrm{MC}} \cdot N_{\mathrm{ST}})$. The results from previous studies show that the systematic uncertainty in the standard tracking is $2\%$~\cite{ATL-PHYS-PUB-2015-051}, and the systematic uncertainty in secondary vertex reconstruction using standard tracks is $1\%$~\cite{Aaboud:2215485}. The study on secondary vertex reconstruction is performed using min-bias data in Ref.~\cite{Aaboud:2215485}, but the relatively uniform distribution of efficiency as a function of pile-up (Figure~\ref{subfig:vertex_dist_mu}) suggests that this result is still applicable for data with $\langle \mu \rangle\approx$ 24. Using Eq.~\ref{eq:Ks_eq3} together with these results, the systematic uncertainty in track and vertex reconstruction in the LRT is estimated to be $10\%$\footnote{10\% is a rounded estimate of the calculation, $1.04\cdot1.02^{2}\cdot1.01\approx1.093$}.
 
 
 %\subsection{Systematic uncertainty in Trigger Efficiency}
@@ -133,7 +127,7 @@ In estimating the systematic uncertainty, largest discrepancy ($4\%$), shown in 
 \subsection{Systematic uncertainties on background estimations}
 \label{sec:syst_bkg}
 
-There are two main sources of background in this analysis; cosmic muon background and random crossing background. The cosmic muon background estimation was outlined in Section~\ref{sec:bkg:cosmic}. From this technique, the estimate is $0.27 \pm 0.14 \textrm{ (stat.)}$ events. This $\pm 0.14$ is taken to be the total uncertainty on this background. In the case of the random crossing, the estimate from the TF method is used as the central value, $3.95 \times 10^{-3}$, and the difference between the TF and event mixing method, $1.5\times10^{-3}$, is used as the uncertainty on the random-crossing background.
+There are two main sources of background in this analysis; cosmic muon background and random crossing background. The cosmic muon background estimation was outlined in Section~\ref{sec:bkg:cosmic}. From this technique, the estimate is $0.27 \pm 0.14 \textrm{ (stat.)}$ events. The statistical uncertainty of $\pm~0.14$ events is taken to be the total uncertainty on this background. In the case of the random crossing, the estimate from the TF method is used as the central value, $3.95 \times 10^{-3}$, and the difference between the TF and EM method, $1.5\times10^{-3}$, is used as the uncertainty on the random-crossing background.
 
 
 %giving $2.40\times10^{-3}$ and $3.95 \times 10^{-3}$ respectively. For these the larger estimate of $3.95 \times 10^{-3}$ is used as the central value and the difference of $1.5\times10^{-3}$ is used as the uncertainty on this value.

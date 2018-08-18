@@ -119,18 +119,18 @@ FUNCTION {output.nonnull}
     { output.state after.quote =
 	{ " " * write$ }
 	{ output.state after.block =
-	    { add.period$ write$
+	    { ", " * write$
 	      newline$
 	      "\newblock " write$
 	    }
 	    { output.state before.all =
 		'write$
 		{ output.state after.quoted.block =
-		    { write$
+		    { ", " * write$
 		      newline$
 		      "\newblock " write$
 		    }
-		    { add.period$ " " * write$ }
+		    { " " * write$ }
 		  if$
 		}
 	      if$
@@ -419,7 +419,8 @@ FUNCTION {format.date}
     }
     { month empty$
 	'year
-	{ month capitalize ", " * year * }
+	%{ month capitalize ". " * year * }
+	{ month capitalize ". " * year * }
       if$
     }
   if$
@@ -1097,6 +1098,7 @@ FUNCTION {techreport}
   note output
   fin.entry
 }
+
 
 FUNCTION {unpublished}
 { output.bibitem

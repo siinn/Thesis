@@ -6,7 +6,7 @@ The experimental signature in the search for long-lived $Z'$ is characterized by
 \section{Track Reconstruction in the Inner Detector}
 \label{sec:reco:track}
 
-Track reconstruction in the ATLAS uses pattern recognition algorithms to reconstruct the trajectories of charged particles, referred as a \textit{track}. When a charged particle traverse through the ID, the particle interact with the sub-detectors of the ID (Pixel, SCT, and TRT), leaving raw detector signals. The raw signals are digitized and registered as detector \textit{hits}, and these detector hits are used for track reconstruction. 
+Track reconstruction in the ATLAS uses pattern recognition algorithms to reconstruct the trajectories of charged particles, referred as a \textit{track}. When a charged particle traverses the ID, the particle interacts with the sub-detectors (Pixel, SCT, and TRT), leaving raw detector signals. The raw signals are digitized and registered as detector \textit{hits}, and these detector hits are used for track reconstruction. 
 
 \subsection{Standard Tracking}
 \label{sec:reco:st}
@@ -32,8 +32,8 @@ Tracks are described by five parameters (helix) and a reference point, using a p
     \hline
     & Standard & Large radius \\ [0.5ex]
     \hline
-    Maximum $d_{\rm{0}}$ (mm) & 10 & 300 \\
-    Maximum $z_{\rm{0}}$ (mm) & 250 & 1500 \\
+    Maximum $|d_{\rm{0}}|$ (mm) & 10 & 300 \\
+    Maximum $|z_{\rm{0}}|$ (mm) & 250 & 1500 \\
     Maximum $|\eta|$ & 2.7 & 5 \\
     Maximum shared silicon modules & 1 & 2 \\
     Minimum unshared silicon hits& 6 & 5 \\
@@ -51,7 +51,7 @@ Tracks are described by five parameters (helix) and a reference point, using a p
 
 The standard track reconstruction is proven to be very efficient in Run 2 with the tracking efficiency > 90\%~\cite{Aaboud:2017all}. However, the tracking algorithm is optimized for charged particles promptly produced from the primary interaction, and the strict requirements on the impact parameters, \dzero and \zzero, limit the tracking efficiency for charged particles with large impact parameters ($|d_{0}|$ > 2 mm). Therefore, a dedicated track reconstruction algorithm, referred to as the large radius tracking (LRT), is developed to improve the track reconstruction efficiency for the tracks highly displaced from the primary vertex.
 
-The LRT is performed in a sequence, following the standard tracking. It follows the same reconstruction strategy as the standard tracking, but there are a few important differences between the standard tracking and the LRT:
+The LRT is performed in a sequence, following the standard tracking. It follows the same reconstruction strategy as the standard tracking with a few important differences:
 
 \begin{itemize}
 	\item The pattern recognition algorithms in the LRT only uses \textit{un-used} hits, the silicon hits that have not been used in the standard tracking, in creating and extending track seeds.
@@ -84,14 +84,14 @@ $|\eta|$ & $<$ & 5 \\
 \section{Electron Reconstruction}
 \label{sec:reco:lep}
 
-Electrons are characterized by energy deposits in the EM calorimeter and the associated reconstructed tracks in the ID. The electron reconstruction algorithm uses the energy deposits with total transverse energy $>2.5$~\si{\GeV} in a window of 0.075$\times$0.125 in ($\eta$,$\phi$) to reconstruct EM clusters. The EM clusters are associated with tracks within the same RoI, $|\Delta\eta|<0.05$ and $|\Delta\phi|<0.1$ where the effect of bremsstrahlung is taken into account~\cite{Aad:2014fxa}. In the absence of a matching track, the EM cluster is classified as a photon candidate. The associated pairs of tracks and energy clusters are refitted to improve the energy resolution of the electron candidate. Additional electron requirements, including likelihood-based identification criteria, are imposed on the electron candidates to reduce misidentification.
+Electrons are characterized by energy deposits in the EM calorimeter and the associated reconstructed tracks in the ID. The electron reconstruction algorithm uses the energy deposits with total transverse energy $>2.5$~\si{\GeV} in a ($\eta$, $\phi$) window of 0.075$\times$0.125  to reconstruct EM clusters. The EM clusters are associated with tracks within the same RoI, $|\Delta\eta|<0.05$ and $|\Delta\phi|<0.1$ where the effect of bremsstrahlung is taken into account~\cite{Aad:2014fxa}. In the absence of a matching track, the EM cluster is classified as a photon candidate. The associated pairs of tracks and energy clusters are refitted to improve the energy resolution of the electron candidate. Additional electron requirements, including likelihood-based identification criteria, are imposed on the electron candidates to reduce misidentification.
 
 %By default, electrons are required to have a minimum number of pixel hits and small transverse impact parameters. This is not optimal for the searches that aim to detect displaced vertices as the decay products of displaced vertices tend to have large impact parameters (\dzero, \zzero) and missing hits in the inner layers of the detector. Therefore, these requirements are removed in this analysis.
 
 \section{Muon Reconstruction}
 \label{sec:reco:muon}
 
-Muons deposit very little energy in the calorimeter as they traverse through the detector due to the relatively larger mass, given that the probability of bremsstrahlung is $\propto 1/m^{2}$. However, they leave tracks in both the ID and the MS, referred as inner detector (ID) tracks and muon standalone (MS) tracks. The muon reconstruction algorithm uses MS tracks as seeds, and the MS tracks are extrapolated to the ID for the association with ID tracks. A \textit{combined muon} track is created if a MS track is successfully associated with an ID track after the momentum correction for the energy loss from the interaction with the detector material. There are other types of reconstructed muons such as standalone muons, segment-tagged muons, and calorimeter-tagged muons~\cite{Aad:2016jkr}. However, these types of muons are not considered in this analysis as they do not have associated ID tracks which are required for the reconstruction of displaced vertices.
+Muons deposit very little energy in the calorimeter in traversing the detector due to the relatively larger mass, given that the probability of bremsstrahlung is $\propto 1/m^{2}$. However, they leave tracks in both the ID and the MS, referred as ID tracks and muon standalone (MS) tracks. The muon reconstruction algorithm uses MS tracks as seeds, and the MS tracks are extrapolated to the ID for the association with ID tracks. A \textit{combined muon} track is created if a MS track is successfully associated with an ID track after the momentum correction for the energy loss from the interaction with the detector material. There are other types of reconstructed muons such as standalone muons, segment-tagged muons, and calorimeter-tagged muons~\cite{Aad:2016jkr}. However, these types of muons are not considered in this analysis as they do not have associated ID tracks which are required for the reconstruction of displaced vertices.
 
 By default, muons are required to have a minimum number of pixel and SCT hits, as well as small transverse impact parameters. This is not optimal for the searches that aim to detect displaced vertices as the decay products of displaced vertices tend to have large impact parameters (\dzero, \zzero) and missing hits in the inner layers of the detector. Therefore, the requirements on \dzero and pixel hits are removed. Also minimum SCT hits on muon tracks are lowered to 2.
 
@@ -128,8 +128,8 @@ The two-track vertices reconstructed by the secondary vertex reconstruction serv
     \hline
 	$p_{T}$ (GeV)		& $>$ 1.0										\\
 	$\chi^{2} / DOF$	& $<$ 50  										\\
-	$d_{0}$	(mm)		& 2.0 - 300.0									\\
-	$z_{0}$ (mm)		& $<$ 1500.0									\\
+	$|d_{0}|$	(mm)		& 2.0 - 300.0									\\
+	$|z_{0}|$ (mm)		& $<$ 1500.0									\\
 	SCT hits			& $\geq$ 2										\\
 	Si shared hits	    & $\leq$ 2										\\
 	Pixel and TRT hits  & TRT hits > 0 or Pixel hits $\geq$ 2			\\
